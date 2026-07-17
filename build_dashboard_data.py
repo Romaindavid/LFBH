@@ -79,10 +79,38 @@ AIRPORT_NAMES = {
     "LOWL": "Linz", "LFRB": "Brest", "EGLF": "Farnborough", "LFGJ": "Dole",
     "EGBB": "Birmingham", "EGGW": "Luton", "LEXJ": "Jerez", "LEVX": "Vitoria",
     "EGKB": "Londres-Biggin Hill", "LIMC": "Milan-Malpensa", "LFLC": "Clermont-Ferrand",
-    "LEIB": "Ibiza", "LFRV": "Rochefort (aéroclub)", "LFKF": "?",
+    "LEIB": "Ibiza", "LFRV": "Rochefort (aéroclub)",
     "EPWA": "Varsovie", "EGHQ": "Newquay", "LFMP": "Marseille-Provence",
-    "LFPX": "?", "LSGK": "?",
 }
+
+# Fallback pour tout code ICAO absent de AIRPORT_NAMES ci-dessus : on retombe
+# sur le nom officiel (anglais, plus verbeux) de la base OurAirports plutôt
+# que d'afficher le code brut. AIRPORT_NAMES reste prioritaire pour les noms
+# français simplifiés déjà curés à la main.
+_coords_cache = None
+
+
+def _load_coords():
+    global _coords_cache
+    if _coords_cache is None:
+        if os.path.exists(COORDS_PATH):
+            with open(COORDS_PATH) as f:
+                _coords_cache = json.load(f)
+        else:
+            _coords_cache = {}
+    return _coords_cache
+
+
+def airport_name(code):
+    if not code:
+        return code
+    if code in AIRPORT_NAMES:
+        return AIRPORT_NAMES[code]
+    coords = _load_coords()
+    entry = coords.get(code)
+    if entry and entry.get("name"):
+        return entry["name"]
+    return code
 
 
 def fmt(dt_str):
@@ -187,12 +215,9 @@ def main():
             "type": f.get("type"),
             "operator": f.get("operating_as"),
             "orig": f.get("orig_icao"),
-            "orig_name": AIRPORT_NAMES.get(f.get("orig_icao"), f.get("orig_icao")),
+            "orig_name": airport_name(f.get("orig_icao")),
             "dest": f.get("dest_icao_actual") or f.get("dest_icao"),
-            "dest_name": AIRPORT_NAMES.get(
-                f.get("dest_icao_actual") or f.get("dest_icao"),
-                f.get("dest_icao_actual") or f.get("dest_icao"),
-            ),
+            "dest_name": airport_name(f.get("dest_icao_actual") or f.get("dest_icao")),
             "takeoff": fmt(f.get("datetime_takeoff")),
             "landed": fmt(f.get("datetime_landed")),
         }
@@ -209,7 +234,7 @@ def main():
         if other:
             routes[other] += 1
     out["commercial_routes"] = [
-        {"code": code, "name": AIRPORT_NAMES.get(code, code), "count": n}
+        {"code": code, "name": airport_name(code), "count": n}
         for code, n in routes.most_common(15)
     ]
 
@@ -227,7 +252,7 @@ def main():
         if other:
             tourism_routes[other] += 1
     out["general_aviation"]["tourism_routes"] = [
-        {"code": code, "name": AIRPORT_NAMES.get(code, code), "count": n}
+        {"code": code, "name": airport_name(code), "count": n}
         for code, n in tourism_routes.most_common(15)
     ]
 
@@ -259,7 +284,7 @@ def main():
             map_routes.append({
                 "category": cat,
                 "code": code,
-                "name": AIRPORT_NAMES.get(code, c["name"]),
+                "name": airport_name(code) if code in AIRPORT_NAMES else c["name"],
                 "lat": c["lat"],
                 "lon": c["lon"],
                 "count": n,

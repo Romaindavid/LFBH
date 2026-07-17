@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-17T20:47:00.930214+00:00",
+  "generated_at": "2026-07-17T21:09:38.122367+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-07-17T12:39:10",
-  "total_movements": 1451,
+  "period_end": "2026-07-17T21:09:33",
+  "total_movements": 1474,
   "categories": {
     "aviation_legere": {
-      "count": 867,
-      "pct": 59.8,
-      "avg_duration_min": 80
+      "count": 879,
+      "pct": 59.6,
+      "avg_duration_min": 79
     },
     "helicoptere": {
       "count": 32,
@@ -15,8 +15,8 @@
       "avg_duration_min": 41
     },
     "commercial": {
-      "count": 324,
-      "pct": 22.3,
+      "count": 333,
+      "pct": 22.6,
       "avg_duration_min": 72
     },
     "autre": {
@@ -26,11 +26,11 @@
     },
     "militaire": {
       "count": 109,
-      "pct": 7.5,
+      "pct": 7.4,
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 90,
+      "count": 92,
       "pct": 6.2,
       "avg_duration_min": 73
     }
@@ -263,9 +263,9 @@
     },
     {
       "date": "2026-07-17",
-      "jets_prives": 3,
-      "commercial": 4,
-      "aviation_legere": 25,
+      "jets_prives": 5,
+      "commercial": 13,
+      "aviation_legere": 37,
       "militaire": 3,
       "autre": 1
     }
@@ -275,7 +275,7 @@
     198,
     203,
     190,
-    279,
+    302,
     211,
     169
   ],
@@ -292,15 +292,15 @@
     124,
     89,
     69,
-    113,
-    104,
-    100,
-    112,
-    87,
-    51,
-    44,
-    18,
-    16,
+    114,
+    110,
+    101,
+    117,
+    88,
+    56,
+    46,
+    19,
+    17,
     16,
     7,
     4
@@ -313,7 +313,7 @@
       "orig": "LFBZ",
       "orig_name": "Biarritz",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-19 08:09:50",
       "landed": "2026-06-19 08:49:18"
     },
@@ -322,7 +322,7 @@
       "type": "C510",
       "operator": "GAC",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFML",
       "dest_name": "Marseille",
       "takeoff": "2026-06-19 10:05:46",
@@ -335,7 +335,7 @@
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-21 10:03:14",
       "landed": "2026-06-21 10:57:51"
     },
@@ -344,7 +344,7 @@
       "type": "E55P",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFMV",
       "dest_name": "Vichy",
       "takeoff": "2026-06-21 12:12:56",
@@ -355,9 +355,9 @@
       "type": "C25B",
       "operator": "PAV",
       "orig": "LFMD",
-      "orig_name": "LFMD",
+      "orig_name": "Cannes Mandelieu Airport",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-22 18:33:35",
       "landed": "2026-06-22 19:48:02"
     },
@@ -366,7 +366,7 @@
       "type": "C25B",
       "operator": "PAV",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFMV",
       "dest_name": "Vichy",
       "takeoff": "2026-06-23 07:23:01",
@@ -390,7 +390,7 @@
       "orig": "LIML",
       "orig_name": "Milan",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-23 10:25:14",
       "landed": "2026-06-23 11:49:58"
     },
@@ -410,7 +410,7 @@
       "type": "E55P",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "GMAD",
       "dest_name": "Madère",
       "takeoff": "2026-06-23 13:16:36",
@@ -423,7 +423,7 @@
       "orig": "GMAD",
       "orig_name": "Madère",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-25 08:05:07",
       "landed": "2026-06-25 10:47:45"
     },
@@ -432,9 +432,9 @@
       "type": "C510",
       "operator": "GAC",
       "orig": "LEBL",
-      "orig_name": "LEBL",
+      "orig_name": "Josep Tarradellas Barcelona-El Prat Airport",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-25 08:39:29",
       "landed": "2026-06-25 09:53:41"
     },
@@ -445,7 +445,7 @@
       "orig": "LIBR",
       "orig_name": "Brač",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-25 08:39:37",
       "landed": "2026-06-25 11:08:22"
     },
@@ -456,7 +456,7 @@
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-25 09:31:21",
       "landed": "2026-06-25 10:21:36"
     },
@@ -465,7 +465,7 @@
       "type": "C510",
       "operator": "GAC",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFBD",
       "dest_name": "Bordeaux",
       "takeoff": "2026-06-25 10:58:29",
@@ -476,7 +476,7 @@
       "type": "CL60",
       "operator": "VJT",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LSZH",
       "dest_name": "Zurich",
       "takeoff": "2026-06-25 11:23:07",
@@ -487,9 +487,9 @@
       "type": "E55P",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EHAM",
-      "dest_name": "EHAM",
+      "dest_name": "Amsterdam Airport Schiphol",
       "takeoff": "2026-06-25 12:16:14",
       "landed": "2026-06-25 13:26:43"
     },
@@ -498,9 +498,9 @@
       "type": "C56X",
       "operator": "VIO",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFKF",
-      "dest_name": "?",
+      "dest_name": "Figari Sud-Corse Airport",
       "takeoff": "2026-06-26 11:34:53",
       "landed": "2026-06-26 13:07:34"
     },
@@ -511,7 +511,7 @@
       "orig": "LEPA",
       "orig_name": "Palma de Majorque",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-26 15:09:49",
       "landed": "2026-06-26 16:30:52"
     },
@@ -522,7 +522,7 @@
       "orig": "LFML",
       "orig_name": "Marseille",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-26 15:18:56",
       "landed": "2026-06-26 16:21:14"
     },
@@ -531,7 +531,7 @@
       "type": "C25M",
       "operator": "BEJ",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFRI",
       "dest_name": "La Roche-sur-Yon",
       "takeoff": "2026-06-26 16:45:14",
@@ -542,7 +542,7 @@
       "type": "E55P",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LGPZ",
       "dest_name": "Skiathos",
       "takeoff": "2026-06-27 09:52:42",
@@ -555,7 +555,7 @@
       "orig": "LFLY",
       "orig_name": "Lyon-Bron",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-28 11:54:40",
       "landed": "2026-06-28 12:46:22"
     },
@@ -564,7 +564,7 @@
       "type": "C25A",
       "operator": "PAV",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFTH",
       "dest_name": "Touraine",
       "takeoff": "2026-06-28 14:05:24",
@@ -610,7 +610,7 @@
       "orig": "LFRB",
       "orig_name": "Brest",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-06-30 06:22:18",
       "landed": "2026-06-30 07:05:02"
     },
@@ -621,7 +621,7 @@
       "orig": "LFRI",
       "orig_name": "La Roche-sur-Yon",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-01 05:12:54",
       "landed": "2026-07-01 05:28:45"
     },
@@ -630,7 +630,7 @@
       "type": "C25M",
       "operator": "BEJ",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFLY",
       "dest_name": "Lyon-Bron",
       "takeoff": "2026-07-01 05:54:30",
@@ -641,7 +641,7 @@
       "type": "C560",
       "operator": "XTX",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFRB",
       "dest_name": "Brest",
       "takeoff": "2026-07-01 10:16:09",
@@ -654,7 +654,7 @@
       "orig": "EGLF",
       "orig_name": "Farnborough",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-02 15:10:43",
       "landed": "2026-07-02 16:16:45"
     },
@@ -663,7 +663,7 @@
       "type": "C525",
       "operator": "MCK",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFRS",
       "dest_name": "Saint-Nazaire",
       "takeoff": "2026-07-02 16:43:45",
@@ -676,7 +676,7 @@
       "orig": "LFLY",
       "orig_name": "Lyon-Bron",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-03 10:09:27",
       "landed": "2026-07-03 11:03:26"
     },
@@ -687,7 +687,7 @@
       "orig": "LFGJ",
       "orig_name": "Dole",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-03 11:34:17",
       "landed": "2026-07-03 12:37:55"
     },
@@ -696,7 +696,7 @@
       "type": "C25M",
       "operator": "BEJ",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFPB",
       "dest_name": "Paris-Le Bourget",
       "takeoff": "2026-07-03 12:01:17",
@@ -709,7 +709,7 @@
       "orig": "EGBB",
       "orig_name": "Birmingham",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-03 13:22:03",
       "landed": "2026-07-03 14:29:44"
     },
@@ -718,7 +718,7 @@
       "type": "CRJ2",
       "operator": "VJT",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EGGW",
       "dest_name": "Luton",
       "takeoff": "2026-07-03 15:32:29",
@@ -729,7 +729,7 @@
       "type": "E55P",
       "operator": "BEJ",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LEPA",
       "dest_name": "Palma de Majorque",
       "takeoff": "2026-07-03 17:44:45",
@@ -742,7 +742,7 @@
       "orig": "LEXJ",
       "orig_name": "Jerez",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-04 13:01:33",
       "landed": "2026-07-04 13:49:32"
     },
@@ -751,7 +751,7 @@
       "type": "C25A",
       "operator": "PAV",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LEVX",
       "dest_name": "Vitoria",
       "takeoff": "2026-07-05 08:08:30",
@@ -786,7 +786,7 @@
       "orig": "LFBZ",
       "orig_name": "Biarritz",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-06 15:04:17",
       "landed": "2026-07-06 15:47:21"
     },
@@ -806,7 +806,7 @@
       "type": "C510",
       "operator": null,
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EGKB",
       "dest_name": "Londres-Biggin Hill",
       "takeoff": "2026-07-07 05:38:07",
@@ -828,9 +828,9 @@
       "type": "E55P",
       "operator": "NJE",
       "orig": "LPCS",
-      "orig_name": "LPCS",
+      "orig_name": "Cascais Airport",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-07 08:38:33",
       "landed": "2026-07-07 10:18:20"
     },
@@ -839,9 +839,9 @@
       "type": "E55P",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EBKT",
-      "dest_name": "EBKT",
+      "dest_name": "Kortrijk-Wevelgem International Airport",
       "takeoff": "2026-07-07 13:02:41",
       "landed": "2026-07-07 14:10:09"
     },
@@ -863,7 +863,7 @@
       "orig": "EGKB",
       "orig_name": "Londres-Biggin Hill",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-07 18:39:43",
       "landed": "2026-07-07 20:02:39"
     },
@@ -883,7 +883,7 @@
       "type": "C510",
       "operator": null,
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LIMC",
       "dest_name": "Milan-Malpensa",
       "takeoff": "2026-07-08 08:57:34",
@@ -918,7 +918,7 @@
       "orig": "LFLC",
       "orig_name": "Clermont-Ferrand",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-09 06:01:01",
       "landed": "2026-07-09 06:43:28"
     },
@@ -938,7 +938,7 @@
       "type": "F2TH",
       "operator": null,
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFLC",
       "dest_name": "Clermont-Ferrand",
       "takeoff": "2026-07-09 12:47:20",
@@ -951,7 +951,7 @@
       "orig": "LSGG",
       "orig_name": "Genève",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-10 07:36:04",
       "landed": "2026-07-10 08:37:49"
     },
@@ -960,7 +960,7 @@
       "type": "C25B",
       "operator": "UEE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LSGG",
       "dest_name": "Genève",
       "takeoff": "2026-07-10 09:20:36",
@@ -973,7 +973,7 @@
       "orig": "LFRV",
       "orig_name": "Rochefort (aéroclub)",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-11 06:34:20",
       "landed": "2026-07-11 07:05:47"
     },
@@ -984,7 +984,7 @@
       "orig": "LGPZ",
       "orig_name": "Skiathos",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-11 07:22:32",
       "landed": "2026-07-11 10:16:07"
     },
@@ -993,7 +993,7 @@
       "type": "C510",
       "operator": "GAC",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LEIB",
       "dest_name": "Ibiza",
       "takeoff": "2026-07-11 08:06:58",
@@ -1004,7 +1004,7 @@
       "type": "C56X",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFPB",
       "dest_name": "Paris-Le Bourget",
       "takeoff": "2026-07-11 11:10:50",
@@ -1017,7 +1017,7 @@
       "orig": "EGJJ",
       "orig_name": "Jersey",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-11 12:16:01",
       "landed": "2026-07-11 12:58:22"
     },
@@ -1026,7 +1026,7 @@
       "type": "E55P",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFPB",
       "dest_name": "Paris-Le Bourget",
       "takeoff": "2026-07-11 14:00:53",
@@ -1039,7 +1039,7 @@
       "orig": "EGLF",
       "orig_name": "Farnborough",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-12 11:27:35",
       "landed": "2026-07-12 12:31:13"
     },
@@ -1048,7 +1048,7 @@
       "type": "C56X",
       "operator": "SXN",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EGLF",
       "dest_name": "Farnborough",
       "takeoff": "2026-07-12 13:33:27",
@@ -1061,7 +1061,7 @@
       "orig": "LEPA",
       "orig_name": "Palma de Majorque",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-12 14:45:52",
       "landed": "2026-07-12 16:07:19"
     },
@@ -1072,7 +1072,7 @@
       "orig": "LEPA",
       "orig_name": "Palma de Majorque",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-12 16:39:55",
       "landed": "2026-07-12 17:53:46"
     },
@@ -1081,7 +1081,7 @@
       "type": "C25A",
       "operator": null,
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EPWA",
       "dest_name": "Varsovie",
       "takeoff": "2026-07-13 06:18:32",
@@ -1092,7 +1092,7 @@
       "type": "E55P",
       "operator": "BEJ",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EGKB",
       "dest_name": "Londres-Biggin Hill",
       "takeoff": "2026-07-13 07:08:55",
@@ -1105,7 +1105,7 @@
       "orig": "EGHQ",
       "orig_name": "Newquay",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-13 10:55:13",
       "landed": "2026-07-13 12:02:48"
     },
@@ -1116,7 +1116,7 @@
       "orig": "LFMP",
       "orig_name": "Marseille-Provence",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-13 12:51:18",
       "landed": "2026-07-13 13:43:54"
     },
@@ -1125,7 +1125,7 @@
       "type": "E50P",
       "operator": "AAO",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFBD",
       "dest_name": "Bordeaux",
       "takeoff": "2026-07-13 13:10:12",
@@ -1138,7 +1138,7 @@
       "orig": "EPWA",
       "orig_name": "Varsovie",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-13 15:55:57",
       "landed": "2026-07-13 18:54:17"
     },
@@ -1149,7 +1149,7 @@
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-14 04:41:53",
       "landed": "2026-07-14 05:40:02"
     },
@@ -1158,7 +1158,7 @@
       "type": "C68A",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EGJJ",
       "dest_name": "Jersey",
       "takeoff": "2026-07-14 07:15:52",
@@ -1169,7 +1169,7 @@
       "type": "CL60",
       "operator": "DLY",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFPB",
       "dest_name": "Paris-Le Bourget",
       "takeoff": "2026-07-14 10:04:09",
@@ -1182,7 +1182,7 @@
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-14 15:25:40",
       "landed": "2026-07-14 16:21:49"
     },
@@ -1191,9 +1191,9 @@
       "type": "E55P",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EGPF",
-      "dest_name": "EGPF",
+      "dest_name": "Glasgow Airport",
       "takeoff": "2026-07-15 07:52:16",
       "landed": "2026-07-15 09:33:29"
     },
@@ -1202,9 +1202,9 @@
       "type": "CL35",
       "operator": "VJT",
       "orig": "ELLX",
-      "orig_name": "ELLX",
+      "orig_name": "Luxembourg-Findel International Airport",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-15 07:55:51",
       "landed": "2026-07-15 09:18:24"
     },
@@ -1213,7 +1213,7 @@
       "type": "C25A",
       "operator": null,
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFBZ",
       "dest_name": "Biarritz",
       "takeoff": "2026-07-15 09:13:44",
@@ -1224,7 +1224,7 @@
       "type": "CL35",
       "operator": "VJT",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LEIB",
       "dest_name": "Ibiza",
       "takeoff": "2026-07-15 11:35:18",
@@ -1235,9 +1235,9 @@
       "type": "CL60",
       "operator": "VJT",
       "orig": "EBLG",
-      "orig_name": "EBLG",
+      "orig_name": "Liège Airport",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-16 09:03:53",
       "landed": "2026-07-16 10:16:53"
     },
@@ -1246,7 +1246,7 @@
       "type": "CL60",
       "operator": "VJT",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFRQ",
       "dest_name": "Quimper",
       "takeoff": "2026-07-16 12:04:10",
@@ -1257,9 +1257,9 @@
       "type": "E55P",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "EHRD",
-      "dest_name": "EHRD",
+      "dest_name": "Rotterdam The Hague Airport",
       "takeoff": "2026-07-16 13:20:50",
       "landed": "2026-07-16 14:32:29"
     },
@@ -1270,7 +1270,7 @@
       "orig": "LFML",
       "orig_name": "Marseille",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-17 05:43:11",
       "landed": "2026-07-17 07:12:09"
     },
@@ -1281,7 +1281,7 @@
       "orig": "LSGG",
       "orig_name": "Genève",
       "dest": "LFBH",
-      "dest_name": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
       "takeoff": "2026-07-17 08:51:27",
       "landed": "2026-07-17 10:03:43"
     },
@@ -1290,11 +1290,33 @@
       "type": "C68A",
       "operator": "NJE",
       "orig": "LFBH",
-      "orig_name": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
       "dest": "LFRH",
-      "dest_name": "LFRH",
+      "dest_name": "Lorient South Brittany (Bretagne Sud) Airport",
       "takeoff": "2026-07-17 10:59:13",
       "landed": "2026-07-17 11:28:42"
+    },
+    {
+      "reg": "OE-FWF",
+      "type": "C510",
+      "operator": "GAC",
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "dest": "LFLU",
+      "dest_name": "Valence-Chabeuil Airport",
+      "takeoff": "2026-07-17 13:41:32",
+      "landed": "2026-07-17 14:46:19"
+    },
+    {
+      "reg": "9H-VCU",
+      "type": "CL35",
+      "operator": "VJT",
+      "orig": "EGLF",
+      "orig_name": "Farnborough",
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "takeoff": "2026-07-17 18:50:01",
+      "landed": "2026-07-17 19:49:48"
     }
   ],
   "business_jets_operators": [
@@ -1312,11 +1334,11 @@
     ],
     [
       "VJT",
-      8
+      9
     ],
     [
       "GAC",
-      7
+      8
     ],
     [
       "PAV",
@@ -1359,7 +1381,7 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 52
+      "count": 54
     },
     {
       "code": "EGSS",
@@ -1374,17 +1396,17 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 32
+      "count": 33
     },
     {
       "code": "EBCI",
       "name": "Charleroi",
-      "count": 25
+      "count": 27
     },
     {
       "code": "LFLL",
       "name": "Lyon",
-      "count": 24
+      "count": 26
     },
     {
       "code": "LSGG",
@@ -1418,39 +1440,39 @@
     },
     {
       "code": "LFOP",
-      "name": "LFOP",
+      "name": "Rouen Vallée de Seine Airport",
+      "count": 2
+    },
+    {
+      "code": "EBLG",
+      "name": "Liège Airport",
       "count": 2
     },
     {
       "code": "EBKT",
-      "name": "EBKT",
-      "count": 2
-    },
-    {
-      "code": "LFBD",
-      "name": "Bordeaux",
+      "name": "Kortrijk-Wevelgem International Airport",
       "count": 2
     }
   ],
   "general_aviation": {
     "local": {
-      "count": 480,
+      "count": 485,
       "distinct_aircraft": 133
     },
     "tourism": {
-      "count": 387,
-      "distinct_aircraft": 190
+      "count": 394,
+      "distinct_aircraft": 193
     },
     "tourism_routes": [
       {
         "code": "LFPN",
         "name": "Versailles-Saclay",
-        "count": 20
+        "count": 21
       },
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 19
+        "count": 20
       },
       {
         "code": "LFFK",
@@ -1488,14 +1510,14 @@
         "count": 10
       },
       {
-        "code": "EGJJ",
-        "name": "Jersey",
+        "code": "LFBN",
+        "name": "Niort",
         "count": 9
       },
       {
-        "code": "LFBN",
-        "name": "Niort",
-        "count": 8
+        "code": "EGJJ",
+        "name": "Jersey",
+        "count": 9
       },
       {
         "code": "LFRD",
@@ -1503,19 +1525,19 @@
         "count": 7
       },
       {
-        "code": "LFRC",
-        "name": "Cognac",
+        "code": "LFOH",
+        "name": "Le Havre",
         "count": 7
       },
       {
-        "code": "LFBD",
-        "name": "Bordeaux",
-        "count": 6
+        "code": "LFOZ",
+        "name": "Orléans",
+        "count": 7
       },
       {
-        "code": "LFRS",
-        "name": "Saint-Nazaire",
-        "count": 6
+        "code": "LFRC",
+        "name": "Cognac",
+        "count": 7
       }
     ]
   },
@@ -1542,7 +1564,7 @@
       "name": "Lyon",
       "lat": 45.725996,
       "lon": 5.090139,
-      "count": 24
+      "count": 26
     },
     {
       "category": "commercial",
@@ -1550,7 +1572,7 @@
       "name": "Charleroi",
       "lat": 50.461963,
       "lon": 4.459562,
-      "count": 25
+      "count": 27
     },
     {
       "category": "commercial",
@@ -1558,7 +1580,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 32
+      "count": 33
     },
     {
       "category": "commercial",
@@ -1574,7 +1596,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 52
+      "count": 54
     },
     {
       "category": "commercial",
@@ -1618,6 +1640,14 @@
     },
     {
       "category": "commercial",
+      "code": "LFLI",
+      "name": "Annemasse Airfield",
+      "lat": 46.192001,
+      "lon": 6.26839,
+      "count": 1
+    },
+    {
+      "category": "commercial",
       "code": "LFOP",
       "name": "Rouen Vallée de Seine Airport",
       "lat": 49.384887,
@@ -1626,10 +1656,42 @@
     },
     {
       "category": "commercial",
+      "code": "LFDI",
+      "name": "Libourne-Artigues-de-Lussac Airfield",
+      "lat": 44.98347,
+      "lon": -0.138359,
+      "count": 1
+    },
+    {
+      "category": "commercial",
+      "code": "EGTF",
+      "name": "Fairoaks Airport",
+      "lat": 51.348099,
+      "lon": -0.558889,
+      "count": 1
+    },
+    {
+      "category": "commercial",
+      "code": "LSGK",
+      "name": "Saanen Airfield",
+      "lat": 46.486525,
+      "lon": 7.248359,
+      "count": 1
+    },
+    {
+      "category": "commercial",
       "code": "EBLG",
       "name": "Liège Airport",
       "lat": 50.638574,
       "lon": 5.443897,
+      "count": 2
+    },
+    {
+      "category": "commercial",
+      "code": "LFRM",
+      "name": "Le Mans-Arnage Airport",
+      "lat": 47.948604,
+      "lon": 0.201702,
       "count": 1
     },
     {
@@ -1658,6 +1720,14 @@
     },
     {
       "category": "commercial",
+      "code": "EGHH",
+      "name": "Bournemouth Airport",
+      "lat": 50.780483,
+      "lon": -1.839576,
+      "count": 1
+    },
+    {
+      "category": "commercial",
       "code": "LFBD",
       "name": "Bordeaux",
       "lat": 44.82865,
@@ -1666,10 +1736,34 @@
     },
     {
       "category": "commercial",
+      "code": "LFTZ",
+      "name": "La Môle Airport",
+      "lat": 43.205399,
+      "lon": 6.482,
+      "count": 1
+    },
+    {
+      "category": "commercial",
+      "code": "LEGE",
+      "name": "Girona-Costa Brava Airport",
+      "lat": 41.904639,
+      "lon": 2.761774,
+      "count": 1
+    },
+    {
+      "category": "commercial",
       "code": "LFEY",
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
+      "count": 1
+    },
+    {
+      "category": "commercial",
+      "code": "LFEV",
+      "name": "Gray Saint-Adrien Airfield",
+      "lat": 47.431659,
+      "lon": 5.61775,
       "count": 1
     },
     {
@@ -1771,7 +1865,7 @@
     {
       "category": "jets_prives",
       "code": "LFKF",
-      "name": "?",
+      "name": "Figari Sud-Corse Airport",
       "lat": 41.50185,
       "lon": 9.097092,
       "count": 1
@@ -1838,7 +1932,7 @@
       "name": "Farnborough",
       "lat": 51.275799,
       "lon": -0.776333,
-      "count": 3
+      "count": 4
     },
     {
       "category": "jets_prives",
@@ -2033,6 +2127,14 @@
       "count": 1
     },
     {
+      "category": "jets_prives",
+      "code": "LFLU",
+      "name": "Valence-Chabeuil Airport",
+      "lat": 44.9216,
+      "lon": 4.9699,
+      "count": 1
+    },
+    {
       "category": "aviation_legere",
       "code": "LFEA",
       "name": "Belle-Île-en-Mer",
@@ -2042,11 +2144,35 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LFBL",
+      "name": "Limoges",
+      "lat": 45.862801,
+      "lon": 1.17944,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFBD",
       "name": "Bordeaux",
       "lat": 44.82865,
       "lon": -0.715356,
       "count": 6
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LEMU",
+      "name": "Muchamiel Airfield",
+      "lat": 38.440601,
+      "lon": -0.475278,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLN",
+      "name": "Saint-Yan Airport",
+      "lat": 46.414019,
+      "lon": 4.014177,
+      "count": 1
     },
     {
       "category": "aviation_legere",
@@ -2066,6 +2192,54 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LFRN",
+      "name": "Rennes-Saint-Jacques Airport",
+      "lat": 48.0695,
+      "lon": -1.73479,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFMT",
+      "name": "Montpellier-Méditerranée Airport",
+      "lat": 43.576199,
+      "lon": 3.96301,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LSZR",
+      "name": "Sankt Gallen Altenrhein Airport",
+      "lat": 47.485001,
+      "lon": 9.56077,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLU",
+      "name": "Valence-Chabeuil Airport",
+      "lat": 44.9216,
+      "lon": 4.9699,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBG",
+      "name": "Cognac-Châteaubernard (BA 709) Air Base",
+      "lat": 45.658298,
+      "lon": -0.3175,
+      "count": 4
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFCH",
+      "name": "Aérodrome d'Arcachon-La Teste-de-Buch",
+      "lat": 44.596401,
+      "lon": -1.11083,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFRV",
       "name": "Rochefort (aéroclub)",
       "lat": 47.723301,
@@ -2074,11 +2248,107 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LFJR",
+      "name": "Angers Marcé airport",
+      "lat": 47.560299,
+      "lon": -0.312222,
+      "count": 6
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFPM",
+      "name": "Melun-Villaroche Airfield",
+      "lat": 48.604698,
+      "lon": 2.67112,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLG",
+      "name": "Grenoble Le Versoud Airfield",
+      "lat": 45.218047,
+      "lon": 5.848317,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLX",
+      "name": "Châteauroux",
+      "lat": 46.860221,
+      "lon": 1.728326,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFFI",
+      "name": "Ancenis Airfield",
+      "lat": 47.4081,
+      "lon": -1.1775,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRM",
+      "name": "Le Mans-Arnage Airport",
+      "lat": 47.948604,
+      "lon": 0.201702,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFMU",
+      "name": "Béziers Vias airport",
+      "lat": 43.323502,
+      "lon": 3.3539,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFQG",
+      "name": "Nevers",
+      "lat": 47.002913,
+      "lon": 3.113114,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFGI",
+      "name": "Dijon Darois Airfield",
+      "lat": 47.385278,
+      "lon": 4.946944,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFRD",
       "name": "Saint-Brieuc",
       "lat": 48.5877,
       "lon": -2.07996,
       "count": 7
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFOH",
+      "name": "Le Havre",
+      "lat": 49.534038,
+      "lon": 0.088406,
+      "count": 7
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRF",
+      "name": "Granville",
+      "lat": 48.883099,
+      "lon": -1.56417,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFHY",
+      "name": "Moulins-Montbeugny Airfield",
+      "lat": 46.534599,
+      "lon": 3.42372,
+      "count": 1
     },
     {
       "category": "aviation_legere",
@@ -2094,7 +2364,47 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 8
+      "count": 9
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFOZ",
+      "name": "Orléans",
+      "lat": 47.897758,
+      "lon": 2.164478,
+      "count": 7
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFCW",
+      "name": "Villeneuve-sur-Lot Airfield",
+      "lat": 44.3969,
+      "lon": 0.758889,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFOT",
+      "name": "Tours",
+      "lat": 47.432201,
+      "lon": 0.727606,
+      "count": 4
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFGA",
+      "name": "Colmar Houssen airport",
+      "lat": 48.109901,
+      "lon": 7.35901,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EBBR",
+      "name": "Brussels Airport",
+      "lat": 50.901402,
+      "lon": 4.48444,
+      "count": 1
     },
     {
       "category": "aviation_legere",
@@ -2114,6 +2424,22 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LFMA",
+      "name": "Aix Les Milles airport",
+      "lat": 43.506294,
+      "lon": 5.366426,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFEH",
+      "name": "Aubigny-sur-Nère Airfield",
+      "lat": 47.47993,
+      "lon": 2.393271,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFBZ",
       "name": "Biarritz",
       "lat": 43.468372,
@@ -2126,7 +2452,31 @@
       "name": "Versailles-Saclay",
       "lat": 48.7519,
       "lon": 2.10619,
-      "count": 20
+      "count": 21
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LOWS",
+      "name": "Salzburg Airport",
+      "lat": 47.793301,
+      "lon": 13.0043,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LELL",
+      "name": "Sabadell Airfield",
+      "lat": 41.520901,
+      "lon": 2.10508,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFSL",
+      "name": "Brive Souillac airport",
+      "lat": 45.039722,
+      "lon": 1.485556,
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -2146,6 +2496,38 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LFRE",
+      "name": "La Baule",
+      "lat": 47.289398,
+      "lon": -2.34639,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRK",
+      "name": "Caen Carpiquet airport",
+      "lat": 49.17678,
+      "lon": -0.454883,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBS",
+      "name": "Biscarrosse",
+      "lat": 44.3694,
+      "lon": -1.13056,
+      "count": 4
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBT",
+      "name": "Tarbes-Lourdes-Pyrénées Airport",
+      "lat": 43.178699,
+      "lon": -0.006439,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFRI",
       "name": "La Roche-sur-Yon",
       "lat": 46.7019,
@@ -2154,11 +2536,59 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LFJY",
+      "name": "Chambley airfield",
+      "lat": 49.025501,
+      "lon": 5.87607,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFOO",
+      "name": "Les Sables-d'Olonne Talmont Airport",
+      "lat": 46.476898,
+      "lon": -1.72278,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LESO",
+      "name": "San Sebastián Airport",
+      "lat": 43.356499,
+      "lon": -1.79061,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFOV",
+      "name": "Laval-Entrammes Airport",
+      "lat": 48.032208,
+      "lon": -0.743999,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFQT",
+      "name": "Merville-Calonne Airport",
+      "lat": 50.618401,
+      "lon": 2.64224,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFAT",
+      "name": "Le Touquet-Côte d'Opale Airport",
+      "lat": 50.518284,
+      "lon": 1.621656,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFDN",
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 19
+      "count": 20
     },
     {
       "category": "aviation_legere",
@@ -2170,6 +2600,14 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LFQQ",
+      "name": "Lille",
+      "lat": 50.566564,
+      "lon": 3.102429,
+      "count": 6
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFFK",
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
@@ -2178,11 +2616,51 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LIQL",
+      "name": "Lucca-Tassignano Airport",
+      "lat": 43.825825,
+      "lon": 10.577928,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGTB",
+      "name": "Wycombe Air Park",
+      "lat": 51.61177,
+      "lon": -0.808316,
+      "count": 4
+    },
+    {
+      "category": "aviation_legere",
       "code": "LSGG",
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
       "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLM",
+      "name": "Mâcon",
+      "lat": 46.295131,
+      "lon": 4.795977,
+      "count": 4
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LDSB",
+      "name": "Brač Airport",
+      "lat": 43.284454,
+      "lon": 16.678362,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LSGL",
+      "name": "Lausanne la Blécherette Airport",
+      "lat": 46.54509,
+      "lon": 6.616629,
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -2207,6 +2685,38 @@
       "lat": 45.727947,
       "lon": 4.943991,
       "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EHBD",
+      "name": "Kempen Airport Budel",
+      "lat": 51.255299,
+      "lon": 5.60139,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EHLE",
+      "name": "Lelystad Airport",
+      "lat": 52.453188,
+      "lon": 5.514622,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGJA",
+      "name": "Alderney Airport",
+      "lat": 49.706104,
+      "lon": -2.21472,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGNT",
+      "name": "Newcastle International Airport",
+      "lat": 55.037958,
+      "lon": -1.689577,
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -2242,6 +2752,62 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LFCY",
+      "name": "Royan",
+      "lat": 45.628101,
+      "lon": -0.9725,
+      "count": 6
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFKO",
+      "name": "Propriano Airport",
+      "lat": 41.660599,
+      "lon": 8.88975,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBI",
+      "name": "Poitiers-Biard Airport",
+      "lat": 46.5877,
+      "lon": 0.306666,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGJB",
+      "name": "Guernesey",
+      "lat": 49.435001,
+      "lon": -2.60197,
+      "count": 5
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBR",
+      "name": "Aérodrome de Muret - Lherm",
+      "lat": 43.448898,
+      "lon": 1.26333,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBU",
+      "name": "Angoulême",
+      "lat": 45.729198,
+      "lon": 0.221456,
+      "count": 6
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LSZG",
+      "name": "Grenchen Airfield",
+      "lat": 47.181599,
+      "lon": 7.41719,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFOP",
       "name": "Rouen Vallée de Seine Airport",
       "lat": 49.384887,
@@ -2250,10 +2816,114 @@
     },
     {
       "category": "aviation_legere",
+      "code": "LEMH",
+      "name": "Menorca Airport",
+      "lat": 39.862598,
+      "lon": 4.21865,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGBM",
+      "name": "Tatenhill Airfield",
+      "lat": 52.81431,
+      "lon": -1.767942,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGLK",
+      "name": "Blackbushe Airport",
+      "lat": 51.323898,
+      "lon": -0.8475,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGTU",
+      "name": "Dunkeswell Airfield",
+      "lat": 50.860956,
+      "lon": -3.233929,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGHL",
+      "name": "Lasham Airfield",
+      "lat": 51.18744,
+      "lon": -1.031663,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRO",
+      "name": "Lannion",
+      "lat": 48.754398,
+      "lon": -3.47166,
+      "count": 4
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGHO",
+      "name": "Thruxton Aerodrome",
+      "lat": 51.210602,
+      "lon": -1.6,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLS",
+      "name": "Grenoble Alpes Isère Airport",
+      "lat": 45.3629,
+      "lon": 5.32937,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFLC",
       "name": "Clermont-Ferrand",
       "lat": 45.786701,
       "lon": 3.16917,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFSD",
+      "name": "Dijon Longvic airport",
+      "lat": 47.268902,
+      "lon": 5.09,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EDRY",
+      "name": "Speyer Airfield",
+      "lat": 49.304722,
+      "lon": 8.451389,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLV",
+      "name": "Vichy-Charmeil Airport",
+      "lat": 46.16969,
+      "lon": 3.403637,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFPT",
+      "name": "Pontoise-Cormeilles Aerodrome",
+      "lat": 49.096064,
+      "lon": 2.035543,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFMH",
+      "name": "Saint-Étienne-Bouthéon Airport",
+      "lat": 45.5406,
+      "lon": 4.29639,
       "count": 1
     },
     {
@@ -2274,11 +2944,163 @@
     },
     {
       "category": "aviation_legere",
+      "code": "EGLM",
+      "name": "White Waltham Airfield",
+      "lat": 51.500801,
+      "lon": -0.774444,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBA",
+      "name": "Agen La Garenne airport",
+      "lat": 44.174171,
+      "lon": 0.59309,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFDH",
+      "name": "Auch Gers Airfield",
+      "lat": 43.683606,
+      "lon": 0.599747,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
       "code": "LFMV",
       "name": "Vichy",
       "lat": 43.907299,
       "lon": 4.90183,
       "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLB",
+      "name": "Chambéry Aix les Bains airport",
+      "lat": 45.6381,
+      "lon": 5.88023,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFTF",
+      "name": "Cuers-Pierrefeu Airfield",
+      "lat": 43.247615,
+      "lon": 6.126654,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFSP",
+      "name": "Pontarlier Airfield",
+      "lat": 46.904032,
+      "lon": 6.326826,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LIEO",
+      "name": "Olbia Costa Smeralda Airport",
+      "lat": 40.898953,
+      "lon": 9.518457,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRZ",
+      "name": "Saint-Nazaire-Montoir Airport",
+      "lat": 47.31142,
+      "lon": -2.152634,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFHV",
+      "name": "Villefranche-Tarare Airfield",
+      "lat": 45.918314,
+      "lon": 4.635184,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGHF",
+      "name": "Solent Airport",
+      "lat": 50.814201,
+      "lon": -1.20333,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBX",
+      "name": "Périgueux-Bassillac Airport",
+      "lat": 45.198101,
+      "lon": 0.815556,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFMK",
+      "name": "Carcassonne Salvaza Airport",
+      "lat": 43.216,
+      "lon": 2.30632,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EDDL",
+      "name": "Düsseldorf Airport",
+      "lat": 51.289501,
+      "lon": 6.76678,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFEC",
+      "name": "Ouessant Airport",
+      "lat": 48.4632,
+      "lon": -5.06358,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGHN",
+      "name": "Isle of Wight/Sandown Airport",
+      "lat": 50.653099,
+      "lon": -1.18222,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LESU",
+      "name": "Pirineus - la Seu d'Urgel Airport",
+      "lat": 42.3386,
+      "lon": 1.40917,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGBJ",
+      "name": "Gloucestershire Airport",
+      "lat": 51.894199,
+      "lon": -2.16722,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFSB",
+      "name": "EuroAirport Basel–Mulhouse–Freiburg",
+      "lat": 47.60068,
+      "lon": 7.521117,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBP",
+      "name": "Pau Pyrénées Airport",
+      "lat": 43.380001,
+      "lon": -0.418611,
+      "count": 2
     }
   ],
   "lfbh_coords": {
@@ -2287,16 +3109,16 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 2524.6,
-    "flights_with_estimate": 1031,
-    "flights_total": 1451,
+    "total_tonnes": 2570.0,
+    "flights_with_estimate": 1052,
+    "flights_total": 1474,
     "by_category_tonnes": {
-      "aviation_legere": 77.5,
-      "commercial": 2260.4,
+      "aviation_legere": 79.1,
+      "commercial": 2300.4,
       "militaire": 26.8,
-      "jets_prives": 154.5,
+      "jets_prives": 158.3,
       "helicoptere": 5.5
     },
-    "methodology": "Estimation approximative = consommation kérosène/essence moyenne par type d'appareil (ICAO) x durée de vol réelle. Ne tient pas compte du nombre de passagers, du taux de remplissage, ni des conditions météo. Calcul possible pour 1031/1451 vols (type d'appareil et durée connus)."
+    "methodology": "Estimation approximative = consommation kérosène/essence moyenne par type d'appareil (ICAO) x durée de vol réelle. Ne tient pas compte du nombre de passagers, du taux de remplissage, ni des conditions météo. Calcul possible pour 1052/1474 vols (type d'appareil et durée connus)."
   }
 }

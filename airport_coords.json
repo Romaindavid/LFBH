@@ -338,5 +338,505 @@
     "lat": 47.458056,
     "lon": 8.548056,
     "name": "Zürich Airport"
+  },
+  "EBBR": {
+    "lat": 50.901402,
+    "lon": 4.48444,
+    "name": "Brussels Airport"
+  },
+  "EDDL": {
+    "lat": 51.289501,
+    "lon": 6.76678,
+    "name": "Düsseldorf Airport"
+  },
+  "EDRY": {
+    "lat": 49.304722,
+    "lon": 8.451389,
+    "name": "Speyer Airfield"
+  },
+  "EGBJ": {
+    "lat": 51.894199,
+    "lon": -2.16722,
+    "name": "Gloucestershire Airport"
+  },
+  "EGBM": {
+    "lat": 52.81431,
+    "lon": -1.767942,
+    "name": "Tatenhill Airfield"
+  },
+  "EGHF": {
+    "lat": 50.814201,
+    "lon": -1.20333,
+    "name": "Solent Airport"
+  },
+  "EGHH": {
+    "lat": 50.780483,
+    "lon": -1.839576,
+    "name": "Bournemouth Airport"
+  },
+  "EGHL": {
+    "lat": 51.18744,
+    "lon": -1.031663,
+    "name": "Lasham Airfield"
+  },
+  "EGHN": {
+    "lat": 50.653099,
+    "lon": -1.18222,
+    "name": "Isle of Wight/Sandown Airport"
+  },
+  "EGHO": {
+    "lat": 51.210602,
+    "lon": -1.6,
+    "name": "Thruxton Aerodrome"
+  },
+  "EGJA": {
+    "lat": 49.706104,
+    "lon": -2.21472,
+    "name": "Alderney Airport"
+  },
+  "EGJB": {
+    "lat": 49.435001,
+    "lon": -2.60197,
+    "name": "Guernsey Airport"
+  },
+  "EGLK": {
+    "lat": 51.323898,
+    "lon": -0.8475,
+    "name": "Blackbushe Airport"
+  },
+  "EGLM": {
+    "lat": 51.500801,
+    "lon": -0.774444,
+    "name": "White Waltham Airfield"
+  },
+  "EGNT": {
+    "lat": 55.037958,
+    "lon": -1.689577,
+    "name": "Newcastle International Airport"
+  },
+  "EGTB": {
+    "lat": 51.61177,
+    "lon": -0.808316,
+    "name": "Wycombe Air Park"
+  },
+  "EGTF": {
+    "lat": 51.348099,
+    "lon": -0.558889,
+    "name": "Fairoaks Airport"
+  },
+  "EGTU": {
+    "lat": 50.860956,
+    "lon": -3.233929,
+    "name": "Dunkeswell Airfield"
+  },
+  "EHBD": {
+    "lat": 51.255299,
+    "lon": 5.60139,
+    "name": "Kempen Airport Budel"
+  },
+  "EHLE": {
+    "lat": 52.453188,
+    "lon": 5.514622,
+    "name": "Lelystad Airport"
+  },
+  "LDSB": {
+    "lat": 43.284454,
+    "lon": 16.678362,
+    "name": "Brač Airport"
+  },
+  "LEGE": {
+    "lat": 41.904639,
+    "lon": 2.761774,
+    "name": "Girona-Costa Brava Airport"
+  },
+  "LELL": {
+    "lat": 41.520901,
+    "lon": 2.10508,
+    "name": "Sabadell Airfield"
+  },
+  "LEMH": {
+    "lat": 39.862598,
+    "lon": 4.21865,
+    "name": "Menorca Airport"
+  },
+  "LEMU": {
+    "lat": 38.440601,
+    "lon": -0.475278,
+    "name": "Muchamiel Airfield"
+  },
+  "LESO": {
+    "lat": 43.356499,
+    "lon": -1.79061,
+    "name": "San Sebastián Airport"
+  },
+  "LESU": {
+    "lat": 42.3386,
+    "lon": 1.40917,
+    "name": "Pirineus - la Seu d'Urgel Airport"
+  },
+  "LFAT": {
+    "lat": 50.518284,
+    "lon": 1.621656,
+    "name": "Le Touquet-Côte d'Opale Airport"
+  },
+  "LFBA": {
+    "lat": 44.174171,
+    "lon": 0.59309,
+    "name": "Agen La Garenne airport"
+  },
+  "LFBG": {
+    "lat": 45.658298,
+    "lon": -0.3175,
+    "name": "Cognac-Châteaubernard (BA 709) Air Base"
+  },
+  "LFBI": {
+    "lat": 46.5877,
+    "lon": 0.306666,
+    "name": "Poitiers-Biard Airport"
+  },
+  "LFBL": {
+    "lat": 45.862801,
+    "lon": 1.17944,
+    "name": "Limoges Airport"
+  },
+  "LFBO": {
+    "lat": 43.629101,
+    "lon": 1.36382,
+    "name": "Toulouse-Blagnac Airport"
+  },
+  "LFBP": {
+    "lat": 43.380001,
+    "lon": -0.418611,
+    "name": "Pau Pyrénées Airport"
+  },
+  "LFBR": {
+    "lat": 43.448898,
+    "lon": 1.26333,
+    "name": "Aérodrome de Muret - Lherm"
+  },
+  "LFBS": {
+    "lat": 44.3694,
+    "lon": -1.13056,
+    "name": "Biscarrosse Parentis airfield"
+  },
+  "LFBT": {
+    "lat": 43.178699,
+    "lon": -0.006439,
+    "name": "Tarbes-Lourdes-Pyrénées Airport"
+  },
+  "LFBU": {
+    "lat": 45.729198,
+    "lon": 0.221456,
+    "name": "Angoulême Brie-Champniers airport"
+  },
+  "LFBX": {
+    "lat": 45.198101,
+    "lon": 0.815556,
+    "name": "Périgueux-Bassillac Airport"
+  },
+  "LFCH": {
+    "lat": 44.596401,
+    "lon": -1.11083,
+    "name": "Aérodrome d'Arcachon-La Teste-de-Buch"
+  },
+  "LFCW": {
+    "lat": 44.3969,
+    "lon": 0.758889,
+    "name": "Villeneuve-sur-Lot Airfield"
+  },
+  "LFCY": {
+    "lat": 45.628101,
+    "lon": -0.9725,
+    "name": "Royan-Médis Airport"
+  },
+  "LFDH": {
+    "lat": 43.683606,
+    "lon": 0.599747,
+    "name": "Auch Gers Airfield"
+  },
+  "LFDI": {
+    "lat": 44.98347,
+    "lon": -0.138359,
+    "name": "Libourne-Artigues-de-Lussac Airfield"
+  },
+  "LFEC": {
+    "lat": 48.4632,
+    "lon": -5.06358,
+    "name": "Ouessant Airport"
+  },
+  "LFEH": {
+    "lat": 47.47993,
+    "lon": 2.393271,
+    "name": "Aubigny-sur-Nère Airfield"
+  },
+  "LFEV": {
+    "lat": 47.431659,
+    "lon": 5.61775,
+    "name": "Gray Saint-Adrien Airfield"
+  },
+  "LFFI": {
+    "lat": 47.4081,
+    "lon": -1.1775,
+    "name": "Ancenis Airfield"
+  },
+  "LFGA": {
+    "lat": 48.109901,
+    "lon": 7.35901,
+    "name": "Colmar Houssen airport"
+  },
+  "LFGI": {
+    "lat": 47.385278,
+    "lon": 4.946944,
+    "name": "Dijon Darois Airfield"
+  },
+  "LFHV": {
+    "lat": 45.918314,
+    "lon": 4.635184,
+    "name": "Villefranche-Tarare Airfield"
+  },
+  "LFHY": {
+    "lat": 46.534599,
+    "lon": 3.42372,
+    "name": "Moulins-Montbeugny Airfield"
+  },
+  "LFJR": {
+    "lat": 47.560299,
+    "lon": -0.312222,
+    "name": "Angers Marcé airport"
+  },
+  "LFJY": {
+    "lat": 49.025501,
+    "lon": 5.87607,
+    "name": "Chambley airfield"
+  },
+  "LFKO": {
+    "lat": 41.660599,
+    "lon": 8.88975,
+    "name": "Propriano Airport"
+  },
+  "LFLB": {
+    "lat": 45.6381,
+    "lon": 5.88023,
+    "name": "Chambéry Aix les Bains airport"
+  },
+  "LFLG": {
+    "lat": 45.218047,
+    "lon": 5.848317,
+    "name": "Grenoble Le Versoud Airfield"
+  },
+  "LFLI": {
+    "lat": 46.192001,
+    "lon": 6.26839,
+    "name": "Annemasse Airfield"
+  },
+  "LFLM": {
+    "lat": 46.295131,
+    "lon": 4.795977,
+    "name": "Mâcon-Charnay Airfield"
+  },
+  "LFLN": {
+    "lat": 46.414019,
+    "lon": 4.014177,
+    "name": "Saint-Yan Airport"
+  },
+  "LFLS": {
+    "lat": 45.3629,
+    "lon": 5.32937,
+    "name": "Grenoble Alpes Isère Airport"
+  },
+  "LFLU": {
+    "lat": 44.9216,
+    "lon": 4.9699,
+    "name": "Valence-Chabeuil Airport"
+  },
+  "LFLV": {
+    "lat": 46.16969,
+    "lon": 3.403637,
+    "name": "Vichy-Charmeil Airport"
+  },
+  "LFLX": {
+    "lat": 46.860221,
+    "lon": 1.728326,
+    "name": "Châteauroux Déols airport"
+  },
+  "LFMA": {
+    "lat": 43.506294,
+    "lon": 5.366426,
+    "name": "Aix Les Milles airport"
+  },
+  "LFMH": {
+    "lat": 45.5406,
+    "lon": 4.29639,
+    "name": "Saint-Étienne-Bouthéon Airport"
+  },
+  "LFMK": {
+    "lat": 43.216,
+    "lon": 2.30632,
+    "name": "Carcassonne Salvaza Airport"
+  },
+  "LFMT": {
+    "lat": 43.576199,
+    "lon": 3.96301,
+    "name": "Montpellier-Méditerranée Airport"
+  },
+  "LFMU": {
+    "lat": 43.323502,
+    "lon": 3.3539,
+    "name": "Béziers Vias airport"
+  },
+  "LFOH": {
+    "lat": 49.534038,
+    "lon": 0.088406,
+    "name": "Le Havre-Octeville Airport"
+  },
+  "LFOO": {
+    "lat": 46.476898,
+    "lon": -1.72278,
+    "name": "Les Sables-d'Olonne Talmont Airport"
+  },
+  "LFOT": {
+    "lat": 47.432201,
+    "lon": 0.727606,
+    "name": "Tours Val de Loire Airport"
+  },
+  "LFOV": {
+    "lat": 48.032208,
+    "lon": -0.743999,
+    "name": "Laval-Entrammes Airport"
+  },
+  "LFOZ": {
+    "lat": 47.897758,
+    "lon": 2.164478,
+    "name": "Orléans–Saint-Denis-de-l'Hôtel Airport"
+  },
+  "LFPM": {
+    "lat": 48.604698,
+    "lon": 2.67112,
+    "name": "Melun-Villaroche Airfield"
+  },
+  "LFPT": {
+    "lat": 49.096064,
+    "lon": 2.035543,
+    "name": "Pontoise-Cormeilles Aerodrome"
+  },
+  "LFQG": {
+    "lat": 47.002913,
+    "lon": 3.113114,
+    "name": "Nevers-Fourchambault Airport"
+  },
+  "LFQQ": {
+    "lat": 50.566564,
+    "lon": 3.102429,
+    "name": "Lille Airport"
+  },
+  "LFQT": {
+    "lat": 50.618401,
+    "lon": 2.64224,
+    "name": "Merville-Calonne Airport"
+  },
+  "LFRE": {
+    "lat": 47.289398,
+    "lon": -2.34639,
+    "name": "La Baule-Escoublac Airport"
+  },
+  "LFRF": {
+    "lat": 48.883099,
+    "lon": -1.56417,
+    "name": "Granville Airport"
+  },
+  "LFRJ": {
+    "lat": 48.5303,
+    "lon": -4.15164,
+    "name": "Landivisiau Air Base"
+  },
+  "LFRK": {
+    "lat": 49.17678,
+    "lon": -0.454883,
+    "name": "Caen Carpiquet airport"
+  },
+  "LFRM": {
+    "lat": 47.948604,
+    "lon": 0.201702,
+    "name": "Le Mans-Arnage Airport"
+  },
+  "LFRN": {
+    "lat": 48.0695,
+    "lon": -1.73479,
+    "name": "Rennes-Saint-Jacques Airport"
+  },
+  "LFRO": {
+    "lat": 48.754398,
+    "lon": -3.47166,
+    "name": "Lannion Airport"
+  },
+  "LFRZ": {
+    "lat": 47.31142,
+    "lon": -2.152634,
+    "name": "Saint-Nazaire-Montoir Airport"
+  },
+  "LFSB": {
+    "lat": 47.60068,
+    "lon": 7.521117,
+    "name": "EuroAirport Basel–Mulhouse–Freiburg"
+  },
+  "LFSD": {
+    "lat": 47.268902,
+    "lon": 5.09,
+    "name": "Dijon Longvic airport"
+  },
+  "LFSL": {
+    "lat": 45.039722,
+    "lon": 1.485556,
+    "name": "Brive Souillac airport"
+  },
+  "LFSP": {
+    "lat": 46.904032,
+    "lon": 6.326826,
+    "name": "Pontarlier Airfield"
+  },
+  "LFTF": {
+    "lat": 43.247615,
+    "lon": 6.126654,
+    "name": "Cuers-Pierrefeu Airfield"
+  },
+  "LFTZ": {
+    "lat": 43.205399,
+    "lon": 6.482,
+    "name": "La Môle Airport"
+  },
+  "LIEO": {
+    "lat": 40.898953,
+    "lon": 9.518457,
+    "name": "Olbia Costa Smeralda Airport"
+  },
+  "LIQL": {
+    "lat": 43.825825,
+    "lon": 10.577928,
+    "name": "Lucca-Tassignano Airport"
+  },
+  "LOWS": {
+    "lat": 47.793301,
+    "lon": 13.0043,
+    "name": "Salzburg Airport"
+  },
+  "LSGK": {
+    "lat": 46.486525,
+    "lon": 7.248359,
+    "name": "Saanen Airfield"
+  },
+  "LSGL": {
+    "lat": 46.54509,
+    "lon": 6.616629,
+    "name": "Lausanne la Blécherette Airport"
+  },
+  "LSZG": {
+    "lat": 47.181599,
+    "lon": 7.41719,
+    "name": "Grenchen Airfield"
+  },
+  "LSZR": {
+    "lat": 47.485001,
+    "lon": 9.56077,
+    "name": "Sankt Gallen Altenrhein Airport"
   }
 }
