@@ -1,0 +1,1535 @@
+{
+  "generated_at": "2026-07-17T20:28:41.615304+00:00",
+  "period_start": "2026-06-18T12:44:10",
+  "period_end": "2026-07-17T12:39:10",
+  "total_movements": 1451,
+  "categories": {
+    "aviation_legere": {
+      "count": 867,
+      "pct": 59.8,
+      "avg_duration_min": 80
+    },
+    "helicoptere": {
+      "count": 32,
+      "pct": 2.2,
+      "avg_duration_min": 41
+    },
+    "commercial": {
+      "count": 324,
+      "pct": 22.3,
+      "avg_duration_min": 72
+    },
+    "autre": {
+      "count": 29,
+      "pct": 2.0,
+      "avg_duration_min": 53
+    },
+    "militaire": {
+      "count": 109,
+      "pct": 7.5,
+      "avg_duration_min": 73
+    },
+    "jets_prives": {
+      "count": 90,
+      "pct": 6.2,
+      "avg_duration_min": 73
+    }
+  },
+  "daily": [
+    {
+      "date": "2026-06-18",
+      "aviation_legere": 17,
+      "helicoptere": 1,
+      "commercial": 1
+    },
+    {
+      "date": "2026-06-19",
+      "aviation_legere": 46,
+      "autre": 3,
+      "commercial": 10,
+      "militaire": 3,
+      "jets_prives": 2,
+      "helicoptere": 4
+    },
+    {
+      "date": "2026-06-20",
+      "aviation_legere": 34,
+      "helicoptere": 2,
+      "militaire": 4,
+      "commercial": 12
+    },
+    {
+      "date": "2026-06-21",
+      "aviation_legere": 22,
+      "commercial": 8,
+      "jets_prives": 2,
+      "helicoptere": 1,
+      "militaire": 3
+    },
+    {
+      "date": "2026-06-22",
+      "commercial": 12,
+      "aviation_legere": 21,
+      "militaire": 7,
+      "jets_prives": 1,
+      "helicoptere": 2
+    },
+    {
+      "date": "2026-06-23",
+      "aviation_legere": 18,
+      "commercial": 8,
+      "autre": 1,
+      "jets_prives": 5
+    },
+    {
+      "date": "2026-06-24",
+      "commercial": 16,
+      "aviation_legere": 12,
+      "militaire": 6
+    },
+    {
+      "date": "2026-06-25",
+      "aviation_legere": 25,
+      "commercial": 6,
+      "jets_prives": 7,
+      "militaire": 7
+    },
+    {
+      "date": "2026-06-26",
+      "militaire": 4,
+      "aviation_legere": 28,
+      "commercial": 12,
+      "autre": 2,
+      "jets_prives": 4
+    },
+    {
+      "date": "2026-06-27",
+      "commercial": 16,
+      "aviation_legere": 22,
+      "militaire": 1,
+      "jets_prives": 1
+    },
+    {
+      "date": "2026-06-28",
+      "commercial": 8,
+      "aviation_legere": 23,
+      "jets_prives": 2,
+      "helicoptere": 1,
+      "militaire": 1
+    },
+    {
+      "date": "2026-06-29",
+      "commercial": 12,
+      "aviation_legere": 33,
+      "jets_prives": 3,
+      "militaire": 5
+    },
+    {
+      "date": "2026-06-30",
+      "commercial": 8,
+      "aviation_legere": 34,
+      "jets_prives": 1,
+      "autre": 3,
+      "militaire": 6
+    },
+    {
+      "date": "2026-07-01",
+      "jets_prives": 3,
+      "aviation_legere": 29,
+      "commercial": 18,
+      "militaire": 4,
+      "helicoptere": 2,
+      "autre": 1
+    },
+    {
+      "date": "2026-07-02",
+      "aviation_legere": 39,
+      "commercial": 4,
+      "jets_prives": 2
+    },
+    {
+      "date": "2026-07-03",
+      "commercial": 12,
+      "aviation_legere": 44,
+      "jets_prives": 6,
+      "militaire": 4,
+      "autre": 1,
+      "helicoptere": 1
+    },
+    {
+      "date": "2026-07-04",
+      "commercial": 20,
+      "aviation_legere": 30,
+      "militaire": 3,
+      "autre": 2,
+      "jets_prives": 1
+    },
+    {
+      "date": "2026-07-05",
+      "aviation_legere": 37,
+      "commercial": 8,
+      "jets_prives": 1,
+      "militaire": 3,
+      "helicoptere": 2
+    },
+    {
+      "date": "2026-07-06",
+      "commercial": 13,
+      "aviation_legere": 29,
+      "jets_prives": 4,
+      "autre": 2
+    },
+    {
+      "date": "2026-07-07",
+      "commercial": 8,
+      "aviation_legere": 38,
+      "jets_prives": 6,
+      "autre": 7,
+      "militaire": 4
+    },
+    {
+      "date": "2026-07-08",
+      "aviation_legere": 28,
+      "commercial": 16,
+      "jets_prives": 4,
+      "helicoptere": 2,
+      "militaire": 5,
+      "autre": 2
+    },
+    {
+      "date": "2026-07-09",
+      "jets_prives": 3,
+      "aviation_legere": 27,
+      "commercial": 8,
+      "autre": 2,
+      "militaire": 3,
+      "helicoptere": 1
+    },
+    {
+      "date": "2026-07-10",
+      "militaire": 3,
+      "aviation_legere": 37,
+      "commercial": 13,
+      "autre": 1,
+      "helicoptere": 1,
+      "jets_prives": 2
+    },
+    {
+      "date": "2026-07-11",
+      "militaire": 2,
+      "commercial": 19,
+      "aviation_legere": 32,
+      "jets_prives": 6,
+      "helicoptere": 4
+    },
+    {
+      "date": "2026-07-12",
+      "aviation_legere": 25,
+      "helicoptere": 3,
+      "commercial": 10,
+      "militaire": 5,
+      "jets_prives": 4
+    },
+    {
+      "date": "2026-07-13",
+      "commercial": 13,
+      "aviation_legere": 29,
+      "jets_prives": 6,
+      "autre": 1,
+      "militaire": 4,
+      "helicoptere": 4
+    },
+    {
+      "date": "2026-07-14",
+      "jets_prives": 4,
+      "commercial": 9,
+      "aviation_legere": 30,
+      "militaire": 8
+    },
+    {
+      "date": "2026-07-15",
+      "commercial": 16,
+      "aviation_legere": 27,
+      "helicoptere": 1,
+      "militaire": 7,
+      "jets_prives": 4
+    },
+    {
+      "date": "2026-07-16",
+      "aviation_legere": 26,
+      "jets_prives": 3,
+      "commercial": 4,
+      "militaire": 4
+    },
+    {
+      "date": "2026-07-17",
+      "jets_prives": 3,
+      "commercial": 4,
+      "aviation_legere": 25,
+      "militaire": 3,
+      "autre": 1
+    }
+  ],
+  "weekday_distribution": [
+    201,
+    198,
+    203,
+    190,
+    279,
+    211,
+    169
+  ],
+  "hourly_distribution": [
+    1,
+    1,
+    1,
+    1,
+    17,
+    55,
+    81,
+    170,
+    170,
+    124,
+    89,
+    69,
+    113,
+    104,
+    100,
+    112,
+    87,
+    51,
+    44,
+    18,
+    16,
+    16,
+    7,
+    4
+  ],
+  "business_jets": [
+    {
+      "reg": "OE-FZC",
+      "type": "C510",
+      "operator": "GAC",
+      "orig": "LFBZ",
+      "orig_name": "Biarritz",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-19 08:09:50",
+      "landed": "2026-06-19 08:49:18"
+    },
+    {
+      "reg": "OE-FZC",
+      "type": "C510",
+      "operator": "GAC",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFML",
+      "dest_name": "Marseille",
+      "takeoff": "2026-06-19 10:05:46",
+      "landed": "2026-06-19 11:23:42"
+    },
+    {
+      "reg": "CS-PHP",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFPB",
+      "orig_name": "Paris-Le Bourget",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-21 10:03:14",
+      "landed": "2026-06-21 10:57:51"
+    },
+    {
+      "reg": "CS-PHP",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFMV",
+      "dest_name": "Vichy",
+      "takeoff": "2026-06-21 12:12:56",
+      "landed": "2026-06-21 13:09:24"
+    },
+    {
+      "reg": "D-CUGF",
+      "type": "C25B",
+      "operator": "PAV",
+      "orig": "LFMD",
+      "orig_name": "LFMD",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-22 18:33:35",
+      "landed": "2026-06-22 19:48:02"
+    },
+    {
+      "reg": "D-CUGF",
+      "type": "C25B",
+      "operator": "PAV",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFMV",
+      "dest_name": "Vichy",
+      "takeoff": "2026-06-23 07:23:01",
+      "landed": "2026-06-23 08:33:09"
+    },
+    {
+      "reg": null,
+      "type": "HDJT",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-06-23 08:10:54",
+      "landed": "2026-06-23 08:52:02"
+    },
+    {
+      "reg": "CS-PHC",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LIML",
+      "orig_name": "Milan",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-23 10:25:14",
+      "landed": "2026-06-23 11:49:58"
+    },
+    {
+      "reg": null,
+      "type": "HDJT",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-06-23 10:37:40",
+      "landed": "2026-06-23 11:40:57"
+    },
+    {
+      "reg": "CS-PHC",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "GMAD",
+      "dest_name": "Madère",
+      "takeoff": "2026-06-23 13:16:36",
+      "landed": "2026-06-23 17:29:30"
+    },
+    {
+      "reg": "CS-PHC",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "GMAD",
+      "orig_name": "Madère",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-25 08:05:07",
+      "landed": "2026-06-25 10:47:45"
+    },
+    {
+      "reg": "OE-FWF",
+      "type": "C510",
+      "operator": "GAC",
+      "orig": "LEBL",
+      "orig_name": "LEBL",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-25 08:39:29",
+      "landed": "2026-06-25 09:53:41"
+    },
+    {
+      "reg": "S5-BDD",
+      "type": "C56X",
+      "operator": "VIO",
+      "orig": "LIBR",
+      "orig_name": "Brač",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-25 08:39:37",
+      "landed": "2026-06-25 11:08:22"
+    },
+    {
+      "reg": "9H-VFJ",
+      "type": "CL60",
+      "operator": "VJT",
+      "orig": "LFPB",
+      "orig_name": "Paris-Le Bourget",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-25 09:31:21",
+      "landed": "2026-06-25 10:21:36"
+    },
+    {
+      "reg": "OE-FWF",
+      "type": "C510",
+      "operator": "GAC",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFBD",
+      "dest_name": "Bordeaux",
+      "takeoff": "2026-06-25 10:58:29",
+      "landed": "2026-06-25 11:24:19"
+    },
+    {
+      "reg": "9H-VFJ",
+      "type": "CL60",
+      "operator": "VJT",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LSZH",
+      "dest_name": "Zurich",
+      "takeoff": "2026-06-25 11:23:07",
+      "landed": "2026-06-25 12:51:17"
+    },
+    {
+      "reg": "CS-PHC",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EHAM",
+      "dest_name": "EHAM",
+      "takeoff": "2026-06-25 12:16:14",
+      "landed": "2026-06-25 13:26:43"
+    },
+    {
+      "reg": "S5-BDD",
+      "type": "C56X",
+      "operator": "VIO",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFKF",
+      "dest_name": "?",
+      "takeoff": "2026-06-26 11:34:53",
+      "landed": "2026-06-26 13:07:34"
+    },
+    {
+      "reg": "CS-PHS",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LEPA",
+      "orig_name": "Palma de Majorque",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-26 15:09:49",
+      "landed": "2026-06-26 16:30:52"
+    },
+    {
+      "reg": "F-HLRK",
+      "type": "C25M",
+      "operator": "BEJ",
+      "orig": "LFML",
+      "orig_name": "Marseille",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-26 15:18:56",
+      "landed": "2026-06-26 16:21:14"
+    },
+    {
+      "reg": "F-HLRK",
+      "type": "C25M",
+      "operator": "BEJ",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFRI",
+      "dest_name": "La Roche-sur-Yon",
+      "takeoff": "2026-06-26 16:45:14",
+      "landed": "2026-06-26 16:55:31"
+    },
+    {
+      "reg": "CS-PHS",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LGPZ",
+      "dest_name": "Skiathos",
+      "takeoff": "2026-06-27 09:52:42",
+      "landed": "2026-06-27 12:42:04"
+    },
+    {
+      "reg": "D-IEGO",
+      "type": "C25A",
+      "operator": "PAV",
+      "orig": "LFLY",
+      "orig_name": "Lyon-Bron",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-28 11:54:40",
+      "landed": "2026-06-28 12:46:22"
+    },
+    {
+      "reg": "D-IEGO",
+      "type": "C25A",
+      "operator": "PAV",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFTH",
+      "dest_name": "Touraine",
+      "takeoff": "2026-06-28 14:05:24",
+      "landed": "2026-06-28 15:21:44"
+    },
+    {
+      "reg": "D-ISRM",
+      "type": "C510",
+      "operator": null,
+      "orig": "LOWL",
+      "orig_name": "Linz",
+      "dest": "LFBN",
+      "dest_name": "Niort",
+      "takeoff": "2026-06-29 07:00:30",
+      "landed": "2026-06-29 09:12:32"
+    },
+    {
+      "reg": null,
+      "type": "PC24",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-06-29 12:39:19",
+      "landed": "2026-06-29 14:03:58"
+    },
+    {
+      "reg": null,
+      "type": "PC24",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-06-29 14:55:27",
+      "landed": "2026-06-29 16:16:10"
+    },
+    {
+      "reg": "EC-GOV",
+      "type": "C560",
+      "operator": "XTX",
+      "orig": "LFRB",
+      "orig_name": "Brest",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-06-30 06:22:18",
+      "landed": "2026-06-30 07:05:02"
+    },
+    {
+      "reg": "F-HLRK",
+      "type": "C25M",
+      "operator": "BEJ",
+      "orig": "LFRI",
+      "orig_name": "La Roche-sur-Yon",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-01 05:12:54",
+      "landed": "2026-07-01 05:28:45"
+    },
+    {
+      "reg": "F-HLRK",
+      "type": "C25M",
+      "operator": "BEJ",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFLY",
+      "dest_name": "Lyon-Bron",
+      "takeoff": "2026-07-01 05:54:30",
+      "landed": "2026-07-01 06:48:16"
+    },
+    {
+      "reg": "EC-GOV",
+      "type": "C560",
+      "operator": "XTX",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFRB",
+      "dest_name": "Brest",
+      "takeoff": "2026-07-01 10:16:09",
+      "landed": "2026-07-01 10:59:31"
+    },
+    {
+      "reg": "OE-FIX",
+      "type": "C525",
+      "operator": "MCK",
+      "orig": "EGLF",
+      "orig_name": "Farnborough",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-02 15:10:43",
+      "landed": "2026-07-02 16:16:45"
+    },
+    {
+      "reg": "OE-FIX",
+      "type": "C525",
+      "operator": "MCK",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFRS",
+      "dest_name": "Saint-Nazaire",
+      "takeoff": "2026-07-02 16:43:45",
+      "landed": "2026-07-02 17:06:38"
+    },
+    {
+      "reg": "F-HLRK",
+      "type": "C25M",
+      "operator": "BEJ",
+      "orig": "LFLY",
+      "orig_name": "Lyon-Bron",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-03 10:09:27",
+      "landed": "2026-07-03 11:03:26"
+    },
+    {
+      "reg": "F-HRDG",
+      "type": "E55P",
+      "operator": "BEJ",
+      "orig": "LFGJ",
+      "orig_name": "Dole",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-03 11:34:17",
+      "landed": "2026-07-03 12:37:55"
+    },
+    {
+      "reg": "F-HLRK",
+      "type": "C25M",
+      "operator": "BEJ",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFPB",
+      "dest_name": "Paris-Le Bourget",
+      "takeoff": "2026-07-03 12:01:17",
+      "landed": "2026-07-03 12:56:57"
+    },
+    {
+      "reg": "9H-ILY",
+      "type": "CRJ2",
+      "operator": "VJT",
+      "orig": "EGBB",
+      "orig_name": "Birmingham",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-03 13:22:03",
+      "landed": "2026-07-03 14:29:44"
+    },
+    {
+      "reg": "9H-ILY",
+      "type": "CRJ2",
+      "operator": "VJT",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EGGW",
+      "dest_name": "Luton",
+      "takeoff": "2026-07-03 15:32:29",
+      "landed": "2026-07-03 16:48:03"
+    },
+    {
+      "reg": "F-HRDG",
+      "type": "E55P",
+      "operator": "BEJ",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LEPA",
+      "dest_name": "Palma de Majorque",
+      "takeoff": "2026-07-03 17:44:45",
+      "landed": "2026-07-03 19:00:02"
+    },
+    {
+      "reg": "D-IBEA",
+      "type": "C25A",
+      "operator": "PAV",
+      "orig": "LEXJ",
+      "orig_name": "Jerez",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-04 13:01:33",
+      "landed": "2026-07-04 13:49:32"
+    },
+    {
+      "reg": "D-IBEA",
+      "type": "C25A",
+      "operator": "PAV",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LEVX",
+      "dest_name": "Vitoria",
+      "takeoff": "2026-07-05 08:08:30",
+      "landed": "2026-07-05 09:26:00"
+    },
+    {
+      "reg": null,
+      "type": "C25M",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-07-06 08:36:02",
+      "landed": "2026-07-06 09:47:28"
+    },
+    {
+      "reg": null,
+      "type": "C25M",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-07-06 10:37:40",
+      "landed": "2026-07-06 11:53:06"
+    },
+    {
+      "reg": "F-HSHU",
+      "type": "C510",
+      "operator": null,
+      "orig": "LFBZ",
+      "orig_name": "Biarritz",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-06 15:04:17",
+      "landed": "2026-07-06 15:47:21"
+    },
+    {
+      "reg": null,
+      "type": "PC24",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-07-06 18:51:34",
+      "landed": "2026-07-06 19:51:05"
+    },
+    {
+      "reg": "F-HSHU",
+      "type": "C510",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EGKB",
+      "dest_name": "Londres-Biggin Hill",
+      "takeoff": "2026-07-07 05:38:07",
+      "landed": "2026-07-07 07:00:49"
+    },
+    {
+      "reg": null,
+      "type": "PC24",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-07-07 07:44:09",
+      "landed": "2026-07-07 09:01:22"
+    },
+    {
+      "reg": "CS-PJE",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LPCS",
+      "orig_name": "LPCS",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-07 08:38:33",
+      "landed": "2026-07-07 10:18:20"
+    },
+    {
+      "reg": "CS-PJE",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EBKT",
+      "dest_name": "EBKT",
+      "takeoff": "2026-07-07 13:02:41",
+      "landed": "2026-07-07 14:10:09"
+    },
+    {
+      "reg": null,
+      "type": "PC24",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-07-07 14:32:56",
+      "landed": "2026-07-07 15:54:54"
+    },
+    {
+      "reg": "F-HSHU",
+      "type": "C510",
+      "operator": null,
+      "orig": "EGKB",
+      "orig_name": "Londres-Biggin Hill",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-07 18:39:43",
+      "landed": "2026-07-07 20:02:39"
+    },
+    {
+      "reg": null,
+      "type": "PC24",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-07-08 06:07:31",
+      "landed": "2026-07-08 07:12:02"
+    },
+    {
+      "reg": "F-HSHU",
+      "type": "C510",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LIMC",
+      "dest_name": "Milan-Malpensa",
+      "takeoff": "2026-07-08 08:57:34",
+      "landed": "2026-07-08 10:33:42"
+    },
+    {
+      "reg": null,
+      "type": "C25M",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-07-08 16:07:50",
+      "landed": "2026-07-08 17:04:46"
+    },
+    {
+      "reg": null,
+      "type": "C25M",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "dest": null,
+      "dest_name": null,
+      "takeoff": "2026-07-08 17:51:14",
+      "landed": "2026-07-08 18:42:56"
+    },
+    {
+      "reg": "F-HLPN",
+      "type": "F2TH",
+      "operator": null,
+      "orig": "LFLC",
+      "orig_name": "Clermont-Ferrand",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-09 06:01:01",
+      "landed": "2026-07-09 06:43:28"
+    },
+    {
+      "reg": "LX-GCA",
+      "type": "C25B",
+      "operator": "LXA",
+      "orig": "LFTH",
+      "orig_name": "Touraine",
+      "dest": "LFRV",
+      "dest_name": "Rochefort (aéroclub)",
+      "takeoff": "2026-07-09 08:51:49",
+      "landed": "2026-07-09 10:11:26"
+    },
+    {
+      "reg": "F-HLPN",
+      "type": "F2TH",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFLC",
+      "dest_name": "Clermont-Ferrand",
+      "takeoff": "2026-07-09 12:47:20",
+      "landed": "2026-07-09 13:26:28"
+    },
+    {
+      "reg": "S5-CES",
+      "type": "C25B",
+      "operator": "UEE",
+      "orig": "LSGG",
+      "orig_name": "Genève",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-10 07:36:04",
+      "landed": "2026-07-10 08:37:49"
+    },
+    {
+      "reg": "S5-CES",
+      "type": "C25B",
+      "operator": "UEE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LSGG",
+      "dest_name": "Genève",
+      "takeoff": "2026-07-10 09:20:36",
+      "landed": "2026-07-10 10:22:20"
+    },
+    {
+      "reg": "OE-FZD",
+      "type": "C510",
+      "operator": "GAC",
+      "orig": "LFRV",
+      "orig_name": "Rochefort (aéroclub)",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-11 06:34:20",
+      "landed": "2026-07-11 07:05:47"
+    },
+    {
+      "reg": "CS-DXK",
+      "type": "C56X",
+      "operator": "NJE",
+      "orig": "LGPZ",
+      "orig_name": "Skiathos",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-11 07:22:32",
+      "landed": "2026-07-11 10:16:07"
+    },
+    {
+      "reg": "OE-FZD",
+      "type": "C510",
+      "operator": "GAC",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LEIB",
+      "dest_name": "Ibiza",
+      "takeoff": "2026-07-11 08:06:58",
+      "landed": "2026-07-11 09:51:44"
+    },
+    {
+      "reg": "CS-DXK",
+      "type": "C56X",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFPB",
+      "dest_name": "Paris-Le Bourget",
+      "takeoff": "2026-07-11 11:10:50",
+      "landed": "2026-07-11 11:57:48"
+    },
+    {
+      "reg": "CS-PJE",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "EGJJ",
+      "orig_name": "Jersey",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-11 12:16:01",
+      "landed": "2026-07-11 12:58:22"
+    },
+    {
+      "reg": "CS-PJE",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFPB",
+      "dest_name": "Paris-Le Bourget",
+      "takeoff": "2026-07-11 14:00:53",
+      "landed": "2026-07-11 14:52:32"
+    },
+    {
+      "reg": "G-VJTB",
+      "type": "C56X",
+      "operator": "SXN",
+      "orig": "EGLF",
+      "orig_name": "Farnborough",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-12 11:27:35",
+      "landed": "2026-07-12 12:31:13"
+    },
+    {
+      "reg": "G-VJTB",
+      "type": "C56X",
+      "operator": "SXN",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EGLF",
+      "dest_name": "Farnborough",
+      "takeoff": "2026-07-12 13:33:27",
+      "landed": "2026-07-12 14:32:23"
+    },
+    {
+      "reg": "D-ICMD",
+      "type": "C25A",
+      "operator": null,
+      "orig": "LEPA",
+      "orig_name": "Palma de Majorque",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-12 14:45:52",
+      "landed": "2026-07-12 16:07:19"
+    },
+    {
+      "reg": "F-HRDG",
+      "type": "E55P",
+      "operator": "BEJ",
+      "orig": "LEPA",
+      "orig_name": "Palma de Majorque",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-12 16:39:55",
+      "landed": "2026-07-12 17:53:46"
+    },
+    {
+      "reg": "D-ICMD",
+      "type": "C25A",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EPWA",
+      "dest_name": "Varsovie",
+      "takeoff": "2026-07-13 06:18:32",
+      "landed": "2026-07-13 08:55:40"
+    },
+    {
+      "reg": "F-HRDG",
+      "type": "E55P",
+      "operator": "BEJ",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EGKB",
+      "dest_name": "Londres-Biggin Hill",
+      "takeoff": "2026-07-13 07:08:55",
+      "landed": "2026-07-13 08:19:11"
+    },
+    {
+      "reg": "OK-VAN",
+      "type": "E50P",
+      "operator": "AAO",
+      "orig": "EGHQ",
+      "orig_name": "Newquay",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-13 10:55:13",
+      "landed": "2026-07-13 12:02:48"
+    },
+    {
+      "reg": "D-AAAY",
+      "type": "CL60",
+      "operator": "DLY",
+      "orig": "LFMP",
+      "orig_name": "Marseille-Provence",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-13 12:51:18",
+      "landed": "2026-07-13 13:43:54"
+    },
+    {
+      "reg": "OK-VAN",
+      "type": "E50P",
+      "operator": "AAO",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFBD",
+      "dest_name": "Bordeaux",
+      "takeoff": "2026-07-13 13:10:12",
+      "landed": "2026-07-13 13:34:11"
+    },
+    {
+      "reg": "D-ICMD",
+      "type": "C25A",
+      "operator": null,
+      "orig": "EPWA",
+      "orig_name": "Varsovie",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-13 15:55:57",
+      "landed": "2026-07-13 18:54:17"
+    },
+    {
+      "reg": "CS-LUC",
+      "type": "C68A",
+      "operator": "NJE",
+      "orig": "LFPB",
+      "orig_name": "Paris-Le Bourget",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-14 04:41:53",
+      "landed": "2026-07-14 05:40:02"
+    },
+    {
+      "reg": "CS-LUC",
+      "type": "C68A",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EGJJ",
+      "dest_name": "Jersey",
+      "takeoff": "2026-07-14 07:15:52",
+      "landed": "2026-07-14 07:53:23"
+    },
+    {
+      "reg": "D-AAAY",
+      "type": "CL60",
+      "operator": "DLY",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFPB",
+      "dest_name": "Paris-Le Bourget",
+      "takeoff": "2026-07-14 10:04:09",
+      "landed": "2026-07-14 10:46:20"
+    },
+    {
+      "reg": "CS-PHG",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFPB",
+      "orig_name": "Paris-Le Bourget",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-14 15:25:40",
+      "landed": "2026-07-14 16:21:49"
+    },
+    {
+      "reg": "CS-PHG",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EGPF",
+      "dest_name": "EGPF",
+      "takeoff": "2026-07-15 07:52:16",
+      "landed": "2026-07-15 09:33:29"
+    },
+    {
+      "reg": "9H-CEA",
+      "type": "CL35",
+      "operator": "VJT",
+      "orig": "ELLX",
+      "orig_name": "ELLX",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-15 07:55:51",
+      "landed": "2026-07-15 09:18:24"
+    },
+    {
+      "reg": "D-ICMD",
+      "type": "C25A",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFBZ",
+      "dest_name": "Biarritz",
+      "takeoff": "2026-07-15 09:13:44",
+      "landed": "2026-07-15 09:54:18"
+    },
+    {
+      "reg": "9H-CEA",
+      "type": "CL35",
+      "operator": "VJT",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LEIB",
+      "dest_name": "Ibiza",
+      "takeoff": "2026-07-15 11:35:18",
+      "landed": "2026-07-15 13:03:48"
+    },
+    {
+      "reg": "9H-VFC",
+      "type": "CL60",
+      "operator": "VJT",
+      "orig": "EBLG",
+      "orig_name": "EBLG",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-16 09:03:53",
+      "landed": "2026-07-16 10:16:53"
+    },
+    {
+      "reg": "9H-VFC",
+      "type": "CL60",
+      "operator": "VJT",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFRQ",
+      "dest_name": "Quimper",
+      "takeoff": "2026-07-16 12:04:10",
+      "landed": "2026-07-16 12:58:08"
+    },
+    {
+      "reg": "CS-PJA",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "EHRD",
+      "dest_name": "EHRD",
+      "takeoff": "2026-07-16 13:20:50",
+      "landed": "2026-07-16 14:32:29"
+    },
+    {
+      "reg": "OE-FWF",
+      "type": "C510",
+      "operator": "GAC",
+      "orig": "LFML",
+      "orig_name": "Marseille",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-17 05:43:11",
+      "landed": "2026-07-17 07:12:09"
+    },
+    {
+      "reg": "CS-LTX",
+      "type": "C68A",
+      "operator": "NJE",
+      "orig": "LSGG",
+      "orig_name": "Genève",
+      "dest": "LFBH",
+      "dest_name": "LFBH",
+      "takeoff": "2026-07-17 08:51:27",
+      "landed": "2026-07-17 10:03:43"
+    },
+    {
+      "reg": "CS-LTX",
+      "type": "C68A",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "LFBH",
+      "dest": "LFRH",
+      "dest_name": "LFRH",
+      "takeoff": "2026-07-17 10:59:13",
+      "landed": "2026-07-17 11:28:42"
+    }
+  ],
+  "business_jets_operators": [
+    [
+      "Inconnu",
+      23
+    ],
+    [
+      "NJE",
+      21
+    ],
+    [
+      "BEJ",
+      10
+    ],
+    [
+      "VJT",
+      8
+    ],
+    [
+      "GAC",
+      7
+    ],
+    [
+      "PAV",
+      6
+    ],
+    [
+      "VIO",
+      2
+    ],
+    [
+      "XTX",
+      2
+    ],
+    [
+      "MCK",
+      2
+    ],
+    [
+      "UEE",
+      2
+    ],
+    [
+      "SXN",
+      2
+    ],
+    [
+      "AAO",
+      2
+    ],
+    [
+      "DLY",
+      2
+    ],
+    [
+      "LXA",
+      1
+    ]
+  ],
+  "commercial_routes": [
+    {
+      "code": "EGKK",
+      "name": "Londres-Gatwick",
+      "count": 52
+    },
+    {
+      "code": "EGSS",
+      "name": "Londres-Stansted",
+      "count": 43
+    },
+    {
+      "code": "EIDW",
+      "name": "Dublin",
+      "count": 34
+    },
+    {
+      "code": "LFML",
+      "name": "Marseille",
+      "count": 32
+    },
+    {
+      "code": "EBCI",
+      "name": "Charleroi",
+      "count": 25
+    },
+    {
+      "code": "LFLL",
+      "name": "Lyon",
+      "count": 24
+    },
+    {
+      "code": "LSGG",
+      "name": "Genève",
+      "count": 19
+    },
+    {
+      "code": "GMMX",
+      "name": "Marrakech",
+      "count": 16
+    },
+    {
+      "code": "EICK",
+      "name": "Cork",
+      "count": 16
+    },
+    {
+      "code": "LPPR",
+      "name": "Porto",
+      "count": 16
+    },
+    {
+      "code": "EGCC",
+      "name": "Manchester",
+      "count": 14
+    },
+    {
+      "code": "EGGD",
+      "name": "Bristol",
+      "count": 14
+    },
+    {
+      "code": "LFOP",
+      "name": "LFOP",
+      "count": 2
+    },
+    {
+      "code": "EBKT",
+      "name": "EBKT",
+      "count": 2
+    },
+    {
+      "code": "LFBD",
+      "name": "Bordeaux",
+      "count": 2
+    }
+  ],
+  "general_aviation": {
+    "local": {
+      "count": 480,
+      "distinct_aircraft": 133
+    },
+    "tourism": {
+      "count": 387,
+      "distinct_aircraft": 190
+    },
+    "tourism_routes": [
+      {
+        "code": "LFPN",
+        "name": "Versailles-Saclay",
+        "count": 20
+      },
+      {
+        "code": "LFDN",
+        "name": "Rochefort",
+        "count": 19
+      },
+      {
+        "code": "LFFK",
+        "name": "Fontenay-le-Comte",
+        "count": 16
+      },
+      {
+        "code": "LFOR",
+        "name": "Chartres",
+        "count": 13
+      },
+      {
+        "code": "LFEA",
+        "name": "Belle-Île-en-Mer",
+        "count": 11
+      },
+      {
+        "code": "LFEY",
+        "name": "Île d'Yeu",
+        "count": 11
+      },
+      {
+        "code": "LFRI",
+        "name": "La Roche-sur-Yon",
+        "count": 11
+      },
+      {
+        "code": "LFCL",
+        "name": "Toulouse-Lasbordes",
+        "count": 10
+      },
+      {
+        "code": "LFOU",
+        "name": "Cholet",
+        "count": 10
+      },
+      {
+        "code": "EGJJ",
+        "name": "Jersey",
+        "count": 9
+      },
+      {
+        "code": "LFBN",
+        "name": "Niort",
+        "count": 8
+      },
+      {
+        "code": "LFRD",
+        "name": "Saint-Brieuc",
+        "count": 7
+      },
+      {
+        "code": "LFRC",
+        "name": "Cognac",
+        "count": 7
+      },
+      {
+        "code": "LFBD",
+        "name": "Bordeaux",
+        "count": 6
+      },
+      {
+        "code": "LFRS",
+        "name": "Saint-Nazaire",
+        "count": 6
+      }
+    ]
+  },
+  "co2_estimate": {
+    "total_tonnes": 2524.6,
+    "flights_with_estimate": 1031,
+    "flights_total": 1451,
+    "by_category_tonnes": {
+      "aviation_legere": 77.5,
+      "commercial": 2260.4,
+      "militaire": 26.8,
+      "jets_prives": 154.5,
+      "helicoptere": 5.5
+    },
+    "methodology": "Estimation approximative = consommation kérosène/essence moyenne par type d'appareil (ICAO) x durée de vol réelle. Ne tient pas compte du nombre de passagers, du taux de remplissage, ni des conditions météo. Calcul possible pour 1031/1451 vols (type d'appareil et durée connus)."
+  }
+}
