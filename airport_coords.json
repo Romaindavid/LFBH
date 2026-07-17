@@ -1,0 +1,342 @@
+{
+  "EBCI": {
+    "lat": 50.461963,
+    "lon": 4.459562,
+    "name": "Brussels South Charleroi Airport"
+  },
+  "EBKT": {
+    "lat": 50.818878,
+    "lon": 3.209551,
+    "name": "Kortrijk-Wevelgem International Airport"
+  },
+  "EBLG": {
+    "lat": 50.638574,
+    "lon": 5.443897,
+    "name": "Liège Airport"
+  },
+  "EGBB": {
+    "lat": 52.453899,
+    "lon": -1.74803,
+    "name": "Birmingham Airport"
+  },
+  "EGCC": {
+    "lat": 53.349375,
+    "lon": -2.279521,
+    "name": "Manchester Airport"
+  },
+  "EGGD": {
+    "lat": 51.382326,
+    "lon": -2.716453,
+    "name": "Bristol Airport"
+  },
+  "EGGW": {
+    "lat": 51.874699,
+    "lon": -0.368333,
+    "name": "London Luton Airport"
+  },
+  "EGHQ": {
+    "lat": 50.440601,
+    "lon": -4.99541,
+    "name": "Cornwall Airport Newquay"
+  },
+  "EGJJ": {
+    "lat": 49.207901,
+    "lon": -2.19551,
+    "name": "Jersey Airport"
+  },
+  "EGKB": {
+    "lat": 51.33079910279999,
+    "lon": 0.0324999988079,
+    "name": "London Biggin Hill Airport"
+  },
+  "EGKK": {
+    "lat": 51.148744,
+    "lon": -0.185739,
+    "name": "London Gatwick Airport"
+  },
+  "EGLF": {
+    "lat": 51.275799,
+    "lon": -0.776333,
+    "name": "Farnborough Airport"
+  },
+  "EGPF": {
+    "lat": 55.871899,
+    "lon": -4.43306,
+    "name": "Glasgow Airport"
+  },
+  "EGSS": {
+    "lat": 51.884998,
+    "lon": 0.235,
+    "name": "London Stansted Airport"
+  },
+  "EHAM": {
+    "lat": 52.308601,
+    "lon": 4.76389,
+    "name": "Amsterdam Airport Schiphol"
+  },
+  "EHRD": {
+    "lat": 51.956902,
+    "lon": 4.43722,
+    "name": "Rotterdam The Hague Airport"
+  },
+  "EICK": {
+    "lat": 51.841301,
+    "lon": -8.49111,
+    "name": "Cork International Airport"
+  },
+  "EIDW": {
+    "lat": 53.428713,
+    "lon": -6.262121,
+    "name": "Dublin Airport"
+  },
+  "ELLX": {
+    "lat": 49.626845,
+    "lon": 6.212134,
+    "name": "Luxembourg-Findel International Airport"
+  },
+  "EPWA": {
+    "lat": 52.165699,
+    "lon": 20.9671,
+    "name": "Warsaw Chopin Airport"
+  },
+  "GMAD": {
+    "lat": 30.322478,
+    "lon": -9.412003,
+    "name": "Al Massira Airport"
+  },
+  "GMMX": {
+    "lat": 31.604807,
+    "lon": -8.035788,
+    "name": "Marrakesh Menara Airport"
+  },
+  "LEBL": {
+    "lat": 41.2971,
+    "lon": 2.07846,
+    "name": "Josep Tarradellas Barcelona-El Prat Airport"
+  },
+  "LEIB": {
+    "lat": 38.872898,
+    "lon": 1.37312,
+    "name": "Ibiza Airport"
+  },
+  "LEPA": {
+    "lat": 39.551701,
+    "lon": 2.73881,
+    "name": "Palma de Mallorca Airport"
+  },
+  "LEVX": {
+    "lat": 42.2318,
+    "lon": -8.62677,
+    "name": "Vigo Airport"
+  },
+  "LEXJ": {
+    "lat": 43.427101,
+    "lon": -3.82001,
+    "name": "Seve Ballesteros-Santander Airport"
+  },
+  "LFBD": {
+    "lat": 44.82865,
+    "lon": -0.715356,
+    "name": "Bordeaux–Mérignac Airport"
+  },
+  "LFBH": {
+    "lat": 46.179199,
+    "lon": -1.19528,
+    "name": "La Rochelle Île de Ré Airport"
+  },
+  "LFBN": {
+    "lat": 46.313477,
+    "lon": -0.394529,
+    "name": "Niort - Marais Poitevin Airport"
+  },
+  "LFBZ": {
+    "lat": 43.468372,
+    "lon": -1.523223,
+    "name": "Biarritz Pays Basque airport"
+  },
+  "LFCL": {
+    "lat": 43.58677,
+    "lon": 1.49924,
+    "name": "Toulouse-Lasbordes Airfield"
+  },
+  "LFDN": {
+    "lat": 45.887798,
+    "lon": -0.983056,
+    "name": "Rochefort-Saint-Agnant (BA 721) Airport"
+  },
+  "LFEA": {
+    "lat": 47.325256,
+    "lon": -3.201255,
+    "name": "Aérodrome de Belle Île"
+  },
+  "LFEY": {
+    "lat": 46.717641,
+    "lon": -2.392544,
+    "name": "Île d'Yeu Airport"
+  },
+  "LFFK": {
+    "lat": 46.441399,
+    "lon": -0.792778,
+    "name": "Fontenay Le Comte Airfield"
+  },
+  "LFGJ": {
+    "lat": 47.038955,
+    "lon": 5.427589,
+    "name": "Dole Tavaux Airport"
+  },
+  "LFKF": {
+    "lat": 41.50185,
+    "lon": 9.097092,
+    "name": "Figari Sud-Corse Airport"
+  },
+  "LFLC": {
+    "lat": 45.786701,
+    "lon": 3.16917,
+    "name": "Clermont-Ferrand Auvergne airport"
+  },
+  "LFLL": {
+    "lat": 45.725996,
+    "lon": 5.090139,
+    "name": "Lyon Saint-Exupéry Airport"
+  },
+  "LFLY": {
+    "lat": 45.727947,
+    "lon": 4.943991,
+    "name": "Lyon Bron Airport"
+  },
+  "LFMD": {
+    "lat": 43.547998,
+    "lon": 6.955176,
+    "name": "Cannes Mandelieu Airport"
+  },
+  "LFML": {
+    "lat": 43.438088,
+    "lon": 5.2125,
+    "name": "Marseille Provence Airport"
+  },
+  "LFMP": {
+    "lat": 42.740398,
+    "lon": 2.87067,
+    "name": "Perpignan-Rivesaltes (Llabanère) Airport"
+  },
+  "LFMV": {
+    "lat": 43.907299,
+    "lon": 4.90183,
+    "name": "Avignon Caumont airport"
+  },
+  "LFOP": {
+    "lat": 49.384887,
+    "lon": 1.179142,
+    "name": "Rouen Vallée de Seine Airport"
+  },
+  "LFOR": {
+    "lat": 48.457502,
+    "lon": 1.519843,
+    "name": "Chartres-Métropole Airfield"
+  },
+  "LFOU": {
+    "lat": 47.0821,
+    "lon": -0.877064,
+    "name": "Cholet Le Pontreau airfield"
+  },
+  "LFPB": {
+    "lat": 48.962276,
+    "lon": 2.436539,
+    "name": "Paris-Le Bourget International Airport"
+  },
+  "LFPN": {
+    "lat": 48.7519,
+    "lon": 2.10619,
+    "name": "Toussus-le-Noble Airport"
+  },
+  "LFRB": {
+    "lat": 48.447899,
+    "lon": -4.41854,
+    "name": "Brest Bretagne airport"
+  },
+  "LFRC": {
+    "lat": 49.650101,
+    "lon": -1.47028,
+    "name": "Cherbourg Manche airport"
+  },
+  "LFRD": {
+    "lat": 48.5877,
+    "lon": -2.07996,
+    "name": "Dinard Pleurtuit Saint-Malo airport"
+  },
+  "LFRH": {
+    "lat": 47.760601,
+    "lon": -3.44,
+    "name": "Lorient South Brittany (Bretagne Sud) Airport"
+  },
+  "LFRI": {
+    "lat": 46.7019,
+    "lon": -1.37863,
+    "name": "La Roche-sur-Yon Les Ajoncs Airport"
+  },
+  "LFRQ": {
+    "lat": 47.973031,
+    "lon": -4.169655,
+    "name": "Quimper-Cornouaille Airport"
+  },
+  "LFRS": {
+    "lat": 47.153198,
+    "lon": -1.61073,
+    "name": "Nantes Atlantique Airport"
+  },
+  "LFRV": {
+    "lat": 47.723301,
+    "lon": -2.71856,
+    "name": "Vannes-Meucon Airport"
+  },
+  "LFTH": {
+    "lat": 43.097301,
+    "lon": 6.14603,
+    "name": "Toulon-Hyères Airport"
+  },
+  "LGPZ": {
+    "lat": 38.925499,
+    "lon": 20.765301,
+    "name": "Aktion National Airport"
+  },
+  "LIBR": {
+    "lat": 40.6576,
+    "lon": 17.947001,
+    "name": "Brindisi Airport"
+  },
+  "LIMC": {
+    "lat": 45.6306,
+    "lon": 8.72811,
+    "name": "Milan Malpensa International Airport"
+  },
+  "LIML": {
+    "lat": 45.445099,
+    "lon": 9.27674,
+    "name": "Milano Linate Airport"
+  },
+  "LOWL": {
+    "lat": 48.235362,
+    "lon": 14.188128,
+    "name": "Linz-Hörsching Airport"
+  },
+  "LPCS": {
+    "lat": 38.724998,
+    "lon": -9.35523,
+    "name": "Cascais Airport"
+  },
+  "LPPR": {
+    "lat": 41.2481002808,
+    "lon": -8.68138980865,
+    "name": "Francisco de Sá Carneiro Airport"
+  },
+  "LSGG": {
+    "lat": 46.238098,
+    "lon": 6.10895,
+    "name": "Geneva International Airport"
+  },
+  "LSZH": {
+    "lat": 47.458056,
+    "lon": 8.548056,
+    "name": "Zürich Airport"
+  }
+}

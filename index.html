@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="fr" class="scroll-smooth"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>LFBH — Observatoire du trafic aérien</title><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=block" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">
+<!DOCTYPE html><html lang="fr" class="scroll-smooth"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>LFBH — Observatoire du trafic aérien</title><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=block" rel="stylesheet"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">
 tailwind.config = {
   darkMode: "class",
   theme: {
@@ -217,20 +217,31 @@ tailwind.config = {
     </section>
 
     <!-- Section 4: Destinations -->
-    <section id="destinations" class="space-y-gutter">
-        <div>
-            <h3 class="font-headline-md text-headline-md">Top destinations commerciales</h3>
-            <p class="text-on-surface-variant text-body-sm">Provenance/destination des vols de ligne réguliers.</p>
+    <section id="destinations" class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+        <div class="lg:col-span-3 flex flex-wrap items-center gap-4 mb-2">
+            <button data-filter="all" class="filter-btn px-4 py-2 rounded-full bg-primary text-white text-xs font-bold uppercase tracking-wider transition-all">Tous</button>
+            <button data-filter="commercial" class="filter-btn px-4 py-2 rounded-full bg-surface border border-outline-variant text-on-surface-variant hover:border-primary hover:text-primary text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-primary"></span> Ligne Commerciale</button>
+            <button data-filter="jets_prives" class="filter-btn px-4 py-2 rounded-full bg-surface border border-outline-variant text-on-surface-variant hover:border-secondary hover:text-secondary text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-secondary"></span> Jets Privés</button>
+            <button data-filter="aviation_legere" class="filter-btn px-4 py-2 rounded-full bg-surface border border-outline-variant text-on-surface-variant hover:border-tertiary hover:text-tertiary text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-tertiary"></span> Tourisme &amp; Loisir</button>
         </div>
-        <div class="bg-surface border border-outline-variant p-6">
-            <div id="commercial-routes" class="space-y-3"></div>
+        <div class="lg:col-span-2 bg-surface border border-outline-variant relative overflow-hidden h-[500px]">
+            <div class="absolute top-6 left-6 z-[1000] bg-surface/90 backdrop-blur-sm px-4 py-3 rounded pointer-events-none">
+                <h3 class="font-headline-md text-headline-md">Destinations par catégorie</h3>
+                <p class="text-xs text-on-surface-variant">Taille du point proportionnelle au nombre de vols</p>
+            </div>
+            <div id="map" class="w-full h-full"></div>
         </div>
 
-        <div>
+        <div class="bg-surface border border-outline-variant p-6">
+            <h4 class="font-bold mb-6">Top destinations</h4>
+            <div id="top-destinations" class="space-y-4"></div>
+        </div>
+
+        <div class="lg:col-span-3">
             <h3 class="font-headline-md text-headline-md">Jets d'affaires : chaque mouvement</h3>
             <p class="text-on-surface-variant text-body-sm">Immatriculation, opérateur, provenance/destination et horaire de chaque vol privé d'affaires.</p>
         </div>
-        <div class="bg-surface border border-outline-variant overflow-x-auto">
+        <div class="lg:col-span-3 bg-surface border border-outline-variant overflow-x-auto">
             <table class="w-full text-sm">
                 <thead class="bg-surface-container-low border-b border-outline-variant">
                     <tr class="text-left font-data-label text-xs uppercase text-outline">
@@ -481,17 +492,72 @@ function render(data) {
     gaSplit.appendChild(row);
   });
 
-  // Commercial routes
-  const routesEl = document.getElementById('commercial-routes');
-  const maxRoute = Math.max(...data.commercial_routes.map(r => r.count));
-  data.commercial_routes.forEach(r => {
-    const row = document.createElement('div');
-    row.innerHTML =
-      '<div class="flex justify-between text-sm mb-1"><span>' + r.name + ' (' + r.code + ')</span>' +
-      '<span class="font-data-label">' + r.count + '</span></div>' +
-      '<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">' +
-      '<div class="bg-primary h-full" style="width:' + (100 * r.count / maxRoute) + '%"></div></div>';
-    routesEl.appendChild(row);
+  // Carte + Top destinations, filtrable par catégorie
+  const lfbh = data.lfbh_coords;
+  const map = L.map('map', {scrollWheelZoom: false}).setView([lfbh.lat, lfbh.lon], 5);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap &copy; CARTO',
+    maxZoom: 18
+  }).addTo(map);
+  L.marker([lfbh.lat, lfbh.lon]).addTo(map).bindPopup('<b>La Rochelle (LFBH)</b>');
+
+  let mapMarkers = [];
+  const topDestEl = document.getElementById('top-destinations');
+
+  function drawFilter(filter) {
+    mapMarkers.forEach(m => map.removeLayer(m));
+    mapMarkers = [];
+    const routes = data.map_routes.filter(r => filter === 'all' || r.category === filter);
+    const maxCount = Math.max(1, ...routes.map(r => r.count));
+
+    // Agrège par aéroport (un même code peut apparaître dans plusieurs catégories si filter=all)
+    const byAirport = {};
+    routes.forEach(r => {
+      if (!byAirport[r.code]) byAirport[r.code] = {...r, count: 0, categories: {}};
+      byAirport[r.code].count += r.count;
+      byAirport[r.code].categories[r.category] = (byAirport[r.code].categories[r.category] || 0) + r.count;
+    });
+    const merged = Object.values(byAirport);
+    const maxMerged = Math.max(1, ...merged.map(r => r.count));
+
+    merged.forEach(r => {
+      const radius = 6 + 24 * Math.sqrt(r.count / maxMerged);
+      const color = filter === 'all' ? CAT_COLOR.commercial : CAT_COLOR[filter];
+      const circle = L.circleMarker([r.lat, r.lon], {
+        radius, color, fillColor: color, fillOpacity: 0.35, weight: 1.5, opacity: 0.8
+      }).addTo(map);
+      circle.bindPopup('<b>' + r.name + '</b><br>' + r.count + ' vols');
+      mapMarkers.push(circle);
+    });
+
+    // Top destinations list
+    topDestEl.innerHTML = '';
+    const sorted = merged.sort((a, b) => b.count - a.count).slice(0, 10);
+    const maxTop = Math.max(1, ...sorted.map(r => r.count));
+    sorted.forEach(r => {
+      const row = document.createElement('div');
+      row.className = 'space-y-1';
+      row.innerHTML =
+        '<div class="flex justify-between text-sm mb-1"><span>' + r.name + ' (' + r.code + ')</span>' +
+        '<span class="font-data-label">' + r.count + '</span></div>' +
+        '<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">' +
+        '<div class="h-full" style="width:' + (100 * r.count / maxTop) + '%; background:' +
+        (filter === 'all' ? CAT_COLOR.commercial : CAT_COLOR[filter]) + '"></div></div>';
+      topDestEl.appendChild(row);
+    });
+  }
+
+  drawFilter('all');
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.remove('bg-primary', 'text-white');
+        b.classList.add('bg-surface', 'border', 'border-outline-variant', 'text-on-surface-variant');
+      });
+      btn.classList.remove('bg-surface', 'border', 'border-outline-variant', 'text-on-surface-variant');
+      btn.classList.add('bg-primary', 'text-white');
+      drawFilter(btn.dataset.filter);
+    });
   });
 
   // Business jets table

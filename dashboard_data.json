@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T20:28:41.615304+00:00",
+  "generated_at": "2026-07-17T20:47:00.930214+00:00",
   "period_start": "2026-06-18T12:44:10",
   "period_end": "2026-07-17T12:39:10",
   "total_movements": 1451,
@@ -1518,6 +1518,773 @@
         "count": 6
       }
     ]
+  },
+  "map_routes": [
+    {
+      "category": "commercial",
+      "code": "EGSS",
+      "name": "Londres-Stansted",
+      "lat": 51.884998,
+      "lon": 0.235,
+      "count": 43
+    },
+    {
+      "category": "commercial",
+      "code": "EIDW",
+      "name": "Dublin",
+      "lat": 53.428713,
+      "lon": -6.262121,
+      "count": 34
+    },
+    {
+      "category": "commercial",
+      "code": "LFLL",
+      "name": "Lyon",
+      "lat": 45.725996,
+      "lon": 5.090139,
+      "count": 24
+    },
+    {
+      "category": "commercial",
+      "code": "EBCI",
+      "name": "Charleroi",
+      "lat": 50.461963,
+      "lon": 4.459562,
+      "count": 25
+    },
+    {
+      "category": "commercial",
+      "code": "LFML",
+      "name": "Marseille",
+      "lat": 43.438088,
+      "lon": 5.2125,
+      "count": 32
+    },
+    {
+      "category": "commercial",
+      "code": "LSGG",
+      "name": "Genève",
+      "lat": 46.238098,
+      "lon": 6.10895,
+      "count": 19
+    },
+    {
+      "category": "commercial",
+      "code": "EGKK",
+      "name": "Londres-Gatwick",
+      "lat": 51.148744,
+      "lon": -0.185739,
+      "count": 52
+    },
+    {
+      "category": "commercial",
+      "code": "GMMX",
+      "name": "Marrakech",
+      "lat": 31.604807,
+      "lon": -8.035788,
+      "count": 16
+    },
+    {
+      "category": "commercial",
+      "code": "EICK",
+      "name": "Cork",
+      "lat": 51.841301,
+      "lon": -8.49111,
+      "count": 16
+    },
+    {
+      "category": "commercial",
+      "code": "LPPR",
+      "name": "Porto",
+      "lat": 41.2481002808,
+      "lon": -8.68138980865,
+      "count": 16
+    },
+    {
+      "category": "commercial",
+      "code": "EGCC",
+      "name": "Manchester",
+      "lat": 53.349375,
+      "lon": -2.279521,
+      "count": 14
+    },
+    {
+      "category": "commercial",
+      "code": "EGGD",
+      "name": "Bristol",
+      "lat": 51.382326,
+      "lon": -2.716453,
+      "count": 14
+    },
+    {
+      "category": "commercial",
+      "code": "LFOP",
+      "name": "Rouen Vallée de Seine Airport",
+      "lat": 49.384887,
+      "lon": 1.179142,
+      "count": 2
+    },
+    {
+      "category": "commercial",
+      "code": "EBLG",
+      "name": "Liège Airport",
+      "lat": 50.638574,
+      "lon": 5.443897,
+      "count": 1
+    },
+    {
+      "category": "commercial",
+      "code": "LFPB",
+      "name": "Paris-Le Bourget",
+      "lat": 48.962276,
+      "lon": 2.436539,
+      "count": 1
+    },
+    {
+      "category": "commercial",
+      "code": "LFRS",
+      "name": "Saint-Nazaire",
+      "lat": 47.153198,
+      "lon": -1.61073,
+      "count": 1
+    },
+    {
+      "category": "commercial",
+      "code": "EBKT",
+      "name": "Kortrijk-Wevelgem International Airport",
+      "lat": 50.818878,
+      "lon": 3.209551,
+      "count": 2
+    },
+    {
+      "category": "commercial",
+      "code": "LFBD",
+      "name": "Bordeaux",
+      "lat": 44.82865,
+      "lon": -0.715356,
+      "count": 2
+    },
+    {
+      "category": "commercial",
+      "code": "LFEY",
+      "name": "Île d'Yeu",
+      "lat": 46.717641,
+      "lon": -2.392544,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFBZ",
+      "name": "Biarritz",
+      "lat": 43.468372,
+      "lon": -1.523223,
+      "count": 3
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFML",
+      "name": "Marseille",
+      "lat": 43.438088,
+      "lon": 5.2125,
+      "count": 3
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFPB",
+      "name": "Paris-Le Bourget",
+      "lat": 48.962276,
+      "lon": 2.436539,
+      "count": 8
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFMV",
+      "name": "Vichy",
+      "lat": 43.907299,
+      "lon": 4.90183,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFMD",
+      "name": "Cannes Mandelieu Airport",
+      "lat": 43.547998,
+      "lon": 6.955176,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LIML",
+      "name": "Milan",
+      "lat": 45.445099,
+      "lon": 9.27674,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "GMAD",
+      "name": "Madère",
+      "lat": 30.322478,
+      "lon": -9.412003,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "LEBL",
+      "name": "Josep Tarradellas Barcelona-El Prat Airport",
+      "lat": 41.2971,
+      "lon": 2.07846,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LIBR",
+      "name": "Brač",
+      "lat": 40.6576,
+      "lon": 17.947001,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFBD",
+      "name": "Bordeaux",
+      "lat": 44.82865,
+      "lon": -0.715356,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "LSZH",
+      "name": "Zurich",
+      "lat": 47.458056,
+      "lon": 8.548056,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "EHAM",
+      "name": "Amsterdam Airport Schiphol",
+      "lat": 52.308601,
+      "lon": 4.76389,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFKF",
+      "name": "?",
+      "lat": 41.50185,
+      "lon": 9.097092,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LEPA",
+      "name": "Palma de Majorque",
+      "lat": 39.551701,
+      "lon": 2.73881,
+      "count": 4
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFRI",
+      "name": "La Roche-sur-Yon",
+      "lat": 46.7019,
+      "lon": -1.37863,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "LGPZ",
+      "name": "Skiathos",
+      "lat": 38.925499,
+      "lon": 20.765301,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFLY",
+      "name": "Lyon-Bron",
+      "lat": 45.727947,
+      "lon": 4.943991,
+      "count": 3
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFTH",
+      "name": "Touraine",
+      "lat": 43.097301,
+      "lon": 6.14603,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "LOWL",
+      "name": "Linz",
+      "lat": 48.235362,
+      "lon": 14.188128,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFRB",
+      "name": "Brest",
+      "lat": 48.447899,
+      "lon": -4.41854,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "EGLF",
+      "name": "Farnborough",
+      "lat": 51.275799,
+      "lon": -0.776333,
+      "count": 3
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFRS",
+      "name": "Saint-Nazaire",
+      "lat": 47.153198,
+      "lon": -1.61073,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFGJ",
+      "name": "Dole",
+      "lat": 47.038955,
+      "lon": 5.427589,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "EGBB",
+      "name": "Birmingham",
+      "lat": 52.453899,
+      "lon": -1.74803,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "EGGW",
+      "name": "Luton",
+      "lat": 51.874699,
+      "lon": -0.368333,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LEXJ",
+      "name": "Jerez",
+      "lat": 43.427101,
+      "lon": -3.82001,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LEVX",
+      "name": "Vitoria",
+      "lat": 42.2318,
+      "lon": -8.62677,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "EGKB",
+      "name": "Londres-Biggin Hill",
+      "lat": 51.33079910279999,
+      "lon": 0.0324999988079,
+      "count": 3
+    },
+    {
+      "category": "jets_prives",
+      "code": "LPCS",
+      "name": "Cascais Airport",
+      "lat": 38.724998,
+      "lon": -9.35523,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "EBKT",
+      "name": "Kortrijk-Wevelgem International Airport",
+      "lat": 50.818878,
+      "lon": 3.209551,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LIMC",
+      "name": "Milan-Malpensa",
+      "lat": 45.6306,
+      "lon": 8.72811,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFLC",
+      "name": "Clermont-Ferrand",
+      "lat": 45.786701,
+      "lon": 3.16917,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "LSGG",
+      "name": "Genève",
+      "lat": 46.238098,
+      "lon": 6.10895,
+      "count": 3
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFRV",
+      "name": "Rochefort (aéroclub)",
+      "lat": 47.723301,
+      "lon": -2.71856,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LEIB",
+      "name": "Ibiza",
+      "lat": 38.872898,
+      "lon": 1.37312,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "EGJJ",
+      "name": "Jersey",
+      "lat": 49.207901,
+      "lon": -2.19551,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "EPWA",
+      "name": "Varsovie",
+      "lat": 52.165699,
+      "lon": 20.9671,
+      "count": 2
+    },
+    {
+      "category": "jets_prives",
+      "code": "EGHQ",
+      "name": "Newquay",
+      "lat": 50.440601,
+      "lon": -4.99541,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFMP",
+      "name": "Marseille-Provence",
+      "lat": 42.740398,
+      "lon": 2.87067,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "EGPF",
+      "name": "Glasgow Airport",
+      "lat": 55.871899,
+      "lon": -4.43306,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "ELLX",
+      "name": "Luxembourg-Findel International Airport",
+      "lat": 49.626845,
+      "lon": 6.212134,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "EBLG",
+      "name": "Liège Airport",
+      "lat": 50.638574,
+      "lon": 5.443897,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFRQ",
+      "name": "Quimper",
+      "lat": 47.973031,
+      "lon": -4.169655,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "EHRD",
+      "name": "Rotterdam The Hague Airport",
+      "lat": 51.956902,
+      "lon": 4.43722,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFRH",
+      "name": "Lorient South Brittany (Bretagne Sud) Airport",
+      "lat": 47.760601,
+      "lon": -3.44,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFEA",
+      "name": "Belle-Île-en-Mer",
+      "lat": 47.325256,
+      "lon": -3.201255,
+      "count": 11
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBD",
+      "name": "Bordeaux",
+      "lat": 44.82865,
+      "lon": -0.715356,
+      "count": 6
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFCL",
+      "name": "Toulouse-Lasbordes",
+      "lat": 43.58677,
+      "lon": 1.49924,
+      "count": 10
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRS",
+      "name": "Saint-Nazaire",
+      "lat": 47.153198,
+      "lon": -1.61073,
+      "count": 6
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRV",
+      "name": "Rochefort (aéroclub)",
+      "lat": 47.723301,
+      "lon": -2.71856,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRD",
+      "name": "Saint-Brieuc",
+      "lat": 48.5877,
+      "lon": -2.07996,
+      "count": 7
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFGJ",
+      "name": "Dole",
+      "lat": 47.038955,
+      "lon": 5.427589,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBN",
+      "name": "Niort",
+      "lat": 46.313477,
+      "lon": -0.394529,
+      "count": 8
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFOR",
+      "name": "Chartres",
+      "lat": 48.457502,
+      "lon": 1.519843,
+      "count": 13
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGJJ",
+      "name": "Jersey",
+      "lat": 49.207901,
+      "lon": -2.19551,
+      "count": 9
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFBZ",
+      "name": "Biarritz",
+      "lat": 43.468372,
+      "lon": -1.523223,
+      "count": 4
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFPN",
+      "name": "Versailles-Saclay",
+      "lat": 48.7519,
+      "lon": 2.10619,
+      "count": 20
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRQ",
+      "name": "Quimper",
+      "lat": 47.973031,
+      "lon": -4.169655,
+      "count": 4
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFEY",
+      "name": "Île d'Yeu",
+      "lat": 46.717641,
+      "lon": -2.392544,
+      "count": 11
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRI",
+      "name": "La Roche-sur-Yon",
+      "lat": 46.7019,
+      "lon": -1.37863,
+      "count": 11
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFDN",
+      "name": "Rochefort",
+      "lat": 45.887798,
+      "lon": -0.983056,
+      "count": 19
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGKB",
+      "name": "Londres-Biggin Hill",
+      "lat": 51.33079910279999,
+      "lon": 0.0324999988079,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFFK",
+      "name": "Fontenay-le-Comte",
+      "lat": 46.441399,
+      "lon": -0.792778,
+      "count": 16
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LSGG",
+      "name": "Genève",
+      "lat": 46.238098,
+      "lon": 6.10895,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGLF",
+      "name": "Farnborough",
+      "lat": 51.275799,
+      "lon": -0.776333,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGHQ",
+      "name": "Newquay",
+      "lat": 50.440601,
+      "lon": -4.99541,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLY",
+      "name": "Lyon-Bron",
+      "lat": 45.727947,
+      "lon": 4.943991,
+      "count": 3
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRC",
+      "name": "Cognac",
+      "lat": 49.650101,
+      "lon": -1.47028,
+      "count": 7
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFOU",
+      "name": "Cholet",
+      "lat": 47.0821,
+      "lon": -0.877064,
+      "count": 10
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFPB",
+      "name": "Paris-Le Bourget",
+      "lat": 48.962276,
+      "lon": 2.436539,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFMP",
+      "name": "Marseille-Provence",
+      "lat": 42.740398,
+      "lon": 2.87067,
+      "count": 5
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFOP",
+      "name": "Rouen Vallée de Seine Airport",
+      "lat": 49.384887,
+      "lon": 1.179142,
+      "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLC",
+      "name": "Clermont-Ferrand",
+      "lat": 45.786701,
+      "lon": 3.16917,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRH",
+      "name": "Lorient South Brittany (Bretagne Sud) Airport",
+      "lat": 47.760601,
+      "lon": -3.44,
+      "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFRB",
+      "name": "Brest",
+      "lat": 48.447899,
+      "lon": -4.41854,
+      "count": 4
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFMV",
+      "name": "Vichy",
+      "lat": 43.907299,
+      "lon": 4.90183,
+      "count": 3
+    }
+  ],
+  "lfbh_coords": {
+    "lat": 46.179199,
+    "lon": -1.19528,
+    "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
     "total_tonnes": 2524.6,

@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 
 IN_PATH = os.path.join(os.path.dirname(__file__), "history.json")
 OUT_PATH = os.path.join(os.path.dirname(__file__), "dashboard_data.json")
+COORDS_PATH = os.path.join(os.path.dirname(__file__), "airport_coords.json")
 
 # Consommation kérosène approximative en litres/heure de vol, par type ICAO.
 # Ordres de grandeur publics (manuels constructeurs / ICAO Carbon Emissions
@@ -229,6 +230,43 @@ def main():
         {"code": code, "name": AIRPORT_NAMES.get(code, code), "count": n}
         for code, n in tourism_routes.most_common(15)
     ]
+
+    # --- Carte : routes par catégorie, avec coordonnées ---
+    coords = {}
+    if os.path.exists(COORDS_PATH):
+        with open(COORDS_PATH) as f:
+            coords = json.load(f)
+
+    def route_counter_for(fs):
+        c = Counter()
+        for f in fs:
+            other = other_airport(f)
+            if other:
+                c[other] += 1
+        return c
+
+    map_categories = {
+        "commercial": route_counter_for(commercial),
+        "jets_prives": route_counter_for(biz),
+        "aviation_legere": route_counter_for(tourism),
+    }
+    map_routes = []
+    for cat, counter in map_categories.items():
+        for code, n in counter.items():
+            c = coords.get(code)
+            if not c:
+                continue
+            map_routes.append({
+                "category": cat,
+                "code": code,
+                "name": AIRPORT_NAMES.get(code, c["name"]),
+                "lat": c["lat"],
+                "lon": c["lon"],
+                "count": n,
+            })
+    out["map_routes"] = map_routes
+    lfbh_coords = coords.get("LFBH")
+    out["lfbh_coords"] = lfbh_coords
 
     # --- CO2 estimé ---
     co2_by_cat = defaultdict(float)
