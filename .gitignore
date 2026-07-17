@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+history.json
+collect.log
+.gstack/
+.claude/
