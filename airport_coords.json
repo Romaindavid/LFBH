@@ -838,5 +838,70 @@
     "lat": 47.485001,
     "lon": 9.56077,
     "name": "Sankt Gallen Altenrhein Airport"
+  },
+  "EDFM": {
+    "lat": 49.473057,
+    "lon": 8.514167,
+    "name": "Mannheim-City Airport"
+  },
+  "EGBP": {
+    "lat": 51.668528,
+    "lon": -2.056599,
+    "name": "Cotswold Airport"
+  },
+  "EGLD": {
+    "lat": 51.588299,
+    "lon": -0.513056,
+    "name": "Denham Aerodrome"
+  },
+  "ENBR": {
+    "lat": 60.2934,
+    "lon": 5.21814,
+    "name": "Bergen Airport, Flesland"
+  },
+  "LEBB": {
+    "lat": 43.301102,
+    "lon": -2.91061,
+    "name": "Bilbao Airport"
+  },
+  "LESA": {
+    "lat": 40.952099,
+    "lon": -5.50199,
+    "name": "Salamanca Airport"
+  },
+  "LFAV": {
+    "lat": 50.327823,
+    "lon": 3.461061,
+    "name": "Valenciennes-Denain Airfield"
+  },
+  "LFBE": {
+    "lat": 44.825298,
+    "lon": 0.518611,
+    "name": "Bergerac Dordogne-Périgord airport"
+  },
+  "LFLO": {
+    "lat": 46.053818,
+    "lon": 3.999023,
+    "name": "Roanne-Renaison Airport"
+  },
+  "LFLP": {
+    "lat": 45.928947,
+    "lon": 6.0987,
+    "name": "Annecy Meythet airport"
+  },
+  "LFNH": {
+    "lat": 44.027689,
+    "lon": 5.084255,
+    "name": "Edgar Soumille Airfield"
+  },
+  "LFRG": {
+    "lat": 49.365237,
+    "lon": 0.154481,
+    "name": "Deauville Normandie airport"
+  },
+  "LIRP": {
+    "lat": 43.683899,
+    "lon": 10.3927,
+    "name": "Pisa International Airport"
   }
 }

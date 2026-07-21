@@ -353,8 +353,10 @@ fetch('dashboard_data.json')
 
 function render(data) {
   // Header
+  const updatedAt = new Date(data.generated_at);
   document.getElementById('data-since').textContent =
-    'Data since ' + fmtDateShort(data.period_start);
+    'Mis à jour le ' + updatedAt.toLocaleDateString('fr-FR', {day:'2-digit', month:'short', year:'numeric'}) +
+    ' à ' + updatedAt.toLocaleTimeString('fr-FR', {hour:'2-digit', minute:'2-digit'});
 
   // KPIs
   document.getElementById('kpi-total').textContent = data.total_movements.toLocaleString('fr-FR');

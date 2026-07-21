@@ -5,3 +5,4 @@ history.json
 collect.log
 .gstack/
 .claude/
+.airports_ourairports.csv
