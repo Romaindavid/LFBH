@@ -341,7 +341,7 @@ function fmtDateTimeShort(iso) {
          d.toLocaleTimeString('fr-FR', {hour:'2-digit', minute:'2-digit'});
 }
 
-fetch('dashboard_data.json')
+fetch('dashboard_data.json?v=' + Date.now(), {cache: 'no-store'})
   .then(r => r.json())
   .then(render)
   .catch(err => {
