@@ -266,12 +266,12 @@ tailwind.config = {
                     <p id="flight-modal-subtitle" class="text-on-surface-variant text-body-sm mt-0.5">—</p>
                 </div>
 
-                <!-- Photo de l'appareil -->
-                <div id="flight-modal-photo" class="w-full aspect-[4/3] bg-surface-container bg-cover bg-center hidden"></div>
+                <!-- Carte + trajectoire, avec photo en médaillon flottant -->
+                <div class="relative">
+                    <div id="flight-modal-map" class="w-full aspect-square bg-surface-container-low"></div>
+                    <div id="flight-modal-photo" class="absolute left-4 bottom-4 z-[500] w-[55%] aspect-[4/3] rounded-lg bg-surface-container bg-cover bg-center shadow-lg ring-4 ring-surface hidden"></div>
+                </div>
                 <div id="flight-modal-photo-credit" class="px-5 pt-1.5 text-[10px] text-on-surface-variant text-right hidden"></div>
-
-                <!-- Carte + trajectoire -->
-                <div id="flight-modal-map" class="w-full aspect-square bg-surface-container-low mt-3"></div>
 
                 <!-- Stats -->
                 <div class="grid grid-cols-2 gap-px bg-outline-variant mt-px">
@@ -719,7 +719,15 @@ function render(data) {
     const mid = [(orig[0] + dest[0]) / 2, (orig[1] + dest[1]) / 2];
     L.marker(mid, {icon: jetIcon}).addTo(flightModalMap);
 
-    flightModalMap.fitBounds(line.getBounds(), {padding: [40, 40]});
+    // Padding asymétrique : la photo de l'appareil est incrustée en bas à
+    // gauche de la carte (médaillon ~55% de large, ~45% de haut), donc on
+    // pousse le cadrage pour que la trajectoire se dessine plutôt en haut à
+    // droite et reste visible sous le médaillon plutôt que masquée par lui.
+    // paddingTopLeft/paddingBottomRight: [x, y] en pixels.
+    flightModalMap.fitBounds(line.getBounds(), {
+      paddingTopLeft: [30, 30],
+      paddingBottomRight: [30, 140],
+    });
     // Leaflet a besoin d'un invalidateSize après affichage (conteneur caché au moment du L.map)
     setTimeout(() => flightModalMap.invalidateSize(), 50);
   }
