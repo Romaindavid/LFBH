@@ -255,36 +255,51 @@ tailwind.config = {
         </div>
     </section>
 
-    <!-- Flight map modal template -->
-    <div id="flight-modal" class="fixed inset-0 z-[2000] hidden items-center justify-center bg-on-surface/60 p-4" aria-hidden="true">
-        <div class="bg-surface w-full max-w-2xl rounded-lg overflow-hidden shadow-xl">
-            <div class="flex items-start justify-between p-6 border-b border-outline-variant">
-                <div>
-                    <h3 id="flight-modal-title" class="font-headline-md text-headline-md">—</h3>
-                    <p id="flight-modal-subtitle" class="text-on-surface-variant text-body-sm">—</p>
+    <!-- Flight card modal template (format portrait, pensé pour le partage) -->
+    <div id="flight-modal" class="fixed inset-0 z-[2000] hidden items-center justify-center bg-on-surface/70 p-4" aria-hidden="true">
+        <div class="relative">
+            <button id="flight-modal-close" class="absolute -top-3 -right-3 z-10 w-9 h-9 rounded-full bg-surface shadow-md flex items-center justify-center text-outline hover:text-on-surface material-symbols-outlined" aria-label="Fermer">close</button>
+            <div id="flight-card" class="bg-surface w-[min(380px,88vw)] max-h-[90vh] overflow-y-auto rounded-xl overflow-hidden shadow-2xl">
+                <!-- Header -->
+                <div class="p-5 pb-3">
+                    <h3 id="flight-modal-title" class="font-headline-md text-headline-md leading-tight">—</h3>
+                    <p id="flight-modal-subtitle" class="text-on-surface-variant text-body-sm mt-0.5">—</p>
                 </div>
-                <button id="flight-modal-close" class="material-symbols-outlined text-outline hover:text-on-surface" aria-label="Fermer">close</button>
+
+                <!-- Photo de l'appareil -->
+                <div id="flight-modal-photo" class="w-full aspect-[4/3] bg-surface-container bg-cover bg-center hidden"></div>
+                <div id="flight-modal-photo-credit" class="px-5 pt-1.5 text-[10px] text-on-surface-variant text-right hidden"></div>
+
+                <!-- Carte + trajectoire -->
+                <div id="flight-modal-map" class="w-full aspect-square bg-surface-container-low mt-3"></div>
+
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-px bg-outline-variant mt-px">
+                    <div class="bg-surface p-4">
+                        <p class="font-data-label text-[10px] uppercase text-outline mb-1">Provenance</p>
+                        <p id="flight-modal-orig" class="font-bold text-sm leading-tight">—</p>
+                        <p id="flight-modal-orig-code" class="font-data-label text-xs text-outline">—</p>
+                    </div>
+                    <div class="bg-surface p-4">
+                        <p class="font-data-label text-[10px] uppercase text-outline mb-1">Destination</p>
+                        <p id="flight-modal-dest" class="font-bold text-sm leading-tight">—</p>
+                        <p id="flight-modal-dest-code" class="font-data-label text-xs text-outline">—</p>
+                    </div>
+                    <div class="bg-surface p-4">
+                        <p class="font-data-label text-[10px] uppercase text-outline mb-1">Temps de vol</p>
+                        <p id="flight-modal-duration" class="font-bold text-lg font-data-label">—</p>
+                    </div>
+                    <div class="bg-surface p-4">
+                        <p class="font-data-label text-[10px] uppercase text-outline mb-1">CO2 estimé*</p>
+                        <p id="flight-modal-co2" class="font-bold text-lg font-data-label text-tertiary">—</p>
+                    </div>
+                </div>
+
+                <div class="px-5 py-3 flex items-center justify-between gap-2">
+                    <p class="text-[10px] text-on-surface-variant italic flex-1">*Estimation approximative, voir méthodologie.</p>
+                    <span class="font-headline-lg text-xs font-bold text-primary shrink-0">LFBH</span>
+                </div>
             </div>
-            <div id="flight-modal-map" class="w-full h-72 bg-surface-container-low"></div>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-outline-variant">
-                <div class="bg-surface p-4">
-                    <p class="font-data-label text-xs uppercase text-outline mb-1">Provenance</p>
-                    <p id="flight-modal-orig" class="font-bold text-sm">—</p>
-                </div>
-                <div class="bg-surface p-4">
-                    <p class="font-data-label text-xs uppercase text-outline mb-1">Destination</p>
-                    <p id="flight-modal-dest" class="font-bold text-sm">—</p>
-                </div>
-                <div class="bg-surface p-4">
-                    <p class="font-data-label text-xs uppercase text-outline mb-1">Temps de vol</p>
-                    <p id="flight-modal-duration" class="font-bold text-sm font-data-label">—</p>
-                </div>
-                <div class="bg-surface p-4">
-                    <p class="font-data-label text-xs uppercase text-outline mb-1">CO2 estimé*</p>
-                    <p id="flight-modal-co2" class="font-bold text-sm font-data-label text-tertiary">—</p>
-                </div>
-            </div>
-            <p class="text-xs text-on-surface-variant italic px-6 py-3">*Estimation approximative, voir méthodologie en bas de page.</p>
         </div>
     </div>
 
@@ -374,6 +389,12 @@ function fmtDateTimeShort(iso) {
   return d.toLocaleDateString('fr-FR', {day:'2-digit', month:'short'}) + ', ' +
          d.toLocaleTimeString('fr-FR', {hour:'2-digit', minute:'2-digit'});
 }
+
+window.__aircraftPhotos = {};
+fetch('aircraft_photos.json?v=' + Date.now(), {cache: 'no-store'})
+  .then(r => r.ok ? r.json() : {})
+  .then(photos => { window.__aircraftPhotos = photos; })
+  .catch(() => { /* pas grave, la carte s'affiche sans photo */ });
 
 fetch('dashboard_data.json?v=' + Date.now(), {cache: 'no-store'})
   .then(r => r.json())
@@ -637,10 +658,28 @@ function render(data) {
     document.getElementById('flight-modal-subtitle').textContent =
       (f.operator || 'Opérateur inconnu') + ' — ' + fmtDateTimeShort(f.takeoff);
     document.getElementById('flight-modal-orig').textContent = f.orig_name || '—';
+    document.getElementById('flight-modal-orig-code').textContent = f.orig || '';
     document.getElementById('flight-modal-dest').textContent = f.dest_name || '—';
+    document.getElementById('flight-modal-dest-code').textContent = f.dest || '';
     document.getElementById('flight-modal-duration').textContent = fmtDuration(f.duration_min);
     document.getElementById('flight-modal-co2').textContent =
       f.co2_kg ? (f.co2_kg / 1000).toFixed(2).replace('.', ',') + ' t' : '—';
+
+    // Photo de l'appareil (si disponible), avec crédit photographe obligatoire
+    const photoEl = document.getElementById('flight-modal-photo');
+    const creditEl = document.getElementById('flight-modal-photo-credit');
+    const photo = f.reg ? (window.__aircraftPhotos || {})[f.reg] : null;
+    if (photo) {
+      photoEl.style.backgroundImage = "url('" + photo.thumbnail_large + "')";
+      photoEl.classList.remove('hidden');
+      creditEl.innerHTML = 'Photo : ' + (photo.photographer || 'inconnu') +
+        ' · <a href="' + photo.link + '" target="_blank" rel="noopener" class="underline">planespotters.net</a>';
+      creditEl.classList.remove('hidden');
+    } else {
+      photoEl.classList.add('hidden');
+      photoEl.style.backgroundImage = '';
+      creditEl.classList.add('hidden');
+    }
 
     modal.classList.remove('hidden');
     modal.classList.add('flex');
