@@ -41,6 +41,7 @@ def main():
         return
 
     print(f"{len(missing)} nouvelles immatriculations à chercher: {missing}", file=sys.stderr)
+    network_errors = 0
     for reg in missing:
         try:
             r = requests.get(f"{API_ROOT}/{reg}", headers=HEADERS, timeout=10)
@@ -55,11 +56,18 @@ def main():
                 }
                 print(f"  {reg}: trouvé (photo de {p.get('photographer')})", file=sys.stderr)
             else:
+                # Vraie réponse "pas de photo" : on met en cache pour ne pas
+                # réinterroger l'API à chaque run pour un résultat qui ne
+                # changera probablement pas.
                 cache[reg] = None
                 print(f"  {reg}: aucune photo", file=sys.stderr)
         except requests.RequestException as e:
-            print(f"  {reg}: erreur ({e})", file=sys.stderr)
-            cache[reg] = None
+            # Erreur réseau/API (DNS, timeout, 5xx...) : on NE met PAS en
+            # cache, pour que cette immatriculation soit retentée au
+            # prochain run plutôt que définitivement marquée "sans photo".
+            print(f"  {reg}: erreur, retentera au prochain run ({e})", file=sys.stderr)
+            network_errors += 1
+            continue
         time.sleep(1.5)  # reste courtois envers l'API publique
 
         # sauvegarde incrémentale
@@ -68,6 +76,9 @@ def main():
 
     found = sum(1 for v in cache.values() if v)
     print(f"Terminé: {found} / {len(cache)} immatriculations avec photo.", file=sys.stderr)
+    if network_errors:
+        print(f"{network_errors} immatriculations non résolues à cause d'erreurs réseau "
+              f"— relancez ce script pour réessayer.", file=sys.stderr)
 
 
 if __name__ == "__main__":

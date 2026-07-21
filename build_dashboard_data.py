@@ -59,6 +59,33 @@ CATEGORY_LABELS = {
     "Helicopters": "helicoptere",
 }
 
+# Types d'appareils d'aviation d'affaires privée que FR24 classe de façon
+# incohérente (tantôt "Passenger", tantôt "General_aviation" selon les vols
+# du même appareil — observé sur les Pilatus PC-12 notamment). Un avion
+# privé loué/possédé à la place d'une ligne commerciale est un "jet privé"
+# au sens de ce dashboard, peu importe s'il est à réaction ou à hélice.
+# Cette liste prime sur la catégorie FR24 brute.
+BUSINESS_AVIATION_TYPES = {
+    # Jets légers/moyens déjà bien classés par FR24 en général, mais gardés
+    # ici par cohérence/robustesse si jamais mal catégorisés un jour.
+    "E55P", "E50P", "E545", "E135", "E140",
+    "C510", "C525", "C25A", "C25B", "C25M", "C56X", "C550", "C560",
+    "C680", "C68A", "C700", "C750",
+    "GLF4", "GLF5", "GLF6", "GLEX",
+    "FA7X", "FA8X", "FA6X", "FA50", "F2LX", "F900", "F2TH",
+    "CL30", "CL35", "CL60", "GL5T", "CRJ2",
+    "LJ35", "LJ45", "LJ60", "LJ75", "H25B", "H25C", "PC24",
+    # Turbopropulseurs d'affaires (le vrai trou identifié : mal classés
+    # "Passenger" ou "General_aviation" par FR24 selon les vols).
+    "PC12", "TBM7", "TBM8", "TBM9", "P180", "B350",
+}
+
+
+def flight_category(f):
+    if f.get("type") in BUSINESS_AVIATION_TYPES:
+        return "jets_prives"
+    return CATEGORY_LABELS.get(f.get("category"), "autre")
+
 AIRPORT_NAMES = {
     "EGKK": "Londres-Gatwick", "EGSS": "Londres-Stansted", "EIDW": "Dublin",
     "LFML": "Marseille", "EBCI": "Charleroi", "LFLL": "Lyon", "LSGG": "Genève",
@@ -159,7 +186,7 @@ def main():
     # --- Répartition par catégorie ---
     by_cat = defaultdict(list)
     for f in flights:
-        cat = CATEGORY_LABELS.get(f.get("category"), "autre")
+        cat = flight_category(f)
         by_cat[cat].append(f)
     out["categories"] = {
         cat: {
@@ -180,7 +207,7 @@ def main():
         if not ts:
             continue
         day = ts[:10]
-        cat = CATEGORY_LABELS.get(f.get("category"), "autre")
+        cat = flight_category(f)
         daily[day][cat] += 1
     out["daily"] = [
         {"date": day, **counts} for day, counts in sorted(daily.items())
@@ -310,7 +337,7 @@ def main():
         co2 = estimate_co2_kg(f)
         if co2 is None:
             continue
-        cat = CATEGORY_LABELS.get(f.get("category"), "autre")
+        cat = flight_category(f)
         co2_by_cat[cat] += co2
         co2_flights_count[cat] += 1
     total_co2_kg = sum(co2_by_cat.values())

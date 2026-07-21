@@ -185,5 +185,77 @@
     "thumbnail_large": "https://t.plnspttrs.net/15752/1867033_c2d7841a7e_280.jpg",
     "link": "https://www.planespotters.net/photo/1867033/sp-mdd-zondajet-cessna-525b-citationjet-cj3?utm_source=api",
     "photographer": "Varani Ennio - VRN Spotter Group"
+  },
+  "F-HELE": {
+    "thumbnail_large": "https://t.plnspttrs.net/38104/1231772_051ac21c05_280.jpg",
+    "link": "https://www.planespotters.net/photo/1231772/f-hele-private-socata-tbm-850?utm_source=api",
+    "photographer": "bruno muthelet"
+  },
+  "F-HRCN": null,
+  "LX-FLI": {
+    "thumbnail_large": "https://t.plnspttrs.net/10169/1843727_bcc55a7a5a_280.jpg",
+    "link": "https://www.planespotters.net/photo/1843727/lx-fli-jetfly-aviation-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
+    "photographer": "Laszlo Fekete"
+  },
+  "LX-FLM": {
+    "thumbnail_large": "https://t.plnspttrs.net/05582/1930015_7dca59e12b_280.jpg",
+    "link": "https://www.planespotters.net/photo/1930015/lx-flm-jetfly-aviation-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
+    "photographer": "Günther Feniuk"
+  },
+  "LX-FLQ": {
+    "thumbnail_large": "https://t.plnspttrs.net/45644/1775284_8f68597e0d_280.jpg",
+    "link": "https://www.planespotters.net/photo/1775284/lx-flq-jetfly-aviation-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
+    "photographer": "William Verguet"
+  },
+  "LX-JFC": {
+    "thumbnail_large": "https://t.plnspttrs.net/35924/1922850_9aa538324c_280.jpg",
+    "link": "https://www.planespotters.net/photo/1922850/lx-jfc-jetfly-aviation-pilatus-pc-12-ng-pc-12-47e?utm_source=api",
+    "photographer": "Pit RHEIN"
+  },
+  "LX-JPA": null,
+  "LX-RUM": {
+    "thumbnail_large": "https://t.plnspttrs.net/37396/1819646_20c4e2a2ec_280.jpg",
+    "link": "https://www.planespotters.net/photo/1819646/lx-rum-jetfly-aviation-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
+    "photographer": "Karl Dittlbacher"
+  },
+  "N940TB": {
+    "thumbnail_large": "https://t.plnspttrs.net/14497/1704245_3f1e9b6c92_280.jpg",
+    "link": "https://www.planespotters.net/photo/1704245/n940tb-private-daher-tbm-940?utm_source=api",
+    "photographer": "Jan Jurecka"
+  },
+  "N960JB": {
+    "thumbnail_large": "https://t.plnspttrs.net/28758/1442381_923535e2b3_280.jpg",
+    "link": "https://www.planespotters.net/photo/1442381/n960jb-private-daher-tbm-960?utm_source=api",
+    "photographer": "Graeme Williamson"
+  },
+  "OK-PVN": {
+    "thumbnail_large": "https://t.plnspttrs.net/49147/1784899_fc7f7705ff_280.jpg",
+    "link": "https://www.planespotters.net/photo/1784899/ok-pvn-ok-aviation-wings-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
+    "photographer": "Radim Koblížka"
+  },
+  "OO-LUM": {
+    "thumbnail_large": "https://t.plnspttrs.net/00760/1922374_70980bafe7_280.jpg",
+    "link": "https://www.planespotters.net/photo/1922374/oo-lum-belgian-air-force-dassault-falcon-7x?utm_source=api",
+    "photographer": "81304002"
+  },
+  "OO-PCA": {
+    "thumbnail_large": "https://t.plnspttrs.net/42000/1415134_13774b353d_280.jpg",
+    "link": "https://www.planespotters.net/photo/1415134/oo-pca-european-aircraft-private-club-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
+    "photographer": "Lucian Ojog"
+  },
+  "OO-PCC": {
+    "thumbnail_large": "https://t.plnspttrs.net/28880/1911166_87a696a498_280.jpg",
+    "link": "https://www.planespotters.net/photo/1911166/oo-pcc-european-aircraft-private-club-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
+    "photographer": "Ewan Partridge"
+  },
+  "OO-PCI": {
+    "thumbnail_large": "https://t.plnspttrs.net/28805/1614953_4198350010_280.jpg",
+    "link": "https://www.planespotters.net/photo/1614953/oo-pci-european-aircraft-private-club-pilatus-pc-12-ng-pc-12-47e?utm_source=api",
+    "photographer": "Jonas Evrard"
+  },
+  "OO-PCK": {
+    "thumbnail_large": "https://t.plnspttrs.net/24396/1614851_3655939e21_280.jpg",
+    "link": "https://www.planespotters.net/photo/1614851/oo-pck-european-aircraft-private-club-pilatus-pc-12-ng-pc-12-47e?utm_source=api",
+    "photographer": "Jost Gruchel"
   }
 }
