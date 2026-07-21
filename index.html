@@ -247,12 +247,46 @@ tailwind.config = {
                     <tr class="text-left font-data-label text-xs uppercase text-outline">
                         <th class="px-4 py-3">Immat.</th><th class="px-4 py-3">Type</th><th class="px-4 py-3">Opérateur</th>
                         <th class="px-4 py-3">Origine</th><th class="px-4 py-3">Destination</th><th class="px-4 py-3">Décollage</th>
+                        <th class="px-4 py-3"></th>
                     </tr>
                 </thead>
                 <tbody id="bizjet-table"></tbody>
             </table>
         </div>
     </section>
+
+    <!-- Flight map modal template -->
+    <div id="flight-modal" class="fixed inset-0 z-[2000] hidden items-center justify-center bg-on-surface/60 p-4" aria-hidden="true">
+        <div class="bg-surface w-full max-w-2xl rounded-lg overflow-hidden shadow-xl">
+            <div class="flex items-start justify-between p-6 border-b border-outline-variant">
+                <div>
+                    <h3 id="flight-modal-title" class="font-headline-md text-headline-md">—</h3>
+                    <p id="flight-modal-subtitle" class="text-on-surface-variant text-body-sm">—</p>
+                </div>
+                <button id="flight-modal-close" class="material-symbols-outlined text-outline hover:text-on-surface" aria-label="Fermer">close</button>
+            </div>
+            <div id="flight-modal-map" class="w-full h-72 bg-surface-container-low"></div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-outline-variant">
+                <div class="bg-surface p-4">
+                    <p class="font-data-label text-xs uppercase text-outline mb-1">Provenance</p>
+                    <p id="flight-modal-orig" class="font-bold text-sm">—</p>
+                </div>
+                <div class="bg-surface p-4">
+                    <p class="font-data-label text-xs uppercase text-outline mb-1">Destination</p>
+                    <p id="flight-modal-dest" class="font-bold text-sm">—</p>
+                </div>
+                <div class="bg-surface p-4">
+                    <p class="font-data-label text-xs uppercase text-outline mb-1">Temps de vol</p>
+                    <p id="flight-modal-duration" class="font-bold text-sm font-data-label">—</p>
+                </div>
+                <div class="bg-surface p-4">
+                    <p class="font-data-label text-xs uppercase text-outline mb-1">CO2 estimé*</p>
+                    <p id="flight-modal-co2" class="font-bold text-sm font-data-label text-tertiary">—</p>
+                </div>
+            </div>
+            <p class="text-xs text-on-surface-variant italic px-6 py-3">*Estimation approximative, voir méthodologie en bas de page.</p>
+        </div>
+    </div>
 
     <!-- Section 5: Empreinte carbone -->
     <section id="carbon" class="bg-inverse-surface text-inverse-on-surface p-12 rounded-lg">
@@ -564,18 +598,102 @@ function render(data) {
 
   // Business jets table
   const tbody = document.getElementById('bizjet-table');
-  data.business_jets.forEach(f => {
+  data.business_jets.forEach((f, i) => {
     const tr = document.createElement('tr');
     tr.className = 'border-b border-outline-variant last:border-0 hover:bg-surface-container-low';
+    const canShowMap = f.orig_coords && f.dest_coords;
     tr.innerHTML =
       '<td class="px-4 py-2 font-data-label font-bold">' + (f.reg || '—') + '</td>' +
       '<td class="px-4 py-2 font-data-label">' + (f.type || '—') + '</td>' +
       '<td class="px-4 py-2">' + (f.operator || '—') + '</td>' +
       '<td class="px-4 py-2">' + (f.orig_name || '—') + '</td>' +
       '<td class="px-4 py-2">' + (f.dest_name || '—') + '</td>' +
-      '<td class="px-4 py-2 font-data-label text-xs">' + fmtDateTimeShort(f.takeoff) + '</td>';
+      '<td class="px-4 py-2 font-data-label text-xs">' + fmtDateTimeShort(f.takeoff) + '</td>' +
+      '<td class="px-4 py-2 text-right">' +
+        (canShowMap
+          ? '<button data-flight-index="' + i + '" class="flight-view-btn text-xs font-bold uppercase text-primary hover:underline">Voir</button>'
+          : '') +
+      '</td>';
     tbody.appendChild(tr);
   });
+
+  document.querySelectorAll('.flight-view-btn').forEach(btn => {
+    btn.addEventListener('click', () => openFlightModal(data.business_jets[+btn.dataset.flightIndex]));
+  });
+
+  // ---- Template de carte de vol (modale réutilisable) ----
+  let flightModalMap = null;
+  const modal = document.getElementById('flight-modal');
+
+  function fmtDuration(min) {
+    if (!min) return '—';
+    const h = Math.floor(min / 60), m = min % 60;
+    return (h > 0 ? h + 'h' + String(m).padStart(2, '0') : m + ' min');
+  }
+
+  function openFlightModal(f) {
+    document.getElementById('flight-modal-title').textContent =
+      (f.reg || 'Immatriculation inconnue') + (f.type ? ' · ' + f.type : '');
+    document.getElementById('flight-modal-subtitle').textContent =
+      (f.operator || 'Opérateur inconnu') + ' — ' + fmtDateTimeShort(f.takeoff);
+    document.getElementById('flight-modal-orig').textContent = f.orig_name || '—';
+    document.getElementById('flight-modal-dest').textContent = f.dest_name || '—';
+    document.getElementById('flight-modal-duration').textContent = fmtDuration(f.duration_min);
+    document.getElementById('flight-modal-co2').textContent =
+      f.co2_kg ? (f.co2_kg / 1000).toFixed(2).replace('.', ',') + ' t' : '—';
+
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    modal.setAttribute('aria-hidden', 'false');
+
+    // (Re)crée la carte à chaque ouverture : Leaflet ne supporte pas bien
+    // d'être réinitialisé sur un conteneur qui était display:none.
+    const mapEl = document.getElementById('flight-modal-map');
+    if (flightModalMap) {
+      flightModalMap.remove();
+      flightModalMap = null;
+    }
+    mapEl.innerHTML = '';
+
+    const orig = [f.orig_coords.lat, f.orig_coords.lon];
+    const dest = [f.dest_coords.lat, f.dest_coords.lon];
+    flightModalMap = L.map(mapEl, {scrollWheelZoom: false, zoomControl: false});
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18
+    }).addTo(flightModalMap);
+
+    const jetIcon = L.divIcon({
+      html: '<span class="material-symbols-outlined" style="font-size:22px; color:' + CAT_COLOR.jets_prives + '">flight</span>',
+      className: '', iconSize: [22, 22], iconAnchor: [11, 11]
+    });
+
+    L.circleMarker(orig, {radius: 7, color: CAT_COLOR.commercial, fillColor: CAT_COLOR.commercial, fillOpacity: 0.6, weight: 2})
+      .addTo(flightModalMap).bindTooltip(f.orig_name || 'Origine', {permanent: false});
+    L.circleMarker(dest, {radius: 7, color: CAT_COLOR.jets_prives, fillColor: CAT_COLOR.jets_prives, fillOpacity: 0.6, weight: 2})
+      .addTo(flightModalMap).bindTooltip(f.dest_name || 'Destination', {permanent: false});
+
+    const line = L.polyline([orig, dest], {
+      color: CAT_COLOR.jets_prives, weight: 2.5, dashArray: '6, 8', opacity: 0.85
+    }).addTo(flightModalMap);
+
+    // Icône avion positionnée au milieu du trajet
+    const mid = [(orig[0] + dest[0]) / 2, (orig[1] + dest[1]) / 2];
+    L.marker(mid, {icon: jetIcon}).addTo(flightModalMap);
+
+    flightModalMap.fitBounds(line.getBounds(), {padding: [40, 40]});
+    // Leaflet a besoin d'un invalidateSize après affichage (conteneur caché au moment du L.map)
+    setTimeout(() => flightModalMap.invalidateSize(), 50);
+  }
+
+  function closeFlightModal() {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    modal.setAttribute('aria-hidden', 'true');
+  }
+
+  document.getElementById('flight-modal-close').addEventListener('click', closeFlightModal);
+  modal.addEventListener('click', (e) => { if (e.target === modal) closeFlightModal(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeFlightModal(); });
 
   // CO2 section
   document.getElementById('co2-total-big').textContent = data.co2_estimate.total_tonnes.toLocaleString('fr-FR');

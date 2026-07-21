@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T08:24:57.972836+00:00",
+  "generated_at": "2026-07-21T10:36:56.552796+00:00",
   "period_start": "2026-06-18T12:44:10",
   "period_end": "2026-07-21T08:19:00",
   "total_movements": 1647,
@@ -341,10 +341,20 @@
       "operator": "NJE",
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
+      "orig_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": null,
-      "landed": null
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "OE-FZC",
@@ -352,10 +362,20 @@
       "operator": "GAC",
       "orig": "LFBZ",
       "orig_name": "Biarritz",
+      "orig_coords": {
+        "lat": 43.468372,
+        "lon": -1.523223
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-19 08:09:50",
-      "landed": "2026-06-19 08:49:18"
+      "landed": "2026-06-19 08:49:18",
+      "duration_min": 39,
+      "co2_kg": 746
     },
     {
       "reg": "OE-FZC",
@@ -363,10 +383,20 @@
       "operator": "GAC",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFML",
       "dest_name": "Marseille",
+      "dest_coords": {
+        "lat": 43.438088,
+        "lon": 5.2125
+      },
       "takeoff": "2026-06-19 10:05:46",
-      "landed": "2026-06-19 11:23:42"
+      "landed": "2026-06-19 11:23:42",
+      "duration_min": 78,
+      "co2_kg": 1473
     },
     {
       "reg": "CS-PHP",
@@ -374,10 +404,20 @@
       "operator": "NJE",
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
+      "orig_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-21 10:03:14",
-      "landed": "2026-06-21 10:57:51"
+      "landed": "2026-06-21 10:57:51",
+      "duration_min": 55,
+      "co2_kg": 1262
     },
     {
       "reg": "CS-PHP",
@@ -385,10 +425,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFMV",
       "dest_name": "Vichy",
+      "dest_coords": {
+        "lat": 43.907299,
+        "lon": 4.90183
+      },
       "takeoff": "2026-06-21 12:12:56",
-      "landed": "2026-06-21 13:09:24"
+      "landed": "2026-06-21 13:09:24",
+      "duration_min": 56,
+      "co2_kg": 1304
     },
     {
       "reg": "D-CUGF",
@@ -396,10 +446,20 @@
       "operator": "PAV",
       "orig": "LFMD",
       "orig_name": "Cannes Mandelieu Airport",
+      "orig_coords": {
+        "lat": 43.547998,
+        "lon": 6.955176
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-22 18:33:35",
-      "landed": "2026-06-22 19:48:02"
+      "landed": "2026-06-22 19:48:02",
+      "duration_min": 74,
+      "co2_kg": 1720
     },
     {
       "reg": "D-CUGF",
@@ -407,10 +467,20 @@
       "operator": "PAV",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFMV",
       "dest_name": "Vichy",
+      "dest_coords": {
+        "lat": 43.907299,
+        "lon": 4.90183
+      },
       "takeoff": "2026-06-23 07:23:01",
-      "landed": "2026-06-23 08:33:09"
+      "landed": "2026-06-23 08:33:09",
+      "duration_min": 70,
+      "co2_kg": 1620
     },
     {
       "reg": null,
@@ -418,10 +488,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-06-23 08:10:54",
-      "landed": "2026-06-23 08:52:02"
+      "landed": "2026-06-23 08:52:02",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "CS-PHC",
@@ -429,10 +503,20 @@
       "operator": "NJE",
       "orig": "LIML",
       "orig_name": "Milan",
+      "orig_coords": {
+        "lat": 45.445099,
+        "lon": 9.27674
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-23 10:25:14",
-      "landed": "2026-06-23 11:49:58"
+      "landed": "2026-06-23 11:49:58",
+      "duration_min": 85,
+      "co2_kg": 1957
     },
     {
       "reg": null,
@@ -440,10 +524,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-06-23 10:37:40",
-      "landed": "2026-06-23 11:40:57"
+      "landed": "2026-06-23 11:40:57",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "CS-PHC",
@@ -451,10 +539,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "GMAD",
       "dest_name": "Madère",
+      "dest_coords": {
+        "lat": 30.322478,
+        "lon": -9.412003
+      },
       "takeoff": "2026-06-23 13:16:36",
-      "landed": "2026-06-23 17:29:30"
+      "landed": "2026-06-23 17:29:30",
+      "duration_min": 253,
+      "co2_kg": 5842
     },
     {
       "reg": "CS-PHC",
@@ -462,10 +560,20 @@
       "operator": "NJE",
       "orig": "GMAD",
       "orig_name": "Madère",
+      "orig_coords": {
+        "lat": 30.322478,
+        "lon": -9.412003
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-25 08:05:07",
-      "landed": "2026-06-25 10:47:45"
+      "landed": "2026-06-25 10:47:45",
+      "duration_min": 163,
+      "co2_kg": 3757
     },
     {
       "reg": "OE-FWF",
@@ -473,10 +581,20 @@
       "operator": "GAC",
       "orig": "LEBL",
       "orig_name": "Josep Tarradellas Barcelona-El Prat Airport",
+      "orig_coords": {
+        "lat": 41.2971,
+        "lon": 2.07846
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-25 08:39:29",
-      "landed": "2026-06-25 09:53:41"
+      "landed": "2026-06-25 09:53:41",
+      "duration_min": 74,
+      "co2_kg": 1402
     },
     {
       "reg": "S5-BDD",
@@ -484,10 +602,20 @@
       "operator": "VIO",
       "orig": "LIBR",
       "orig_name": "Brač",
+      "orig_coords": {
+        "lat": 40.6576,
+        "lon": 17.947001
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-25 08:39:37",
-      "landed": "2026-06-25 11:08:22"
+      "landed": "2026-06-25 11:08:22",
+      "duration_min": 149,
+      "co2_kg": 4686
     },
     {
       "reg": "9H-VFJ",
@@ -495,10 +623,20 @@
       "operator": "VJT",
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
+      "orig_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-25 09:31:21",
-      "landed": "2026-06-25 10:21:36"
+      "landed": "2026-06-25 10:21:36",
+      "duration_min": 50,
+      "co2_kg": 2744
     },
     {
       "reg": "OE-FWF",
@@ -506,10 +644,20 @@
       "operator": "GAC",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFBD",
       "dest_name": "Bordeaux",
+      "dest_coords": {
+        "lat": 44.82865,
+        "lon": -0.715356
+      },
       "takeoff": "2026-06-25 10:58:29",
-      "landed": "2026-06-25 11:24:19"
+      "landed": "2026-06-25 11:24:19",
+      "duration_min": 26,
+      "co2_kg": 488
     },
     {
       "reg": "9H-VFJ",
@@ -517,10 +665,20 @@
       "operator": "VJT",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LSZH",
       "dest_name": "Zurich",
+      "dest_coords": {
+        "lat": 47.458056,
+        "lon": 8.548056
+      },
       "takeoff": "2026-06-25 11:23:07",
-      "landed": "2026-06-25 12:51:17"
+      "landed": "2026-06-25 12:51:17",
+      "duration_min": 88,
+      "co2_kg": 4814
     },
     {
       "reg": "CS-PHC",
@@ -528,10 +686,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EHAM",
       "dest_name": "Amsterdam Airport Schiphol",
+      "dest_coords": {
+        "lat": 52.308601,
+        "lon": 4.76389
+      },
       "takeoff": "2026-06-25 12:16:14",
-      "landed": "2026-06-25 13:26:43"
+      "landed": "2026-06-25 13:26:43",
+      "duration_min": 70,
+      "co2_kg": 1628
     },
     {
       "reg": "S5-BDD",
@@ -539,10 +707,20 @@
       "operator": "VIO",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFKF",
       "dest_name": "Figari Sud-Corse Airport",
+      "dest_coords": {
+        "lat": 41.50185,
+        "lon": 9.097092
+      },
       "takeoff": "2026-06-26 11:34:53",
-      "landed": "2026-06-26 13:07:34"
+      "landed": "2026-06-26 13:07:34",
+      "duration_min": 93,
+      "co2_kg": 2920
     },
     {
       "reg": "CS-PHS",
@@ -550,10 +728,20 @@
       "operator": "NJE",
       "orig": "LEPA",
       "orig_name": "Palma de Majorque",
+      "orig_coords": {
+        "lat": 39.551701,
+        "lon": 2.73881
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-26 15:09:49",
-      "landed": "2026-06-26 16:30:52"
+      "landed": "2026-06-26 16:30:52",
+      "duration_min": 81,
+      "co2_kg": 1872
     },
     {
       "reg": "F-HLRK",
@@ -561,10 +749,20 @@
       "operator": "BEJ",
       "orig": "LFML",
       "orig_name": "Marseille",
+      "orig_coords": {
+        "lat": 43.438088,
+        "lon": 5.2125
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-26 15:18:56",
-      "landed": "2026-06-26 16:21:14"
+      "landed": "2026-06-26 16:21:14",
+      "duration_min": 62,
+      "co2_kg": 1439
     },
     {
       "reg": "F-HLRK",
@@ -572,10 +770,20 @@
       "operator": "BEJ",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFRI",
       "dest_name": "La Roche-sur-Yon",
+      "dest_coords": {
+        "lat": 46.7019,
+        "lon": -1.37863
+      },
       "takeoff": "2026-06-26 16:45:14",
-      "landed": "2026-06-26 16:55:31"
+      "landed": "2026-06-26 16:55:31",
+      "duration_min": 10,
+      "co2_kg": 238
     },
     {
       "reg": "CS-PHS",
@@ -583,10 +791,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LGPZ",
       "dest_name": "Skiathos",
+      "dest_coords": {
+        "lat": 38.925499,
+        "lon": 20.765301
+      },
       "takeoff": "2026-06-27 09:52:42",
-      "landed": "2026-06-27 12:42:04"
+      "landed": "2026-06-27 12:42:04",
+      "duration_min": 169,
+      "co2_kg": 3912
     },
     {
       "reg": "D-IEGO",
@@ -594,10 +812,20 @@
       "operator": "PAV",
       "orig": "LFLY",
       "orig_name": "Lyon-Bron",
+      "orig_coords": {
+        "lat": 45.727947,
+        "lon": 4.943991
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-28 11:54:40",
-      "landed": "2026-06-28 12:46:22"
+      "landed": "2026-06-28 12:46:22",
+      "duration_min": 52,
+      "co2_kg": 1086
     },
     {
       "reg": "D-IEGO",
@@ -605,10 +833,20 @@
       "operator": "PAV",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFTH",
       "dest_name": "Touraine",
+      "dest_coords": {
+        "lat": 43.097301,
+        "lon": 6.14603
+      },
       "takeoff": "2026-06-28 14:05:24",
-      "landed": "2026-06-28 15:21:44"
+      "landed": "2026-06-28 15:21:44",
+      "duration_min": 76,
+      "co2_kg": 1603
     },
     {
       "reg": "D-ISRM",
@@ -616,10 +854,20 @@
       "operator": null,
       "orig": "LOWL",
       "orig_name": "Linz",
+      "orig_coords": {
+        "lat": 48.235362,
+        "lon": 14.188128
+      },
       "dest": "LFBN",
       "dest_name": "Niort",
+      "dest_coords": {
+        "lat": 46.313477,
+        "lon": -0.394529
+      },
       "takeoff": "2026-06-29 07:00:30",
-      "landed": "2026-06-29 09:12:32"
+      "landed": "2026-06-29 09:12:32",
+      "duration_min": 132,
+      "co2_kg": 2495
     },
     {
       "reg": null,
@@ -627,10 +875,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-06-29 12:39:19",
-      "landed": "2026-06-29 14:03:58"
+      "landed": "2026-06-29 14:03:58",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": null,
@@ -638,10 +890,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-06-29 14:55:27",
-      "landed": "2026-06-29 16:16:10"
+      "landed": "2026-06-29 16:16:10",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "EC-GOV",
@@ -649,10 +905,20 @@
       "operator": "XTX",
       "orig": "LFRB",
       "orig_name": "Brest",
+      "orig_coords": {
+        "lat": 48.447899,
+        "lon": -4.41854
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-06-30 06:22:18",
-      "landed": "2026-06-30 07:05:02"
+      "landed": "2026-06-30 07:05:02",
+      "duration_min": 43,
+      "co2_kg": 1167
     },
     {
       "reg": "F-HLRK",
@@ -660,10 +926,20 @@
       "operator": "BEJ",
       "orig": "LFRI",
       "orig_name": "La Roche-sur-Yon",
+      "orig_coords": {
+        "lat": 46.7019,
+        "lon": -1.37863
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-01 05:12:54",
-      "landed": "2026-07-01 05:28:45"
+      "landed": "2026-07-01 05:28:45",
+      "duration_min": 16,
+      "co2_kg": 366
     },
     {
       "reg": "F-HLRK",
@@ -671,10 +947,20 @@
       "operator": "BEJ",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFLY",
       "dest_name": "Lyon-Bron",
+      "dest_coords": {
+        "lat": 45.727947,
+        "lon": 4.943991
+      },
       "takeoff": "2026-07-01 05:54:30",
-      "landed": "2026-07-01 06:48:16"
+      "landed": "2026-07-01 06:48:16",
+      "duration_min": 54,
+      "co2_kg": 1242
     },
     {
       "reg": "EC-GOV",
@@ -682,10 +968,20 @@
       "operator": "XTX",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFRB",
       "dest_name": "Brest",
+      "dest_coords": {
+        "lat": 48.447899,
+        "lon": -4.41854
+      },
       "takeoff": "2026-07-01 10:16:09",
-      "landed": "2026-07-01 10:59:31"
+      "landed": "2026-07-01 10:59:31",
+      "duration_min": 43,
+      "co2_kg": 1184
     },
     {
       "reg": "OE-FIX",
@@ -693,10 +989,20 @@
       "operator": "MCK",
       "orig": "EGLF",
       "orig_name": "Farnborough",
+      "orig_coords": {
+        "lat": 51.275799,
+        "lon": -0.776333
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-02 15:10:43",
-      "landed": "2026-07-02 16:16:45"
+      "landed": "2026-07-02 16:16:45",
+      "duration_min": 66,
+      "co2_kg": null
     },
     {
       "reg": "OE-FIX",
@@ -704,10 +1010,20 @@
       "operator": "MCK",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFRS",
       "dest_name": "Saint-Nazaire",
+      "dest_coords": {
+        "lat": 47.153198,
+        "lon": -1.61073
+      },
       "takeoff": "2026-07-02 16:43:45",
-      "landed": "2026-07-02 17:06:38"
+      "landed": "2026-07-02 17:06:38",
+      "duration_min": 23,
+      "co2_kg": null
     },
     {
       "reg": "F-HLRK",
@@ -715,10 +1031,20 @@
       "operator": "BEJ",
       "orig": "LFLY",
       "orig_name": "Lyon-Bron",
+      "orig_coords": {
+        "lat": 45.727947,
+        "lon": 4.943991
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-03 10:09:27",
-      "landed": "2026-07-03 11:03:26"
+      "landed": "2026-07-03 11:03:26",
+      "duration_min": 54,
+      "co2_kg": 1247
     },
     {
       "reg": "F-HRDG",
@@ -726,10 +1052,20 @@
       "operator": "BEJ",
       "orig": "LFGJ",
       "orig_name": "Dole",
+      "orig_coords": {
+        "lat": 47.038955,
+        "lon": 5.427589
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-03 11:34:17",
-      "landed": "2026-07-03 12:37:55"
+      "landed": "2026-07-03 12:37:55",
+      "duration_min": 64,
+      "co2_kg": 1470
     },
     {
       "reg": "F-HLRK",
@@ -737,10 +1073,20 @@
       "operator": "BEJ",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFPB",
       "dest_name": "Paris-Le Bourget",
+      "dest_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "takeoff": "2026-07-03 12:01:17",
-      "landed": "2026-07-03 12:56:57"
+      "landed": "2026-07-03 12:56:57",
+      "duration_min": 56,
+      "co2_kg": 1286
     },
     {
       "reg": "9H-ILY",
@@ -748,10 +1094,20 @@
       "operator": "VJT",
       "orig": "EGBB",
       "orig_name": "Birmingham",
+      "orig_coords": {
+        "lat": 52.453899,
+        "lon": -1.74803
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-03 13:22:03",
-      "landed": "2026-07-03 14:29:44"
+      "landed": "2026-07-03 14:29:44",
+      "duration_min": 68,
+      "co2_kg": 4264
     },
     {
       "reg": "9H-ILY",
@@ -759,10 +1115,20 @@
       "operator": "VJT",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EGGW",
       "dest_name": "Luton",
+      "dest_coords": {
+        "lat": 51.874699,
+        "lon": -0.368333
+      },
       "takeoff": "2026-07-03 15:32:29",
-      "landed": "2026-07-03 16:48:03"
+      "landed": "2026-07-03 16:48:03",
+      "duration_min": 76,
+      "co2_kg": 4761
     },
     {
       "reg": "F-HRDG",
@@ -770,10 +1136,20 @@
       "operator": "BEJ",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LEPA",
       "dest_name": "Palma de Majorque",
+      "dest_coords": {
+        "lat": 39.551701,
+        "lon": 2.73881
+      },
       "takeoff": "2026-07-03 17:44:45",
-      "landed": "2026-07-03 19:00:02"
+      "landed": "2026-07-03 19:00:02",
+      "duration_min": 75,
+      "co2_kg": 1739
     },
     {
       "reg": "D-IBEA",
@@ -781,10 +1157,20 @@
       "operator": "PAV",
       "orig": "LEXJ",
       "orig_name": "Jerez",
+      "orig_coords": {
+        "lat": 43.427101,
+        "lon": -3.82001
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-04 13:01:33",
-      "landed": "2026-07-04 13:49:32"
+      "landed": "2026-07-04 13:49:32",
+      "duration_min": 48,
+      "co2_kg": 1008
     },
     {
       "reg": "D-IBEA",
@@ -792,10 +1178,20 @@
       "operator": "PAV",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LEVX",
       "dest_name": "Vitoria",
+      "dest_coords": {
+        "lat": 42.2318,
+        "lon": -8.62677
+      },
       "takeoff": "2026-07-05 08:08:30",
-      "landed": "2026-07-05 09:26:00"
+      "landed": "2026-07-05 09:26:00",
+      "duration_min": 78,
+      "co2_kg": 1628
     },
     {
       "reg": null,
@@ -803,10 +1199,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-07-06 08:36:02",
-      "landed": "2026-07-06 09:47:28"
+      "landed": "2026-07-06 09:47:28",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": null,
@@ -814,10 +1214,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-07-06 10:37:40",
-      "landed": "2026-07-06 11:53:06"
+      "landed": "2026-07-06 11:53:06",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "F-HSHU",
@@ -825,10 +1229,20 @@
       "operator": null,
       "orig": "LFBZ",
       "orig_name": "Biarritz",
+      "orig_coords": {
+        "lat": 43.468372,
+        "lon": -1.523223
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-06 15:04:17",
-      "landed": "2026-07-06 15:47:21"
+      "landed": "2026-07-06 15:47:21",
+      "duration_min": 43,
+      "co2_kg": 814
     },
     {
       "reg": null,
@@ -836,10 +1250,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-07-06 18:51:34",
-      "landed": "2026-07-06 19:51:05"
+      "landed": "2026-07-06 19:51:05",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "F-HSHU",
@@ -847,10 +1265,20 @@
       "operator": null,
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EGKB",
       "dest_name": "Londres-Biggin Hill",
+      "dest_coords": {
+        "lat": 51.33079910279999,
+        "lon": 0.0324999988079
+      },
       "takeoff": "2026-07-07 05:38:07",
-      "landed": "2026-07-07 07:00:49"
+      "landed": "2026-07-07 07:00:49",
+      "duration_min": 83,
+      "co2_kg": 1563
     },
     {
       "reg": null,
@@ -858,10 +1286,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-07-07 07:44:09",
-      "landed": "2026-07-07 09:01:22"
+      "landed": "2026-07-07 09:01:22",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "CS-PJE",
@@ -869,10 +1301,20 @@
       "operator": "NJE",
       "orig": "LPCS",
       "orig_name": "Cascais Airport",
+      "orig_coords": {
+        "lat": 38.724998,
+        "lon": -9.35523
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-07 08:38:33",
-      "landed": "2026-07-07 10:18:20"
+      "landed": "2026-07-07 10:18:20",
+      "duration_min": 100,
+      "co2_kg": 2305
     },
     {
       "reg": "CS-PJE",
@@ -880,10 +1322,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EBKT",
       "dest_name": "Kortrijk-Wevelgem International Airport",
+      "dest_coords": {
+        "lat": 50.818878,
+        "lon": 3.209551
+      },
       "takeoff": "2026-07-07 13:02:41",
-      "landed": "2026-07-07 14:10:09"
+      "landed": "2026-07-07 14:10:09",
+      "duration_min": 67,
+      "co2_kg": 1558
     },
     {
       "reg": null,
@@ -891,10 +1343,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-07-07 14:32:56",
-      "landed": "2026-07-07 15:54:54"
+      "landed": "2026-07-07 15:54:54",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "F-HSHU",
@@ -902,10 +1358,20 @@
       "operator": null,
       "orig": "EGKB",
       "orig_name": "Londres-Biggin Hill",
+      "orig_coords": {
+        "lat": 51.33079910279999,
+        "lon": 0.0324999988079
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-07 18:39:43",
-      "landed": "2026-07-07 20:02:39"
+      "landed": "2026-07-07 20:02:39",
+      "duration_min": 83,
+      "co2_kg": 1567
     },
     {
       "reg": null,
@@ -913,10 +1379,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-07-08 06:07:31",
-      "landed": "2026-07-08 07:12:02"
+      "landed": "2026-07-08 07:12:02",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "F-HSHU",
@@ -924,10 +1394,20 @@
       "operator": null,
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LIMC",
       "dest_name": "Milan-Malpensa",
+      "dest_coords": {
+        "lat": 45.6306,
+        "lon": 8.72811
+      },
       "takeoff": "2026-07-08 08:57:34",
-      "landed": "2026-07-08 10:33:42"
+      "landed": "2026-07-08 10:33:42",
+      "duration_min": 96,
+      "co2_kg": 1817
     },
     {
       "reg": null,
@@ -935,10 +1415,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-07-08 16:07:50",
-      "landed": "2026-07-08 17:04:46"
+      "landed": "2026-07-08 17:04:46",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": null,
@@ -946,10 +1430,14 @@
       "operator": null,
       "orig": null,
       "orig_name": null,
+      "orig_coords": null,
       "dest": null,
       "dest_name": null,
+      "dest_coords": null,
       "takeoff": "2026-07-08 17:51:14",
-      "landed": "2026-07-08 18:42:56"
+      "landed": "2026-07-08 18:42:56",
+      "duration_min": null,
+      "co2_kg": null
     },
     {
       "reg": "F-HLPN",
@@ -957,10 +1445,20 @@
       "operator": null,
       "orig": "LFLC",
       "orig_name": "Clermont-Ferrand",
+      "orig_coords": {
+        "lat": 45.786701,
+        "lon": 3.16917
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-09 06:01:01",
-      "landed": "2026-07-09 06:43:28"
+      "landed": "2026-07-09 06:43:28",
+      "duration_min": 42,
+      "co2_kg": 2139
     },
     {
       "reg": "LX-GCA",
@@ -968,10 +1466,20 @@
       "operator": "LXA",
       "orig": "LFTH",
       "orig_name": "Touraine",
+      "orig_coords": {
+        "lat": 43.097301,
+        "lon": 6.14603
+      },
       "dest": "LFRV",
       "dest_name": "Rochefort (aéroclub)",
+      "dest_coords": {
+        "lat": 47.723301,
+        "lon": -2.71856
+      },
       "takeoff": "2026-07-09 08:51:49",
-      "landed": "2026-07-09 10:11:26"
+      "landed": "2026-07-09 10:11:26",
+      "duration_min": 80,
+      "co2_kg": 1839
     },
     {
       "reg": "F-HLPN",
@@ -979,10 +1487,20 @@
       "operator": null,
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFLC",
       "dest_name": "Clermont-Ferrand",
+      "dest_coords": {
+        "lat": 45.786701,
+        "lon": 3.16917
+      },
       "takeoff": "2026-07-09 12:47:20",
-      "landed": "2026-07-09 13:26:28"
+      "landed": "2026-07-09 13:26:28",
+      "duration_min": 39,
+      "co2_kg": 1972
     },
     {
       "reg": "S5-CES",
@@ -990,10 +1508,20 @@
       "operator": "UEE",
       "orig": "LSGG",
       "orig_name": "Genève",
+      "orig_coords": {
+        "lat": 46.238098,
+        "lon": 6.10895
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-10 07:36:04",
-      "landed": "2026-07-10 08:37:49"
+      "landed": "2026-07-10 08:37:49",
+      "duration_min": 62,
+      "co2_kg": 1426
     },
     {
       "reg": "S5-CES",
@@ -1001,10 +1529,20 @@
       "operator": "UEE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LSGG",
       "dest_name": "Genève",
+      "dest_coords": {
+        "lat": 46.238098,
+        "lon": 6.10895
+      },
       "takeoff": "2026-07-10 09:20:36",
-      "landed": "2026-07-10 10:22:20"
+      "landed": "2026-07-10 10:22:20",
+      "duration_min": 62,
+      "co2_kg": 1426
     },
     {
       "reg": "OE-FZD",
@@ -1012,10 +1550,20 @@
       "operator": "GAC",
       "orig": "LFRV",
       "orig_name": "Rochefort (aéroclub)",
+      "orig_coords": {
+        "lat": 47.723301,
+        "lon": -2.71856
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-11 06:34:20",
-      "landed": "2026-07-11 07:05:47"
+      "landed": "2026-07-11 07:05:47",
+      "duration_min": 31,
+      "co2_kg": 594
     },
     {
       "reg": "CS-DXK",
@@ -1023,10 +1571,20 @@
       "operator": "NJE",
       "orig": "LGPZ",
       "orig_name": "Skiathos",
+      "orig_coords": {
+        "lat": 38.925499,
+        "lon": 20.765301
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-11 07:22:32",
-      "landed": "2026-07-11 10:16:07"
+      "landed": "2026-07-11 10:16:07",
+      "duration_min": 174,
+      "co2_kg": 5468
     },
     {
       "reg": "OE-FZD",
@@ -1034,10 +1592,20 @@
       "operator": "GAC",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LEIB",
       "dest_name": "Ibiza",
+      "dest_coords": {
+        "lat": 38.872898,
+        "lon": 1.37312
+      },
       "takeoff": "2026-07-11 08:06:58",
-      "landed": "2026-07-11 09:51:44"
+      "landed": "2026-07-11 09:51:44",
+      "duration_min": 105,
+      "co2_kg": 1980
     },
     {
       "reg": "CS-DXK",
@@ -1045,10 +1613,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFPB",
       "dest_name": "Paris-Le Bourget",
+      "dest_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "takeoff": "2026-07-11 11:10:50",
-      "landed": "2026-07-11 11:57:48"
+      "landed": "2026-07-11 11:57:48",
+      "duration_min": 47,
+      "co2_kg": 1479
     },
     {
       "reg": "CS-PJE",
@@ -1056,10 +1634,20 @@
       "operator": "NJE",
       "orig": "EGJJ",
       "orig_name": "Jersey",
+      "orig_coords": {
+        "lat": 49.207901,
+        "lon": -2.19551
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-11 12:16:01",
-      "landed": "2026-07-11 12:58:22"
+      "landed": "2026-07-11 12:58:22",
+      "duration_min": 42,
+      "co2_kg": 978
     },
     {
       "reg": "CS-PJE",
@@ -1067,10 +1655,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFPB",
       "dest_name": "Paris-Le Bourget",
+      "dest_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "takeoff": "2026-07-11 14:00:53",
-      "landed": "2026-07-11 14:52:32"
+      "landed": "2026-07-11 14:52:32",
+      "duration_min": 52,
+      "co2_kg": 1193
     },
     {
       "reg": "G-VJTB",
@@ -1078,10 +1676,20 @@
       "operator": "SXN",
       "orig": "EGLF",
       "orig_name": "Farnborough",
+      "orig_coords": {
+        "lat": 51.275799,
+        "lon": -0.776333
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-12 11:27:35",
-      "landed": "2026-07-12 12:31:13"
+      "landed": "2026-07-12 12:31:13",
+      "duration_min": 64,
+      "co2_kg": 2004
     },
     {
       "reg": "G-VJTB",
@@ -1089,10 +1697,20 @@
       "operator": "SXN",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EGLF",
       "dest_name": "Farnborough",
+      "dest_coords": {
+        "lat": 51.275799,
+        "lon": -0.776333
+      },
       "takeoff": "2026-07-12 13:33:27",
-      "landed": "2026-07-12 14:32:23"
+      "landed": "2026-07-12 14:32:23",
+      "duration_min": 59,
+      "co2_kg": 1856
     },
     {
       "reg": "D-ICMD",
@@ -1100,10 +1718,20 @@
       "operator": null,
       "orig": "LEPA",
       "orig_name": "Palma de Majorque",
+      "orig_coords": {
+        "lat": 39.551701,
+        "lon": 2.73881
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-12 14:45:52",
-      "landed": "2026-07-12 16:07:19"
+      "landed": "2026-07-12 16:07:19",
+      "duration_min": 81,
+      "co2_kg": 1710
     },
     {
       "reg": "F-HRDG",
@@ -1111,10 +1739,20 @@
       "operator": "BEJ",
       "orig": "LEPA",
       "orig_name": "Palma de Majorque",
+      "orig_coords": {
+        "lat": 39.551701,
+        "lon": 2.73881
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-12 16:39:55",
-      "landed": "2026-07-12 17:53:46"
+      "landed": "2026-07-12 17:53:46",
+      "duration_min": 74,
+      "co2_kg": 1706
     },
     {
       "reg": "D-ICMD",
@@ -1122,10 +1760,20 @@
       "operator": null,
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EPWA",
       "dest_name": "Varsovie",
+      "dest_coords": {
+        "lat": 52.165699,
+        "lon": 20.9671
+      },
       "takeoff": "2026-07-13 06:18:32",
-      "landed": "2026-07-13 08:55:40"
+      "landed": "2026-07-13 08:55:40",
+      "duration_min": 157,
+      "co2_kg": 3300
     },
     {
       "reg": "F-HRDG",
@@ -1133,10 +1781,20 @@
       "operator": "BEJ",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EGKB",
       "dest_name": "Londres-Biggin Hill",
+      "dest_coords": {
+        "lat": 51.33079910279999,
+        "lon": 0.0324999988079
+      },
       "takeoff": "2026-07-13 07:08:55",
-      "landed": "2026-07-13 08:19:11"
+      "landed": "2026-07-13 08:19:11",
+      "duration_min": 70,
+      "co2_kg": 1623
     },
     {
       "reg": "OK-VAN",
@@ -1144,10 +1802,20 @@
       "operator": "AAO",
       "orig": "EGHQ",
       "orig_name": "Newquay",
+      "orig_coords": {
+        "lat": 50.440601,
+        "lon": -4.99541
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-13 10:55:13",
-      "landed": "2026-07-13 12:02:48"
+      "landed": "2026-07-13 12:02:48",
+      "duration_min": 68,
+      "co2_kg": 1419
     },
     {
       "reg": "D-AAAY",
@@ -1155,10 +1823,20 @@
       "operator": "DLY",
       "orig": "LFMP",
       "orig_name": "Marseille-Provence",
+      "orig_coords": {
+        "lat": 42.740398,
+        "lon": 2.87067
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-13 12:51:18",
-      "landed": "2026-07-13 13:43:54"
+      "landed": "2026-07-13 13:43:54",
+      "duration_min": 53,
+      "co2_kg": 2872
     },
     {
       "reg": "OK-VAN",
@@ -1166,10 +1844,20 @@
       "operator": "AAO",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFBD",
       "dest_name": "Bordeaux",
+      "dest_coords": {
+        "lat": 44.82865,
+        "lon": -0.715356
+      },
       "takeoff": "2026-07-13 13:10:12",
-      "landed": "2026-07-13 13:34:11"
+      "landed": "2026-07-13 13:34:11",
+      "duration_min": 24,
+      "co2_kg": 504
     },
     {
       "reg": "D-ICMD",
@@ -1177,10 +1865,20 @@
       "operator": null,
       "orig": "EPWA",
       "orig_name": "Varsovie",
+      "orig_coords": {
+        "lat": 52.165699,
+        "lon": 20.9671
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-13 15:55:57",
-      "landed": "2026-07-13 18:54:17"
+      "landed": "2026-07-13 18:54:17",
+      "duration_min": 178,
+      "co2_kg": 3745
     },
     {
       "reg": "CS-LUC",
@@ -1188,10 +1886,20 @@
       "operator": "NJE",
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
+      "orig_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-14 04:41:53",
-      "landed": "2026-07-14 05:40:02"
+      "landed": "2026-07-14 05:40:02",
+      "duration_min": 58,
+      "co2_kg": 2076
     },
     {
       "reg": "CS-LUC",
@@ -1199,10 +1907,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EGJJ",
       "dest_name": "Jersey",
+      "dest_coords": {
+        "lat": 49.207901,
+        "lon": -2.19551
+      },
       "takeoff": "2026-07-14 07:15:52",
-      "landed": "2026-07-14 07:53:23"
+      "landed": "2026-07-14 07:53:23",
+      "duration_min": 38,
+      "co2_kg": 1339
     },
     {
       "reg": "D-AAAY",
@@ -1210,10 +1928,20 @@
       "operator": "DLY",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFPB",
       "dest_name": "Paris-Le Bourget",
+      "dest_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "takeoff": "2026-07-14 10:04:09",
-      "landed": "2026-07-14 10:46:20"
+      "landed": "2026-07-14 10:46:20",
+      "duration_min": 42,
+      "co2_kg": 2303
     },
     {
       "reg": "CS-PHG",
@@ -1221,10 +1949,20 @@
       "operator": "NJE",
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
+      "orig_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-14 15:25:40",
-      "landed": "2026-07-14 16:21:49"
+      "landed": "2026-07-14 16:21:49",
+      "duration_min": 56,
+      "co2_kg": 1297
     },
     {
       "reg": "CS-PHG",
@@ -1232,10 +1970,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EGPF",
       "dest_name": "Glasgow Airport",
+      "dest_coords": {
+        "lat": 55.871899,
+        "lon": -4.43306
+      },
       "takeoff": "2026-07-15 07:52:16",
-      "landed": "2026-07-15 09:33:29"
+      "landed": "2026-07-15 09:33:29",
+      "duration_min": 101,
+      "co2_kg": 2338
     },
     {
       "reg": "9H-CEA",
@@ -1243,10 +1991,20 @@
       "operator": "VJT",
       "orig": "ELLX",
       "orig_name": "Luxembourg-Findel International Airport",
+      "orig_coords": {
+        "lat": 49.626845,
+        "lon": 6.212134
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-15 07:55:51",
-      "landed": "2026-07-15 09:18:24"
+      "landed": "2026-07-15 09:18:24",
+      "duration_min": 83,
+      "co2_kg": 3467
     },
     {
       "reg": "D-ICMD",
@@ -1254,10 +2012,20 @@
       "operator": null,
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFBZ",
       "dest_name": "Biarritz",
+      "dest_coords": {
+        "lat": 43.468372,
+        "lon": -1.523223
+      },
       "takeoff": "2026-07-15 09:13:44",
-      "landed": "2026-07-15 09:54:18"
+      "landed": "2026-07-15 09:54:18",
+      "duration_min": 41,
+      "co2_kg": 852
     },
     {
       "reg": "9H-CEA",
@@ -1265,10 +2033,20 @@
       "operator": "VJT",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LEIB",
       "dest_name": "Ibiza",
+      "dest_coords": {
+        "lat": 38.872898,
+        "lon": 1.37312
+      },
       "takeoff": "2026-07-15 11:35:18",
-      "landed": "2026-07-15 13:03:48"
+      "landed": "2026-07-15 13:03:48",
+      "duration_min": 88,
+      "co2_kg": 3717
     },
     {
       "reg": "9H-VFC",
@@ -1276,10 +2054,20 @@
       "operator": "VJT",
       "orig": "EBLG",
       "orig_name": "Liège Airport",
+      "orig_coords": {
+        "lat": 50.638574,
+        "lon": 5.443897
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-16 09:03:53",
-      "landed": "2026-07-16 10:16:53"
+      "landed": "2026-07-16 10:16:53",
+      "duration_min": 73,
+      "co2_kg": 3986
     },
     {
       "reg": "9H-VFC",
@@ -1287,10 +2075,20 @@
       "operator": "VJT",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFRQ",
       "dest_name": "Quimper",
+      "dest_coords": {
+        "lat": 47.973031,
+        "lon": -4.169655
+      },
       "takeoff": "2026-07-16 12:04:10",
-      "landed": "2026-07-16 12:58:08"
+      "landed": "2026-07-16 12:58:08",
+      "duration_min": 54,
+      "co2_kg": 2947
     },
     {
       "reg": "CS-PJA",
@@ -1298,10 +2096,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EHRD",
       "dest_name": "Rotterdam The Hague Airport",
+      "dest_coords": {
+        "lat": 51.956902,
+        "lon": 4.43722
+      },
       "takeoff": "2026-07-16 13:20:50",
-      "landed": "2026-07-16 14:32:29"
+      "landed": "2026-07-16 14:32:29",
+      "duration_min": 72,
+      "co2_kg": 1655
     },
     {
       "reg": "OE-FWF",
@@ -1309,10 +2117,20 @@
       "operator": "GAC",
       "orig": "LFML",
       "orig_name": "Marseille",
+      "orig_coords": {
+        "lat": 43.438088,
+        "lon": 5.2125
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-17 05:43:11",
-      "landed": "2026-07-17 07:12:09"
+      "landed": "2026-07-17 07:12:09",
+      "duration_min": 89,
+      "co2_kg": 1681
     },
     {
       "reg": "CS-LTX",
@@ -1320,10 +2138,20 @@
       "operator": "NJE",
       "orig": "LSGG",
       "orig_name": "Genève",
+      "orig_coords": {
+        "lat": 46.238098,
+        "lon": 6.10895
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-17 08:51:27",
-      "landed": "2026-07-17 10:03:43"
+      "landed": "2026-07-17 10:03:43",
+      "duration_min": 72,
+      "co2_kg": 2580
     },
     {
       "reg": "CS-LTX",
@@ -1331,10 +2159,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFRH",
       "dest_name": "Lorient South Brittany (Bretagne Sud) Airport",
+      "dest_coords": {
+        "lat": 47.760601,
+        "lon": -3.44
+      },
       "takeoff": "2026-07-17 10:59:13",
-      "landed": "2026-07-17 11:28:42"
+      "landed": "2026-07-17 11:28:42",
+      "duration_min": 29,
+      "co2_kg": 1053
     },
     {
       "reg": "OE-FWF",
@@ -1342,10 +2180,20 @@
       "operator": "GAC",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFLU",
       "dest_name": "Valence-Chabeuil Airport",
+      "dest_coords": {
+        "lat": 44.9216,
+        "lon": 4.9699
+      },
       "takeoff": "2026-07-17 13:41:32",
-      "landed": "2026-07-17 14:46:19"
+      "landed": "2026-07-17 14:46:19",
+      "duration_min": 65,
+      "co2_kg": 1224
     },
     {
       "reg": "9H-VCU",
@@ -1353,10 +2201,20 @@
       "operator": "VJT",
       "orig": "EGLF",
       "orig_name": "Farnborough",
+      "orig_coords": {
+        "lat": 51.275799,
+        "lon": -0.776333
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-17 18:50:01",
-      "landed": "2026-07-17 19:49:48"
+      "landed": "2026-07-17 19:49:48",
+      "duration_min": 60,
+      "co2_kg": 2511
     },
     {
       "reg": "SP-MDD",
@@ -1364,10 +2222,20 @@
       "operator": "HEY",
       "orig": "EGKB",
       "orig_name": "Londres-Biggin Hill",
+      "orig_coords": {
+        "lat": 51.33079910279999,
+        "lon": 0.0324999988079
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-18 07:42:56",
-      "landed": "2026-07-18 08:52:56"
+      "landed": "2026-07-18 08:52:56",
+      "duration_min": 70,
+      "co2_kg": 1617
     },
     {
       "reg": "9H-VCU",
@@ -1375,10 +2243,20 @@
       "operator": "VJT",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFSL",
       "dest_name": "Brive Souillac airport",
+      "dest_coords": {
+        "lat": 45.039722,
+        "lon": 1.485556
+      },
       "takeoff": "2026-07-18 10:12:30",
-      "landed": "2026-07-18 10:42:06"
+      "landed": "2026-07-18 10:42:06",
+      "duration_min": 30,
+      "co2_kg": 1243
     },
     {
       "reg": "SP-MDD",
@@ -1386,10 +2264,20 @@
       "operator": "HEY",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFRM",
       "dest_name": "Le Mans-Arnage Airport",
+      "dest_coords": {
+        "lat": 47.948604,
+        "lon": 0.201702
+      },
       "takeoff": "2026-07-18 10:19:10",
-      "landed": "2026-07-18 10:49:11"
+      "landed": "2026-07-18 10:49:11",
+      "duration_min": 30,
+      "co2_kg": 693
     },
     {
       "reg": "D-CDCM",
@@ -1397,10 +2285,20 @@
       "operator": "VJH",
       "orig": "LIRP",
       "orig_name": "Pisa International Airport",
+      "orig_coords": {
+        "lat": 43.683899,
+        "lon": 10.3927
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-18 13:56:59",
-      "landed": "2026-07-18 15:34:23"
+      "landed": "2026-07-18 15:34:23",
+      "duration_min": 97,
+      "co2_kg": 3068
     },
     {
       "reg": "D-CDCM",
@@ -1408,10 +2306,20 @@
       "operator": "VJH",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EGKB",
       "dest_name": "Londres-Biggin Hill",
+      "dest_coords": {
+        "lat": 51.33079910279999,
+        "lon": 0.0324999988079
+      },
       "takeoff": "2026-07-18 17:58:05",
-      "landed": "2026-07-18 19:03:16"
+      "landed": "2026-07-18 19:03:16",
+      "duration_min": 65,
+      "co2_kg": 2053
     },
     {
       "reg": "OE-FIT",
@@ -1419,10 +2327,20 @@
       "operator": "GAC",
       "orig": "LEIB",
       "orig_name": "Ibiza",
+      "orig_coords": {
+        "lat": 38.872898,
+        "lon": 1.37312
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-19 10:02:24",
-      "landed": "2026-07-19 11:57:56"
+      "landed": "2026-07-19 11:57:56",
+      "duration_min": 116,
+      "co2_kg": 2184
     },
     {
       "reg": "OE-FIT",
@@ -1430,10 +2348,20 @@
       "operator": "GAC",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "EBLG",
       "dest_name": "Liège Airport",
+      "dest_coords": {
+        "lat": 50.638574,
+        "lon": 5.443897
+      },
       "takeoff": "2026-07-19 13:03:44",
-      "landed": "2026-07-19 14:26:25"
+      "landed": "2026-07-19 14:26:25",
+      "duration_min": 83,
+      "co2_kg": 1563
     },
     {
       "reg": "CS-PHR",
@@ -1441,10 +2369,20 @@
       "operator": "NJE",
       "orig": "LFPB",
       "orig_name": "Paris-Le Bourget",
+      "orig_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-20 04:39:20",
-      "landed": "2026-07-20 05:39:29"
+      "landed": "2026-07-20 05:39:29",
+      "duration_min": 60,
+      "co2_kg": 1389
     },
     {
       "reg": "CS-PHR",
@@ -1452,10 +2390,20 @@
       "operator": "NJE",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LEGE",
       "dest_name": "Girona-Costa Brava Airport",
+      "dest_coords": {
+        "lat": 41.904639,
+        "lon": 2.761774
+      },
       "takeoff": "2026-07-20 06:51:04",
-      "landed": "2026-07-20 07:43:27"
+      "landed": "2026-07-20 07:43:27",
+      "duration_min": 52,
+      "co2_kg": 1210
     },
     {
       "reg": "F-HLRK",
@@ -1463,10 +2411,20 @@
       "operator": "BEJ",
       "orig": "LFRI",
       "orig_name": "La Roche-sur-Yon",
+      "orig_coords": {
+        "lat": 46.7019,
+        "lon": -1.37863
+      },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "takeoff": "2026-07-21 05:38:55",
-      "landed": "2026-07-21 05:55:17"
+      "landed": "2026-07-21 05:55:17",
+      "duration_min": 16,
+      "co2_kg": 378
     },
     {
       "reg": "F-HLRK",
@@ -1474,10 +2432,20 @@
       "operator": "BEJ",
       "orig": "LFBH",
       "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
       "dest": "LFLP",
       "dest_name": "Annecy Meythet airport",
+      "dest_coords": {
+        "lat": 45.928947,
+        "lon": 6.0987
+      },
       "takeoff": "2026-07-21 06:25:02",
-      "landed": "2026-07-21 07:21:37"
+      "landed": "2026-07-21 07:21:37",
+      "duration_min": 57,
+      "co2_kg": 1307
     }
   ],
   "business_jets_operators": [

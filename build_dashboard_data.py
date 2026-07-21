@@ -207,8 +207,14 @@ def main():
     out["hourly_distribution"] = [hourly_counts.get(i, 0) for i in range(24)]
 
     # --- Jets d'affaires : détail mouvement par mouvement ---
+    coords_for_biz = _load_coords()
     biz = by_cat.get("jets_prives", [])
     biz_sorted = sorted(biz, key=lambda f: f.get("datetime_takeoff") or "")
+
+    def _airport_coords(code):
+        c = coords_for_biz.get(code) if code else None
+        return {"lat": c["lat"], "lon": c["lon"]} if c else None
+
     out["business_jets"] = [
         {
             "reg": f.get("reg"),
@@ -216,10 +222,14 @@ def main():
             "operator": f.get("operating_as"),
             "orig": f.get("orig_icao"),
             "orig_name": airport_name(f.get("orig_icao")),
+            "orig_coords": _airport_coords(f.get("orig_icao")),
             "dest": f.get("dest_icao_actual") or f.get("dest_icao"),
             "dest_name": airport_name(f.get("dest_icao_actual") or f.get("dest_icao")),
+            "dest_coords": _airport_coords(f.get("dest_icao_actual") or f.get("dest_icao")),
             "takeoff": fmt(f.get("datetime_takeoff")),
             "landed": fmt(f.get("datetime_landed")),
+            "duration_min": round(f["flight_time"] / 60) if f.get("flight_time") else None,
+            "co2_kg": round(estimate_co2_kg(f)) if estimate_co2_kg(f) else None,
         }
         for f in biz_sorted
     ]

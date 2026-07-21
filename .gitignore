@@ -6,3 +6,4 @@ collect.log
 .gstack/
 .claude/
 .airports_ourairports.csv
+.DS_Store
