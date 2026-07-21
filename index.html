@@ -269,7 +269,7 @@ tailwind.config = {
                 <!-- Carte + trajectoire, avec photo en médaillon flottant -->
                 <div class="relative">
                     <div id="flight-modal-map" class="w-full aspect-square bg-surface-container-low"></div>
-                    <div id="flight-modal-photo" class="absolute left-4 bottom-4 z-[500] w-[55%] aspect-[4/3] rounded-lg bg-surface-container bg-cover bg-center shadow-lg ring-4 ring-surface hidden"></div>
+                    <div id="flight-modal-photo" class="absolute left-4 bottom-4 z-[500] w-[42%] aspect-[4/3] rounded-lg bg-surface-container bg-cover bg-center shadow-lg ring-4 ring-surface hidden"></div>
                 </div>
                 <div id="flight-modal-photo-credit" class="px-5 pt-1.5 text-[10px] text-on-surface-variant text-right hidden"></div>
 
@@ -719,14 +719,19 @@ function render(data) {
     const mid = [(orig[0] + dest[0]) / 2, (orig[1] + dest[1]) / 2];
     L.marker(mid, {icon: jetIcon}).addTo(flightModalMap);
 
-    // Padding asymétrique : la photo de l'appareil est incrustée en bas à
-    // gauche de la carte (médaillon ~55% de large, ~45% de haut), donc on
-    // pousse le cadrage pour que la trajectoire se dessine plutôt en haut à
-    // droite et reste visible sous le médaillon plutôt que masquée par lui.
-    // paddingTopLeft/paddingBottomRight: [x, y] en pixels.
+    // Padding asymétrique : la photo de l'appareil est incrustée en BAS À
+    // GAUCHE de la carte (médaillon ~42% de la largeur du conteneur, ratio
+    // 4/3). paddingTopLeft=[x,y] réserve de l'espace à GAUCHE et en HAUT ;
+    // paddingBottomRight=[x,y] réserve de l'espace à DROITE et en BAS. On
+    // veut donc pousser paddingTopLeft en X (gauche) et paddingBottomRight
+    // en Y (bas), pour que fitBounds ne dessine jamais la trajectoire dans
+    // le coin occupé par la photo.
+    const mapSize = mapEl.getBoundingClientRect();
+    const photoWidthPx = mapSize.width * 0.42 + 32; // + marge left-4 (16px * 2 pour la marge visuelle)
+    const photoHeightPx = (mapSize.width * 0.42 * 3 / 4) + 32; // ratio 4/3 + marge bottom-4
     flightModalMap.fitBounds(line.getBounds(), {
-      paddingTopLeft: [30, 30],
-      paddingBottomRight: [30, 140],
+      paddingTopLeft: [Math.max(20, photoWidthPx), 20],
+      paddingBottomRight: [20, Math.max(20, photoHeightPx)],
     });
     // Leaflet a besoin d'un invalidateSize après affichage (conteneur caché au moment du L.map)
     setTimeout(() => flightModalMap.invalidateSize(), 50);
