@@ -258,7 +258,7 @@ tailwind.config = {
     <!-- Flight card modal template (format portrait, pensé pour le partage) -->
     <div id="flight-modal" class="fixed inset-0 z-[2000] hidden items-center justify-center bg-on-surface/70 p-4 overflow-auto" aria-hidden="true">
         <div class="relative my-auto">
-            <div id="flight-card" class="bg-surface w-[1080px] h-[1350px] max-w-[92vw] max-h-[92vh] flex flex-col rounded-xl overflow-hidden shadow-2xl" style="aspect-ratio: 1080 / 1350;">
+            <div id="flight-card" class="bg-surface flex flex-col rounded-xl overflow-hidden shadow-2xl" style="aspect-ratio: 1080 / 1350; height: min(88vh, 1350px); width: auto; max-width: 92vw;">
                 <!-- Header -->
                 <div class="p-10 pb-6 shrink-0">
                     <h3 id="flight-modal-title" class="font-headline-lg text-headline-lg leading-tight">—</h3>
