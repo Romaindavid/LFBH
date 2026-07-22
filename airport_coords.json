@@ -903,5 +903,20 @@
     "lat": 43.683899,
     "lon": 10.3927,
     "name": "Pisa International Airport"
+  },
+  "EHTE": {
+    "lat": 52.242764,
+    "lon": 6.050004,
+    "name": "Teuge Airport"
+  },
+  "LECU": {
+    "lat": 40.370701,
+    "lon": -3.78514,
+    "name": "Madrid-Cuatro Vientos Airport"
+  },
+  "LFLW": {
+    "lat": 44.891399,
+    "lon": 2.42194,
+    "name": "Aurillac airport"
   }
 }
