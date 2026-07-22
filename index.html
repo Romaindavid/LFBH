@@ -695,8 +695,10 @@ function render(data) {
     if (photo) {
       photoEl.style.backgroundImage = "url('" + photo.thumbnail_large + "')";
       photoEl.classList.remove('hidden');
-      creditEl.innerHTML = '© ' + (photo.photographer || 'inconnu') +
-        ' · <a href="' + photo.link + '" target="_blank" rel="noopener" class="underline">planespotters.net</a>';
+      creditEl.innerHTML = photo.link
+        ? '© ' + (photo.photographer || 'inconnu') +
+          ' · <a href="' + photo.link + '" target="_blank" rel="noopener" class="underline">planespotters.net</a>'
+        : '© ' + (photo.photographer || 'inconnu');
       creditEl.classList.remove('hidden');
     } else {
       photoEl.classList.add('hidden');

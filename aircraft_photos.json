@@ -1,4 +1,9 @@
 {
+  "G-HTGL": {
+    "thumbnail_large": "photos/G-HTGL.jpg",
+    "link": null,
+    "photographer": "photo fournie manuellement"
+  },
   "9H-CEA": {
     "thumbnail_large": "https://t.plnspttrs.net/40041/1880333_10af3ee221_280.jpg",
     "link": "https://www.planespotters.net/photo/1880333/9h-cea-vistajet-malta-bombardier-challenger-350-bd-100-1a10?utm_source=api",
@@ -262,6 +267,5 @@
     "thumbnail_large": "https://t.plnspttrs.net/13727/1591855_7905e514bc_280.jpg",
     "link": "https://www.planespotters.net/photo/1591855/f-hyke-private-pilatus-pc-12-pc-12-45?utm_source=api",
     "photographer": "bruno muthelet"
-  },
-  "G-HTGL": null
+  }
 }
