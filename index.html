@@ -75,14 +75,14 @@ tailwind.config = {
     <section id="overview" class="grid grid-cols-1 md:grid-cols-4 gap-gutter">
         <div class="md:col-span-4 mb-4">
             <h1 class="font-headline-lg text-headline-lg">Observatoire du trafic aérien à La Rochelle</h1>
-            <p class="text-on-surface-variant mt-2 max-w-2xl">Suivi indépendant des mouvements aériens à LFBH (La Rochelle – Île de Ré), à partir des données publiques Flightradar24.</p>
+            <p class="text-on-surface-variant mt-2 max-w-2xl">Suivi indépendant des vols à LFBH (La Rochelle – Île de Ré), à partir des données publiques Flightradar24.</p>
         </div>
 
         <div class="bg-surface border border-outline-variant p-6 border-t-4 border-t-primary shadow-sm">
-            <p class="font-data-label text-data-label text-outline uppercase mb-2">Mouvements totaux</p>
+            <p class="font-data-label text-data-label text-outline uppercase mb-2">Vols totaux</p>
             <div class="flex items-baseline gap-2">
                 <span id="kpi-total" class="font-data-display text-[32px] font-bold text-primary">—</span>
-                <span class="text-on-surface-variant text-body-sm">mouvements</span>
+                <span class="text-on-surface-variant text-body-sm">vols</span>
             </div>
             <p id="kpi-total-sub" class="text-xs text-on-surface-variant mt-2 italic">—</p>
         </div>
@@ -91,7 +91,7 @@ tailwind.config = {
             <p class="font-data-label text-data-label text-outline uppercase mb-2">Moyenne quotidienne</p>
             <div class="flex items-baseline gap-2">
                 <span id="kpi-avg" class="font-data-display text-[32px] font-bold text-primary">—</span>
-                <span class="text-on-surface-variant text-body-sm">mouv./jour</span>
+                <span class="text-on-surface-variant text-body-sm">vols/jour</span>
             </div>
             <p class="text-xs text-on-surface-variant mt-2">Sur la période collectée</p>
         </div>
@@ -111,7 +111,7 @@ tailwind.config = {
                 <span id="kpi-co2" class="font-data-display text-[32px] font-bold text-tertiary">—</span>
                 <span class="text-on-surface-variant text-body-sm">tonnes</span>
             </div>
-            <p class="text-xs text-on-surface-variant mt-2 italic">*Estimation grossière, voir méthodologie</p>
+            <p class="text-xs text-on-surface-variant mt-2 italic">*Estimation, voir méthodologie</p>
         </div>
     </section>
 
@@ -125,9 +125,9 @@ tailwind.config = {
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
             <div class="lg:col-span-8">
                 <div class="flex justify-end gap-4 text-xs font-data-label uppercase mb-2">
+                    <span class="flex items-center gap-1"><span class="w-3 h-3 bg-tertiary"></span> Aviation légère</span>
                     <span class="flex items-center gap-1"><span class="w-3 h-3 bg-primary"></span> Commercial</span>
                     <span class="flex items-center gap-1"><span class="w-3 h-3 bg-secondary"></span> Jets privés</span>
-                    <span class="flex items-center gap-1"><span class="w-3 h-3 bg-tertiary"></span> Aviation légère</span>
                 </div>
                 <div id="daily-chart" class="h-72 w-full bg-surface-container-low rounded flex items-end gap-[2px] p-4"></div>
                 <div id="daily-axis" class="flex justify-between text-[10px] text-outline font-data-label mt-2 px-4"></div>
@@ -174,7 +174,7 @@ tailwind.config = {
                     <p class="text-sm text-on-surface-variant">Vols passagers réguliers.</p>
                 </div>
                 <div class="mt-6 pt-6 border-t border-outline-variant space-y-2">
-                    <div class="flex justify-between text-sm"><span class="text-outline">Mouvements</span><span id="cat-commercial-count" class="font-data-label">—</span></div>
+                    <div class="flex justify-between text-sm"><span class="text-outline">Vols</span><span id="cat-commercial-count" class="font-data-label">—</span></div>
                     <div class="flex justify-between text-sm"><span class="text-outline">Durée moy.</span><span id="cat-commercial-dur" class="font-data-label">—</span></div>
                 </div>
             </div>
@@ -188,7 +188,7 @@ tailwind.config = {
                     <p class="text-sm text-on-surface-variant">Aviation d'affaires (charter, multipropriété).</p>
                 </div>
                 <div class="mt-6 pt-6 border-t border-outline-variant space-y-2">
-                    <div class="flex justify-between text-sm"><span class="text-outline">Mouvements</span><span id="cat-bizjet-count" class="font-data-label">—</span></div>
+                    <div class="flex justify-between text-sm"><span class="text-outline">Vols</span><span id="cat-bizjet-count" class="font-data-label">—</span></div>
                     <div class="flex justify-between text-sm"><span class="text-outline">Durée moy.</span><span id="cat-bizjet-dur" class="font-data-label">—</span></div>
                 </div>
             </div>
@@ -202,7 +202,7 @@ tailwind.config = {
                     <p class="text-sm text-on-surface-variant">Aéroclubs, école, baptêmes, tourisme.</p>
                 </div>
                 <div class="mt-6 pt-6 border-t border-outline-variant space-y-2">
-                    <div class="flex justify-between text-sm"><span class="text-outline">Mouvements</span><span id="cat-ga-count" class="font-data-label">—</span></div>
+                    <div class="flex justify-between text-sm"><span class="text-outline">Vols</span><span id="cat-ga-count" class="font-data-label">—</span></div>
                     <div class="flex justify-between text-sm"><span class="text-outline">Durée moy.</span><span id="cat-ga-dur" class="font-data-label">—</span></div>
                 </div>
             </div>
@@ -238,7 +238,7 @@ tailwind.config = {
         </div>
 
         <div class="lg:col-span-3">
-            <h3 class="font-headline-md text-headline-md">Jets d'affaires : chaque mouvement</h3>
+            <h3 class="font-headline-md text-headline-md">Jets d'affaires : chaque vol</h3>
             <p class="text-on-surface-variant text-body-sm">Immatriculation, opérateur, provenance/destination et horaire de chaque vol privé d'affaires.</p>
         </div>
         <div class="lg:col-span-3 bg-surface border border-outline-variant overflow-x-auto">
@@ -296,7 +296,7 @@ tailwind.config = {
                 </div>
 
                 <div class="px-5 py-3 flex items-center justify-between gap-2">
-                    <p class="text-[10px] text-on-surface-variant italic flex-1">*Estimation approximative, voir méthodologie.</p>
+                    <p class="text-[10px] text-on-surface-variant italic flex-1">*Estimation, voir méthodologie.</p>
                     <span class="font-headline-lg text-xs font-bold text-primary shrink-0">LFBH</span>
                 </div>
             </div>
@@ -315,18 +315,13 @@ tailwind.config = {
                         <span id="co2-equiv" class="text-tertiary-fixed font-medium">—</span>
                     </div>
                 </div>
-                <div class="bg-white/10 p-6 border-l-4 border-secondary">
-                    <h4 class="font-bold text-secondary-fixed mb-2 flex items-center gap-2">
-                        <span class="material-symbols-outlined">warning</span> Estimation approximative
-                    </h4>
-                    <p id="co2-warning" class="text-sm italic font-medium leading-relaxed">—</p>
-                </div>
             </div>
 
             <div class="space-y-8">
                 <div>
                     <p class="font-data-label text-xs uppercase text-surface-variant mb-4">Émissions estimées par catégorie (tonnes)</p>
                     <div id="co2-by-cat" class="space-y-4"></div>
+                    <p id="co2-warning" class="text-xs text-surface-variant mt-4">—</p>
                 </div>
                 <div class="bg-surface-container-highest/20 p-4 rounded text-xs leading-relaxed border border-white/10">
                     <h5 class="font-bold text-surface-variant mb-2 uppercase flex items-center gap-1">
@@ -422,7 +417,7 @@ function render(data) {
 
   const biz = data.categories.jets_prives || {count:0, pct:0};
   document.getElementById('kpi-bizjet-pct').textContent = biz.pct + ' %';
-  document.getElementById('kpi-bizjet-sub').textContent = 'Soit ' + biz.count + ' mouvements';
+  document.getElementById('kpi-bizjet-sub').textContent = 'Soit ' + biz.count + ' vols';
 
   document.getElementById('kpi-co2').textContent = data.co2_estimate.total_tonnes.toLocaleString('fr-FR');
 
@@ -433,16 +428,17 @@ function render(data) {
 
   const dailyChart = document.getElementById('daily-chart');
   const maxDaily = Math.max(...data.daily.map(d =>
-    (d.commercial||0) + (d.jets_prives||0) + (d.aviation_legere||0) + (d.militaire||0) + (d.helicoptere||0) + (d.autre||0)
+    (d.aviation_legere||0) + (d.commercial||0) + (d.jets_prives||0)
   ));
   data.daily.forEach(d => {
-    const total = (d.commercial||0) + (d.jets_prives||0) + (d.aviation_legere||0) + (d.militaire||0) + (d.helicoptere||0) + (d.autre||0);
+    const total = (d.aviation_legere||0) + (d.commercial||0) + (d.jets_prives||0);
     const bar = document.createElement('div');
     bar.className = 'flex flex-col-reverse flex-1 h-full';
-    bar.title = d.date + ': ' + total + ' mouvements';
+    bar.title = d.date + ': ' + total + ' vols (hors militaire/hélicoptère/autre)';
+    // flex-col-reverse : le premier segment ajouté s'affiche en bas de la
+    // barre. Ordre voulu de bas en haut : aviation légère, commercial, jets.
     const segs = [
-      ['commercial', '#0037b0'], ['jets_prives', '#a73a00'], ['aviation_legere', '#005022'],
-      ['militaire', '#747686'], ['helicoptere', '#c4c5d7'], ['autre', '#d8dadc']
+      ['aviation_legere', '#005022'], ['commercial', '#0037b0'], ['jets_prives', '#a73a00'],
     ];
     segs.forEach(([key, color]) => {
       const v = d[key] || 0;
@@ -753,21 +749,25 @@ function render(data) {
   document.getElementById('co2-equiv').textContent =
     'Équivalent approximatif à ' + householdEquiv + ' foyers français / an*';
   document.getElementById('co2-warning').textContent =
-    'Estimation à prendre avec précaution : basée sur une consommation moyenne par type d\'appareil, sans données réelles de remplissage ni de météo. ' +
     data.co2_estimate.flights_with_estimate + ' vols sur ' + data.co2_estimate.flights_total + ' ont pu être estimés.';
 
   const co2Cat = document.getElementById('co2-by-cat');
-  const co2Order = ['commercial', 'jets_prives', 'aviation_legere', 'militaire', 'helicoptere'];
-  const maxCo2 = Math.max(...Object.values(data.co2_estimate.by_category_tonnes));
+  const co2Order = ['commercial', 'jets_prives', 'aviation_legere'];
+  const co2Values = co2Order
+    .map(key => data.co2_estimate.by_category_tonnes[key])
+    .filter(t => t !== undefined);
+  const maxCo2 = Math.max(...co2Values);
   co2Order.forEach(key => {
     const t = data.co2_estimate.by_category_tonnes[key];
     if (t === undefined) return;
     const row = document.createElement('div');
     row.className = 'flex items-center gap-4';
     row.innerHTML =
-      '<span class="w-28 text-xs font-bold">' + CAT_LABEL[key] + '</span>' +
-      '<div class="flex-1 h-8" style="width:' + (100 * t / maxCo2) + '%; background:' + CAT_COLOR[key] + '; opacity:0.7"></div>' +
-      '<span class="font-data-label text-sm">' + t + 't</span>';
+      '<span class="w-28 text-xs font-bold shrink-0">' + CAT_LABEL[key] + '</span>' +
+      '<div class="flex-1 bg-white/5 rounded-sm overflow-hidden h-8">' +
+      '<div class="h-full" style="width:' + (100 * t / maxCo2) + '%; background:' + CAT_COLOR[key] + '; opacity:0.85"></div>' +
+      '</div>' +
+      '<span class="font-data-label text-sm shrink-0">' + t + 't</span>';
     co2Cat.appendChild(row);
   });
   document.getElementById('co2-methodology').textContent = data.co2_estimate.methodology;
