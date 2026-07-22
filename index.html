@@ -258,7 +258,7 @@ tailwind.config = {
     <!-- Flight card modal template (format portrait, pensé pour le partage) -->
     <div id="flight-modal" class="fixed inset-0 z-[2000] hidden items-center justify-center bg-on-surface/70 p-4 overflow-auto" aria-hidden="true">
         <div class="relative my-auto">
-            <div id="flight-card" class="bg-surface flex flex-col rounded-xl overflow-hidden shadow-2xl" style="aspect-ratio: 1080 / 1350; height: min(88vh, 1350px); width: auto; max-width: 92vw;">
+            <div id="flight-card" class="bg-surface flex flex-col rounded-xl overflow-hidden shadow-2xl" style="aspect-ratio: 1080 / 1350; height: min(88svh, 1350px); width: auto; max-width: 92vw;">
                 <!-- Header -->
                 <div class="px-6 pt-5 pb-3 shrink-0">
                     <h3 id="flight-modal-title" class="font-headline-md text-headline-md leading-tight">—</h3>
@@ -268,9 +268,10 @@ tailwind.config = {
                 <!-- Carte + trajectoire, avec photo en médaillon flottant : occupe la majorité de la carte -->
                 <div class="relative" style="height: 68%;">
                     <div id="flight-modal-map" class="absolute inset-0 bg-surface-container-low"></div>
-                    <div id="flight-modal-photo" class="absolute left-6 bottom-6 z-[500] w-[45%] aspect-[4/3] rounded-lg bg-surface-container bg-cover bg-center shadow-lg ring-4 ring-surface hidden"></div>
+                    <div id="flight-modal-photo" class="absolute left-6 bottom-6 z-[500] w-[45%] aspect-[4/3] rounded-lg bg-surface-container bg-cover bg-center shadow-lg ring-4 ring-surface hidden overflow-hidden">
+                        <div id="flight-modal-photo-credit" class="absolute inset-x-0 bottom-0 px-1.5 py-0.5 text-[8px] leading-none text-white bg-black/40 hidden"></div>
+                    </div>
                 </div>
-                <div id="flight-modal-photo-credit" class="px-6 pt-1.5 text-xs text-on-surface-variant text-right hidden shrink-0"></div>
 
                 <!-- Stats -->
                 <div class="grid grid-cols-2 gap-px bg-outline-variant mt-px shrink-0">
@@ -691,7 +692,7 @@ function render(data) {
     if (photo) {
       photoEl.style.backgroundImage = "url('" + photo.thumbnail_large + "')";
       photoEl.classList.remove('hidden');
-      creditEl.innerHTML = 'Photo : ' + (photo.photographer || 'inconnu') +
+      creditEl.innerHTML = '© ' + (photo.photographer || 'inconnu') +
         ' · <a href="' + photo.link + '" target="_blank" rel="noopener" class="underline">planespotters.net</a>';
       creditEl.classList.remove('hidden');
     } else {
@@ -716,7 +717,7 @@ function render(data) {
     const orig = [f.orig_coords.lat, f.orig_coords.lon];
     const dest = [f.dest_coords.lat, f.dest_coords.lon];
     flightModalMap = L.map(mapEl, {scrollWheelZoom: false, zoomControl: false});
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18
     }).addTo(flightModalMap);
 
