@@ -256,50 +256,50 @@ tailwind.config = {
     </section>
 
     <!-- Flight card modal template (format portrait, pensé pour le partage) -->
-    <div id="flight-modal" class="fixed inset-0 z-[2000] hidden items-center justify-center bg-on-surface/70 p-4" aria-hidden="true">
-        <div class="relative">
-            <button id="flight-modal-close" class="absolute -top-3 -right-3 z-10 w-9 h-9 rounded-full bg-surface shadow-md flex items-center justify-center text-outline hover:text-on-surface material-symbols-outlined" aria-label="Fermer">close</button>
-            <div id="flight-card" class="bg-surface w-[min(380px,88vw)] max-h-[90vh] overflow-y-auto rounded-xl overflow-hidden shadow-2xl">
+    <div id="flight-modal" class="fixed inset-0 z-[2000] hidden items-center justify-center bg-on-surface/70 p-4 overflow-auto" aria-hidden="true">
+        <div class="relative my-auto">
+            <div id="flight-card" class="bg-surface w-[1080px] h-[1350px] max-w-[92vw] max-h-[92vh] flex flex-col rounded-xl overflow-hidden shadow-2xl" style="aspect-ratio: 1080 / 1350;">
                 <!-- Header -->
-                <div class="p-5 pb-3">
-                    <h3 id="flight-modal-title" class="font-headline-md text-headline-md leading-tight">—</h3>
-                    <p id="flight-modal-subtitle" class="text-on-surface-variant text-body-sm mt-0.5">—</p>
+                <div class="p-10 pb-6 shrink-0">
+                    <h3 id="flight-modal-title" class="font-headline-lg text-headline-lg leading-tight">—</h3>
+                    <p id="flight-modal-subtitle" class="text-on-surface-variant text-body-md mt-1">—</p>
                 </div>
 
                 <!-- Carte + trajectoire, avec photo en médaillon flottant -->
-                <div class="relative">
-                    <div id="flight-modal-map" class="w-full aspect-square bg-surface-container-low"></div>
-                    <div id="flight-modal-photo" class="absolute left-4 bottom-4 z-[500] w-[42%] aspect-[4/3] rounded-lg bg-surface-container bg-cover bg-center shadow-lg ring-4 ring-surface hidden"></div>
+                <div class="relative flex-1 min-h-0">
+                    <div id="flight-modal-map" class="absolute inset-0 bg-surface-container-low"></div>
+                    <div id="flight-modal-photo" class="absolute left-10 bottom-10 z-[500] w-[42%] aspect-[4/3] rounded-lg bg-surface-container bg-cover bg-center shadow-lg ring-4 ring-surface hidden"></div>
                 </div>
-                <div id="flight-modal-photo-credit" class="px-5 pt-1.5 text-[10px] text-on-surface-variant text-right hidden"></div>
+                <div id="flight-modal-photo-credit" class="px-10 pt-2 text-sm text-on-surface-variant text-right hidden shrink-0"></div>
 
                 <!-- Stats -->
-                <div class="grid grid-cols-2 gap-px bg-outline-variant mt-px">
-                    <div class="bg-surface p-4">
-                        <p class="font-data-label text-[10px] uppercase text-outline mb-1">Provenance</p>
-                        <p id="flight-modal-orig" class="font-bold text-sm leading-tight">—</p>
-                        <p id="flight-modal-orig-code" class="font-data-label text-xs text-outline">—</p>
+                <div class="grid grid-cols-2 gap-px bg-outline-variant mt-px shrink-0">
+                    <div class="bg-surface p-8">
+                        <p class="font-data-label text-sm uppercase text-outline mb-1">Provenance</p>
+                        <p id="flight-modal-orig" class="font-bold text-2xl leading-tight">—</p>
+                        <p id="flight-modal-orig-code" class="font-data-label text-base text-outline">—</p>
                     </div>
-                    <div class="bg-surface p-4">
-                        <p class="font-data-label text-[10px] uppercase text-outline mb-1">Destination</p>
-                        <p id="flight-modal-dest" class="font-bold text-sm leading-tight">—</p>
-                        <p id="flight-modal-dest-code" class="font-data-label text-xs text-outline">—</p>
+                    <div class="bg-surface p-8">
+                        <p class="font-data-label text-sm uppercase text-outline mb-1">Destination</p>
+                        <p id="flight-modal-dest" class="font-bold text-2xl leading-tight">—</p>
+                        <p id="flight-modal-dest-code" class="font-data-label text-base text-outline">—</p>
                     </div>
-                    <div class="bg-surface p-4">
-                        <p class="font-data-label text-[10px] uppercase text-outline mb-1">Temps de vol</p>
-                        <p id="flight-modal-duration" class="font-bold text-lg font-data-label">—</p>
+                    <div class="bg-surface p-8">
+                        <p class="font-data-label text-sm uppercase text-outline mb-1">Temps de vol</p>
+                        <p id="flight-modal-duration" class="font-bold text-3xl font-data-label">—</p>
                     </div>
-                    <div class="bg-surface p-4">
-                        <p class="font-data-label text-[10px] uppercase text-outline mb-1">CO2 estimé*</p>
-                        <p id="flight-modal-co2" class="font-bold text-lg font-data-label text-tertiary">—</p>
+                    <div class="bg-surface p-8">
+                        <p class="font-data-label text-sm uppercase text-outline mb-1">CO2 estimé*</p>
+                        <p id="flight-modal-co2" class="font-bold text-3xl font-data-label text-tertiary">—</p>
                     </div>
                 </div>
 
-                <div class="px-5 py-3 flex items-center justify-between gap-2">
-                    <p class="text-[10px] text-on-surface-variant italic flex-1">*Estimation, voir méthodologie.</p>
-                    <span class="font-headline-lg text-xs font-bold text-primary shrink-0">LFBH</span>
+                <div class="px-10 py-5 flex items-center justify-between gap-2 shrink-0">
+                    <p class="text-sm text-on-surface-variant italic flex-1">*Estimation, voir méthodologie.</p>
+                    <span class="font-headline-lg text-xl font-bold text-primary shrink-0">LFBH</span>
                 </div>
             </div>
+            <p class="text-center text-white/70 text-xs mt-3">Cliquez en dehors de la carte ou appuyez sur Échap pour fermer</p>
         </div>
     </div>
 
@@ -721,17 +721,17 @@ function render(data) {
     }).addTo(flightModalMap);
 
     const jetIcon = L.divIcon({
-      html: '<span class="material-symbols-outlined" style="font-size:22px; color:' + CAT_COLOR.jets_prives + '">flight</span>',
-      className: '', iconSize: [22, 22], iconAnchor: [11, 11]
+      html: '<span class="material-symbols-outlined" style="font-size:40px; color:' + CAT_COLOR.jets_prives + '">flight</span>',
+      className: '', iconSize: [40, 40], iconAnchor: [20, 20]
     });
 
-    L.circleMarker(orig, {radius: 7, color: CAT_COLOR.commercial, fillColor: CAT_COLOR.commercial, fillOpacity: 0.6, weight: 2})
+    L.circleMarker(orig, {radius: 10, color: CAT_COLOR.commercial, fillColor: CAT_COLOR.commercial, fillOpacity: 0.6, weight: 3})
       .addTo(flightModalMap).bindTooltip(f.orig_name || 'Origine', {permanent: false});
-    L.circleMarker(dest, {radius: 7, color: CAT_COLOR.jets_prives, fillColor: CAT_COLOR.jets_prives, fillOpacity: 0.6, weight: 2})
+    L.circleMarker(dest, {radius: 10, color: CAT_COLOR.jets_prives, fillColor: CAT_COLOR.jets_prives, fillOpacity: 0.6, weight: 3})
       .addTo(flightModalMap).bindTooltip(f.dest_name || 'Destination', {permanent: false});
 
     const line = L.polyline([orig, dest], {
-      color: CAT_COLOR.jets_prives, weight: 2.5, dashArray: '6, 8', opacity: 0.85
+      color: CAT_COLOR.jets_prives, weight: 4, dashArray: '10, 12', opacity: 0.85
     }).addTo(flightModalMap);
 
     // Icône avion positionnée au milieu du trajet
@@ -746,8 +746,8 @@ function render(data) {
     // en Y (bas), pour que fitBounds ne dessine jamais la trajectoire dans
     // le coin occupé par la photo.
     const mapSize = mapEl.getBoundingClientRect();
-    const photoWidthPx = mapSize.width * 0.42 + 32; // + marge left-4 (16px * 2 pour la marge visuelle)
-    const photoHeightPx = (mapSize.width * 0.42 * 3 / 4) + 32; // ratio 4/3 + marge bottom-4
+    const photoWidthPx = mapSize.width * 0.42 + 80; // + marge left-10 (40px * 2 pour la marge visuelle)
+    const photoHeightPx = (mapSize.width * 0.42 * 3 / 4) + 80; // ratio 4/3 + marge bottom-10
     flightModalMap.fitBounds(line.getBounds(), {
       paddingTopLeft: [Math.max(20, photoWidthPx), 20],
       paddingBottomRight: [20, Math.max(20, photoHeightPx)],
@@ -762,7 +762,6 @@ function render(data) {
     modal.setAttribute('aria-hidden', 'true');
   }
 
-  document.getElementById('flight-modal-close').addEventListener('click', closeFlightModal);
   modal.addEventListener('click', (e) => { if (e.target === modal) closeFlightModal(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeFlightModal(); });
 
