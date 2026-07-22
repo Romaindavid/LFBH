@@ -265,8 +265,11 @@ tailwind.config = {
                     <p id="flight-modal-subtitle" class="text-on-surface-variant text-body-sm mt-0.5">—</p>
                 </div>
 
-                <!-- Carte + trajectoire, avec photo en médaillon flottant : occupe la majorité de la carte -->
-                <div class="relative" style="height: 68%;">
+                <!-- Carte + trajectoire, avec photo en médaillon flottant : occupe la majorité de la carte.
+                     flex-1 (espace restant après header/stats/footer, tous shrink-0) plutôt qu'un height
+                     en % — un % se calcule sur la hauteur totale du flex-parent, pas sur l'espace
+                     réellement disponible, ce qui pouvait faire déborder le total hors du cadre sur mobile. -->
+                <div class="relative flex-1 min-h-0">
                     <div id="flight-modal-map" class="absolute inset-0 bg-surface-container-low"></div>
                     <div id="flight-modal-photo" class="absolute left-6 bottom-6 z-[500] w-[45%] aspect-[4/3] rounded-lg bg-surface-container bg-cover bg-center shadow-lg ring-4 ring-surface hidden overflow-hidden">
                         <div id="flight-modal-photo-credit" class="absolute inset-x-0 bottom-0 px-1.5 py-0.5 text-[8px] leading-none text-white bg-black/40 hidden"></div>
@@ -739,22 +742,34 @@ function render(data) {
     const mid = [(orig[0] + dest[0]) / 2, (orig[1] + dest[1]) / 2];
     L.marker(mid, {icon: jetIcon}).addTo(flightModalMap);
 
-    // Padding asymétrique : la photo de l'appareil est incrustée en BAS À
-    // GAUCHE de la carte (médaillon ~42% de la largeur du conteneur, ratio
-    // 4/3). paddingTopLeft=[x,y] réserve de l'espace à GAUCHE et en HAUT ;
-    // paddingBottomRight=[x,y] réserve de l'espace à DROITE et en BAS. On
-    // veut donc pousser paddingTopLeft en X (gauche) et paddingBottomRight
-    // en Y (bas), pour que fitBounds ne dessine jamais la trajectoire dans
-    // le coin occupé par la photo.
-    const mapSize = mapEl.getBoundingClientRect();
-    const photoWidthPx = mapSize.width * 0.42 + 80; // + marge left-10 (40px * 2 pour la marge visuelle)
-    const photoHeightPx = (mapSize.width * 0.42 * 3 / 4) + 80; // ratio 4/3 + marge bottom-10
-    flightModalMap.fitBounds(line.getBounds(), {
-      paddingTopLeft: [Math.max(20, photoWidthPx), 20],
-      paddingBottomRight: [20, Math.max(20, photoHeightPx)],
+    // Sur mobile, le layout CSS (calc() imbriqués avec svh) peut ne pas être
+    // stabilisé au moment où L.map() est créée (conteneur mesuré trop tôt,
+    // encore à l'ancienne taille du rendu précédent ou à 0). On attend deux
+    // frames + un court délai avant de mesurer et appeler fitBounds, pour
+    // laisser le navigateur terminer son reflow — sinon le cadrage de la
+    // carte (et donc la zone visible) reste calculé sur une fausse taille.
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        setTimeout(() => {
+          flightModalMap.invalidateSize();
+
+          // Padding asymétrique : la photo de l'appareil est incrustée en
+          // BAS À GAUCHE de la carte (médaillon ~42% de la largeur du
+          // conteneur, ratio 4/3). paddingTopLeft=[x,y] réserve de l'espace
+          // à GAUCHE et en HAUT ; paddingBottomRight=[x,y] réserve l'espace
+          // à DROITE et en BAS. On pousse donc paddingTopLeft en X (gauche)
+          // et paddingBottomRight en Y (bas), pour que fitBounds ne dessine
+          // jamais la trajectoire dans le coin occupé par la photo.
+          const mapSize = mapEl.getBoundingClientRect();
+          const photoWidthPx = mapSize.width * 0.42 + 80;
+          const photoHeightPx = (mapSize.width * 0.42 * 3 / 4) + 80;
+          flightModalMap.fitBounds(line.getBounds(), {
+            paddingTopLeft: [Math.max(20, photoWidthPx), 20],
+            paddingBottomRight: [20, Math.max(20, photoHeightPx)],
+          });
+        }, 100);
+      });
     });
-    // Leaflet a besoin d'un invalidateSize après affichage (conteneur caché au moment du L.map)
-    setTimeout(() => flightModalMap.invalidateSize(), 50);
   }
 
   function closeFlightModal() {
