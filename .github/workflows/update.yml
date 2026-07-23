@@ -1,0 +1,56 @@
+name: Mise à jour des données LFBH
+
+on:
+  schedule:
+    # 06:00 et 18:00 UTC (~08:00 et 20:00 heure d'été française).
+    # Le cron GitHub n'est pas garanti à la minute près, surtout aux heures
+    # de forte charge (proche de l'heure pile) — décalage possible de
+    # quelques minutes à un quart d'heure.
+    - cron: '0 6 * * *'
+    - cron: '0 18 * * *'
+  workflow_dispatch: {}  # permet aussi un lancement manuel depuis l'onglet Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false  # ne jamais interrompre une collecte en cours
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45  # une collecte qui rattrape ~29 jours peut prendre 30-45 min
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installe les dépendances
+        run: pip install requests python-dotenv
+
+      - name: Lance la mise à jour
+        env:
+          FR24_API_TOKEN: ${{ secrets.FR24_API_TOKEN }}
+        run: |
+          set -e
+          python3 collect_history.py
+          python3 fetch_airport_coords.py
+          python3 build_dashboard_data.py
+          python3 fetch_aircraft_photos.py
+
+      - name: Commit et push si des données ont changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add history.json dashboard_data.json airport_coords.json aircraft_photos.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement, rien à committer."
+          else
+            git commit -m "Mise à jour automatique des données ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          fi

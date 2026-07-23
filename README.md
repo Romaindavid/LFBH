@@ -4,7 +4,11 @@ Dashboard public du trafic aérien à l'aéroport de La Rochelle – Île de Ré
 
 **Site en ligne :** https://romaindavid.github.io/LFBH/
 
-## Mettre à jour les données
+## Mise à jour automatique
+
+Un workflow GitHub Actions (`.github/workflows/update.yml`) exécute la mise à jour automatiquement **2 fois par jour** (6h et 18h UTC), commit et push le résultat sans intervention manuelle. Prérequis : le secret `FR24_API_TOKEN` doit être configuré dans Settings → Secrets and variables → Actions du repo. Un lancement manuel est possible depuis l'onglet Actions ("Run workflow").
+
+## Mettre à jour les données manuellement
 
 ```bash
 ./update.sh
@@ -42,7 +46,7 @@ GitHub Pages republie automatiquement `index.html` après le push (quelques minu
 | `fetch_aircraft_photos.py` | Photos des jets d'affaires (Planespotters) | oui |
 | `update.sh` | Enchaîne les 4 scripts ci-dessus | oui |
 | `index.html` | Le dashboard (statique, servi par GitHub Pages) | oui |
-| `history.json` | Vols bruts cumulés (peut grossir, 1-2 Mo) | **non** (`.gitignore`) |
+| `history.json` | Vols bruts cumulés | oui — versionné volontairement pour ne jamais perdre l'historique (le plan API ne permet d'interroger que 29 jours glissants). Grossira dans le temps ; si ça devient un problème, migration vers un stockage externe (Supabase ou équivalent) à envisager. |
 | `airport_coords.json` | Cache lat/lon des aéroports | oui (évite de re-télécharger le CSV OurAirports à chaque run) |
 | `aircraft_photos.json` | Cache photo par immatriculation | oui (évite de re-solliciter l'API Planespotters) |
 | `dashboard_data.json` | Données agrégées consommées par `index.html` | oui (nécessaire pour GitHub Pages, qui ne peut pas exécuter Python) |
