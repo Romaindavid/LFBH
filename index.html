@@ -759,14 +759,23 @@ function render(data) {
           // conteneur, ratio 4/3). paddingTopLeft=[x,y] réserve de l'espace
           // à GAUCHE et en HAUT ; paddingBottomRight=[x,y] réserve l'espace
           // à DROITE et en BAS.
+          //
+          // Piège : sur un trajet court, réserver la pleine taille du
+          // médaillon (~42% de la largeur) force fitBounds à dézoomer
+          // énormément pour que la trajectoire tienne dans l'espace
+          // restant — même si le zoom "naturel" du trajet serait bien plus
+          // serré. On plafonne donc le padding à une fraction modeste de
+          // la taille du conteneur (25%), suffisant pour dégager la photo
+          // sans dicter un zoom disproportionné.
           function applyFitBounds() {
             flightModalMap.invalidateSize();
             const mapSize = mapEl.getBoundingClientRect();
-            const photoWidthPx = mapSize.width * 0.42 + 80;
-            const photoHeightPx = (mapSize.width * 0.42 * 3 / 4) + 80;
+            const photoWidthPx = Math.min(mapSize.width * 0.25, mapSize.width * 0.42 + 80);
+            const photoHeightPx = Math.min(mapSize.height * 0.25, mapSize.width * 0.42 * 3 / 4 + 80);
             flightModalMap.fitBounds(line.getBounds(), {
               paddingTopLeft: [Math.max(20, photoWidthPx), 20],
               paddingBottomRight: [20, Math.max(20, photoHeightPx)],
+              maxZoom: 11,
             });
           }
           // Le cadrage dépend de la taille réelle du conteneur, qui peut
