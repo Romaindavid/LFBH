@@ -267,5 +267,15 @@
     "thumbnail_large": "https://t.plnspttrs.net/13727/1591855_7905e514bc_280.jpg",
     "link": "https://www.planespotters.net/photo/1591855/f-hyke-private-pilatus-pc-12-pc-12-45?utm_source=api",
     "photographer": "bruno muthelet"
+  },
+  "CS-PHV": {
+    "thumbnail_large": "https://t.plnspttrs.net/15517/1879632_3d8bfc6b53_280.jpg",
+    "link": "https://www.planespotters.net/photo/1879632/cs-phv-netjets-europe-embraer-phenom-300-emb-505?utm_source=api",
+    "photographer": "Wesley Poxon"
+  },
+  "D-ALIN": {
+    "thumbnail_large": "https://t.plnspttrs.net/19387/1898929_ecd964cb4b_280.jpg",
+    "link": "https://www.planespotters.net/photo/1898929/d-alin-luminair-dassault-falcon-7x?utm_source=api",
+    "photographer": "Niclas Rebbelmund | @niclashco"
   }
 }

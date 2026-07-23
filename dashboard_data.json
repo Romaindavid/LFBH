@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-22T20:22:31.655512+00:00",
+  "generated_at": "2026-07-23T09:21:03.687452+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-07-22T20:19:54",
-  "total_movements": 1734,
+  "period_end": "2026-07-23T09:20:44",
+  "total_movements": 1746,
   "categories": {
     "aviation_legere": {
-      "count": 994,
-      "pct": 57.3,
+      "count": 1003,
+      "pct": 57.4,
       "avg_duration_min": 81
     },
     "helicoptere": {
       "count": 34,
-      "pct": 2.0,
+      "pct": 1.9,
       "avg_duration_min": 39
     },
     "commercial": {
-      "count": 371,
-      "pct": 21.4,
+      "count": 372,
+      "pct": 21.3,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,13 +25,13 @@
       "avg_duration_min": 62
     },
     "jets_prives": {
-      "count": 179,
-      "pct": 10.3,
+      "count": 181,
+      "pct": 10.4,
       "avg_duration_min": 73
     },
     "militaire": {
       "count": 121,
-      "pct": 7.0,
+      "pct": 6.9,
       "avg_duration_min": 60
     }
   },
@@ -304,17 +304,22 @@
     {
       "date": "2026-07-22",
       "aviation_legere": 30,
-      "commercial": 15,
+      "commercial": 16,
       "militaire": 4,
       "jets_prives": 6,
       "autre": 2
+    },
+    {
+      "date": "2026-07-23",
+      "aviation_legere": 9,
+      "jets_prives": 2
     }
   ],
   "weekday_distribution": [
     260,
     242,
-    260,
-    190,
+    261,
+    201,
     304,
     271,
     207
@@ -324,12 +329,12 @@
     1,
     1,
     2,
-    19,
+    20,
     63,
-    99,
-    198,
-    193,
-    152,
+    102,
+    201,
+    196,
+    153,
     107,
     82,
     128,
@@ -340,7 +345,7 @@
     67,
     54,
     21,
-    21,
+    22,
     16,
     9,
     4
@@ -3909,6 +3914,48 @@
       "landed": "2026-07-22 18:42:43",
       "duration_min": null,
       "co2_kg": null
+    },
+    {
+      "reg": "D-ALIN",
+      "type": "FA7X",
+      "operator": "LUA",
+      "orig": "EGLF",
+      "orig_name": "Farnborough",
+      "orig_coords": {
+        "lat": 51.275799,
+        "lon": -0.776333
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-23 07:22:31",
+      "landed": "2026-07-23 08:14:05",
+      "duration_min": 52,
+      "co2_kg": 3032
+    },
+    {
+      "reg": "CS-PHV",
+      "type": "E55P",
+      "operator": "NJE",
+      "orig": "LEGE",
+      "orig_name": "Girona-Costa Brava Airport",
+      "orig_coords": {
+        "lat": 41.904639,
+        "lon": 2.761774
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-23 09:09:14",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null
     }
   ],
   "business_jets_operators": [
@@ -3918,7 +3965,7 @@
     ],
     [
       "NJE",
-      24
+      25
     ],
     [
       "JFA",
@@ -3991,6 +4038,10 @@
     [
       "LXA",
       1
+    ],
+    [
+      "LUA",
+      1
     ]
   ],
   "commercial_routes": [
@@ -4012,7 +4063,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 39
+      "count": 40
     },
     {
       "code": "LFLL",
@@ -4067,12 +4118,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 554,
-      "distinct_aircraft": 149
+      "count": 559,
+      "distinct_aircraft": 150
     },
     "tourism": {
-      "count": 440,
-      "distinct_aircraft": 219
+      "count": 444,
+      "distinct_aircraft": 221
     },
     "tourism_routes": [
       {
@@ -4096,6 +4147,11 @@
         "count": 13
       },
       {
+        "code": "LFOU",
+        "name": "Cholet",
+        "count": 13
+      },
+      {
         "code": "LFEA",
         "name": "Belle-Île-en-Mer",
         "count": 12
@@ -4106,18 +4162,13 @@
         "count": 12
       },
       {
-        "code": "LFOU",
-        "name": "Cholet",
+        "code": "LFRI",
+        "name": "La Roche-sur-Yon",
         "count": 12
       },
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 11
-      },
-      {
-        "code": "LFRI",
-        "name": "La Roche-sur-Yon",
         "count": 11
       },
       {
@@ -4191,7 +4242,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 39
+      "count": 40
     },
     {
       "category": "commercial",
@@ -4511,7 +4562,7 @@
       "name": "Farnborough",
       "lat": 51.275799,
       "lon": -0.776333,
-      "count": 4
+      "count": 5
     },
     {
       "category": "jets_prives",
@@ -4719,7 +4770,7 @@
       "name": "Girona-Costa Brava Airport",
       "lat": 41.904639,
       "lon": 2.761774,
-      "count": 2
+      "count": 3
     },
     {
       "category": "jets_prives",
@@ -5271,7 +5322,7 @@
       "name": "La Roche-sur-Yon",
       "lat": 46.7019,
       "lon": -1.37863,
-      "count": 11
+      "count": 12
     },
     {
       "category": "aviation_legere",
@@ -5455,7 +5506,7 @@
       "name": "Cholet",
       "lat": 47.0821,
       "lon": -0.877064,
-      "count": 12
+      "count": 13
     },
     {
       "category": "aviation_legere",
@@ -5471,7 +5522,7 @@
       "name": "Marseille-Provence",
       "lat": 42.740398,
       "lon": 2.87067,
-      "count": 5
+      "count": 6
     },
     {
       "category": "aviation_legere",
@@ -5791,7 +5842,7 @@
       "name": "Pirineus - la Seu d'Urgel Airport",
       "lat": 42.3386,
       "lon": 1.40917,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -5920,16 +5971,16 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 3051.1,
-    "flights_with_estimate": 1217,
-    "flights_total": 1734,
+    "total_tonnes": 3069.7,
+    "flights_with_estimate": 1225,
+    "flights_total": 1746,
     "by_category_tonnes": {
-      "aviation_legere": 76.6,
-      "commercial": 2724.4,
-      "jets_prives": 232.5,
+      "aviation_legere": 76.9,
+      "commercial": 2739.7,
+      "jets_prives": 235.5,
       "helicoptere": 5.5,
       "militaire": 12.1
     },
-    "methodology": "Estimation approximative = consommation kérosène/essence moyenne par type d'appareil (ICAO) x durée de vol réelle. Ne tient pas compte du nombre de passagers, du taux de remplissage, ni des conditions météo. Calcul possible pour 1217/1734 vols (type d'appareil et durée connus)."
+    "methodology": "Estimation approximative = consommation kérosène/essence moyenne par type d'appareil (ICAO) x durée de vol réelle. Ne tient pas compte du nombre de passagers, du taux de remplissage, ni des conditions météo. Calcul possible pour 1225/1746 vols (type d'appareil et durée connus)."
   }
 }
