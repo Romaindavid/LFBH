@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T10:42:38.353060+00:00",
+  "generated_at": "2026-07-24T11:14:24.400468+00:00",
   "period_start": "2026-06-18T12:44:10",
   "period_end": "2026-07-24T08:10:59",
   "total_movements": 1799,
@@ -4231,6 +4231,13 @@
       1
     ]
   ],
+  "short_flights": {
+    "n_with_distance": 154,
+    "pct_under_500km": 40,
+    "n_with_duration": 153,
+    "avg_duration_min": 73,
+    "pct_under_45min": 21
+  },
   "commercial_routes": [
     {
       "code": "EGKK",
@@ -6186,6 +6193,25 @@
       "helicoptere": 5.5,
       "militaire": 12.3
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 96 580 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 19 types d'appareils différents identifiés. L'écart entre appareils est important : parmi les jets vus à La Rochelle, un TBM8 consomme environ 220 L/h de kérosène, contre 1400 L/h pour un FA7X — soit 6.4x plus pour une heure de vol équivalente. Deux jets privés ne se valent donc pas : le modèle choisi pèse au moins autant que la distance parcourue. Le nombre de passagers à bord n'est en revanche pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre."
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 96 580 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 19 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "fuel_comparison": {
+      "lightest_type": "TBM8",
+      "lightest_lph": 220,
+      "heaviest_type": "FA7X",
+      "heaviest_lph": 1400,
+      "ratio": 6.4
+    },
+    "monthly_tonnes_jets_prives": [
+      {
+        "month": "2026-06",
+        "tonnes": 70.8
+      },
+      {
+        "month": "2026-07",
+        "tonnes": 172.5
+      }
+    ],
+    "avg_monthly_tonnes_jets_prives": 121.7,
+    "rochelais_equivalent_per_month": 159
   }
 }

@@ -10,6 +10,7 @@ import json
 import os
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
+from math import radians, sin, cos, asin, sqrt
 
 IN_PATH = os.path.join(os.path.dirname(__file__), "history.json")
 OUT_PATH = os.path.join(os.path.dirname(__file__), "dashboard_data.json")
@@ -271,6 +272,37 @@ def main():
     biz_operators = Counter(f.get("operating_as") or "Inconnu" for f in biz)
     out["business_jets_operators"] = biz_operators.most_common()
 
+    # --- Vols courts (jets privés) : distance et durée ---
+    def _distance_km(a, b):
+        if not a or not b:
+            return None
+        lat1, lon1, lat2, lon2 = map(radians, [a["lat"], a["lon"], b["lat"], b["lon"]])
+        dlat, dlon = lat2 - lat1, lon2 - lon1
+        h = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
+        return 2 * 6371 * asin(sqrt(h))
+
+    short_distances = []
+    durations = []
+    short_durations = 0
+    for bj in out["business_jets"]:
+        dist = _distance_km(bj["orig_coords"], bj["dest_coords"])
+        if dist is not None:
+            short_distances.append(dist)
+        if bj["duration_min"] is not None:
+            durations.append(bj["duration_min"])
+            if bj["duration_min"] < 45:
+                short_durations += 1
+
+    n_dist = len(short_distances)
+    n_dur = len(durations)
+    out["short_flights"] = {
+        "n_with_distance": n_dist,
+        "pct_under_500km": round(100 * sum(1 for d in short_distances if d < 500) / n_dist) if n_dist else None,
+        "n_with_duration": n_dur,
+        "avg_duration_min": round(sum(durations) / n_dur) if n_dur else None,
+        "pct_under_45min": round(100 * short_durations / n_dur) if n_dur else None,
+    }
+
     # --- Commercial : par route ---
     commercial = by_cat.get("commercial", [])
     routes = Counter()
@@ -377,26 +409,55 @@ def main():
             f"kérosène brûlés par des jets privés à La Rochelle, répartis sur "
             f"{n_types} types d'appareils différents identifiés. "
         )
+    methodology += (
+        "Le nombre de passagers à bord n'est pas connu (un jet privé vole en "
+        "moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur "
+        "un trajet comparable) et n'entre pas dans le calcul — l'empreinte par "
+        "passager est donc, en réalité, encore plus disproportionnée que ce "
+        "chiffre global ne le montre."
+    )
+
+    # Comparaison consommation : les deux jets les plus extrêmes réellement vus
+    fuel_comparison = None
     if jet_types_seen:
         lightest = min(jet_types_seen, key=lambda t: FUEL_BURN_LPH[t])
         heaviest = max(jet_types_seen, key=lambda t: FUEL_BURN_LPH[t])
         if lightest != heaviest:
-            ratio = round(FUEL_BURN_LPH[heaviest] / FUEL_BURN_LPH[lightest], 1)
-            methodology += (
-                f"L'écart entre appareils est important : parmi les jets vus à "
-                f"La Rochelle, un {lightest} consomme environ "
-                f"{FUEL_BURN_LPH[lightest]} L/h de kérosène, contre "
-                f"{FUEL_BURN_LPH[heaviest]} L/h pour un {heaviest} — soit {ratio}x plus "
-                "pour une heure de vol équivalente. Deux jets privés ne se valent "
-                "donc pas : le modèle choisi pèse au moins autant que la distance "
-                "parcourue. "
-            )
-    methodology += (
-        "Le nombre de passagers à bord n'est en revanche pas connu (un jet privé "
-        "vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial "
-        "sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte "
-        "par passager est donc, en réalité, encore plus disproportionnée que ce "
-        "chiffre global ne le montre."
+            fuel_comparison = {
+                "lightest_type": lightest,
+                "lightest_lph": FUEL_BURN_LPH[lightest],
+                "heaviest_type": heaviest,
+                "heaviest_lph": FUEL_BURN_LPH[heaviest],
+                "ratio": round(FUEL_BURN_LPH[heaviest] / FUEL_BURN_LPH[lightest], 1),
+            }
+
+    # Répartition mensuelle des tonnes de CO2 (jets privés)
+    co2_by_month = defaultdict(float)
+    for f in flights:
+        if flight_category(f) != "jets_prives":
+            continue
+        co2 = estimate_co2_kg(f)
+        if co2 is None:
+            continue
+        ts = f.get("datetime_takeoff") or f.get("first_seen")
+        if not ts:
+            continue
+        month_key = ts[:7]  # YYYY-MM
+        co2_by_month[month_key] += co2
+    monthly_co2_tonnes = [
+        {"month": m, "tonnes": round(kg / 1000, 1)}
+        for m, kg in sorted(co2_by_month.items())
+    ]
+    avg_monthly_tonnes = (
+        round(sum(co2_by_month.values()) / 1000 / len(co2_by_month), 1)
+        if co2_by_month else 0
+    )
+    # Équivalent "N Rochelais" : empreinte carbone individuelle moyenne en France
+    # ~9,2 t CO2/an/personne (ADEME, tous postes) => ~0,77 t/mois/personne.
+    FR_CO2_PER_PERSON_MONTH_TONNES = 9.2 / 12
+    rochelais_equiv = (
+        round(avg_monthly_tonnes / FR_CO2_PER_PERSON_MONTH_TONNES)
+        if avg_monthly_tonnes else 0
     )
 
     out["co2_estimate"] = {
@@ -409,6 +470,10 @@ def main():
             cat: round(kg / 1000, 1) for cat, kg in co2_by_cat.items()
         },
         "methodology": methodology,
+        "fuel_comparison": fuel_comparison,
+        "monthly_tonnes_jets_prives": monthly_co2_tonnes,
+        "avg_monthly_tonnes_jets_prives": avg_monthly_tonnes,
+        "rochelais_equivalent_per_month": rochelais_equiv,
     }
 
     with open(OUT_PATH, "w") as f:

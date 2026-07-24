@@ -56,6 +56,7 @@ tailwind.config = {
                 <nav class="hidden md:flex gap-6 items-center">
                     <a href="#overview" class="text-primary font-bold border-b-2 border-primary pb-1 font-body-sm text-body-sm">Vue d'ensemble</a>
                     <a href="#evolution" class="text-on-surface-variant font-body-sm text-body-sm hover:text-primary transition-colors">Évolution</a>
+                    <a href="#short-flights" class="text-on-surface-variant font-body-sm text-body-sm hover:text-primary transition-colors">Vols courts</a>
                     <a href="#destinations" class="text-on-surface-variant font-body-sm text-body-sm hover:text-primary transition-colors">Destinations</a>
                     <a href="#carbon" class="text-on-surface-variant font-body-sm text-body-sm hover:text-primary transition-colors">Empreinte carbone</a>
                     <a href="#methodology" class="text-on-surface-variant font-body-sm text-body-sm hover:text-primary transition-colors">Méthodologie</a>
@@ -141,6 +142,40 @@ tailwind.config = {
         </div>
     </section>
 
+    <!-- Section 3b: Absurdité des vols courts -->
+    <section id="short-flights" class="bg-surface border border-outline-variant p-8">
+        <div class="mb-8">
+            <h2 class="font-headline-md text-headline-md">L'Absurdité des vols courts</h2>
+            <p class="text-on-surface-variant text-body-sm">En France, 42% des vols en jet privé parcourent moins de 500 km — des trajets largement faisables en train (<a href="https://reporterre.net/" target="_blank" rel="noopener" class="text-primary hover:underline">étude Reporterre</a>). Qu'en est-il à La Rochelle ?</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+            <div class="bg-surface-container-low p-6 rounded border-t-4 border-t-secondary">
+                <p class="font-data-label text-data-label text-outline uppercase mb-2">Vols de moins de 500 km</p>
+                <div class="flex items-baseline gap-2">
+                    <span id="kpi-short-pct" class="font-data-display text-[32px] font-bold text-secondary">—</span>
+                    <span class="text-on-surface-variant text-body-sm">à La Rochelle</span>
+                </div>
+                <p class="text-xs text-on-surface-variant mt-2 italic">vs 42% en moyenne nationale</p>
+            </div>
+            <div class="bg-surface-container-low p-6 rounded border-t-4 border-t-secondary">
+                <p class="font-data-label text-data-label text-outline uppercase mb-2">Durée de vol moyenne</p>
+                <div class="flex items-baseline gap-2">
+                    <span id="kpi-avg-duration" class="font-data-display text-[32px] font-bold text-secondary">—</span>
+                    <span class="text-on-surface-variant text-body-sm">min</span>
+                </div>
+                <p class="text-xs text-on-surface-variant mt-2 italic">sur les vols avec durée connue</p>
+            </div>
+            <div class="bg-surface-container-low p-6 rounded border-t-4 border-t-secondary">
+                <p class="font-data-label text-data-label text-outline uppercase mb-2">Vols de moins de 45 min</p>
+                <div class="flex items-baseline gap-2">
+                    <span id="kpi-short-duration-pct" class="font-data-display text-[32px] font-bold text-secondary">—</span>
+                    <span class="text-on-surface-variant text-body-sm">des vols</span>
+                </div>
+                <p class="text-xs text-on-surface-variant mt-2 italic">à peine plus long qu'un trajet en voiture</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Section 4: Destinations -->
     <section id="destinations" class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
         <div class="lg:col-span-2 bg-surface border border-outline-variant relative overflow-hidden h-[500px]">
@@ -160,25 +195,51 @@ tailwind.config = {
 
     <!-- Section 5: Empreinte carbone -->
     <section id="carbon" class="bg-inverse-surface text-inverse-on-surface p-12 rounded-lg">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        <h2 class="font-headline-lg text-headline-lg mb-8">Bilan carbone des jets privés*</h2>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mb-10">
             <div>
-                <h2 class="font-headline-lg text-headline-lg mb-6">Bilan carbone des jets privés*</h2>
-                <div class="flex items-baseline gap-4 mb-8">
-                    <span id="co2-total-big" class="font-data-display text-[72px] font-extrabold leading-none">—</span>
+                <div class="flex items-baseline gap-4">
+                    <span id="co2-total-big" class="font-data-display text-[64px] font-extrabold leading-none">—</span>
                     <div class="flex flex-col">
                         <span class="text-headline-md font-bold">Tonnes CO2*</span>
-                        <span id="co2-equiv" class="text-tertiary-fixed font-medium">—</span>
+                        <span id="co2-equiv" class="text-tertiary-fixed font-medium text-sm">—</span>
                     </div>
                 </div>
-                <p id="co2-warning" class="text-sm text-surface-variant">—</p>
+                <p id="co2-warning" class="text-xs text-surface-variant mt-3">—</p>
             </div>
+            <div class="border-l border-white/10 pl-10">
+                <p class="font-data-label text-xs uppercase text-surface-variant mb-2">Moyenne mensuelle</p>
+                <div class="flex items-baseline gap-2">
+                    <span id="co2-monthly-avg" class="font-data-display text-[40px] font-bold leading-none">—</span>
+                    <span class="text-surface-variant text-sm">tonnes/mois</span>
+                </div>
+            </div>
+            <div class="border-l border-white/10 pl-10">
+                <p class="font-data-label text-xs uppercase text-surface-variant mb-2">Équivalent local</p>
+                <div class="flex items-baseline gap-2">
+                    <span id="co2-rochelais" class="font-data-display text-[40px] font-bold leading-none text-tertiary-fixed">—</span>
+                    <span class="text-surface-variant text-sm">Rochelais / mois*</span>
+                </div>
+            </div>
+        </div>
 
-            <div class="bg-surface-container-highest/20 p-6 rounded-lg text-sm leading-relaxed border border-white/10">
-                <h5 class="font-bold text-base text-surface-variant mb-3 uppercase flex items-center gap-2">
-                    <span class="material-symbols-outlined text-[18px]">info</span> Méthodologie de calcul
-                </h5>
-                <p id="co2-methodology" class="text-surface-variant">—</p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div class="bg-surface-container-highest/20 p-6 rounded-lg border border-white/10">
+                <h5 class="font-bold text-sm text-surface-variant mb-4 uppercase">Émissions mensuelles (jets privés)</h5>
+                <div id="co2-monthly-chart" class="flex items-end gap-3 h-32"></div>
             </div>
+            <div class="bg-surface-container-highest/20 p-6 rounded-lg border border-white/10">
+                <h5 class="font-bold text-sm text-surface-variant mb-4 uppercase">Consommation : deux jets, deux mondes</h5>
+                <div id="co2-fuel-compare" class="space-y-4"></div>
+            </div>
+        </div>
+
+        <div class="mt-10 bg-surface-container-highest/10 p-4 rounded text-xs leading-relaxed border border-white/10">
+            <h5 class="font-bold text-surface-variant mb-1 uppercase flex items-center gap-1">
+                <span class="material-symbols-outlined text-[14px]">info</span> Méthodologie
+            </h5>
+            <p id="co2-methodology" class="text-surface-variant">—</p>
         </div>
     </section>
 
@@ -429,6 +490,15 @@ function render(data) {
     weekdayEl.appendChild(bar);
   });
 
+  // Absurdité des vols courts
+  const shortFlights = data.short_flights || {};
+  document.getElementById('kpi-short-pct').textContent =
+    shortFlights.pct_under_500km != null ? shortFlights.pct_under_500km + '%' : '—';
+  document.getElementById('kpi-avg-duration').textContent =
+    shortFlights.avg_duration_min != null ? shortFlights.avg_duration_min : '—';
+  document.getElementById('kpi-short-duration-pct').textContent =
+    shortFlights.pct_under_45min != null ? shortFlights.pct_under_45min + '%' : '—';
+
   // Carte + Top destinations, jets privés uniquement
   const lfbh = data.lfbh_coords;
   const map = L.map('map', {scrollWheelZoom: false}).setView([lfbh.lat, lfbh.lon], 5);
@@ -648,6 +718,59 @@ function render(data) {
     data.co2_estimate.flights_with_estimate_jets_prives + ' vols de jets privés sur ' + data.co2_estimate.flights_total_jets_prives +
     ' ont pu être estimés, depuis le ' + new Date(data.period_start).toLocaleDateString('fr-FR', {day:'numeric', month:'long', year:'numeric'}) + '.';
   document.getElementById('co2-methodology').textContent = data.co2_estimate.methodology;
+
+  document.getElementById('co2-monthly-avg').textContent =
+    (data.co2_estimate.avg_monthly_tonnes_jets_prives || 0).toLocaleString('fr-FR');
+  document.getElementById('co2-rochelais').textContent =
+    (data.co2_estimate.rochelais_equivalent_per_month || 0).toLocaleString('fr-FR');
+
+  // Monthly CO2 mini bar chart
+  const monthlyEl = document.getElementById('co2-monthly-chart');
+  const monthlyData = data.co2_estimate.monthly_tonnes_jets_prives || [];
+  const MONTH_LABELS = ['Jan','Fév','Mar','Avr','Mai','Jun','Jul','Aoû','Sep','Oct','Nov','Déc'];
+  const maxMonthly = Math.max(1, ...monthlyData.map(m => m.tonnes));
+  monthlyData.forEach(m => {
+    const col = document.createElement('div');
+    col.className = 'flex-1 flex flex-col items-center justify-end h-full gap-1';
+    const bar = document.createElement('div');
+    bar.className = 'w-full rounded-t-sm bg-tertiary-fixed';
+    bar.style.height = Math.max(4, 100 * m.tonnes / maxMonthly) + '%';
+    bar.title = m.month + ' : ' + m.tonnes + ' t';
+    const label = document.createElement('span');
+    label.className = 'text-[10px] text-surface-variant font-data-label';
+    const monthIdx = parseInt(m.month.slice(5, 7), 10) - 1;
+    label.textContent = MONTH_LABELS[monthIdx] || m.month;
+    const valueLabel = document.createElement('span');
+    valueLabel.className = 'text-[10px] text-surface-variant font-data-label';
+    valueLabel.textContent = m.tonnes + 't';
+    col.appendChild(valueLabel);
+    col.appendChild(bar);
+    col.appendChild(label);
+    monthlyEl.appendChild(col);
+  });
+
+  // Fuel comparison: two real extreme jets
+  const fuelCmp = data.co2_estimate.fuel_comparison;
+  const fuelEl = document.getElementById('co2-fuel-compare');
+  if (fuelCmp) {
+    const maxLph = fuelCmp.heaviest_lph;
+    [
+      [fuelCmp.lightest_type, fuelCmp.lightest_lph],
+      [fuelCmp.heaviest_type, fuelCmp.heaviest_lph],
+    ].forEach(([type, lph]) => {
+      const row = document.createElement('div');
+      row.innerHTML =
+        '<div class="flex justify-between text-xs mb-1"><span class="font-bold">' + type + '</span>' +
+        '<span class="font-data-label text-surface-variant">' + lph.toLocaleString('fr-FR') + ' L/h</span></div>' +
+        '<div class="w-full bg-white/10 h-4 rounded-sm overflow-hidden">' +
+        '<div class="h-full bg-tertiary-fixed" style="width:' + (100 * lph / maxLph) + '%"></div></div>';
+      fuelEl.appendChild(row);
+    });
+    const note = document.createElement('p');
+    note.className = 'text-xs text-surface-variant italic pt-1';
+    note.textContent = 'Soit ' + fuelCmp.ratio + 'x plus de kérosène brûlé par heure de vol pour le ' + fuelCmp.heaviest_type + ' que pour le ' + fuelCmp.lightest_type + '.';
+    fuelEl.appendChild(note);
+  }
 
   // Scroll spy
   window.addEventListener('scroll', () => {
