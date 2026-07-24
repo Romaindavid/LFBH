@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T10:18:20.869922+00:00",
+  "generated_at": "2026-07-24T10:29:42.020276+00:00",
   "period_start": "2026-06-18T12:44:10",
   "period_end": "2026-07-24T08:10:59",
   "total_movements": 1799,
@@ -6177,6 +6177,8 @@
     "total_tonnes": 3115.9,
     "flights_with_estimate": 1257,
     "flights_total": 1799,
+    "flights_with_estimate_jets_prives": 150,
+    "flights_total_jets_prives": 188,
     "by_category_tonnes": {
       "aviation_legere": 79.5,
       "commercial": 2775.3,
@@ -6184,6 +6186,6 @@
       "helicoptere": 5.5,
       "militaire": 12.3
     },
-    "methodology": "Estimation approximative = consommation kérosène/essence moyenne par type d'appareil (ICAO) x durée de vol réelle. Ne tient pas compte du nombre de passagers, du taux de remplissage, ni des conditions météo. Calcul possible pour 1257/1799 vols (type d'appareil et durée connus)."
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil (base ICAO) multipliée par la durée réelle du vol. Ce calcul ne dit pas tout : un jet léger comme un Cessna Citation consomme environ 300 à 400 kg de kérosène par heure de vol, tandis qu'un long-courrier d'affaires comme un Global Express ou un Gulfstream G650 peut en consommer 1 000 à 1 500 kg/h — soit jusqu'à 4 à 5 fois plus pour un trajet équivalent. L'estimation ne tient pas compte du nombre de passagers à bord (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable), ni des conditions météo ou de la charge réelle de l'appareil."
   }
 }

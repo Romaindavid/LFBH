@@ -349,19 +349,28 @@ def main():
         co2_by_cat[cat] += co2
         co2_flights_count[cat] += 1
     total_co2_kg = sum(co2_by_cat.values())
+    jets_total = sum(1 for f in flights if flight_category(f) == "jets_prives")
     out["co2_estimate"] = {
         "total_tonnes": round(total_co2_kg / 1000, 1),
         "flights_with_estimate": sum(co2_flights_count.values()),
         "flights_total": len(flights),
+        "flights_with_estimate_jets_prives": co2_flights_count.get("jets_prives", 0),
+        "flights_total_jets_prives": jets_total,
         "by_category_tonnes": {
             cat: round(kg / 1000, 1) for cat, kg in co2_by_cat.items()
         },
         "methodology": (
-            "Estimation approximative = consommation kérosène/essence moyenne par "
-            "type d'appareil (ICAO) x durée de vol réelle. Ne tient pas compte du "
-            "nombre de passagers, du taux de remplissage, ni des conditions météo. "
-            f"Calcul possible pour {sum(co2_flights_count.values())}/{len(flights)} vols "
-            "(type d'appareil et durée connus)."
+            "Chaque vol est estimé à partir de la consommation moyenne de "
+            "carburant du type d'appareil (base ICAO) multipliée par la durée "
+            "réelle du vol. Ce calcul ne dit pas tout : un jet léger comme un "
+            "Cessna Citation consomme environ 300 à 400 kg de kérosène par heure "
+            "de vol, tandis qu'un long-courrier d'affaires comme un Global "
+            "Express ou un Gulfstream G650 peut en consommer 1 000 à 1 500 kg/h "
+            "— soit jusqu'à 4 à 5 fois plus pour un trajet équivalent. L'estimation "
+            "ne tient pas compte du nombre de passagers à bord (un jet privé vole "
+            "en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial "
+            "sur un trajet comparable), ni des conditions météo ou de la charge "
+            "réelle de l'appareil."
         ),
     }
 

@@ -143,7 +143,7 @@ tailwind.config = {
 
     <!-- Section 4: Destinations -->
     <section id="destinations" class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
-        <div class="lg:col-span-3 bg-surface border border-outline-variant relative overflow-hidden h-[500px]">
+        <div class="lg:col-span-2 bg-surface border border-outline-variant relative overflow-hidden h-[500px]">
             <div class="absolute top-6 left-6 z-[1000] bg-surface/90 backdrop-blur-sm px-4 py-3 rounded pointer-events-none">
                 <h3 class="font-headline-md text-headline-md">Destinations des jets privés</h3>
                 <p class="text-xs text-on-surface-variant">Taille du point proportionnelle au nombre de vols</p>
@@ -151,7 +151,7 @@ tailwind.config = {
             <div id="map" class="w-full h-full"></div>
         </div>
 
-        <div class="bg-surface border border-outline-variant p-6">
+        <div class="bg-surface border border-outline-variant p-6 h-[500px] overflow-y-auto">
             <h4 class="font-bold mb-6">Top destinations</h4>
             <div id="top-destinations" class="space-y-4"></div>
         </div>
@@ -644,7 +644,8 @@ function render(data) {
   document.getElementById('co2-equiv').textContent =
     'Équivalent approximatif à ' + householdEquiv + ' foyers français / an*';
   document.getElementById('co2-warning').textContent =
-    data.co2_estimate.flights_with_estimate + ' vols sur ' + data.co2_estimate.flights_total + ' ont pu être estimés.';
+    data.co2_estimate.flights_with_estimate_jets_prives + ' vols de jets privés sur ' + data.co2_estimate.flights_total_jets_prives +
+    ' ont pu être estimés, depuis le ' + new Date(data.period_start).toLocaleDateString('fr-FR', {day:'numeric', month:'long', year:'numeric'}) + '.';
   document.getElementById('co2-methodology').textContent = data.co2_estimate.methodology;
 
   // Scroll spy
