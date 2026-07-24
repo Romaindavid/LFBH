@@ -918,5 +918,10 @@
     "lat": 44.891399,
     "lon": 2.42194,
     "name": "Aurillac airport"
+  },
+  "LJLJ": {
+    "lat": 46.223701,
+    "lon": 14.4576,
+    "name": "Ljubljana Jože Pučnik Airport"
   }
 }

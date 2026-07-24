@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-23T19:25:41.854637+00:00",
+  "generated_at": "2026-07-24T08:11:26.921287+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-07-23T19:25:11",
-  "total_movements": 1785,
+  "period_end": "2026-07-24T08:10:59",
+  "total_movements": 1799,
   "categories": {
     "aviation_legere": {
-      "count": 1029,
+      "count": 1036,
       "pct": 57.6,
-      "avg_duration_min": 81
+      "avg_duration_min": 80
     },
     "helicoptere": {
       "count": 35,
-      "pct": 2.0,
+      "pct": 1.9,
       "avg_duration_min": 39
     },
     "commercial": {
-      "count": 376,
+      "count": 379,
       "pct": 21.1,
       "avg_duration_min": 71
     },
@@ -25,12 +25,12 @@
       "avg_duration_min": 61
     },
     "jets_prives": {
-      "count": 185,
-      "pct": 10.4,
-      "avg_duration_min": 72
+      "count": 188,
+      "pct": 10.5,
+      "avg_duration_min": 73
     },
     "militaire": {
-      "count": 123,
+      "count": 124,
       "pct": 6.9,
       "avg_duration_min": 59
     }
@@ -317,6 +317,13 @@
       "autre": 2,
       "helicoptere": 1,
       "militaire": 2
+    },
+    {
+      "date": "2026-07-24",
+      "jets_prives": 3,
+      "commercial": 3,
+      "aviation_legere": 7,
+      "militaire": 1
     }
   ],
   "weekday_distribution": [
@@ -324,7 +331,7 @@
     242,
     261,
     240,
-    304,
+    318,
     271,
     207
   ],
@@ -332,12 +339,12 @@
     1,
     1,
     1,
-    2,
+    3,
     20,
-    63,
-    102,
-    201,
-    197,
+    65,
+    103,
+    210,
+    198,
     158,
     109,
     89,
@@ -364,6 +371,27 @@
       "orig_coords": {
         "lat": 48.962276,
         "lon": 2.436539
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": null,
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null
+    },
+    {
+      "reg": "CS-LTS",
+      "type": "C68A",
+      "operator": "NJE",
+      "orig": "LFBZ",
+      "orig_name": "Biarritz",
+      "orig_coords": {
+        "lat": 43.468372,
+        "lon": -1.523223
       },
       "dest": "LFBH",
       "dest_name": "La Rochelle Île de Ré Airport",
@@ -4038,20 +4066,62 @@
       "landed": "2026-07-23 14:17:21",
       "duration_min": null,
       "co2_kg": null
+    },
+    {
+      "reg": "S5-CSS",
+      "type": "C525",
+      "operator": null,
+      "orig": "LJLJ",
+      "orig_name": "Ljubljana Jože Pučnik Airport",
+      "orig_coords": {
+        "lat": 46.223701,
+        "lon": 14.4576
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-24 03:53:34",
+      "landed": "2026-07-24 06:01:18",
+      "duration_min": 128,
+      "co2_kg": null
+    },
+    {
+      "reg": "LX-FLN",
+      "type": "PC12",
+      "operator": "JFA",
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFMK",
+      "dest_name": "Carcassonne Salvaza Airport",
+      "dest_coords": {
+        "lat": 43.216,
+        "lon": 2.30632
+      },
+      "takeoff": "2026-07-24 06:57:39",
+      "landed": "2026-07-24 07:57:37",
+      "duration_min": 60,
+      "co2_kg": 655
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      67
+      68
     ],
     [
       "NJE",
-      26
+      27
     ],
     [
       "JFA",
-      15
+      16
     ],
     [
       "BEJ",
@@ -4135,12 +4205,12 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 51
+      "count": 52
     },
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 40
+      "count": 42
     },
     {
       "code": "LFML",
@@ -4200,12 +4270,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 566,
-      "distinct_aircraft": 152
+      "count": 571,
+      "distinct_aircraft": 153
     },
     "tourism": {
-      "count": 463,
-      "distinct_aircraft": 226
+      "count": 465,
+      "distinct_aircraft": 228
     },
     "tourism_routes": [
       {
@@ -4292,7 +4362,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 51
+      "count": 52
     },
     {
       "category": "commercial",
@@ -4300,7 +4370,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 40
+      "count": 42
     },
     {
       "category": "commercial",
@@ -4412,7 +4482,7 @@
       "name": "Biarritz",
       "lat": 43.468372,
       "lon": -1.523223,
-      "count": 4
+      "count": 5
     },
     {
       "category": "jets_prives",
@@ -5007,6 +5077,22 @@
       "count": 1
     },
     {
+      "category": "jets_prives",
+      "code": "LJLJ",
+      "name": "Ljubljana Jože Pučnik Airport",
+      "lat": 46.223701,
+      "lon": 14.4576,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFMK",
+      "name": "Carcassonne Salvaza Airport",
+      "lat": 43.216,
+      "lon": 2.30632,
+      "count": 1
+    },
+    {
       "category": "aviation_legere",
       "code": "LFEA",
       "name": "Belle-Île-en-Mer",
@@ -5068,7 +5154,7 @@
       "name": "Rennes-Saint-Jacques Airport",
       "lat": 48.0695,
       "lon": -1.73479,
-      "count": 2
+      "count": 3
     },
     {
       "category": "aviation_legere",
@@ -5300,7 +5386,7 @@
       "name": "Aix Les Milles airport",
       "lat": 43.506294,
       "lon": 5.366426,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -6053,16 +6139,16 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 3107.0,
-    "flights_with_estimate": 1251,
-    "flights_total": 1785,
+    "total_tonnes": 3115.9,
+    "flights_with_estimate": 1257,
+    "flights_total": 1799,
     "by_category_tonnes": {
-      "aviation_legere": 79.0,
-      "commercial": 2767.5,
-      "jets_prives": 242.7,
+      "aviation_legere": 79.5,
+      "commercial": 2775.3,
+      "jets_prives": 243.4,
       "helicoptere": 5.5,
       "militaire": 12.3
     },
-    "methodology": "Estimation approximative = consommation kérosène/essence moyenne par type d'appareil (ICAO) x durée de vol réelle. Ne tient pas compte du nombre de passagers, du taux de remplissage, ni des conditions météo. Calcul possible pour 1251/1785 vols (type d'appareil et durée connus)."
+    "methodology": "Estimation approximative = consommation kérosène/essence moyenne par type d'appareil (ICAO) x durée de vol réelle. Ne tient pas compte du nombre de passagers, du taux de remplissage, ni des conditions météo. Calcul possible pour 1257/1799 vols (type d'appareil et durée connus)."
   }
 }

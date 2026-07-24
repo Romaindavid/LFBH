@@ -282,5 +282,15 @@
     "thumbnail_large": "https://t.plnspttrs.net/27914/1955620_f3185dc321_280.jpg",
     "link": "https://www.planespotters.net/photo/1955620/lx-fln-jetfly-aviation-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
     "photographer": "Toni Marimon"
+  },
+  "CS-LTS": {
+    "thumbnail_large": "https://t.plnspttrs.net/41944/1903362_a41bd2c43e_280.jpg",
+    "link": "https://www.planespotters.net/photo/1903362/cs-lts-netjets-europe-cessna-680a-citation-latitude?utm_source=api",
+    "photographer": "Maximilian Gruber"
+  },
+  "S5-CSS": {
+    "thumbnail_large": "https://t.plnspttrs.net/29579/1675368_1a7ec945cf_280.jpg",
+    "link": "https://www.planespotters.net/photo/1675368/s5-css-private-cessna-525-citationjet?utm_source=api",
+    "photographer": "Matthias Becker"
   }
 }
