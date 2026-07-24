@@ -923,5 +923,20 @@
     "lat": 46.223701,
     "lon": 14.4576,
     "name": "Ljubljana Jože Pučnik Airport"
+  },
+  "EDKB": {
+    "lat": 50.76889,
+    "lon": 7.163333,
+    "name": "Bonn-Hangelar Airfield"
+  },
+  "LFQB": {
+    "lat": 48.322102,
+    "lon": 4.0167,
+    "name": "Troyes-Barberey Airport"
+  },
+  "LOWW": {
+    "lat": 48.110298,
+    "lon": 16.5697,
+    "name": "Vienna International Airport"
   }
 }
