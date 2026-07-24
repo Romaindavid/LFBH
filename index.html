@@ -582,7 +582,7 @@ function render(data) {
 
   // Business jets table
   const tbody = document.getElementById('bizjet-table');
-  data.business_jets.forEach((f, i) => {
+  [...data.business_jets].reverse().forEach((f, i) => {
     const tr = document.createElement('tr');
     tr.className = 'border-b border-outline-variant last:border-0 hover:bg-surface-container-low';
     const canShowMap = f.orig_coords && f.dest_coords;
