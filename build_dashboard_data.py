@@ -215,23 +215,31 @@ def main():
 
     # --- Distribution hebdomadaire (jour de semaine) ---
     weekday_counts = Counter()
+    weekday_counts_biz = Counter()
     for f in flights:
         ts = f.get("datetime_takeoff") or f.get("first_seen")
         if not ts:
             continue
         dt = datetime.fromisoformat(ts.replace("Z", "+00:00"))
         weekday_counts[dt.weekday()] += 1
+        if flight_category(f) == "jets_prives":
+            weekday_counts_biz[dt.weekday()] += 1
     out["weekday_distribution"] = [weekday_counts.get(i, 0) for i in range(7)]
+    out["weekday_distribution_jets_prives"] = [weekday_counts_biz.get(i, 0) for i in range(7)]
 
     # --- Intensité horaire ---
     hourly_counts = Counter()
+    hourly_counts_biz = Counter()
     for f in flights:
         ts = f.get("datetime_takeoff") or f.get("first_seen")
         if not ts:
             continue
         dt = datetime.fromisoformat(ts.replace("Z", "+00:00"))
         hourly_counts[dt.hour] += 1
+        if flight_category(f) == "jets_prives":
+            hourly_counts_biz[dt.hour] += 1
     out["hourly_distribution"] = [hourly_counts.get(i, 0) for i in range(24)]
+    out["hourly_distribution_jets_prives"] = [hourly_counts_biz.get(i, 0) for i in range(24)]
 
     # --- Jets d'affaires : détail mouvement par mouvement ---
     coords_for_biz = _load_coords()
