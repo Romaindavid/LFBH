@@ -737,8 +737,24 @@ function render(data) {
             attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18
           }).addTo(flightModalMap);
 
+          // Cap géographique (bearing) d'origine vers destination, en degrés
+          // depuis le nord (0° = nord, 90° = est). L'icône Material Symbols
+          // "flight" pointe par défaut vers le nord-est (~45°) dans son
+          // dessin d'origine, d'où le décalage de -45° dans la rotation.
+          function bearing(from, to) {
+            const toRad = d => d * Math.PI / 180;
+            const toDeg = r => r * 180 / Math.PI;
+            const [lat1, lon1] = from.map(toRad);
+            const [lat2, lon2] = to.map(toRad);
+            const dLon = lon2 - lon1;
+            const y = Math.sin(dLon) * Math.cos(lat2);
+            const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(dLon);
+            return (toDeg(Math.atan2(y, x)) + 360) % 360;
+          }
+          const jetBearing = bearing(orig, dest);
           const jetIcon = L.divIcon({
-            html: '<span class="material-symbols-outlined" style="font-size:40px; color:' + CAT_COLOR.jets_prives + '">flight</span>',
+            html: '<span class="material-symbols-outlined" style="font-size:40px; color:' + CAT_COLOR.jets_prives +
+              '; display:inline-block; transform: rotate(' + (jetBearing - 45) + 'deg);">flight</span>',
             className: '', iconSize: [40, 40], iconAnchor: [20, 20]
           });
 
