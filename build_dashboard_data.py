@@ -251,6 +251,14 @@ def main():
         c = coords_for_biz.get(code) if code else None
         return {"lat": c["lat"], "lon": c["lon"]} if c else None
 
+    def _distance_km_early(a, b):
+        if not a or not b:
+            return None
+        lat1, lon1, lat2, lon2 = map(radians, [a["lat"], a["lon"], b["lat"], b["lon"]])
+        dlat, dlon = lat2 - lat1, lon2 - lon1
+        h = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
+        return round(2 * 6371 * asin(sqrt(h)))
+
     out["business_jets"] = [
         {
             "reg": f.get("reg"),
@@ -266,6 +274,10 @@ def main():
             "landed": fmt(f.get("datetime_landed")),
             "duration_min": round(f["flight_time"] / 60) if f.get("flight_time") else None,
             "co2_kg": round(estimate_co2_kg(f)) if estimate_co2_kg(f) else None,
+            "distance_km": _distance_km_early(
+                _airport_coords(f.get("orig_icao")),
+                _airport_coords(f.get("dest_icao_actual") or f.get("dest_icao")),
+            ),
         }
         for f in biz_sorted
     ]
@@ -273,21 +285,12 @@ def main():
     out["business_jets_operators"] = biz_operators.most_common()
 
     # --- Vols courts (jets privés) : distance et durée ---
-    def _distance_km(a, b):
-        if not a or not b:
-            return None
-        lat1, lon1, lat2, lon2 = map(radians, [a["lat"], a["lon"], b["lat"], b["lon"]])
-        dlat, dlon = lat2 - lat1, lon2 - lon1
-        h = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
-        return 2 * 6371 * asin(sqrt(h))
-
     short_distances = []
     durations = []
     short_durations = 0
     for bj in out["business_jets"]:
-        dist = _distance_km(bj["orig_coords"], bj["dest_coords"])
-        if dist is not None:
-            short_distances.append(dist)
+        if bj["distance_km"] is not None:
+            short_distances.append(bj["distance_km"])
         if bj["duration_min"] is not None:
             durations.append(bj["duration_min"])
             if bj["duration_min"] < 45:
@@ -295,12 +298,30 @@ def main():
 
     n_dist = len(short_distances)
     n_dur = len(durations)
+    shortest_5 = sorted(
+        (bj for bj in out["business_jets"] if bj["distance_km"]),
+        key=lambda bj: bj["distance_km"],
+    )[:5]
     out["short_flights"] = {
         "n_with_distance": n_dist,
         "pct_under_500km": round(100 * sum(1 for d in short_distances if d < 500) / n_dist) if n_dist else None,
         "n_with_duration": n_dur,
         "avg_duration_min": round(sum(durations) / n_dur) if n_dur else None,
         "pct_under_45min": round(100 * short_durations / n_dur) if n_dur else None,
+        "shortest_flights": [
+            {
+                "reg": bj["reg"],
+                "type": bj["type"],
+                "orig": bj["orig"],
+                "orig_name": bj["orig_name"],
+                "dest": bj["dest"],
+                "dest_name": bj["dest_name"],
+                "distance_km": bj["distance_km"],
+                "duration_min": bj["duration_min"],
+                "takeoff": bj["takeoff"],
+            }
+            for bj in shortest_5
+        ],
     }
 
     # --- Commercial : par route ---

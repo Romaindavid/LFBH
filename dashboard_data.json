@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T11:14:24.400468+00:00",
+  "generated_at": "2026-07-24T11:25:19.985177+00:00",
   "period_start": "2026-06-18T12:44:10",
   "period_end": "2026-07-24T08:10:59",
   "total_movements": 1799,
@@ -416,7 +416,8 @@
       "takeoff": null,
       "landed": null,
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": 412
     },
     {
       "reg": "CS-LTS",
@@ -437,7 +438,8 @@
       "takeoff": null,
       "landed": null,
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": 303
     },
     {
       "reg": "OO-LUM",
@@ -458,7 +460,8 @@
       "takeoff": "2026-06-19 06:08:50",
       "landed": "2026-06-19 07:43:01",
       "duration_min": 94,
-      "co2_kg": 5538
+      "co2_kg": 5538,
+      "distance_km": 671
     },
     {
       "reg": "OE-FZC",
@@ -479,7 +482,8 @@
       "takeoff": "2026-06-19 08:09:50",
       "landed": "2026-06-19 08:49:18",
       "duration_min": 39,
-      "co2_kg": 746
+      "co2_kg": 746,
+      "distance_km": 303
     },
     {
       "reg": "OO-LUM",
@@ -500,7 +504,8 @@
       "takeoff": "2026-06-19 08:19:19",
       "landed": "2026-06-19 09:22:36",
       "duration_min": 63,
-      "co2_kg": 3721
+      "co2_kg": 3721,
+      "distance_km": 671
     },
     {
       "reg": "OE-FZC",
@@ -521,7 +526,8 @@
       "takeoff": "2026-06-19 10:05:46",
       "landed": "2026-06-19 11:23:42",
       "duration_min": 78,
-      "co2_kg": 1473
+      "co2_kg": 1473,
+      "distance_km": 590
     },
     {
       "reg": "CS-PHP",
@@ -542,7 +548,8 @@
       "takeoff": "2026-06-21 10:03:14",
       "landed": "2026-06-21 10:57:51",
       "duration_min": 55,
-      "co2_kg": 1262
+      "co2_kg": 1262,
+      "distance_km": 412
     },
     {
       "reg": "CS-PHP",
@@ -563,7 +570,8 @@
       "takeoff": "2026-06-21 12:12:56",
       "landed": "2026-06-21 13:09:24",
       "duration_min": 56,
-      "co2_kg": 1304
+      "co2_kg": 1304,
+      "distance_km": 541
     },
     {
       "reg": null,
@@ -578,7 +586,8 @@
       "takeoff": "2026-06-22 06:55:44",
       "landed": "2026-06-22 07:53:07",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -593,7 +602,8 @@
       "takeoff": "2026-06-22 07:56:33",
       "landed": "2026-06-22 08:02:21",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -608,7 +618,8 @@
       "takeoff": "2026-06-22 08:15:43",
       "landed": "2026-06-22 08:50:21",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -623,7 +634,8 @@
       "takeoff": "2026-06-22 08:54:28",
       "landed": "2026-06-22 09:05:30",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -638,7 +650,8 @@
       "takeoff": "2026-06-22 09:10:00",
       "landed": "2026-06-22 09:31:04",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "D-CUGF",
@@ -659,7 +672,8 @@
       "takeoff": "2026-06-22 18:33:35",
       "landed": "2026-06-22 19:48:02",
       "duration_min": 74,
-      "co2_kg": 1720
+      "co2_kg": 1720,
+      "distance_km": 705
     },
     {
       "reg": "D-CUGF",
@@ -680,7 +694,8 @@
       "takeoff": "2026-06-23 07:23:01",
       "landed": "2026-06-23 08:33:09",
       "duration_min": 70,
-      "co2_kg": 1620
+      "co2_kg": 1620,
+      "distance_km": 541
     },
     {
       "reg": null,
@@ -695,7 +710,8 @@
       "takeoff": "2026-06-23 08:10:54",
       "landed": "2026-06-23 08:52:02",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "CS-PHC",
@@ -716,7 +732,8 @@
       "takeoff": "2026-06-23 10:25:14",
       "landed": "2026-06-23 11:49:58",
       "duration_min": 85,
-      "co2_kg": 1957
+      "co2_kg": 1957,
+      "distance_km": 815
     },
     {
       "reg": null,
@@ -731,7 +748,8 @@
       "takeoff": "2026-06-23 10:37:40",
       "landed": "2026-06-23 11:40:57",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "CS-PHC",
@@ -752,7 +770,8 @@
       "takeoff": "2026-06-23 13:16:36",
       "landed": "2026-06-23 17:29:30",
       "duration_min": 253,
-      "co2_kg": 5842
+      "co2_kg": 5842,
+      "distance_km": 1901
     },
     {
       "reg": "OO-LUM",
@@ -773,7 +792,8 @@
       "takeoff": "2026-06-24 07:13:58",
       "landed": "2026-06-24 08:17:35",
       "duration_min": 64,
-      "co2_kg": 3741
+      "co2_kg": 3741,
+      "distance_km": 671
     },
     {
       "reg": "OO-LUM",
@@ -794,7 +814,8 @@
       "takeoff": "2026-06-24 08:41:45",
       "landed": "2026-06-24 09:42:35",
       "duration_min": 61,
-      "co2_kg": 3577
+      "co2_kg": 3577,
+      "distance_km": 551
     },
     {
       "reg": "F-HRCN",
@@ -815,7 +836,8 @@
       "takeoff": "2026-06-25 05:49:34",
       "landed": "2026-06-25 06:29:56",
       "duration_min": 40,
-      "co2_kg": 373
+      "co2_kg": 373,
+      "distance_km": 239
     },
     {
       "reg": "LX-FLM",
@@ -836,7 +858,8 @@
       "takeoff": "2026-06-25 07:39:14",
       "landed": "2026-06-25 09:05:01",
       "duration_min": 86,
-      "co2_kg": 937
+      "co2_kg": 937,
+      "distance_km": 574
     },
     {
       "reg": "CS-PHC",
@@ -857,7 +880,8 @@
       "takeoff": "2026-06-25 08:05:07",
       "landed": "2026-06-25 10:47:45",
       "duration_min": 163,
-      "co2_kg": 3757
+      "co2_kg": 3757,
+      "distance_km": 1901
     },
     {
       "reg": "F-HRCN",
@@ -878,7 +902,8 @@
       "takeoff": "2026-06-25 08:29:48",
       "landed": "2026-06-25 08:41:00",
       "duration_min": 11,
-      "co2_kg": 103
+      "co2_kg": 103,
+      "distance_km": 36
     },
     {
       "reg": "OE-FWF",
@@ -899,7 +924,8 @@
       "takeoff": "2026-06-25 08:39:29",
       "landed": "2026-06-25 09:53:41",
       "duration_min": 74,
-      "co2_kg": 1402
+      "co2_kg": 1402,
+      "distance_km": 603
     },
     {
       "reg": "S5-BDD",
@@ -920,7 +946,8 @@
       "takeoff": "2026-06-25 08:39:37",
       "landed": "2026-06-25 11:08:22",
       "duration_min": 149,
-      "co2_kg": 4686
+      "co2_kg": 4686,
+      "distance_km": 1658
     },
     {
       "reg": "9H-VFJ",
@@ -941,7 +968,8 @@
       "takeoff": "2026-06-25 09:31:21",
       "landed": "2026-06-25 10:21:36",
       "duration_min": 50,
-      "co2_kg": 2744
+      "co2_kg": 2744,
+      "distance_km": 412
     },
     {
       "reg": "LX-FLM",
@@ -962,7 +990,8 @@
       "takeoff": "2026-06-25 10:09:19",
       "landed": "2026-06-25 10:39:42",
       "duration_min": 30,
-      "co2_kg": 332
+      "co2_kg": 332,
+      "distance_km": 156
     },
     {
       "reg": "OE-FWF",
@@ -983,7 +1012,8 @@
       "takeoff": "2026-06-25 10:58:29",
       "landed": "2026-06-25 11:24:19",
       "duration_min": 26,
-      "co2_kg": 488
+      "co2_kg": 488,
+      "distance_km": 155
     },
     {
       "reg": "9H-VFJ",
@@ -1004,7 +1034,8 @@
       "takeoff": "2026-06-25 11:23:07",
       "landed": "2026-06-25 12:51:17",
       "duration_min": 88,
-      "co2_kg": 4814
+      "co2_kg": 4814,
+      "distance_km": 754
     },
     {
       "reg": "CS-PHC",
@@ -1025,7 +1056,8 @@
       "takeoff": "2026-06-25 12:16:14",
       "landed": "2026-06-25 13:26:43",
       "duration_min": 70,
-      "co2_kg": 1628
+      "co2_kg": 1628,
+      "distance_km": 807
     },
     {
       "reg": "F-HRCN",
@@ -1046,7 +1078,8 @@
       "takeoff": "2026-06-25 16:12:00",
       "landed": "2026-06-25 16:48:35",
       "duration_min": 37,
-      "co2_kg": 338
+      "co2_kg": 338,
+      "distance_km": 209
     },
     {
       "reg": "S5-BDD",
@@ -1067,7 +1100,8 @@
       "takeoff": "2026-06-26 11:34:53",
       "landed": "2026-06-26 13:07:34",
       "duration_min": 93,
-      "co2_kg": 2920
+      "co2_kg": 2920,
+      "distance_km": 974
     },
     {
       "reg": "CS-PHS",
@@ -1088,7 +1122,8 @@
       "takeoff": "2026-06-26 15:09:49",
       "landed": "2026-06-26 16:30:52",
       "duration_min": 81,
-      "co2_kg": 1872
+      "co2_kg": 1872,
+      "distance_km": 803
     },
     {
       "reg": "F-HLRK",
@@ -1109,7 +1144,8 @@
       "takeoff": "2026-06-26 15:18:56",
       "landed": "2026-06-26 16:21:14",
       "duration_min": 62,
-      "co2_kg": 1439
+      "co2_kg": 1439,
+      "distance_km": 590
     },
     {
       "reg": "F-HLRK",
@@ -1130,7 +1166,8 @@
       "takeoff": "2026-06-26 16:45:14",
       "landed": "2026-06-26 16:55:31",
       "duration_min": 10,
-      "co2_kg": 238
+      "co2_kg": 238,
+      "distance_km": 60
     },
     {
       "reg": "CS-PHS",
@@ -1151,7 +1188,8 @@
       "takeoff": "2026-06-27 09:52:42",
       "landed": "2026-06-27 12:42:04",
       "duration_min": 169,
-      "co2_kg": 3912
+      "co2_kg": 3912,
+      "distance_km": 1963
     },
     {
       "reg": "D-IEGO",
@@ -1172,7 +1210,8 @@
       "takeoff": "2026-06-28 11:54:40",
       "landed": "2026-06-28 12:46:22",
       "duration_min": 52,
-      "co2_kg": 1086
+      "co2_kg": 1086,
+      "distance_km": 477
     },
     {
       "reg": "D-IEGO",
@@ -1193,7 +1232,8 @@
       "takeoff": "2026-06-28 14:05:24",
       "landed": "2026-06-28 15:21:44",
       "duration_min": 76,
-      "co2_kg": 1603
+      "co2_kg": 1603,
+      "distance_km": 674
     },
     {
       "reg": "D-ISRM",
@@ -1214,7 +1254,8 @@
       "takeoff": "2026-06-29 07:00:30",
       "landed": "2026-06-29 09:12:32",
       "duration_min": 132,
-      "co2_kg": 2495
+      "co2_kg": 2495,
+      "distance_km": 1119
     },
     {
       "reg": null,
@@ -1229,7 +1270,8 @@
       "takeoff": "2026-06-29 12:39:19",
       "landed": "2026-06-29 14:03:58",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -1244,7 +1286,8 @@
       "takeoff": "2026-06-29 14:55:27",
       "landed": "2026-06-29 16:16:10",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "EC-GOV",
@@ -1265,7 +1308,8 @@
       "takeoff": "2026-06-30 06:22:18",
       "landed": "2026-06-30 07:05:02",
       "duration_min": 43,
-      "co2_kg": 1167
+      "co2_kg": 1167,
+      "distance_km": 350
     },
     {
       "reg": "F-HLRK",
@@ -1286,7 +1330,8 @@
       "takeoff": "2026-07-01 05:12:54",
       "landed": "2026-07-01 05:28:45",
       "duration_min": 16,
-      "co2_kg": 366
+      "co2_kg": 366,
+      "distance_km": 60
     },
     {
       "reg": "N940TB",
@@ -1307,7 +1352,8 @@
       "takeoff": "2026-07-01 05:51:46",
       "landed": "2026-07-01 07:09:08",
       "duration_min": 77,
-      "co2_kg": 747
+      "co2_kg": 747,
+      "distance_km": 379
     },
     {
       "reg": "F-HLRK",
@@ -1328,7 +1374,8 @@
       "takeoff": "2026-07-01 05:54:30",
       "landed": "2026-07-01 06:48:16",
       "duration_min": 54,
-      "co2_kg": 1242
+      "co2_kg": 1242,
+      "distance_km": 477
     },
     {
       "reg": null,
@@ -1343,7 +1390,8 @@
       "takeoff": "2026-07-01 06:53:26",
       "landed": "2026-07-01 07:24:38",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -1358,7 +1406,8 @@
       "takeoff": "2026-07-01 07:28:21",
       "landed": "2026-07-01 07:43:25",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -1373,7 +1422,8 @@
       "takeoff": "2026-07-01 07:45:12",
       "landed": "2026-07-01 08:25:40",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "N940TB",
@@ -1394,7 +1444,8 @@
       "takeoff": "2026-07-01 07:46:59",
       "landed": "2026-07-01 09:35:46",
       "duration_min": 109,
-      "co2_kg": 1051
+      "co2_kg": 1051,
+      "distance_km": 753
     },
     {
       "reg": "LX-JFC",
@@ -1415,7 +1466,8 @@
       "takeoff": "2026-07-01 09:36:31",
       "landed": "2026-07-01 11:16:45",
       "duration_min": 100,
-      "co2_kg": 1095
+      "co2_kg": 1095,
+      "distance_km": 562
     },
     {
       "reg": "EC-GOV",
@@ -1436,7 +1488,8 @@
       "takeoff": "2026-07-01 10:16:09",
       "landed": "2026-07-01 10:59:31",
       "duration_min": 43,
-      "co2_kg": 1184
+      "co2_kg": 1184,
+      "distance_km": 350
     },
     {
       "reg": "LX-JFC",
@@ -1457,7 +1510,8 @@
       "takeoff": "2026-07-01 12:19:19",
       "landed": "2026-07-01 13:52:49",
       "duration_min": 94,
-      "co2_kg": 1021
+      "co2_kg": 1021,
+      "distance_km": 577
     },
     {
       "reg": "OE-FIX",
@@ -1478,7 +1532,8 @@
       "takeoff": "2026-07-02 15:10:43",
       "landed": "2026-07-02 16:16:45",
       "duration_min": 66,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": 568
     },
     {
       "reg": "OE-FIX",
@@ -1499,7 +1554,8 @@
       "takeoff": "2026-07-02 16:43:45",
       "landed": "2026-07-02 17:06:38",
       "duration_min": 23,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": 113
     },
     {
       "reg": "N940TB",
@@ -1520,7 +1576,8 @@
       "takeoff": "2026-07-02 17:08:14",
       "landed": "2026-07-02 17:36:06",
       "duration_min": 28,
-      "co2_kg": 269
+      "co2_kg": 269,
+      "distance_km": 0
     },
     {
       "reg": "N940TB",
@@ -1541,7 +1598,8 @@
       "takeoff": "2026-07-02 18:00:53",
       "landed": "2026-07-02 19:05:35",
       "duration_min": 65,
-      "co2_kg": 625
+      "co2_kg": 625,
+      "distance_km": 379
     },
     {
       "reg": "F-HLRK",
@@ -1562,7 +1620,8 @@
       "takeoff": "2026-07-03 10:09:27",
       "landed": "2026-07-03 11:03:26",
       "duration_min": 54,
-      "co2_kg": 1247
+      "co2_kg": 1247,
+      "distance_km": 477
     },
     {
       "reg": "F-HRDG",
@@ -1583,7 +1642,8 @@
       "takeoff": "2026-07-03 11:34:17",
       "landed": "2026-07-03 12:37:55",
       "duration_min": 64,
-      "co2_kg": 1470
+      "co2_kg": 1470,
+      "distance_km": 515
     },
     {
       "reg": "F-HLRK",
@@ -1604,7 +1664,8 @@
       "takeoff": "2026-07-03 12:01:17",
       "landed": "2026-07-03 12:56:57",
       "duration_min": 56,
-      "co2_kg": 1286
+      "co2_kg": 1286,
+      "distance_km": 412
     },
     {
       "reg": "9H-ILY",
@@ -1625,7 +1686,8 @@
       "takeoff": "2026-07-03 13:22:03",
       "landed": "2026-07-03 14:29:44",
       "duration_min": 68,
-      "co2_kg": 4264
+      "co2_kg": 4264,
+      "distance_km": 699
     },
     {
       "reg": "9H-ILY",
@@ -1646,7 +1708,8 @@
       "takeoff": "2026-07-03 15:32:29",
       "landed": "2026-07-03 16:48:03",
       "duration_min": 76,
-      "co2_kg": 4761
+      "co2_kg": 4761,
+      "distance_km": 636
     },
     {
       "reg": "N940TB",
@@ -1667,7 +1730,8 @@
       "takeoff": "2026-07-03 16:02:46",
       "landed": "2026-07-03 17:01:25",
       "duration_min": 59,
-      "co2_kg": 567
+      "co2_kg": 567,
+      "distance_km": 379
     },
     {
       "reg": "F-HRDG",
@@ -1688,7 +1752,8 @@
       "takeoff": "2026-07-03 17:44:45",
       "landed": "2026-07-03 19:00:02",
       "duration_min": 75,
-      "co2_kg": 1739
+      "co2_kg": 1739,
+      "distance_km": 803
     },
     {
       "reg": "LX-FLQ",
@@ -1709,7 +1774,8 @@
       "takeoff": "2026-07-04 09:28:07",
       "landed": "2026-07-04 10:56:25",
       "duration_min": 88,
-      "co2_kg": 964
+      "co2_kg": 964,
+      "distance_km": 649
     },
     {
       "reg": "OO-PCA",
@@ -1730,7 +1796,8 @@
       "takeoff": "2026-07-04 10:58:19",
       "landed": "2026-07-04 12:39:23",
       "duration_min": 101,
-      "co2_kg": 1104
+      "co2_kg": 1104,
+      "distance_km": 697
     },
     {
       "reg": "LX-FLQ",
@@ -1751,7 +1818,8 @@
       "takeoff": "2026-07-04 12:42:27",
       "landed": "2026-07-04 13:18:38",
       "duration_min": 36,
-      "co2_kg": 395
+      "co2_kg": 395,
+      "distance_km": 223
     },
     {
       "reg": "D-IBEA",
@@ -1772,7 +1840,8 @@
       "takeoff": "2026-07-04 13:01:33",
       "landed": "2026-07-04 13:49:32",
       "duration_min": 48,
-      "co2_kg": 1008
+      "co2_kg": 1008,
+      "distance_km": 369
     },
     {
       "reg": "OO-PCA",
@@ -1793,7 +1862,8 @@
       "takeoff": "2026-07-04 13:11:12",
       "landed": "2026-07-04 14:22:47",
       "duration_min": 72,
-      "co2_kg": 782
+      "co2_kg": 782,
+      "distance_km": 412
     },
     {
       "reg": "D-IBEA",
@@ -1814,7 +1884,8 @@
       "takeoff": "2026-07-05 08:08:30",
       "landed": "2026-07-05 09:26:00",
       "duration_min": 78,
-      "co2_kg": 1628
+      "co2_kg": 1628,
+      "distance_km": 737
     },
     {
       "reg": null,
@@ -1829,7 +1900,8 @@
       "takeoff": "2026-07-06 08:36:02",
       "landed": "2026-07-06 09:47:28",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -1844,7 +1916,8 @@
       "takeoff": "2026-07-06 10:37:40",
       "landed": "2026-07-06 11:53:06",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "F-HSHU",
@@ -1865,7 +1938,8 @@
       "takeoff": "2026-07-06 15:04:17",
       "landed": "2026-07-06 15:47:21",
       "duration_min": 43,
-      "co2_kg": 814
+      "co2_kg": 814,
+      "distance_km": 303
     },
     {
       "reg": null,
@@ -1880,7 +1954,8 @@
       "takeoff": "2026-07-06 18:51:34",
       "landed": "2026-07-06 19:51:05",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "F-HSHU",
@@ -1901,7 +1976,8 @@
       "takeoff": "2026-07-07 05:38:07",
       "landed": "2026-07-07 07:00:49",
       "duration_min": 83,
-      "co2_kg": 1563
+      "co2_kg": 1563,
+      "distance_km": 580
     },
     {
       "reg": null,
@@ -1916,7 +1992,8 @@
       "takeoff": "2026-07-07 07:44:09",
       "landed": "2026-07-07 09:01:22",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "CS-PJE",
@@ -1937,7 +2014,8 @@
       "takeoff": "2026-07-07 08:38:33",
       "landed": "2026-07-07 10:18:20",
       "duration_min": 100,
-      "co2_kg": 2305
+      "co2_kg": 2305,
+      "distance_km": 1064
     },
     {
       "reg": null,
@@ -1952,7 +2030,8 @@
       "takeoff": "2026-07-07 10:04:27",
       "landed": "2026-07-07 11:31:36",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -1967,7 +2046,8 @@
       "takeoff": "2026-07-07 12:42:26",
       "landed": "2026-07-07 14:01:43",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "CS-PJE",
@@ -1988,7 +2068,8 @@
       "takeoff": "2026-07-07 13:02:41",
       "landed": "2026-07-07 14:10:09",
       "duration_min": 67,
-      "co2_kg": 1558
+      "co2_kg": 1558,
+      "distance_km": 609
     },
     {
       "reg": null,
@@ -2003,7 +2084,8 @@
       "takeoff": "2026-07-07 14:32:56",
       "landed": "2026-07-07 15:54:54",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "N940TB",
@@ -2024,7 +2106,8 @@
       "takeoff": "2026-07-07 16:01:15",
       "landed": "2026-07-07 17:04:26",
       "duration_min": 63,
-      "co2_kg": 610
+      "co2_kg": 610,
+      "distance_km": 379
     },
     {
       "reg": "F-HSHU",
@@ -2045,7 +2128,8 @@
       "takeoff": "2026-07-07 18:39:43",
       "landed": "2026-07-07 20:02:39",
       "duration_min": 83,
-      "co2_kg": 1567
+      "co2_kg": 1567,
+      "distance_km": 580
     },
     {
       "reg": null,
@@ -2060,7 +2144,8 @@
       "takeoff": "2026-07-08 06:07:31",
       "landed": "2026-07-08 07:12:02",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "F-HSHU",
@@ -2081,7 +2166,8 @@
       "takeoff": "2026-07-08 08:57:34",
       "landed": "2026-07-08 10:33:42",
       "duration_min": 96,
-      "co2_kg": 1817
+      "co2_kg": 1817,
+      "distance_km": 770
     },
     {
       "reg": null,
@@ -2096,7 +2182,8 @@
       "takeoff": "2026-07-08 16:07:50",
       "landed": "2026-07-08 17:04:46",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -2111,7 +2198,8 @@
       "takeoff": "2026-07-08 16:40:10",
       "landed": "2026-07-08 18:11:35",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -2126,7 +2214,8 @@
       "takeoff": "2026-07-08 17:51:14",
       "landed": "2026-07-08 18:42:56",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "F-HLPN",
@@ -2147,7 +2236,8 @@
       "takeoff": "2026-07-09 06:01:01",
       "landed": "2026-07-09 06:43:28",
       "duration_min": 42,
-      "co2_kg": 2139
+      "co2_kg": 2139,
+      "distance_km": 340
     },
     {
       "reg": "OO-PCI",
@@ -2168,7 +2258,8 @@
       "takeoff": "2026-07-09 07:02:25",
       "landed": "2026-07-09 08:44:48",
       "duration_min": 102,
-      "co2_kg": 1118
+      "co2_kg": 1118,
+      "distance_km": 609
     },
     {
       "reg": "LX-FLI",
@@ -2186,7 +2277,8 @@
       "takeoff": "2026-07-09 07:34:19",
       "landed": "2026-07-09 08:39:32",
       "duration_min": 65,
-      "co2_kg": 712
+      "co2_kg": 712,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -2201,7 +2293,8 @@
       "takeoff": "2026-07-09 08:12:16",
       "landed": "2026-07-09 09:57:48",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "LX-GCA",
@@ -2222,7 +2315,8 @@
       "takeoff": "2026-07-09 08:51:49",
       "landed": "2026-07-09 10:11:26",
       "duration_min": 80,
-      "co2_kg": 1839
+      "co2_kg": 1839,
+      "distance_km": 861
     },
     {
       "reg": "OO-PCI",
@@ -2243,7 +2337,8 @@
       "takeoff": "2026-07-09 09:18:14",
       "landed": "2026-07-09 09:43:37",
       "duration_min": 25,
-      "co2_kg": 277
+      "co2_kg": 277,
+      "distance_km": 155
     },
     {
       "reg": "LX-FLI",
@@ -2264,7 +2359,8 @@
       "takeoff": "2026-07-09 11:06:57",
       "landed": "2026-07-09 12:18:04",
       "duration_min": 71,
-      "co2_kg": 777
+      "co2_kg": 777,
+      "distance_km": 514
     },
     {
       "reg": "F-HLPN",
@@ -2285,7 +2381,8 @@
       "takeoff": "2026-07-09 12:47:20",
       "landed": "2026-07-09 13:26:28",
       "duration_min": 39,
-      "co2_kg": 1972
+      "co2_kg": 1972,
+      "distance_km": 340
     },
     {
       "reg": "S5-CES",
@@ -2306,7 +2403,8 @@
       "takeoff": "2026-07-10 07:36:04",
       "landed": "2026-07-10 08:37:49",
       "duration_min": 62,
-      "co2_kg": 1426
+      "co2_kg": 1426,
+      "distance_km": 562
     },
     {
       "reg": "S5-CES",
@@ -2327,7 +2425,8 @@
       "takeoff": "2026-07-10 09:20:36",
       "landed": "2026-07-10 10:22:20",
       "duration_min": 62,
-      "co2_kg": 1426
+      "co2_kg": 1426,
+      "distance_km": 562
     },
     {
       "reg": "LX-RUM",
@@ -2348,7 +2447,8 @@
       "takeoff": "2026-07-10 11:05:50",
       "landed": "2026-07-10 12:54:26",
       "duration_min": 109,
-      "co2_kg": 1186
+      "co2_kg": 1186,
+      "distance_km": 691
     },
     {
       "reg": "F-HELE",
@@ -2369,7 +2469,8 @@
       "takeoff": "2026-07-10 16:36:15",
       "landed": "2026-07-10 18:10:00",
       "duration_min": 94,
-      "co2_kg": 866
+      "co2_kg": 866,
+      "distance_km": 379
     },
     {
       "reg": "OE-FZD",
@@ -2390,7 +2491,8 @@
       "takeoff": "2026-07-11 06:34:20",
       "landed": "2026-07-11 07:05:47",
       "duration_min": 31,
-      "co2_kg": 594
+      "co2_kg": 594,
+      "distance_km": 207
     },
     {
       "reg": "LX-RUM",
@@ -2411,7 +2513,8 @@
       "takeoff": "2026-07-11 07:14:29",
       "landed": "2026-07-11 08:52:27",
       "duration_min": 98,
-      "co2_kg": 1070
+      "co2_kg": 1070,
+      "distance_km": 562
     },
     {
       "reg": "CS-DXK",
@@ -2432,7 +2535,8 @@
       "takeoff": "2026-07-11 07:22:32",
       "landed": "2026-07-11 10:16:07",
       "duration_min": 174,
-      "co2_kg": 5468
+      "co2_kg": 5468,
+      "distance_km": 1963
     },
     {
       "reg": "OK-PVN",
@@ -2453,7 +2557,8 @@
       "takeoff": "2026-07-11 08:04:49",
       "landed": "2026-07-11 09:27:45",
       "duration_min": 83,
-      "co2_kg": 906
+      "co2_kg": 906,
+      "distance_km": 541
     },
     {
       "reg": "OE-FZD",
@@ -2474,7 +2579,8 @@
       "takeoff": "2026-07-11 08:06:58",
       "landed": "2026-07-11 09:51:44",
       "duration_min": 105,
-      "co2_kg": 1980
+      "co2_kg": 1980,
+      "distance_km": 839
     },
     {
       "reg": "F-HELE",
@@ -2495,7 +2601,8 @@
       "takeoff": "2026-07-11 09:02:51",
       "landed": "2026-07-11 10:15:43",
       "duration_min": 73,
-      "co2_kg": 673
+      "co2_kg": 673,
+      "distance_km": 276
     },
     {
       "reg": "OK-PVN",
@@ -2516,7 +2623,8 @@
       "takeoff": "2026-07-11 10:39:42",
       "landed": "2026-07-11 13:10:00",
       "duration_min": 150,
-      "co2_kg": 1641
+      "co2_kg": 1641,
+      "distance_km": 1043
     },
     {
       "reg": "CS-DXK",
@@ -2537,7 +2645,8 @@
       "takeoff": "2026-07-11 11:10:50",
       "landed": "2026-07-11 11:57:48",
       "duration_min": 47,
-      "co2_kg": 1479
+      "co2_kg": 1479,
+      "distance_km": 412
     },
     {
       "reg": "CS-PJE",
@@ -2558,7 +2667,8 @@
       "takeoff": "2026-07-11 12:16:01",
       "landed": "2026-07-11 12:58:22",
       "duration_min": 42,
-      "co2_kg": 978
+      "co2_kg": 978,
+      "distance_km": 345
     },
     {
       "reg": "CS-PJE",
@@ -2579,7 +2689,8 @@
       "takeoff": "2026-07-11 14:00:53",
       "landed": "2026-07-11 14:52:32",
       "duration_min": 52,
-      "co2_kg": 1193
+      "co2_kg": 1193,
+      "distance_km": 412
     },
     {
       "reg": "OO-PCA",
@@ -2600,7 +2711,8 @@
       "takeoff": "2026-07-11 14:07:42",
       "landed": "2026-07-11 15:42:00",
       "duration_min": 94,
-      "co2_kg": 1030
+      "co2_kg": 1030,
+      "distance_km": 633
     },
     {
       "reg": "F-HELE",
@@ -2621,7 +2733,8 @@
       "takeoff": "2026-07-11 14:39:33",
       "landed": "2026-07-11 15:26:53",
       "duration_min": 47,
-      "co2_kg": 437
+      "co2_kg": 437,
+      "distance_km": 64
     },
     {
       "reg": "OO-PCA",
@@ -2642,7 +2755,8 @@
       "takeoff": "2026-07-11 16:16:37",
       "landed": "2026-07-11 16:48:15",
       "duration_min": 32,
-      "co2_kg": 345
+      "co2_kg": 345,
+      "distance_km": 155
     },
     {
       "reg": "N960JB",
@@ -2663,7 +2777,8 @@
       "takeoff": "2026-07-11 16:18:03",
       "landed": "2026-07-11 17:34:06",
       "duration_min": 76,
-      "co2_kg": 735
+      "co2_kg": 735,
+      "distance_km": 582
     },
     {
       "reg": "N960JB",
@@ -2684,7 +2799,8 @@
       "takeoff": "2026-07-11 18:17:21",
       "landed": "2026-07-11 19:29:05",
       "duration_min": 72,
-      "co2_kg": 693
+      "co2_kg": 693,
+      "distance_km": 582
     },
     {
       "reg": "F-HELE",
@@ -2705,7 +2821,8 @@
       "takeoff": "2026-07-12 08:07:23",
       "landed": "2026-07-12 09:16:31",
       "duration_min": 69,
-      "co2_kg": 639
+      "co2_kg": 639,
+      "distance_km": 379
     },
     {
       "reg": "G-VJTB",
@@ -2726,7 +2843,8 @@
       "takeoff": "2026-07-12 11:27:35",
       "landed": "2026-07-12 12:31:13",
       "duration_min": 64,
-      "co2_kg": 2004
+      "co2_kg": 2004,
+      "distance_km": 568
     },
     {
       "reg": "OO-PCC",
@@ -2747,7 +2865,8 @@
       "takeoff": "2026-07-12 12:03:28",
       "landed": "2026-07-12 13:29:38",
       "duration_min": 86,
-      "co2_kg": 941
+      "co2_kg": 941,
+      "distance_km": 571
     },
     {
       "reg": "G-VJTB",
@@ -2768,7 +2887,8 @@
       "takeoff": "2026-07-12 13:33:27",
       "landed": "2026-07-12 14:32:23",
       "duration_min": 59,
-      "co2_kg": 1856
+      "co2_kg": 1856,
+      "distance_km": 568
     },
     {
       "reg": "D-ICMD",
@@ -2789,7 +2909,8 @@
       "takeoff": "2026-07-12 14:45:52",
       "landed": "2026-07-12 16:07:19",
       "duration_min": 81,
-      "co2_kg": 1710
+      "co2_kg": 1710,
+      "distance_km": 803
     },
     {
       "reg": "OO-PCC",
@@ -2810,7 +2931,8 @@
       "takeoff": "2026-07-12 15:14:44",
       "landed": "2026-07-12 16:36:21",
       "duration_min": 82,
-      "co2_kg": 891
+      "co2_kg": 891,
+      "distance_km": 609
     },
     {
       "reg": "F-HRDG",
@@ -2831,7 +2953,8 @@
       "takeoff": "2026-07-12 16:39:55",
       "landed": "2026-07-12 17:53:46",
       "duration_min": 74,
-      "co2_kg": 1706
+      "co2_kg": 1706,
+      "distance_km": 803
     },
     {
       "reg": "D-ICMD",
@@ -2852,7 +2975,8 @@
       "takeoff": "2026-07-13 06:18:32",
       "landed": "2026-07-13 08:55:40",
       "duration_min": 157,
-      "co2_kg": 3300
+      "co2_kg": 3300,
+      "distance_km": 1735
     },
     {
       "reg": "F-HRDG",
@@ -2873,7 +2997,8 @@
       "takeoff": "2026-07-13 07:08:55",
       "landed": "2026-07-13 08:19:11",
       "duration_min": 70,
-      "co2_kg": 1623
+      "co2_kg": 1623,
+      "distance_km": 580
     },
     {
       "reg": "OK-VAN",
@@ -2894,7 +3019,8 @@
       "takeoff": "2026-07-13 10:55:13",
       "landed": "2026-07-13 12:02:48",
       "duration_min": 68,
-      "co2_kg": 1419
+      "co2_kg": 1419,
+      "distance_km": 551
     },
     {
       "reg": "D-AAAY",
@@ -2915,7 +3041,8 @@
       "takeoff": "2026-07-13 12:51:18",
       "landed": "2026-07-13 13:43:54",
       "duration_min": 53,
-      "co2_kg": 2872
+      "co2_kg": 2872,
+      "distance_km": 500
     },
     {
       "reg": "OK-VAN",
@@ -2936,7 +3063,8 @@
       "takeoff": "2026-07-13 13:10:12",
       "landed": "2026-07-13 13:34:11",
       "duration_min": 24,
-      "co2_kg": 504
+      "co2_kg": 504,
+      "distance_km": 155
     },
     {
       "reg": "LX-RUM",
@@ -2957,7 +3085,8 @@
       "takeoff": "2026-07-13 15:08:38",
       "landed": "2026-07-13 16:40:50",
       "duration_min": 92,
-      "co2_kg": 1007
+      "co2_kg": 1007,
+      "distance_km": 562
     },
     {
       "reg": "D-ICMD",
@@ -2978,7 +3107,8 @@
       "takeoff": "2026-07-13 15:55:57",
       "landed": "2026-07-13 18:54:17",
       "duration_min": 178,
-      "co2_kg": 3745
+      "co2_kg": 3745,
+      "distance_km": 1735
     },
     {
       "reg": "CS-LUC",
@@ -2999,7 +3129,8 @@
       "takeoff": "2026-07-14 04:41:53",
       "landed": "2026-07-14 05:40:02",
       "duration_min": 58,
-      "co2_kg": 2076
+      "co2_kg": 2076,
+      "distance_km": 412
     },
     {
       "reg": null,
@@ -3014,7 +3145,8 @@
       "takeoff": "2026-07-14 05:33:33",
       "landed": "2026-07-14 07:07:23",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "CS-LUC",
@@ -3035,7 +3167,8 @@
       "takeoff": "2026-07-14 07:15:52",
       "landed": "2026-07-14 07:53:23",
       "duration_min": 38,
-      "co2_kg": 1339
+      "co2_kg": 1339,
+      "distance_km": 345
     },
     {
       "reg": null,
@@ -3050,7 +3183,8 @@
       "takeoff": "2026-07-14 08:33:29",
       "landed": "2026-07-14 09:49:09",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "D-AAAY",
@@ -3071,7 +3205,8 @@
       "takeoff": "2026-07-14 10:04:09",
       "landed": "2026-07-14 10:46:20",
       "duration_min": 42,
-      "co2_kg": 2303
+      "co2_kg": 2303,
+      "distance_km": 412
     },
     {
       "reg": "LX-RUM",
@@ -3092,7 +3227,8 @@
       "takeoff": "2026-07-14 12:17:21",
       "landed": "2026-07-14 12:43:13",
       "duration_min": 26,
-      "co2_kg": 282
+      "co2_kg": 282,
+      "distance_km": 110
     },
     {
       "reg": "CS-PHG",
@@ -3113,7 +3249,8 @@
       "takeoff": "2026-07-14 15:25:40",
       "landed": "2026-07-14 16:21:49",
       "duration_min": 56,
-      "co2_kg": 1297
+      "co2_kg": 1297,
+      "distance_km": 412
     },
     {
       "reg": null,
@@ -3128,7 +3265,8 @@
       "takeoff": "2026-07-15 07:28:30",
       "landed": "2026-07-15 07:56:33",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "CS-PHG",
@@ -3149,7 +3287,8 @@
       "takeoff": "2026-07-15 07:52:16",
       "landed": "2026-07-15 09:33:29",
       "duration_min": 101,
-      "co2_kg": 2338
+      "co2_kg": 2338,
+      "distance_km": 1101
     },
     {
       "reg": "9H-CEA",
@@ -3170,7 +3309,8 @@
       "takeoff": "2026-07-15 07:55:51",
       "landed": "2026-07-15 09:18:24",
       "duration_min": 83,
-      "co2_kg": 3467
+      "co2_kg": 3467,
+      "distance_km": 672
     },
     {
       "reg": null,
@@ -3185,7 +3325,8 @@
       "takeoff": "2026-07-15 08:11:30",
       "landed": "2026-07-15 08:40:37",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "D-ICMD",
@@ -3206,7 +3347,8 @@
       "takeoff": "2026-07-15 09:13:44",
       "landed": "2026-07-15 09:54:18",
       "duration_min": 41,
-      "co2_kg": 852
+      "co2_kg": 852,
+      "distance_km": 303
     },
     {
       "reg": "9H-CEA",
@@ -3227,7 +3369,8 @@
       "takeoff": "2026-07-15 11:35:18",
       "landed": "2026-07-15 13:03:48",
       "duration_min": 88,
-      "co2_kg": 3717
+      "co2_kg": 3717,
+      "distance_km": 839
     },
     {
       "reg": "9H-VFC",
@@ -3248,7 +3391,8 @@
       "takeoff": "2026-07-16 09:03:53",
       "landed": "2026-07-16 10:16:53",
       "duration_min": 73,
-      "co2_kg": 3986
+      "co2_kg": 3986,
+      "distance_km": 697
     },
     {
       "reg": "9H-VFC",
@@ -3269,7 +3413,8 @@
       "takeoff": "2026-07-16 12:04:10",
       "landed": "2026-07-16 12:58:08",
       "duration_min": 54,
-      "co2_kg": 2947
+      "co2_kg": 2947,
+      "distance_km": 301
     },
     {
       "reg": "CS-PJA",
@@ -3290,7 +3435,8 @@
       "takeoff": "2026-07-16 13:20:50",
       "landed": "2026-07-16 14:32:29",
       "duration_min": 72,
-      "co2_kg": 1655
+      "co2_kg": 1655,
+      "distance_km": 762
     },
     {
       "reg": "OE-FWF",
@@ -3311,7 +3457,8 @@
       "takeoff": "2026-07-17 05:43:11",
       "landed": "2026-07-17 07:12:09",
       "duration_min": 89,
-      "co2_kg": 1681
+      "co2_kg": 1681,
+      "distance_km": 590
     },
     {
       "reg": "CS-LTX",
@@ -3332,7 +3479,8 @@
       "takeoff": "2026-07-17 08:51:27",
       "landed": "2026-07-17 10:03:43",
       "duration_min": 72,
-      "co2_kg": 2580
+      "co2_kg": 2580,
+      "distance_km": 562
     },
     {
       "reg": "CS-LTX",
@@ -3353,7 +3501,8 @@
       "takeoff": "2026-07-17 10:59:13",
       "landed": "2026-07-17 11:28:42",
       "duration_min": 29,
-      "co2_kg": 1053
+      "co2_kg": 1053,
+      "distance_km": 245
     },
     {
       "reg": "OE-FWF",
@@ -3374,7 +3523,8 @@
       "takeoff": "2026-07-17 13:41:32",
       "landed": "2026-07-17 14:46:19",
       "duration_min": 65,
-      "co2_kg": 1224
+      "co2_kg": 1224,
+      "distance_km": 500
     },
     {
       "reg": "OO-PCK",
@@ -3395,7 +3545,8 @@
       "takeoff": "2026-07-17 15:01:43",
       "landed": "2026-07-17 16:24:32",
       "duration_min": 83,
-      "co2_kg": 904
+      "co2_kg": 904,
+      "distance_km": 537
     },
     {
       "reg": "OK-PVN",
@@ -3416,7 +3567,8 @@
       "takeoff": "2026-07-17 17:45:43",
       "landed": "2026-07-17 18:35:19",
       "duration_min": 50,
-      "co2_kg": 542
+      "co2_kg": 542,
+      "distance_km": 317
     },
     {
       "reg": "OO-PCK",
@@ -3437,7 +3589,8 @@
       "takeoff": "2026-07-17 18:13:44",
       "landed": "2026-07-17 19:50:00",
       "duration_min": 96,
-      "co2_kg": 1051
+      "co2_kg": 1051,
+      "distance_km": 697
     },
     {
       "reg": "9H-VCU",
@@ -3458,7 +3611,8 @@
       "takeoff": "2026-07-17 18:50:01",
       "landed": "2026-07-17 19:49:48",
       "duration_min": 60,
-      "co2_kg": 2511
+      "co2_kg": 2511,
+      "distance_km": 568
     },
     {
       "reg": "SP-MDD",
@@ -3479,7 +3633,8 @@
       "takeoff": "2026-07-18 07:42:56",
       "landed": "2026-07-18 08:52:56",
       "duration_min": 70,
-      "co2_kg": 1617
+      "co2_kg": 1617,
+      "distance_km": 580
     },
     {
       "reg": "OK-PVN",
@@ -3500,7 +3655,8 @@
       "takeoff": "2026-07-18 08:00:43",
       "landed": "2026-07-18 11:33:51",
       "duration_min": 213,
-      "co2_kg": 2327
+      "co2_kg": 2327,
+      "distance_km": 1625
     },
     {
       "reg": "9H-VCU",
@@ -3521,7 +3677,8 @@
       "takeoff": "2026-07-18 10:12:30",
       "landed": "2026-07-18 10:42:06",
       "duration_min": 30,
-      "co2_kg": 1243
+      "co2_kg": 1243,
+      "distance_km": 244
     },
     {
       "reg": "SP-MDD",
@@ -3542,7 +3699,8 @@
       "takeoff": "2026-07-18 10:19:10",
       "landed": "2026-07-18 10:49:11",
       "duration_min": 30,
-      "co2_kg": 693
+      "co2_kg": 693,
+      "distance_km": 223
     },
     {
       "reg": null,
@@ -3557,7 +3715,8 @@
       "takeoff": "2026-07-18 10:42:41",
       "landed": "2026-07-18 12:10:21",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "LX-JPA",
@@ -3578,7 +3737,8 @@
       "takeoff": "2026-07-18 12:43:48",
       "landed": "2026-07-18 14:13:25",
       "duration_min": 90,
-      "co2_kg": 979
+      "co2_kg": 979,
+      "distance_km": 562
     },
     {
       "reg": "D-CDCM",
@@ -3599,7 +3759,8 @@
       "takeoff": "2026-07-18 13:56:59",
       "landed": "2026-07-18 15:34:23",
       "duration_min": 97,
-      "co2_kg": 3068
+      "co2_kg": 3068,
+      "distance_km": 952
     },
     {
       "reg": "LX-JPA",
@@ -3620,7 +3781,8 @@
       "takeoff": "2026-07-18 16:00:52",
       "landed": "2026-07-18 17:56:48",
       "duration_min": 116,
-      "co2_kg": 1266
+      "co2_kg": 1266,
+      "distance_km": 677
     },
     {
       "reg": "D-CDCM",
@@ -3641,7 +3803,8 @@
       "takeoff": "2026-07-18 17:58:05",
       "landed": "2026-07-18 19:03:16",
       "duration_min": 65,
-      "co2_kg": 2053
+      "co2_kg": 2053,
+      "distance_km": 580
     },
     {
       "reg": "OE-FIT",
@@ -3662,7 +3825,8 @@
       "takeoff": "2026-07-19 10:02:24",
       "landed": "2026-07-19 11:57:56",
       "duration_min": 116,
-      "co2_kg": 2184
+      "co2_kg": 2184,
+      "distance_km": 839
     },
     {
       "reg": "OE-FIT",
@@ -3683,7 +3847,8 @@
       "takeoff": "2026-07-19 13:03:44",
       "landed": "2026-07-19 14:26:25",
       "duration_min": 83,
-      "co2_kg": 1563
+      "co2_kg": 1563,
+      "distance_km": 697
     },
     {
       "reg": "CS-PHR",
@@ -3704,7 +3869,8 @@
       "takeoff": "2026-07-20 04:39:20",
       "landed": "2026-07-20 05:39:29",
       "duration_min": 60,
-      "co2_kg": 1389
+      "co2_kg": 1389,
+      "distance_km": 412
     },
     {
       "reg": "CS-PHR",
@@ -3725,7 +3891,8 @@
       "takeoff": "2026-07-20 06:51:04",
       "landed": "2026-07-20 07:43:27",
       "duration_min": 52,
-      "co2_kg": 1210
+      "co2_kg": 1210,
+      "distance_km": 571
     },
     {
       "reg": "OO-PCA",
@@ -3746,7 +3913,8 @@
       "takeoff": "2026-07-20 12:34:03",
       "landed": "2026-07-20 12:55:21",
       "duration_min": 21,
-      "co2_kg": 233
+      "co2_kg": 233,
+      "distance_km": 110
     },
     {
       "reg": "OO-PCA",
@@ -3767,7 +3935,8 @@
       "takeoff": "2026-07-20 14:07:36",
       "landed": "2026-07-20 15:48:23",
       "duration_min": 101,
-      "co2_kg": 1101
+      "co2_kg": 1101,
+      "distance_km": 691
     },
     {
       "reg": "F-HLRK",
@@ -3788,7 +3957,8 @@
       "takeoff": "2026-07-21 05:38:55",
       "landed": "2026-07-21 05:55:17",
       "duration_min": 16,
-      "co2_kg": 378
+      "co2_kg": 378,
+      "distance_km": 60
     },
     {
       "reg": "F-HLRK",
@@ -3809,7 +3979,8 @@
       "takeoff": "2026-07-21 06:25:02",
       "landed": "2026-07-21 07:21:37",
       "duration_min": 57,
-      "co2_kg": 1307
+      "co2_kg": 1307,
+      "distance_km": 563
     },
     {
       "reg": "F-HYKE",
@@ -3830,7 +4001,8 @@
       "takeoff": "2026-07-21 13:27:35",
       "landed": "2026-07-21 14:31:04",
       "duration_min": 63,
-      "co2_kg": 693
+      "co2_kg": 693,
+      "distance_km": 379
     },
     {
       "reg": null,
@@ -3845,7 +4017,8 @@
       "takeoff": "2026-07-21 14:45:07",
       "landed": "2026-07-21 17:00:36",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "F-HYKE",
@@ -3866,7 +4039,8 @@
       "takeoff": "2026-07-21 14:48:38",
       "landed": "2026-07-21 16:09:06",
       "duration_min": 80,
-      "co2_kg": 879
+      "co2_kg": 879,
+      "distance_km": 596
     },
     {
       "reg": "F-HYKE",
@@ -3887,7 +4061,8 @@
       "takeoff": "2026-07-22 09:04:34",
       "landed": "2026-07-22 10:45:07",
       "duration_min": 101,
-      "co2_kg": 1098
+      "co2_kg": 1098,
+      "distance_km": 596
     },
     {
       "reg": "G-HTGL",
@@ -3908,7 +4083,8 @@
       "takeoff": "2026-07-22 11:07:04",
       "landed": "2026-07-22 12:41:00",
       "duration_min": 94,
-      "co2_kg": 1262
+      "co2_kg": 1262,
+      "distance_km": 639
     },
     {
       "reg": "F-HYKE",
@@ -3929,7 +4105,8 @@
       "takeoff": "2026-07-22 11:09:43",
       "landed": "2026-07-22 12:05:40",
       "duration_min": 56,
-      "co2_kg": 611
+      "co2_kg": 611,
+      "distance_km": 379
     },
     {
       "reg": "G-HTGL",
@@ -3950,7 +4127,8 @@
       "takeoff": "2026-07-22 14:54:02",
       "landed": "2026-07-22 15:26:03",
       "duration_min": 32,
-      "co2_kg": 430
+      "co2_kg": 430,
+      "distance_km": 201
     },
     {
       "reg": null,
@@ -3965,7 +4143,8 @@
       "takeoff": "2026-07-22 15:32:49",
       "landed": "2026-07-22 16:24:46",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": null,
@@ -3980,7 +4159,8 @@
       "takeoff": "2026-07-22 17:09:59",
       "landed": "2026-07-22 18:42:43",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "D-ALIN",
@@ -4001,7 +4181,8 @@
       "takeoff": "2026-07-23 07:22:31",
       "landed": "2026-07-23 08:14:05",
       "duration_min": 52,
-      "co2_kg": 3032
+      "co2_kg": 3032,
+      "distance_km": 568
     },
     {
       "reg": "CS-PHV",
@@ -4022,7 +4203,8 @@
       "takeoff": "2026-07-23 09:09:14",
       "landed": "2026-07-23 10:10:34",
       "duration_min": 61,
-      "co2_kg": 1417
+      "co2_kg": 1417,
+      "distance_km": 571
     },
     {
       "reg": "D-ALIN",
@@ -4043,7 +4225,8 @@
       "takeoff": "2026-07-23 09:48:03",
       "landed": "2026-07-23 10:57:58",
       "duration_min": 70,
-      "co2_kg": 4111
+      "co2_kg": 4111,
+      "distance_km": 839
     },
     {
       "reg": "CS-PHV",
@@ -4064,7 +4247,8 @@
       "takeoff": "2026-07-23 11:48:56",
       "landed": "2026-07-23 12:25:22",
       "duration_min": 36,
-      "co2_kg": 842
+      "co2_kg": 842,
+      "distance_km": 303
     },
     {
       "reg": "LX-FLN",
@@ -4085,7 +4269,8 @@
       "takeoff": "2026-07-23 13:10:43",
       "landed": "2026-07-23 14:30:25",
       "duration_min": 80,
-      "co2_kg": 870
+      "co2_kg": 870,
+      "distance_km": 577
     },
     {
       "reg": null,
@@ -4100,7 +4285,8 @@
       "takeoff": "2026-07-23 13:33:39",
       "landed": "2026-07-23 14:17:21",
       "duration_min": null,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": null
     },
     {
       "reg": "S5-CSS",
@@ -4121,7 +4307,8 @@
       "takeoff": "2026-07-24 03:53:34",
       "landed": "2026-07-24 06:01:18",
       "duration_min": 128,
-      "co2_kg": null
+      "co2_kg": null,
+      "distance_km": 1203
     },
     {
       "reg": "LX-FLN",
@@ -4142,7 +4329,8 @@
       "takeoff": "2026-07-24 06:57:39",
       "landed": "2026-07-24 07:57:37",
       "duration_min": 60,
-      "co2_kg": 655
+      "co2_kg": 655,
+      "distance_km": 430
     }
   ],
   "business_jets_operators": [
@@ -4233,10 +4421,67 @@
   ],
   "short_flights": {
     "n_with_distance": 154,
-    "pct_under_500km": 40,
+    "pct_under_500km": 39,
     "n_with_duration": 153,
     "avg_duration_min": 73,
-    "pct_under_45min": 21
+    "pct_under_45min": 21,
+    "shortest_flights": [
+      {
+        "reg": "F-HRCN",
+        "type": "TBM8",
+        "orig": "LFDN",
+        "orig_name": "Rochefort",
+        "dest": "LFBH",
+        "dest_name": "La Rochelle Île de Ré Airport",
+        "distance_km": 36,
+        "duration_min": 11,
+        "takeoff": "2026-06-25 08:29:48"
+      },
+      {
+        "reg": "F-HLRK",
+        "type": "C25M",
+        "orig": "LFBH",
+        "orig_name": "La Rochelle Île de Ré Airport",
+        "dest": "LFRI",
+        "dest_name": "La Roche-sur-Yon",
+        "distance_km": 60,
+        "duration_min": 10,
+        "takeoff": "2026-06-26 16:45:14"
+      },
+      {
+        "reg": "F-HLRK",
+        "type": "C25M",
+        "orig": "LFRI",
+        "orig_name": "La Roche-sur-Yon",
+        "dest": "LFBH",
+        "dest_name": "La Rochelle Île de Ré Airport",
+        "distance_km": 60,
+        "duration_min": 16,
+        "takeoff": "2026-07-01 05:12:54"
+      },
+      {
+        "reg": "F-HLRK",
+        "type": "C25M",
+        "orig": "LFRI",
+        "orig_name": "La Roche-sur-Yon",
+        "dest": "LFBH",
+        "dest_name": "La Rochelle Île de Ré Airport",
+        "distance_km": 60,
+        "duration_min": 16,
+        "takeoff": "2026-07-21 05:38:55"
+      },
+      {
+        "reg": "F-HELE",
+        "type": "TBM8",
+        "orig": "LFCY",
+        "orig_name": "Royan",
+        "dest": "LFBH",
+        "dest_name": "La Rochelle Île de Ré Airport",
+        "distance_km": 64,
+        "duration_min": 47,
+        "takeoff": "2026-07-11 14:39:33"
+      }
+    ]
   },
   "commercial_routes": [
     {
