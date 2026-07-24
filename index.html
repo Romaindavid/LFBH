@@ -156,11 +156,38 @@ tailwind.config = {
             <div id="top-destinations" class="space-y-4"></div>
         </div>
 
-        <div class="lg:col-span-3">
+    </section>
+
+    <!-- Section 5: Empreinte carbone -->
+    <section id="carbon" class="bg-inverse-surface text-inverse-on-surface p-12 rounded-lg">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+            <div>
+                <h2 class="font-headline-lg text-headline-lg mb-6">Bilan carbone des jets privés*</h2>
+                <div class="flex items-baseline gap-4 mb-8">
+                    <span id="co2-total-big" class="font-data-display text-[72px] font-extrabold leading-none">—</span>
+                    <div class="flex flex-col">
+                        <span class="text-headline-md font-bold">Tonnes CO2*</span>
+                        <span id="co2-equiv" class="text-tertiary-fixed font-medium">—</span>
+                    </div>
+                </div>
+                <p id="co2-warning" class="text-sm text-surface-variant">—</p>
+            </div>
+
+            <div class="bg-surface-container-highest/20 p-6 rounded-lg text-sm leading-relaxed border border-white/10">
+                <h5 class="font-bold text-base text-surface-variant mb-3 uppercase flex items-center gap-2">
+                    <span class="material-symbols-outlined text-[18px]">info</span> Méthodologie de calcul
+                </h5>
+                <p id="co2-methodology" class="text-surface-variant">—</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="bizjet-list" class="grid grid-cols-1 gap-gutter">
+        <div>
             <h3 class="font-headline-md text-headline-md">Jets d'affaires : chaque vol</h3>
             <p class="text-on-surface-variant text-body-sm">Immatriculation, opérateur, provenance/destination et horaire de chaque vol privé d'affaires.</p>
         </div>
-        <div class="lg:col-span-3 bg-surface border border-outline-variant overflow-x-auto">
+        <div class="bg-surface border border-outline-variant overflow-x-auto">
             <table class="w-full text-sm">
                 <thead class="bg-surface-container-low border-b border-outline-variant">
                     <tr class="text-left font-data-label text-xs uppercase text-outline">
@@ -172,7 +199,7 @@ tailwind.config = {
                 <tbody id="bizjet-table"></tbody>
             </table>
         </div>
-    </section>
+    </div>
 
     <!-- Flight card modal template (format portrait, pensé pour le partage) -->
     <div id="flight-modal" class="fixed inset-0 z-[2000] hidden items-center justify-center bg-on-surface/70 p-4 overflow-auto" aria-hidden="true">
@@ -225,32 +252,6 @@ tailwind.config = {
             <p class="text-center text-white/70 text-xs mt-3">Cliquez en dehors de la carte ou appuyez sur Échap pour fermer</p>
         </div>
     </div>
-
-    <!-- Section 5: Empreinte carbone -->
-    <section id="carbon" class="bg-inverse-surface text-inverse-on-surface p-12 rounded-lg">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-                <h2 class="font-headline-lg text-headline-lg mb-6">Bilan carbone des jets privés*</h2>
-                <div class="flex items-baseline gap-4 mb-8">
-                    <span id="co2-total-big" class="font-data-display text-[72px] font-extrabold leading-none">—</span>
-                    <div class="flex flex-col">
-                        <span class="text-headline-md font-bold">Tonnes CO2*</span>
-                        <span id="co2-equiv" class="text-tertiary-fixed font-medium">—</span>
-                    </div>
-                </div>
-                <p id="co2-warning" class="text-xs text-surface-variant">—</p>
-            </div>
-
-            <div class="space-y-8">
-                <div class="bg-surface-container-highest/20 p-4 rounded text-xs leading-relaxed border border-white/10">
-                    <h5 class="font-bold text-surface-variant mb-2 uppercase flex items-center gap-1">
-                        <span class="material-symbols-outlined text-[14px]">info</span> Méthodologie de calcul
-                    </h5>
-                    <p id="co2-methodology">—</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Section 6: Méthodologie -->
     <section id="methodology" class="bg-surface-container-low p-12 border border-outline-variant">

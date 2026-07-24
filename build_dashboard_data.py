@@ -359,29 +359,44 @@ def main():
         and f.get("type") in FUEL_BURN_LPH
         and f.get("type") != "CRJ2"
     }
+    jets_co2_kg = co2_by_cat.get("jets_prives", 0)
+    jets_liters = jets_co2_kg / CO2_PER_LITER_KEROSENE if jets_co2_kg else 0
+    n_types = len(jet_types_seen)
+
     methodology = (
         "Chaque vol est estimé à partir de la consommation moyenne de carburant "
         "du type d'appareil exact (base ICAO/constructeurs) multipliée par la "
         "durée réelle du vol observée sur Flightradar24 — ce n'est pas une "
         "moyenne générique : la météo ou un détour, qui allongent le vol, "
-        "allongent aussi la durée mesurée et donc l'estimation. "
+        "allongent aussi la durée mesurée, et donc l'estimation avec. "
     )
+    if jets_liters:
+        liters_str = f"{round(jets_liters):,}".replace(",", " ")
+        methodology += (
+            f"Sur la période, cela représente environ {liters_str} litres de "
+            f"kérosène brûlés par des jets privés à La Rochelle, répartis sur "
+            f"{n_types} types d'appareils différents identifiés. "
+        )
     if jet_types_seen:
         lightest = min(jet_types_seen, key=lambda t: FUEL_BURN_LPH[t])
         heaviest = max(jet_types_seen, key=lambda t: FUEL_BURN_LPH[t])
         if lightest != heaviest:
             ratio = round(FUEL_BURN_LPH[heaviest] / FUEL_BURN_LPH[lightest], 1)
             methodology += (
-                f"L'écart entre appareils est en revanche important : parmi les jets "
-                f"vus à La Rochelle, un {lightest} consomme environ "
+                f"L'écart entre appareils est important : parmi les jets vus à "
+                f"La Rochelle, un {lightest} consomme environ "
                 f"{FUEL_BURN_LPH[lightest]} L/h de kérosène, contre "
                 f"{FUEL_BURN_LPH[heaviest]} L/h pour un {heaviest} — soit {ratio}x plus "
-                "pour une heure de vol équivalente. "
+                "pour une heure de vol équivalente. Deux jets privés ne se valent "
+                "donc pas : le modèle choisi pèse au moins autant que la distance "
+                "parcourue. "
             )
     methodology += (
-        "Le nombre de passagers à bord n'est pas connu (un jet privé vole "
-        "en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial "
-        "sur un trajet comparable) et n'entre pas dans le calcul."
+        "Le nombre de passagers à bord n'est en revanche pas connu (un jet privé "
+        "vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial "
+        "sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte "
+        "par passager est donc, en réalité, encore plus disproportionnée que ce "
+        "chiffre global ne le montre."
     )
 
     out["co2_estimate"] = {
