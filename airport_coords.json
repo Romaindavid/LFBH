@@ -943,5 +943,30 @@
     "lat": 54.9132,
     "lon": 8.34047,
     "name": "Westerland Sylt Airport"
+  },
+  "EDFH": {
+    "lat": 49.946353,
+    "lon": 7.261734,
+    "name": "Frankfurt-Hahn Airport"
+  },
+  "EGTK": {
+    "lat": 51.836899,
+    "lon": -1.32,
+    "name": "London Oxford Airport"
+  },
+  "LEAL": {
+    "lat": 38.2822,
+    "lon": -0.558156,
+    "name": "Alicante-Elche Miguel Hernández Airport"
+  },
+  "LFMN": {
+    "lat": 43.658401,
+    "lon": 7.21587,
+    "name": "Nice-Côte d'Azur Airport"
+  },
+  "LIQS": {
+    "lat": 43.254942,
+    "lon": 11.255084,
+    "name": "Siena-Ampugnano Airport"
   }
 }
