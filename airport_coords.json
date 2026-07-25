@@ -938,5 +938,10 @@
     "lat": 48.110298,
     "lon": 16.5697,
     "name": "Vienna International Airport"
+  },
+  "EDXW": {
+    "lat": 54.9132,
+    "lon": 8.34047,
+    "name": "Westerland Sylt Airport"
   }
 }

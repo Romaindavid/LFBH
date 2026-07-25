@@ -298,5 +298,20 @@
     "thumbnail_large": "https://t.plnspttrs.net/35584/1939494_1ad0c73437_280.jpg",
     "link": "https://www.planespotters.net/photo/1939494/oe-ejj-pilart-air-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
     "photographer": "Mattia De Bon - PITI Spotter Club"
+  },
+  "D-IKBO": {
+    "thumbnail_large": "https://t.plnspttrs.net/12882/1728584_db8b0d20fc_280.jpg",
+    "link": "https://www.planespotters.net/photo/1728584/d-ikbo-atlas-air-service-cessna-525a-citationjet-cj2?utm_source=api",
+    "photographer": "Wesley Poxon"
+  },
+  "OE-FCO": {
+    "thumbnail_large": "https://t.plnspttrs.net/46713/1850257_01cdec627e_280.jpg",
+    "link": "https://www.planespotters.net/photo/1850257/oe-fco-globeair-cessna-510-citation-mustang?utm_source=api",
+    "photographer": "Erwin van Hassel"
+  },
+  "OH-VAD": {
+    "thumbnail_large": "https://t.plnspttrs.net/10889/1753493_0b831b4428_280.jpg",
+    "link": "https://www.planespotters.net/photo/1753493/oh-vad-fly7-finland-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
+    "photographer": "Jonas Evrard"
   }
 }
