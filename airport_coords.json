@@ -968,5 +968,15 @@
     "lat": 43.254942,
     "lon": 11.255084,
     "name": "Siena-Ampugnano Airport"
+  },
+  "EDDK": {
+    "lat": 50.865898,
+    "lon": 7.14274,
+    "name": "Cologne Bonn Airport"
+  },
+  "LPVL": {
+    "lat": 41.27729,
+    "lon": -8.516209,
+    "name": "Vilar de Luz Airfield"
   }
 }
