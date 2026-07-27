@@ -585,7 +585,8 @@ function render(data) {
 
   // Business jets table
   const tbody = document.getElementById('bizjet-table');
-  [...data.business_jets].reverse().forEach((f, i) => {
+  const bizJetsDesc = [...data.business_jets].reverse();
+  bizJetsDesc.forEach((f, i) => {
     const tr = document.createElement('tr');
     tr.className = 'border-b border-outline-variant last:border-0 hover:bg-surface-container-low';
     const canShowMap = f.orig_coords && f.dest_coords;
@@ -605,7 +606,7 @@ function render(data) {
   });
 
   document.querySelectorAll('.flight-view-btn').forEach(btn => {
-    btn.addEventListener('click', () => openFlightModal(data.business_jets[+btn.dataset.flightIndex]));
+    btn.addEventListener('click', () => openFlightModal(bizJetsDesc[+btn.dataset.flightIndex]));
   });
 
   // ---- Template de carte de vol (modale réutilisable) ----
