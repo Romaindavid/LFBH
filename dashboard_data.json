@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-27T19:42:06.842523+00:00",
+  "generated_at": "2026-07-28T08:19:00.727910+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-07-27T19:41:34",
-  "total_movements": 2011,
+  "period_end": "2026-07-28T08:18:40",
+  "total_movements": 2024,
   "categories": {
     "aviation_legere": {
-      "count": 1161,
+      "count": 1168,
       "pct": 57.7,
       "avg_duration_min": 80
     },
@@ -15,8 +15,8 @@
       "avg_duration_min": 38
     },
     "commercial": {
-      "count": 423,
-      "pct": 21.0,
+      "count": 428,
+      "pct": 21.1,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,7 +25,7 @@
       "avg_duration_min": 61
     },
     "jets_prives": {
-      "count": 215,
+      "count": 216,
       "pct": 10.7,
       "avg_duration_min": 74
     },
@@ -343,16 +343,22 @@
     },
     {
       "date": "2026-07-27",
-      "commercial": 10,
+      "commercial": 12,
       "aviation_legere": 39,
       "jets_prives": 4,
       "militaire": 5,
       "autre": 1
+    },
+    {
+      "date": "2026-07-28",
+      "commercial": 3,
+      "jets_prives": 1,
+      "aviation_legere": 7
     }
   ],
   "weekday_distribution": [
-    319,
-    242,
+    321,
+    253,
     261,
     240,
     371,
@@ -361,7 +367,7 @@
   ],
   "weekday_distribution_jets_prives": [
     28,
-    27,
+    28,
     29,
     33,
     37,
@@ -374,10 +380,10 @@
     2,
     3,
     23,
-    70,
-    116,
-    225,
-    221,
+    72,
+    118,
+    229,
+    224,
     172,
     129,
     101,
@@ -388,9 +394,9 @@
     120,
     78,
     62,
-    27,
+    28,
     25,
-    16,
+    17,
     9,
     4
   ],
@@ -400,7 +406,7 @@
     0,
     1,
     2,
-    8,
+    9,
     13,
     25,
     26,
@@ -4919,12 +4925,34 @@
       "duration_min": 21,
       "co2_kg": 227,
       "distance_km": 110
+    },
+    {
+      "reg": "T7-KIF",
+      "type": "TBM9",
+      "operator": null,
+      "orig": "LFLU",
+      "orig_name": "Valence-Chabeuil Airport",
+      "orig_coords": {
+        "lat": 44.9216,
+        "lon": 4.9699
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-28 05:33:11",
+      "landed": "2026-07-28 06:41:37",
+      "duration_min": 68,
+      "co2_kg": 661,
+      "distance_km": 500
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      74
+      75
     ],
     [
       "NJE",
@@ -5016,9 +5044,9 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 176,
+    "n_with_distance": 177,
     "pct_under_500km": 36,
-    "n_with_duration": 176,
+    "n_with_duration": 177,
     "avg_duration_min": 74,
     "pct_under_45min": 20,
     "shortest_flights": [
@@ -5083,7 +5111,7 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 74
+      "count": 75
     },
     {
       "code": "EGSS",
@@ -5098,12 +5126,12 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 45
+      "count": 46
     },
     {
       "code": "EBCI",
       "name": "Charleroi",
-      "count": 35
+      "count": 36
     },
     {
       "code": "LFLL",
@@ -5111,13 +5139,13 @@
       "count": 34
     },
     {
-      "code": "LSGG",
-      "name": "Genève",
-      "count": 22
-    },
-    {
       "code": "GMMX",
       "name": "Marrakech",
+      "count": 24
+    },
+    {
+      "code": "LSGG",
+      "name": "Genève",
       "count": 22
     },
     {
@@ -5158,18 +5186,18 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 631,
-      "distinct_aircraft": 165
+      "count": 634,
+      "distinct_aircraft": 167
     },
     "tourism": {
-      "count": 530,
-      "distinct_aircraft": 256
+      "count": 534,
+      "distinct_aircraft": 257
     },
     "tourism_routes": [
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 23
+        "count": 24
       },
       {
         "code": "LFPN",
@@ -5184,7 +5212,7 @@
       {
         "code": "LFOU",
         "name": "Cholet",
-        "count": 20
+        "count": 21
       },
       {
         "code": "LFBN",
@@ -5274,7 +5302,7 @@
       "name": "Charleroi",
       "lat": 50.461963,
       "lon": 4.459562,
-      "count": 35
+      "count": 36
     },
     {
       "category": "commercial",
@@ -5282,7 +5310,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 45
+      "count": 46
     },
     {
       "category": "commercial",
@@ -5298,7 +5326,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 74
+      "count": 75
     },
     {
       "category": "commercial",
@@ -5306,7 +5334,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 22
+      "count": 24
     },
     {
       "category": "commercial",
@@ -5890,7 +5918,7 @@
       "name": "Valence-Chabeuil Airport",
       "lat": 44.9216,
       "lon": 4.9699,
-      "count": 1
+      "count": 2
     },
     {
       "category": "jets_prives",
@@ -6458,7 +6486,7 @@
       "name": "Les Sables-d'Olonne Talmont Airport",
       "lat": 46.476898,
       "lon": -1.72278,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -6530,7 +6558,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 23
+      "count": 24
     },
     {
       "category": "aviation_legere",
@@ -6626,7 +6654,7 @@
       "name": "Cholet",
       "lat": 47.0821,
       "lon": -0.877064,
-      "count": 20
+      "count": 21
     },
     {
       "category": "aviation_legere",
@@ -6770,7 +6798,7 @@
       "name": "Grenoble Alpes Isère Airport",
       "lat": 45.3629,
       "lon": 5.32937,
-      "count": 5
+      "count": 6
     },
     {
       "category": "aviation_legere",
@@ -7163,19 +7191,19 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 3453.2,
-    "flights_with_estimate": 1398,
-    "flights_total": 2011,
-    "flights_with_estimate_jets_prives": 172,
-    "flights_total_jets_prives": 215,
+    "total_tonnes": 3488.0,
+    "flights_with_estimate": 1405,
+    "flights_total": 2024,
+    "flights_with_estimate_jets_prives": 173,
+    "flights_total_jets_prives": 216,
     "by_category_tonnes": {
-      "aviation_legere": 87.4,
-      "commercial": 3071.3,
-      "jets_prives": 275.2,
+      "aviation_legere": 88.1,
+      "commercial": 3104.7,
+      "jets_prives": 275.9,
       "helicoptere": 5.6,
       "militaire": 13.7
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 109 215 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 19 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 109 478 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 19 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM8",
       "lightest_lph": 220,
@@ -7190,10 +7218,10 @@
       },
       {
         "month": "2026-07",
-        "tonnes": 204.4
+        "tonnes": 205.0
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 137.6,
-    "rochelais_equivalent_per_month": 179
+    "avg_monthly_tonnes_jets_prives": 137.9,
+    "rochelais_equivalent_per_month": 180
   }
 }
