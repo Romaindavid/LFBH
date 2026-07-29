@@ -79,6 +79,9 @@ BUSINESS_AVIATION_TYPES = {
     # Turbopropulseurs d'affaires (le vrai trou identifié : mal classés
     # "Passenger" ou "General_aviation" par FR24 selon les vols).
     "PC12", "TBM7", "TBM8", "TBM9", "P180", "B350",
+    # Monomoteurs à piston haut de gamme, usage privé/affaires assimilable
+    # à un jet privé malgré la motorisation (ex: Mooney Acclaim Ultra).
+    "M700",
 }
 
 

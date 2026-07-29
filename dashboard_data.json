@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-29T08:25:16.022692+00:00",
+  "generated_at": "2026-07-29T15:34:42.056636+00:00",
   "period_start": "2026-06-18T12:44:10",
   "period_end": "2026-07-29T08:24:55",
   "total_movements": 2078,
   "categories": {
     "aviation_legere": {
-      "count": 1205,
-      "pct": 58.0,
+      "count": 1183,
+      "pct": 56.9,
       "avg_duration_min": 80
     },
     "helicoptere": {
@@ -25,9 +25,9 @@
       "avg_duration_min": 61
     },
     "jets_prives": {
-      "count": 219,
-      "pct": 10.5,
-      "avg_duration_min": 74
+      "count": 241,
+      "pct": 11.6,
+      "avg_duration_min": 72
     },
     "militaire": {
       "count": 140,
@@ -69,17 +69,17 @@
     {
       "date": "2026-06-22",
       "commercial": 12,
-      "aviation_legere": 21,
+      "jets_prives": 8,
+      "aviation_legere": 19,
       "militaire": 2,
-      "jets_prives": 6,
       "helicoptere": 2
     },
     {
       "date": "2026-06-23",
-      "aviation_legere": 18,
+      "aviation_legere": 16,
       "commercial": 8,
-      "autre": 1,
-      "jets_prives": 5
+      "jets_prives": 7,
+      "autre": 1
     },
     {
       "date": "2026-06-24",
@@ -128,8 +128,8 @@
     {
       "date": "2026-06-30",
       "commercial": 8,
-      "aviation_legere": 34,
-      "jets_prives": 1,
+      "aviation_legere": 32,
+      "jets_prives": 3,
       "autre": 3,
       "militaire": 6
     },
@@ -144,9 +144,9 @@
     },
     {
       "date": "2026-07-02",
-      "aviation_legere": 37,
-      "commercial": 4,
-      "jets_prives": 4
+      "jets_prives": 6,
+      "aviation_legere": 35,
+      "commercial": 4
     },
     {
       "date": "2026-07-03",
@@ -176,8 +176,8 @@
     {
       "date": "2026-07-06",
       "commercial": 13,
-      "aviation_legere": 29,
-      "jets_prives": 4,
+      "aviation_legere": 27,
+      "jets_prives": 6,
       "autre": 2
     },
     {
@@ -209,18 +209,18 @@
     {
       "date": "2026-07-10",
       "militaire": 3,
-      "aviation_legere": 36,
+      "aviation_legere": 34,
       "commercial": 12,
       "autre": 1,
       "helicoptere": 1,
-      "jets_prives": 4
+      "jets_prives": 6
     },
     {
       "date": "2026-07-11",
       "militaire": 2,
       "commercial": 16,
-      "aviation_legere": 26,
-      "jets_prives": 15,
+      "aviation_legere": 25,
+      "jets_prives": 16,
       "helicoptere": 4
     },
     {
@@ -242,23 +242,23 @@
     },
     {
       "date": "2026-07-14",
-      "jets_prives": 7,
+      "jets_prives": 8,
       "commercial": 8,
-      "aviation_legere": 28,
+      "aviation_legere": 27,
       "militaire": 8
     },
     {
       "date": "2026-07-15",
       "commercial": 16,
-      "aviation_legere": 27,
+      "aviation_legere": 26,
       "helicoptere": 1,
-      "jets_prives": 6,
+      "jets_prives": 7,
       "militaire": 5
     },
     {
       "date": "2026-07-16",
-      "aviation_legere": 26,
-      "jets_prives": 3,
+      "aviation_legere": 25,
+      "jets_prives": 4,
       "commercial": 4,
       "militaire": 4
     },
@@ -281,8 +281,8 @@
       "date": "2026-07-19",
       "militaire": 5,
       "commercial": 8,
-      "aviation_legere": 22,
-      "jets_prives": 3
+      "aviation_legere": 21,
+      "jets_prives": 4
     },
     {
       "date": "2026-07-20",
@@ -311,8 +311,8 @@
     },
     {
       "date": "2026-07-23",
-      "aviation_legere": 35,
-      "jets_prives": 6,
+      "aviation_legere": 34,
+      "jets_prives": 7,
       "commercial": 4,
       "autre": 2,
       "helicoptere": 1,
@@ -337,23 +337,23 @@
     {
       "date": "2026-07-26",
       "militaire": 3,
-      "aviation_legere": 19,
-      "jets_prives": 7,
+      "aviation_legere": 18,
+      "jets_prives": 8,
       "commercial": 8
     },
     {
       "date": "2026-07-27",
       "commercial": 12,
-      "aviation_legere": 39,
-      "jets_prives": 4,
+      "aviation_legere": 38,
+      "jets_prives": 5,
       "militaire": 5,
       "autre": 1
     },
     {
       "date": "2026-07-28",
       "commercial": 8,
-      "jets_prives": 3,
-      "aviation_legere": 37,
+      "jets_prives": 5,
+      "aviation_legere": 35,
       "militaire": 3,
       "helicoptere": 2
     },
@@ -374,13 +374,13 @@
     244
   ],
   "weekday_distribution_jets_prives": [
-    28,
-    30,
-    30,
     33,
     37,
+    31,
+    37,
     39,
-    22
+    40,
+    24
   ],
   "hourly_distribution": [
     1,
@@ -412,22 +412,22 @@
     0,
     0,
     0,
-    1,
     2,
-    9,
-    13,
-    25,
-    27,
-    17,
-    22,
+    2,
+    10,
     16,
-    18,
+    25,
+    30,
     17,
-    13,
-    12,
-    14,
-    6,
-    7,
+    23,
+    17,
+    20,
+    17,
+    15,
+    15,
+    15,
+    8,
+    9,
     0,
     0,
     0,
@@ -590,6 +590,28 @@
       "distance_km": 541
     },
     {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFOH",
+      "dest_name": "Le Havre",
+      "dest_coords": {
+        "lat": 49.534038,
+        "lon": 0.088406
+      },
+      "takeoff": "2026-06-22 05:07:41",
+      "landed": "2026-06-22 06:03:43",
+      "duration_min": 56,
+      "co2_kg": 518,
+      "distance_km": 385
+    },
+    {
       "reg": null,
       "type": "B350",
       "operator": null,
@@ -670,6 +692,28 @@
       "distance_km": null
     },
     {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFOH",
+      "orig_name": "Le Havre",
+      "orig_coords": {
+        "lat": 49.534038,
+        "lon": 0.088406
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-06-22 15:21:59",
+      "landed": "2026-06-22 16:17:48",
+      "duration_min": 56,
+      "co2_kg": 516,
+      "distance_km": 385
+    },
+    {
       "reg": "D-CUGF",
       "type": "C25B",
       "operator": "PAV",
@@ -690,6 +734,25 @@
       "duration_min": 74,
       "co2_kg": 1720,
       "distance_km": 705
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-06-23 06:19:29",
+      "landed": "2026-06-23 06:56:33",
+      "duration_min": 37,
+      "co2_kg": 342,
+      "distance_km": null
     },
     {
       "reg": "D-CUGF",
@@ -788,6 +851,25 @@
       "duration_min": 253,
       "co2_kg": 5842,
       "distance_km": 1901
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-06-23 16:13:58",
+      "landed": "2026-06-23 16:48:19",
+      "duration_min": 34,
+      "co2_kg": 317,
+      "distance_km": null
     },
     {
       "reg": "OO-LUM",
@@ -1328,6 +1410,50 @@
       "distance_km": 350
     },
     {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFQQ",
+      "dest_name": "Lille",
+      "dest_coords": {
+        "lat": 50.566564,
+        "lon": 3.102429
+      },
+      "takeoff": "2026-06-30 08:29:59",
+      "landed": "2026-06-30 09:45:47",
+      "duration_min": 76,
+      "co2_kg": 700,
+      "distance_km": 582
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFQQ",
+      "orig_name": "Lille",
+      "orig_coords": {
+        "lat": 50.566564,
+        "lon": 3.102429
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-06-30 10:30:43",
+      "landed": "2026-06-30 11:56:21",
+      "duration_min": 86,
+      "co2_kg": 791,
+      "distance_km": 582
+    },
+    {
       "reg": "F-HLRK",
       "type": "C25M",
       "operator": "BEJ",
@@ -1528,6 +1654,50 @@
       "duration_min": 94,
       "co2_kg": 1021,
       "distance_km": 577
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFPB",
+      "dest_name": "Paris-Le Bourget",
+      "dest_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
+      "takeoff": "2026-07-02 03:57:04",
+      "landed": "2026-07-02 05:10:18",
+      "duration_min": 73,
+      "co2_kg": 677,
+      "distance_km": 412
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFPB",
+      "orig_name": "Paris-Le Bourget",
+      "orig_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-02 06:56:24",
+      "landed": "2026-07-02 07:57:20",
+      "duration_min": 61,
+      "co2_kg": 563,
+      "distance_km": 412
     },
     {
       "reg": "OE-FIX",
@@ -1934,6 +2104,50 @@
       "duration_min": null,
       "co2_kg": null,
       "distance_km": null
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFLS",
+      "dest_name": "Grenoble Alpes Isère Airport",
+      "dest_coords": {
+        "lat": 45.3629,
+        "lon": 5.32937
+      },
+      "takeoff": "2026-07-06 12:50:14",
+      "landed": "2026-07-06 14:00:33",
+      "duration_min": 70,
+      "co2_kg": 650,
+      "distance_km": 514
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFLS",
+      "orig_name": "Grenoble Alpes Isère Airport",
+      "orig_coords": {
+        "lat": 45.3629,
+        "lon": 5.32937
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-06 14:29:23",
+      "landed": "2026-07-06 15:43:33",
+      "duration_min": 74,
+      "co2_kg": 685,
+      "distance_km": 514
     },
     {
       "reg": "F-HSHU",
@@ -2467,6 +2681,50 @@
       "distance_km": 691
     },
     {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFEA",
+      "dest_name": "Belle-Île-en-Mer",
+      "dest_coords": {
+        "lat": 47.325256,
+        "lon": -3.201255
+      },
+      "takeoff": "2026-07-10 14:17:45",
+      "landed": "2026-07-10 14:52:35",
+      "duration_min": 35,
+      "co2_kg": 322,
+      "distance_km": 199
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFEA",
+      "orig_name": "Belle-Île-en-Mer",
+      "orig_coords": {
+        "lat": 47.325256,
+        "lon": -3.201255
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-10 15:08:42",
+      "landed": "2026-07-10 15:41:57",
+      "duration_min": 33,
+      "co2_kg": 307,
+      "distance_km": 199
+    },
+    {
       "reg": "F-HELE",
       "type": "TBM8",
       "operator": null,
@@ -2597,6 +2855,28 @@
       "duration_min": 105,
       "co2_kg": 1980,
       "distance_km": 839
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFSP",
+      "dest_name": "Pontarlier Airfield",
+      "dest_coords": {
+        "lat": 46.904032,
+        "lon": 6.326826
+      },
+      "takeoff": "2026-07-11 08:21:50",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 581
     },
     {
       "reg": "F-HELE",
@@ -3269,6 +3549,28 @@
       "distance_km": 412
     },
     {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFEA",
+      "orig_name": "Belle-Île-en-Mer",
+      "orig_coords": {
+        "lat": 47.325256,
+        "lon": -3.201255
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-14 15:59:37",
+      "landed": "2026-07-14 16:34:36",
+      "duration_min": 35,
+      "co2_kg": 323,
+      "distance_km": 199
+    },
+    {
       "reg": null,
       "type": "TBM7",
       "operator": null,
@@ -3389,6 +3691,28 @@
       "distance_km": 839
     },
     {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFOU",
+      "dest_name": "Cholet",
+      "dest_coords": {
+        "lat": 47.0821,
+        "lon": -0.877064
+      },
+      "takeoff": "2026-07-15 18:19:01",
+      "landed": "2026-07-15 18:39:39",
+      "duration_min": 21,
+      "co2_kg": 191,
+      "distance_km": 103
+    },
+    {
       "reg": "9H-VFC",
       "type": "CL60",
       "operator": "VJT",
@@ -3453,6 +3777,28 @@
       "duration_min": 72,
       "co2_kg": 1655,
       "distance_km": 762
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFOU",
+      "orig_name": "Cholet",
+      "orig_coords": {
+        "lat": 47.0821,
+        "lon": -0.877064
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-16 18:03:53",
+      "landed": "2026-07-16 18:25:34",
+      "duration_min": 22,
+      "co2_kg": 200,
+      "distance_km": 103
     },
     {
       "reg": "OE-FWF",
@@ -3821,6 +4167,28 @@
       "duration_min": 65,
       "co2_kg": 2053,
       "distance_km": 580
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFNH",
+      "dest_name": "Edgar Soumille Airfield",
+      "dest_coords": {
+        "lat": 44.027689,
+        "lon": 5.084255
+      },
+      "takeoff": "2026-07-19 08:56:48",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 548
     },
     {
       "reg": "OE-FIT",
@@ -4243,6 +4611,28 @@
       "duration_min": 70,
       "co2_kg": 4111,
       "distance_km": 839
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFNH",
+      "orig_name": "Edgar Soumille Airfield",
+      "orig_coords": {
+        "lat": 44.027689,
+        "lon": 5.084255
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-23 11:00:37",
+      "landed": "2026-07-23 12:31:17",
+      "duration_min": 91,
+      "co2_kg": 838,
+      "distance_km": 548
     },
     {
       "reg": "CS-PHV",
@@ -4847,6 +5237,28 @@
       "distance_km": 671
     },
     {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFOU",
+      "dest_name": "Cholet",
+      "dest_coords": {
+        "lat": 47.0821,
+        "lon": -0.877064
+      },
+      "takeoff": "2026-07-26 17:24:13",
+      "landed": "2026-07-26 17:47:30",
+      "duration_min": 23,
+      "co2_kg": 215,
+      "distance_km": 103
+    },
+    {
       "reg": "OE-FZD",
       "type": "C510",
       "operator": "GAC",
@@ -4935,6 +5347,28 @@
       "distance_km": 110
     },
     {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFOU",
+      "orig_name": "Cholet",
+      "orig_coords": {
+        "lat": 47.0821,
+        "lon": -0.877064
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-27 17:46:57",
+      "landed": "2026-07-27 18:07:50",
+      "duration_min": 21,
+      "co2_kg": 193,
+      "distance_km": 103
+    },
+    {
       "reg": "T7-KIF",
       "type": "TBM9",
       "operator": null,
@@ -4957,6 +5391,28 @@
       "distance_km": 500
     },
     {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFLS",
+      "dest_name": "Grenoble Alpes Isère Airport",
+      "dest_coords": {
+        "lat": 45.3629,
+        "lon": 5.32937
+      },
+      "takeoff": "2026-07-28 06:44:43",
+      "landed": "2026-07-28 07:55:31",
+      "duration_min": 71,
+      "co2_kg": 654,
+      "distance_km": 514
+    },
+    {
       "reg": "LX-JFD",
       "type": "PC12",
       "operator": "JFA",
@@ -4977,6 +5433,28 @@
       "duration_min": 111,
       "co2_kg": 1208,
       "distance_km": 691
+    },
+    {
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFLS",
+      "orig_name": "Grenoble Alpes Isère Airport",
+      "orig_coords": {
+        "lat": 45.3629,
+        "lon": 5.32937
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-28 12:15:40",
+      "landed": "2026-07-28 13:35:55",
+      "duration_min": 80,
+      "co2_kg": 742,
+      "distance_km": 514
     },
     {
       "reg": "T7-KIF",
@@ -5026,7 +5504,7 @@
   "business_jets_operators": [
     [
       "Inconnu",
-      77
+      99
     ],
     [
       "NJE",
@@ -5118,11 +5596,11 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 180,
-    "pct_under_500km": 36,
-    "n_with_duration": 179,
-    "avg_duration_min": 74,
-    "pct_under_45min": 20,
+    "n_with_distance": 200,
+    "pct_under_500km": 38,
+    "n_with_duration": 199,
+    "avg_duration_min": 72,
+    "pct_under_45min": 22,
     "shortest_flights": [
       {
         "reg": "F-HRCN",
@@ -5260,12 +5738,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 653,
-      "distinct_aircraft": 169
+      "count": 651,
+      "distinct_aircraft": 168
     },
     "tourism": {
-      "count": 552,
-      "distinct_aircraft": 263
+      "count": 532,
+      "distinct_aircraft": 262
     },
     "tourism_routes": [
       {
@@ -5286,7 +5764,7 @@
       {
         "code": "LFOU",
         "name": "Cholet",
-        "count": 21
+        "count": 17
       },
       {
         "code": "LFBN",
@@ -5299,11 +5777,6 @@
         "count": 15
       },
       {
-        "code": "LFEA",
-        "name": "Belle-Île-en-Mer",
-        "count": 14
-      },
-      {
         "code": "LFRI",
         "name": "La Roche-sur-Yon",
         "count": 14
@@ -5312,6 +5785,11 @@
         "code": "LFEY",
         "name": "Île d'Yeu",
         "count": 12
+      },
+      {
+        "code": "LFEA",
+        "name": "Belle-Île-en-Mer",
+        "count": 11
       },
       {
         "code": "LFCL",
@@ -5496,7 +5974,7 @@
       "name": "Paris-Le Bourget",
       "lat": 48.962276,
       "lon": 2.436539,
-      "count": 11
+      "count": 13
     },
     {
       "category": "jets_prives",
@@ -5505,6 +5983,14 @@
       "lat": 43.907299,
       "lon": 4.90183,
       "count": 3
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFOH",
+      "name": "Le Havre",
+      "lat": 49.534038,
+      "lon": 0.088406,
+      "count": 2
     },
     {
       "category": "jets_prives",
@@ -5676,6 +6162,14 @@
     },
     {
       "category": "jets_prives",
+      "code": "LFQQ",
+      "name": "Lille",
+      "lat": 50.566564,
+      "lon": 3.102429,
+      "count": 4
+    },
+    {
+      "category": "jets_prives",
       "code": "LFPN",
       "name": "Versailles-Saclay",
       "lat": 48.7519,
@@ -5796,6 +6290,14 @@
     },
     {
       "category": "jets_prives",
+      "code": "LFLS",
+      "name": "Grenoble Alpes Isère Airport",
+      "lat": 45.3629,
+      "lon": 5.32937,
+      "count": 4
+    },
+    {
+      "category": "jets_prives",
       "code": "EGKB",
       "name": "Londres-Biggin Hill",
       "lat": 51.33079910279999,
@@ -5852,6 +6354,14 @@
     },
     {
       "category": "jets_prives",
+      "code": "LFEA",
+      "name": "Belle-Île-en-Mer",
+      "lat": 47.325256,
+      "lon": -3.201255,
+      "count": 3
+    },
+    {
+      "category": "jets_prives",
       "code": "LFRV",
       "name": "Rochefort (aéroclub)",
       "lat": 47.723301,
@@ -5865,6 +6375,14 @@
       "lat": 38.872898,
       "lon": 1.37312,
       "count": 4
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFSP",
+      "name": "Pontarlier Airfield",
+      "lat": 46.904032,
+      "lon": 6.326826,
+      "count": 1
     },
     {
       "category": "jets_prives",
@@ -5905,14 +6423,6 @@
       "lat": 45.628101,
       "lon": -0.9725,
       "count": 1
-    },
-    {
-      "category": "jets_prives",
-      "code": "LFQQ",
-      "name": "Lille",
-      "lat": 50.566564,
-      "lon": 3.102429,
-      "count": 2
     },
     {
       "category": "jets_prives",
@@ -5961,6 +6471,14 @@
       "lat": 49.626845,
       "lon": 6.212134,
       "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFOU",
+      "name": "Cholet",
+      "lat": 47.0821,
+      "lon": -0.877064,
+      "count": 4
     },
     {
       "category": "jets_prives",
@@ -6041,6 +6559,14 @@
       "lat": 40.952099,
       "lon": -5.50199,
       "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFNH",
+      "name": "Edgar Soumille Airfield",
+      "lat": 44.027689,
+      "lon": 5.084255,
+      "count": 2
     },
     {
       "category": "jets_prives",
@@ -6160,7 +6686,7 @@
       "name": "Belle-Île-en-Mer",
       "lat": 47.325256,
       "lon": -3.201255,
-      "count": 14
+      "count": 11
     },
     {
       "category": "aviation_legere",
@@ -6352,7 +6878,7 @@
       "name": "Le Havre",
       "lat": 49.534038,
       "lon": 0.088406,
-      "count": 8
+      "count": 6
     },
     {
       "category": "aviation_legere",
@@ -6608,7 +7134,7 @@
       "name": "Lille",
       "lat": 50.566564,
       "lon": 3.102429,
-      "count": 4
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -6736,15 +7262,7 @@
       "name": "Cholet",
       "lat": 47.0821,
       "lon": -0.877064,
-      "count": 21
-    },
-    {
-      "category": "aviation_legere",
-      "code": "LFPB",
-      "name": "Paris-Le Bourget",
-      "lat": 48.962276,
-      "lon": 2.436539,
-      "count": 2
+      "count": 17
     },
     {
       "category": "aviation_legere",
@@ -6876,19 +7394,19 @@
     },
     {
       "category": "aviation_legere",
-      "code": "LFLS",
-      "name": "Grenoble Alpes Isère Airport",
-      "lat": 45.3629,
-      "lon": 5.32937,
-      "count": 7
-    },
-    {
-      "category": "aviation_legere",
       "code": "LFLC",
       "name": "Clermont-Ferrand",
       "lat": 45.786701,
       "lon": 3.16917,
       "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLS",
+      "name": "Grenoble Alpes Isère Airport",
+      "lat": 45.3629,
+      "lon": 5.32937,
+      "count": 3
     },
     {
       "category": "aviation_legere",
@@ -6993,14 +7511,6 @@
       "lat": 43.247615,
       "lon": 6.126654,
       "count": 2
-    },
-    {
-      "category": "aviation_legere",
-      "code": "LFSP",
-      "name": "Pontarlier Airfield",
-      "lat": 46.904032,
-      "lon": 6.326826,
-      "count": 1
     },
     {
       "category": "aviation_legere",
@@ -7128,14 +7638,6 @@
       "name": "Deauville Normandie airport",
       "lat": 49.365237,
       "lon": 0.154481,
-      "count": 2
-    },
-    {
-      "category": "aviation_legere",
-      "code": "LFNH",
-      "name": "Edgar Soumille Airfield",
-      "lat": 44.027689,
-      "lon": 5.084255,
       "count": 2
     },
     {
@@ -7276,18 +7778,18 @@
     "total_tonnes": 3558.5,
     "flights_with_estimate": 1438,
     "flights_total": 2078,
-    "flights_with_estimate_jets_prives": 175,
-    "flights_total_jets_prives": 219,
+    "flights_with_estimate_jets_prives": 195,
+    "flights_total_jets_prives": 241,
     "by_category_tonnes": {
-      "aviation_legere": 90.6,
+      "aviation_legere": 80.9,
       "commercial": 3170.4,
-      "jets_prives": 277.7,
+      "jets_prives": 287.5,
       "helicoptere": 5.6,
       "militaire": 14.3
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 110 206 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 19 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 114 073 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 20 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
-      "lightest_type": "TBM8",
+      "lightest_type": "M700",
       "lightest_lph": 220,
       "heaviest_type": "FA7X",
       "heaviest_lph": 1400,
@@ -7296,14 +7798,14 @@
     "monthly_tonnes_jets_prives": [
       {
         "month": "2026-06",
-        "tonnes": 70.8
+        "tonnes": 74.0
       },
       {
         "month": "2026-07",
-        "tonnes": 206.9
+        "tonnes": 213.4
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 138.9,
-    "rochelais_equivalent_per_month": 181
+    "avg_monthly_tonnes_jets_prives": 143.7,
+    "rochelais_equivalent_per_month": 187
   }
 }
