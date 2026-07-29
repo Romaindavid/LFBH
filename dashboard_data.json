@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-28T19:40:25.177856+00:00",
+  "generated_at": "2026-07-29T08:25:16.022692+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-07-28T19:39:05",
-  "total_movements": 2066,
+  "period_end": "2026-07-29T08:24:55",
+  "total_movements": 2078,
   "categories": {
     "aviation_legere": {
-      "count": 1198,
+      "count": 1205,
       "pct": 58.0,
       "avg_duration_min": 80
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 38
     },
     "commercial": {
-      "count": 433,
+      "count": 437,
       "pct": 21.0,
       "avg_duration_min": 71
     },
@@ -25,13 +25,13 @@
       "avg_duration_min": 61
     },
     "jets_prives": {
-      "count": 218,
-      "pct": 10.6,
+      "count": 219,
+      "pct": 10.5,
       "avg_duration_min": 74
     },
     "militaire": {
       "count": 140,
-      "pct": 6.8,
+      "pct": 6.7,
       "avg_duration_min": 57
     }
   },
@@ -356,12 +356,18 @@
       "aviation_legere": 37,
       "militaire": 3,
       "helicoptere": 2
+    },
+    {
+      "date": "2026-07-29",
+      "commercial": 4,
+      "aviation_legere": 7,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
     321,
     295,
-    261,
+    273,
     240,
     371,
     334,
@@ -370,7 +376,7 @@
   "weekday_distribution_jets_prives": [
     28,
     30,
-    29,
+    30,
     33,
     37,
     39,
@@ -382,10 +388,10 @@
     2,
     3,
     23,
-    72,
-    118,
-    229,
-    228,
+    73,
+    120,
+    235,
+    231,
     183,
     131,
     101,
@@ -411,7 +417,7 @@
     9,
     13,
     25,
-    26,
+    27,
     17,
     22,
     16,
@@ -4993,12 +4999,34 @@
       "duration_min": 65,
       "co2_kg": 629,
       "distance_km": 500
+    },
+    {
+      "reg": "N502WS",
+      "type": "SF50",
+      "operator": null,
+      "orig": "EGTK",
+      "orig_name": "London Oxford Airport",
+      "orig_coords": {
+        "lat": 51.836899,
+        "lon": -1.32
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-07-29 08:11:42",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 629
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      76
+      77
     ],
     [
       "NJE",
@@ -5090,7 +5118,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 179,
+    "n_with_distance": 180,
     "pct_under_500km": 36,
     "n_with_duration": 179,
     "avg_duration_min": 74,
@@ -5157,7 +5185,7 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 76
+      "count": 77
     },
     {
       "code": "EGSS",
@@ -5197,7 +5225,7 @@
     {
       "code": "EICK",
       "name": "Cork",
-      "count": 22
+      "count": 24
     },
     {
       "code": "LPPR",
@@ -5207,7 +5235,7 @@
     {
       "code": "EGCC",
       "name": "Manchester",
-      "count": 20
+      "count": 21
     },
     {
       "code": "EGGD",
@@ -5232,11 +5260,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 647,
-      "distinct_aircraft": 168
+      "count": 653,
+      "distinct_aircraft": 169
     },
     "tourism": {
-      "count": 551,
+      "count": 552,
       "distinct_aircraft": 263
     },
     "tourism_routes": [
@@ -5372,7 +5400,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 76
+      "count": 77
     },
     {
       "category": "commercial",
@@ -5388,7 +5416,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 22
+      "count": 24
     },
     {
       "category": "commercial",
@@ -5404,7 +5432,7 @@
       "name": "Manchester",
       "lat": 53.349375,
       "lon": -2.279521,
-      "count": 20
+      "count": 21
     },
     {
       "category": "commercial",
@@ -6116,6 +6144,14 @@
       "name": "Alicante-Elche Miguel Hernández Airport",
       "lat": 38.2822,
       "lon": -0.558156,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "EGTK",
+      "name": "London Oxford Airport",
+      "lat": 51.836899,
+      "lon": -1.32,
       "count": 1
     },
     {
@@ -7164,7 +7200,7 @@
       "name": "Troyes-Barberey Airport",
       "lat": 48.322102,
       "lon": 4.0167,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -7237,14 +7273,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 3543.2,
-    "flights_with_estimate": 1434,
-    "flights_total": 2066,
+    "total_tonnes": 3558.5,
+    "flights_with_estimate": 1438,
+    "flights_total": 2078,
     "flights_with_estimate_jets_prives": 175,
-    "flights_total_jets_prives": 218,
+    "flights_total_jets_prives": 219,
     "by_category_tonnes": {
-      "aviation_legere": 90.5,
-      "commercial": 3155.1,
+      "aviation_legere": 90.6,
+      "commercial": 3170.4,
       "jets_prives": 277.7,
       "helicoptere": 5.6,
       "militaire": 14.3
