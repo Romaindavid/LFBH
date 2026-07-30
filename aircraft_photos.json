@@ -343,5 +343,15 @@
     "thumbnail_large": "https://t.plnspttrs.net/08714/1774123_03ca6a7491_280.jpg",
     "link": "https://www.planespotters.net/photo/1774123/f-htpf-private-piper-m700-fury-pa-46-701tp?utm_source=api",
     "photographer": "Romain ROUX"
+  },
+  "F-HROG": {
+    "thumbnail_large": "https://t.plnspttrs.net/26021/1769487_2361203b9d_280.jpg",
+    "link": "https://www.planespotters.net/photo/1769487/f-hrog-private-piaggio-p-180-avanti?utm_source=api",
+    "photographer": "Matthias Becker"
+  },
+  "OE-FZB": {
+    "thumbnail_large": "https://t.plnspttrs.net/04250/1728601_e9a2fe4949_280.jpg",
+    "link": "https://www.planespotters.net/photo/1728601/oe-fzb-globeair-cessna-510-citation-mustang?utm_source=api",
+    "photographer": "Michał Furmańczak"
   }
 }
