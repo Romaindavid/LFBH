@@ -629,9 +629,11 @@ function render(data) {
     document.getElementById('flight-modal-orig-code').textContent = f.orig || '';
     document.getElementById('flight-modal-dest').textContent = f.dest_name || '—';
     document.getElementById('flight-modal-dest-code').textContent = f.dest || '';
-    document.getElementById('flight-modal-duration').textContent = fmtDuration(f.duration_min);
+    const inFlight = !f.landed;
+    document.getElementById('flight-modal-duration').textContent =
+      inFlight ? 'En vol' : fmtDuration(f.duration_min);
     document.getElementById('flight-modal-co2').textContent =
-      f.co2_kg ? (f.co2_kg / 1000).toFixed(2).replace('.', ',') + ' t' : '—';
+      f.co2_kg ? (f.co2_kg / 1000).toFixed(2).replace('.', ',') + ' t' : (inFlight ? 'En vol' : '—');
 
     // Photo de l'appareil (si disponible), avec crédit photographe obligatoire
     const photoEl = document.getElementById('flight-modal-photo');
