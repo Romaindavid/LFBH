@@ -978,5 +978,25 @@
     "lat": 41.27729,
     "lon": -8.516209,
     "name": "Vilar de Luz Airfield"
+  },
+  "EGHR": {
+    "lat": 50.859832,
+    "lon": -0.760073,
+    "name": "Goodwood Aerodrome"
+  },
+  "EGXW": {
+    "lat": 53.166199,
+    "lon": -0.523811,
+    "name": "RAF Waddington"
+  },
+  "GMTT": {
+    "lat": 35.731741,
+    "lon": -5.921459,
+    "name": "Tangier Ibn Battuta Airport"
+  },
+  "LSGE": {
+    "lat": 46.755279,
+    "lon": 7.075746,
+    "name": "Ecuvillens Airfield"
   }
 }

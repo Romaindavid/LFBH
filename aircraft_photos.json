@@ -353,5 +353,15 @@
     "thumbnail_large": "https://t.plnspttrs.net/04250/1728601_e9a2fe4949_280.jpg",
     "link": "https://www.planespotters.net/photo/1728601/oe-fzb-globeair-cessna-510-citation-mustang?utm_source=api",
     "photographer": "Michał Furmańczak"
+  },
+  "G-OJFB": {
+    "thumbnail_large": "https://t.plnspttrs.net/23720/1945527_99eba74226_280.jpg",
+    "link": "https://www.planespotters.net/photo/1945527/g-ojfb-jetfly-uk-pilatus-pc-12-ng-pc-12-47e?utm_source=api",
+    "photographer": "Szymon M"
+  },
+  "ZZ507": {
+    "thumbnail_large": "https://t.plnspttrs.net/13082/1745840_1179ae0ba1_280.jpg",
+    "link": "https://www.planespotters.net/photo/1745840/zz507-royal-air-force-beechcraft-shadow-r1-b300c?utm_source=api",
+    "photographer": "DVS-135"
   }
 }
