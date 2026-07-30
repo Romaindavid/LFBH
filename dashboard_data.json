@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T08:10:41.698348+00:00",
+  "generated_at": "2026-07-30T09:13:08.925418+00:00",
   "period_start": "2026-06-18T12:44:10",
   "period_end": "2026-07-30T08:10:21",
   "total_movements": 2129,
@@ -1725,7 +1725,7 @@
       "takeoff": "2026-07-02 15:10:43",
       "landed": "2026-07-02 16:16:45",
       "duration_min": 66,
-      "co2_kg": null,
+      "co2_kg": 1312,
       "distance_km": 568
     },
     {
@@ -1747,7 +1747,7 @@
       "takeoff": "2026-07-02 16:43:45",
       "landed": "2026-07-02 17:06:38",
       "duration_min": 23,
-      "co2_kg": null,
+      "co2_kg": 455,
       "distance_km": 113
     },
     {
@@ -4720,7 +4720,7 @@
       "takeoff": "2026-07-24 03:53:34",
       "landed": "2026-07-24 06:01:18",
       "duration_min": 128,
-      "co2_kg": null,
+      "co2_kg": 2538,
       "distance_km": 1203
     },
     {
@@ -4786,7 +4786,7 @@
       "takeoff": "2026-07-24 10:45:22",
       "landed": "2026-07-24 13:17:18",
       "duration_min": 152,
-      "co2_kg": null,
+      "co2_kg": 3018,
       "distance_km": 1357
     },
     {
@@ -5504,7 +5504,7 @@
       "takeoff": "2026-07-29 08:11:42",
       "landed": "2026-07-29 09:48:32",
       "duration_min": 97,
-      "co2_kg": null,
+      "co2_kg": 923,
       "distance_km": 629
     },
     {
@@ -5548,7 +5548,7 @@
       "takeoff": "2026-07-29 13:58:41",
       "landed": "2026-07-29 15:28:52",
       "duration_min": 90,
-      "co2_kg": null,
+      "co2_kg": 860,
       "distance_km": 629
     },
     {
@@ -7882,25 +7882,25 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 3646.6,
-    "flights_with_estimate": 1475,
+    "total_tonnes": 3655.7,
+    "flights_with_estimate": 1481,
     "flights_total": 2129,
-    "flights_with_estimate_jets_prives": 197,
+    "flights_with_estimate_jets_prives": 203,
     "flights_total_jets_prives": 245,
     "by_category_tonnes": {
       "aviation_legere": 82.7,
       "commercial": 3254.0,
-      "jets_prives": 289.4,
+      "jets_prives": 298.5,
       "helicoptere": 6.2,
       "militaire": 14.3
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 114 847 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 20 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 118 460 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
-      "lightest_type": "TBM8",
-      "lightest_lph": 220,
+      "lightest_type": "TBM7",
+      "lightest_lph": 197,
       "heaviest_type": "FA7X",
       "heaviest_lph": 1400,
-      "ratio": 6.4
+      "ratio": 7.1
     },
     "monthly_tonnes_jets_prives": [
       {
@@ -7909,10 +7909,10 @@
       },
       {
         "month": "2026-07",
-        "tonnes": 215.4
+        "tonnes": 224.5
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 144.7,
-    "rochelais_equivalent_per_month": 189
+    "avg_monthly_tonnes_jets_prives": 149.3,
+    "rochelais_equivalent_per_month": 195
   }
 }
