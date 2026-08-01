@@ -1003,5 +1003,15 @@
     "lat": 46.004299,
     "lon": 8.91058,
     "name": "Lugano Airport"
+  },
+  "EGTR": {
+    "lat": 51.6558,
+    "lon": -0.325833,
+    "name": "Elstree Airfield"
+  },
+  "LEVC": {
+    "lat": 39.489162,
+    "lon": -0.480961,
+    "name": "Valencia Airport"
   }
 }
