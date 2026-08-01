@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T08:07:05.695234+00:00",
+  "generated_at": "2026-08-01T09:31:20.199937+00:00",
   "period_start": "2026-06-18T12:44:10",
   "period_end": "2026-08-01T08:06:46",
   "total_movements": 2235,
@@ -461,6 +461,7 @@
   ],
   "business_jets": [
     {
+      "fr24_id": "40bec140",
       "reg": "CS-DXR",
       "type": "C56X",
       "operator": "NJE",
@@ -483,6 +484,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "404218d5",
       "reg": "OO-LUM",
       "type": "FA7X",
       "operator": "AAB",
@@ -505,6 +507,7 @@
       "distance_km": 671
     },
     {
+      "fr24_id": "404234fb",
       "reg": "OE-FZC",
       "type": "C510",
       "operator": "GAC",
@@ -527,6 +530,7 @@
       "distance_km": 303
     },
     {
+      "fr24_id": "404266bc",
       "reg": "OO-LUM",
       "type": "FA7X",
       "operator": "AAB",
@@ -549,6 +553,7 @@
       "distance_km": 671
     },
     {
+      "fr24_id": "4042a610",
       "reg": "OE-FZC",
       "type": "C510",
       "operator": "GAC",
@@ -571,6 +576,7 @@
       "distance_km": 590
     },
     {
+      "fr24_id": "404a89cb",
       "reg": "CS-PHP",
       "type": "E55P",
       "operator": "NJE",
@@ -593,6 +599,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "404ac48a",
       "reg": "CS-PHP",
       "type": "E55P",
       "operator": "NJE",
@@ -615,6 +622,7 @@
       "distance_km": 541
     },
     {
+      "fr24_id": "404dafd7",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -637,6 +645,7 @@
       "distance_km": 385
     },
     {
+      "fr24_id": "404de521",
       "reg": null,
       "type": "B350",
       "operator": null,
@@ -653,6 +662,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "404e119f",
       "reg": null,
       "type": "B350",
       "operator": null,
@@ -669,6 +679,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "404e16e6",
       "reg": null,
       "type": "B350",
       "operator": null,
@@ -685,6 +696,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "404e34e9",
       "reg": null,
       "type": "B350",
       "operator": null,
@@ -701,6 +713,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "404e3e8b",
       "reg": null,
       "type": "B350",
       "operator": null,
@@ -717,6 +730,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "404f6447",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -739,6 +753,7 @@
       "distance_km": 385
     },
     {
+      "fr24_id": "40500fee",
       "reg": "D-CUGF",
       "type": "C25B",
       "operator": "PAV",
@@ -761,6 +776,7 @@
       "distance_km": 705
     },
     {
+      "fr24_id": "4051e296",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -780,6 +796,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "405203eb",
       "reg": "D-CUGF",
       "type": "C25B",
       "operator": "PAV",
@@ -802,6 +819,7 @@
       "distance_km": 541
     },
     {
+      "fr24_id": "40522670",
       "reg": null,
       "type": "HDJT",
       "operator": null,
@@ -818,6 +836,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "4052527e",
       "reg": "CS-PHC",
       "type": "E55P",
       "operator": "NJE",
@@ -840,6 +859,7 @@
       "distance_km": 815
     },
     {
+      "fr24_id": "40527c4a",
       "reg": null,
       "type": "HDJT",
       "operator": null,
@@ -856,6 +876,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "4052cedf",
       "reg": "CS-PHC",
       "type": "E55P",
       "operator": "NJE",
@@ -878,6 +899,7 @@
       "distance_km": 1901
     },
     {
+      "fr24_id": "4053be36",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -897,6 +919,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40563969",
       "reg": "OO-LUM",
       "type": "FA7X",
       "operator": "AAB",
@@ -919,6 +942,7 @@
       "distance_km": 671
     },
     {
+      "fr24_id": "40567148",
       "reg": "OO-LUM",
       "type": "FA7X",
       "operator": "AAB",
@@ -941,6 +965,7 @@
       "distance_km": 551
     },
     {
+      "fr24_id": "405a64a5",
       "reg": "F-HRCN",
       "type": "TBM8",
       "operator": null,
@@ -963,6 +988,7 @@
       "distance_km": 239
     },
     {
+      "fr24_id": "405aa0e3",
       "reg": "LX-FLM",
       "type": "PC12",
       "operator": "JFA",
@@ -985,6 +1011,7 @@
       "distance_km": 574
     },
     {
+      "fr24_id": "405ab74a",
       "reg": "CS-PHC",
       "type": "E55P",
       "operator": "NJE",
@@ -1007,6 +1034,7 @@
       "distance_km": 1901
     },
     {
+      "fr24_id": "405acabe",
       "reg": "F-HRCN",
       "type": "TBM8",
       "operator": null,
@@ -1029,6 +1057,7 @@
       "distance_km": 36
     },
     {
+      "fr24_id": "405aa5b2",
       "reg": "OE-FWF",
       "type": "C510",
       "operator": "GAC",
@@ -1051,6 +1080,7 @@
       "distance_km": 603
     },
     {
+      "fr24_id": "405acfaa",
       "reg": "S5-BDD",
       "type": "C56X",
       "operator": "VIO",
@@ -1073,6 +1103,7 @@
       "distance_km": 1658
     },
     {
+      "fr24_id": "405aec80",
       "reg": "9H-VFJ",
       "type": "CL60",
       "operator": "VJT",
@@ -1095,6 +1126,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "405b0ab4",
       "reg": "LX-FLM",
       "type": "PC12",
       "operator": "JFA",
@@ -1117,6 +1149,7 @@
       "distance_km": 156
     },
     {
+      "fr24_id": "405b2c47",
       "reg": "OE-FWF",
       "type": "C510",
       "operator": "GAC",
@@ -1139,6 +1172,7 @@
       "distance_km": 155
     },
     {
+      "fr24_id": "405b3d90",
       "reg": "9H-VFJ",
       "type": "CL60",
       "operator": "VJT",
@@ -1161,6 +1195,7 @@
       "distance_km": 754
     },
     {
+      "fr24_id": "405b6e89",
       "reg": "CS-PHC",
       "type": "E55P",
       "operator": "NJE",
@@ -1183,6 +1218,7 @@
       "distance_km": 807
     },
     {
+      "fr24_id": "405c61ad",
       "reg": "F-HRCN",
       "type": "TBM8",
       "operator": null,
@@ -1205,6 +1241,7 @@
       "distance_km": 209
     },
     {
+      "fr24_id": "405fa842",
       "reg": "S5-BDD",
       "type": "C56X",
       "operator": "VIO",
@@ -1227,6 +1264,7 @@
       "distance_km": 974
     },
     {
+      "fr24_id": "406070fc",
       "reg": "CS-PHS",
       "type": "E55P",
       "operator": "NJE",
@@ -1249,6 +1287,7 @@
       "distance_km": 803
     },
     {
+      "fr24_id": "40607531",
       "reg": "F-HLRK",
       "type": "C25M",
       "operator": "BEJ",
@@ -1271,6 +1310,7 @@
       "distance_km": 590
     },
     {
+      "fr24_id": "4060d8d6",
       "reg": "F-HLRK",
       "type": "C25M",
       "operator": "BEJ",
@@ -1293,6 +1333,7 @@
       "distance_km": 60
     },
     {
+      "fr24_id": "406375ef",
       "reg": "CS-PHS",
       "type": "E55P",
       "operator": "NJE",
@@ -1315,6 +1356,7 @@
       "distance_km": 1963
     },
     {
+      "fr24_id": "40675f5c",
       "reg": "D-IEGO",
       "type": "C25A",
       "operator": "PAV",
@@ -1337,6 +1379,7 @@
       "distance_km": 477
     },
     {
+      "fr24_id": "4067cb32",
       "reg": "D-IEGO",
       "type": "C25A",
       "operator": "PAV",
@@ -1359,6 +1402,7 @@
       "distance_km": 674
     },
     {
+      "fr24_id": "406a61d8",
       "reg": "D-ISRM",
       "type": "C510",
       "operator": null,
@@ -1381,6 +1425,7 @@
       "distance_km": 1119
     },
     {
+      "fr24_id": "406b242c",
       "reg": null,
       "type": "PC24",
       "operator": null,
@@ -1397,6 +1442,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "406bd016",
       "reg": null,
       "type": "PC24",
       "operator": null,
@@ -1413,6 +1459,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "406e69e6",
       "reg": "EC-GOV",
       "type": "C560",
       "operator": "XTX",
@@ -1435,6 +1482,7 @@
       "distance_km": 350
     },
     {
+      "fr24_id": "406eb694",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -1457,6 +1505,7 @@
       "distance_km": 582
     },
     {
+      "fr24_id": "406f05c2",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -1479,6 +1528,7 @@
       "distance_km": 582
     },
     {
+      "fr24_id": "40728bff",
       "reg": "F-HLRK",
       "type": "C25M",
       "operator": "BEJ",
@@ -1501,6 +1551,7 @@
       "distance_km": 60
     },
     {
+      "fr24_id": "40729dd6",
       "reg": "N940TB",
       "type": "TBM9",
       "operator": null,
@@ -1523,6 +1574,7 @@
       "distance_km": 379
     },
     {
+      "fr24_id": "4072a808",
       "reg": "F-HLRK",
       "type": "C25M",
       "operator": "BEJ",
@@ -1545,6 +1597,7 @@
       "distance_km": 477
     },
     {
+      "fr24_id": "4072bdee",
       "reg": null,
       "type": "B350",
       "operator": null,
@@ -1561,6 +1614,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "4072dd17",
       "reg": null,
       "type": "B350",
       "operator": null,
@@ -1577,6 +1631,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "4072e743",
       "reg": null,
       "type": "B350",
       "operator": null,
@@ -1593,6 +1648,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "4072e2ff",
       "reg": "N940TB",
       "type": "TBM9",
       "operator": null,
@@ -1615,6 +1671,7 @@
       "distance_km": 753
     },
     {
+      "fr24_id": "40731d04",
       "reg": "LX-JFC",
       "type": "PC12",
       "operator": "JFA",
@@ -1637,6 +1694,7 @@
       "distance_km": 562
     },
     {
+      "fr24_id": "407346ee",
       "reg": "EC-GOV",
       "type": "C560",
       "operator": "XTX",
@@ -1659,6 +1717,7 @@
       "distance_km": 350
     },
     {
+      "fr24_id": "4073ad90",
       "reg": "LX-JFC",
       "type": "PC12",
       "operator": "JFA",
@@ -1681,6 +1740,7 @@
       "distance_km": 577
     },
     {
+      "fr24_id": "4076b470",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -1703,6 +1763,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "407720c6",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -1725,6 +1786,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "40786df3",
       "reg": "OE-FIX",
       "type": "C525",
       "operator": "MCK",
@@ -1747,6 +1809,7 @@
       "distance_km": 568
     },
     {
+      "fr24_id": "4079172a",
       "reg": "OE-FIX",
       "type": "C525",
       "operator": "MCK",
@@ -1769,6 +1832,7 @@
       "distance_km": 113
     },
     {
+      "fr24_id": "4079393f",
       "reg": "N940TB",
       "type": "TBM9",
       "operator": null,
@@ -1791,6 +1855,7 @@
       "distance_km": 0
     },
     {
+      "fr24_id": "4079622d",
       "reg": "N940TB",
       "type": "TBM9",
       "operator": null,
@@ -1813,6 +1878,7 @@
       "distance_km": 379
     },
     {
+      "fr24_id": "407bf031",
       "reg": "F-HLRK",
       "type": "C25M",
       "operator": "BEJ",
@@ -1835,6 +1901,7 @@
       "distance_km": 477
     },
     {
+      "fr24_id": "407c38a3",
       "reg": "F-HRDG",
       "type": "E55P",
       "operator": "BEJ",
@@ -1857,6 +1924,7 @@
       "distance_km": 515
     },
     {
+      "fr24_id": "407c4a45",
       "reg": "F-HLRK",
       "type": "C25M",
       "operator": "BEJ",
@@ -1879,6 +1947,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "407c9e37",
       "reg": "9H-ILY",
       "type": "CRJ2",
       "operator": "VJT",
@@ -1901,6 +1970,7 @@
       "distance_km": 699
     },
     {
+      "fr24_id": "407d2569",
       "reg": "9H-ILY",
       "type": "CRJ2",
       "operator": "VJT",
@@ -1923,6 +1993,7 @@
       "distance_km": 636
     },
     {
+      "fr24_id": "407d414c",
       "reg": "N940TB",
       "type": "TBM9",
       "operator": null,
@@ -1945,6 +2016,7 @@
       "distance_km": 379
     },
     {
+      "fr24_id": "407d986f",
       "reg": "F-HRDG",
       "type": "E55P",
       "operator": "BEJ",
@@ -1967,6 +2039,7 @@
       "distance_km": 803
     },
     {
+      "fr24_id": "407fea3b",
       "reg": "LX-FLQ",
       "type": "PC12",
       "operator": "JFA",
@@ -1989,6 +2062,7 @@
       "distance_km": 649
     },
     {
+      "fr24_id": "4080229b",
       "reg": "OO-PCA",
       "type": "PC12",
       "operator": "PGC",
@@ -2011,6 +2085,7 @@
       "distance_km": 697
     },
     {
+      "fr24_id": "40807619",
       "reg": "LX-FLQ",
       "type": "PC12",
       "operator": "JFA",
@@ -2033,6 +2108,7 @@
       "distance_km": 223
     },
     {
+      "fr24_id": "408086fd",
       "reg": "D-IBEA",
       "type": "C25A",
       "operator": "PAV",
@@ -2055,6 +2131,7 @@
       "distance_km": 369
     },
     {
+      "fr24_id": "40808fd0",
       "reg": "OO-PCA",
       "type": "PC12",
       "operator": "PGC",
@@ -2077,6 +2154,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "40831227",
       "reg": "D-IBEA",
       "type": "C25A",
       "operator": "PAV",
@@ -2099,6 +2177,7 @@
       "distance_km": 737
     },
     {
+      "fr24_id": "4086d2b9",
       "reg": null,
       "type": "C25M",
       "operator": null,
@@ -2115,6 +2194,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40872875",
       "reg": null,
       "type": "C25M",
       "operator": null,
@@ -2131,6 +2211,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40879ca8",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -2153,6 +2234,7 @@
       "distance_km": 514
     },
     {
+      "fr24_id": "4087f6ab",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -2175,6 +2257,7 @@
       "distance_km": 514
     },
     {
+      "fr24_id": "408816ce",
       "reg": "F-HSHU",
       "type": "C510",
       "operator": null,
@@ -2197,6 +2280,7 @@
       "distance_km": 303
     },
     {
+      "fr24_id": "4088c06e",
       "reg": null,
       "type": "PC24",
       "operator": null,
@@ -2213,6 +2297,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "408a8d9e",
       "reg": "F-HSHU",
       "type": "C510",
       "operator": null,
@@ -2235,6 +2320,7 @@
       "distance_km": 580
     },
     {
+      "fr24_id": "408ad452",
       "reg": null,
       "type": "PC24",
       "operator": null,
@@ -2251,6 +2337,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "408af4a5",
       "reg": "CS-PJE",
       "type": "E55P",
       "operator": "NJE",
@@ -2273,6 +2360,7 @@
       "distance_km": 1064
     },
     {
+      "fr24_id": "408b2be3",
       "reg": null,
       "type": "P180",
       "operator": null,
@@ -2289,6 +2377,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "408bac5f",
       "reg": null,
       "type": "P180",
       "operator": null,
@@ -2305,6 +2394,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "408bbc23",
       "reg": "CS-PJE",
       "type": "E55P",
       "operator": "NJE",
@@ -2327,6 +2417,7 @@
       "distance_km": 609
     },
     {
+      "fr24_id": "408c208d",
       "reg": null,
       "type": "PC24",
       "operator": null,
@@ -2343,6 +2434,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "408c70e6",
       "reg": "N940TB",
       "type": "TBM9",
       "operator": null,
@@ -2365,6 +2457,7 @@
       "distance_km": 379
     },
     {
+      "fr24_id": "408cee5d",
       "reg": "F-HSHU",
       "type": "C510",
       "operator": null,
@@ -2387,6 +2480,7 @@
       "distance_km": 580
     },
     {
+      "fr24_id": "408ed10e",
       "reg": null,
       "type": "PC24",
       "operator": null,
@@ -2403,6 +2497,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "408f2efd",
       "reg": "F-HSHU",
       "type": "C510",
       "operator": null,
@@ -2425,6 +2520,7 @@
       "distance_km": 770
     },
     {
+      "fr24_id": "4090d8a7",
       "reg": null,
       "type": "C25M",
       "operator": null,
@@ -2441,6 +2537,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "4090f233",
       "reg": null,
       "type": "PC12",
       "operator": null,
@@ -2457,6 +2554,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "4091351a",
       "reg": null,
       "type": "C25M",
       "operator": null,
@@ -2473,6 +2571,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40934a31",
       "reg": "F-HLPN",
       "type": "F2TH",
       "operator": null,
@@ -2495,6 +2594,7 @@
       "distance_km": 340
     },
     {
+      "fr24_id": "40937179",
       "reg": "OO-PCI",
       "type": "PC12",
       "operator": "PGC",
@@ -2517,6 +2617,7 @@
       "distance_km": 609
     },
     {
+      "fr24_id": "409382b1",
       "reg": "LX-FLI",
       "type": "PC12",
       "operator": "JFA",
@@ -2536,6 +2637,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "409398a8",
       "reg": null,
       "type": "PC12",
       "operator": null,
@@ -2552,6 +2654,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "4093ad36",
       "reg": "LX-GCA",
       "type": "C25B",
       "operator": "LXA",
@@ -2574,6 +2677,7 @@
       "distance_km": 861
     },
     {
+      "fr24_id": "4093c308",
       "reg": "OO-PCI",
       "type": "PC12",
       "operator": "PGC",
@@ -2596,6 +2700,7 @@
       "distance_km": 155
     },
     {
+      "fr24_id": "4093b254",
       "reg": "LX-FLI",
       "type": "PC12",
       "operator": "JFA",
@@ -2618,6 +2723,7 @@
       "distance_km": 514
     },
     {
+      "fr24_id": "409474c5",
       "reg": "F-HLPN",
       "type": "F2TH",
       "operator": null,
@@ -2640,6 +2746,7 @@
       "distance_km": 340
     },
     {
+      "fr24_id": "4097f58d",
       "reg": "S5-CES",
       "type": "C25B",
       "operator": "UEE",
@@ -2662,6 +2769,7 @@
       "distance_km": 562
     },
     {
+      "fr24_id": "4098416d",
       "reg": "S5-CES",
       "type": "C25B",
       "operator": "UEE",
@@ -2684,6 +2792,7 @@
       "distance_km": 562
     },
     {
+      "fr24_id": "409888a6",
       "reg": "LX-RUM",
       "type": "PC12",
       "operator": "JFA",
@@ -2706,6 +2815,7 @@
       "distance_km": 691
     },
     {
+      "fr24_id": "409952cf",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -2728,6 +2838,7 @@
       "distance_km": 199
     },
     {
+      "fr24_id": "40998da0",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -2750,6 +2861,7 @@
       "distance_km": 199
     },
     {
+      "fr24_id": "4099d7f5",
       "reg": "F-HELE",
       "type": "TBM8",
       "operator": null,
@@ -2772,6 +2884,7 @@
       "distance_km": 379
     },
     {
+      "fr24_id": "409c25d1",
       "reg": "OE-FZD",
       "type": "C510",
       "operator": "GAC",
@@ -2794,6 +2907,7 @@
       "distance_km": 207
     },
     {
+      "fr24_id": "409c4376",
       "reg": "LX-RUM",
       "type": "PC12",
       "operator": "JFA",
@@ -2816,6 +2930,7 @@
       "distance_km": 562
     },
     {
+      "fr24_id": "409c4873",
       "reg": "CS-DXK",
       "type": "C56X",
       "operator": "NJE",
@@ -2838,6 +2953,7 @@
       "distance_km": 1963
     },
     {
+      "fr24_id": "409c6492",
       "reg": "OK-PVN",
       "type": "PC12",
       "operator": null,
@@ -2860,6 +2976,7 @@
       "distance_km": 541
     },
     {
+      "fr24_id": "409c602e",
       "reg": "OE-FZD",
       "type": "C510",
       "operator": "GAC",
@@ -2882,6 +2999,7 @@
       "distance_km": 839
     },
     {
+      "fr24_id": "409c6ea4",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -2904,6 +3022,7 @@
       "distance_km": 581
     },
     {
+      "fr24_id": "409c8181",
       "reg": "F-HELE",
       "type": "TBM8",
       "operator": null,
@@ -2926,6 +3045,7 @@
       "distance_km": 276
     },
     {
+      "fr24_id": "409ccdf3",
       "reg": "OK-PVN",
       "type": "PC12",
       "operator": null,
@@ -2948,6 +3068,7 @@
       "distance_km": 1043
     },
     {
+      "fr24_id": "409ce881",
       "reg": "CS-DXK",
       "type": "C56X",
       "operator": "NJE",
@@ -2970,6 +3091,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "409d19ac",
       "reg": "CS-PJE",
       "type": "E55P",
       "operator": "NJE",
@@ -2992,6 +3114,7 @@
       "distance_km": 345
     },
     {
+      "fr24_id": "409d869f",
       "reg": "CS-PJE",
       "type": "E55P",
       "operator": "NJE",
@@ -3014,6 +3137,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "409d8cbc",
       "reg": "OO-PCA",
       "type": "PC12",
       "operator": "PGC",
@@ -3036,6 +3160,7 @@
       "distance_km": 633
     },
     {
+      "fr24_id": "409db3b7",
       "reg": "F-HELE",
       "type": "TBM8",
       "operator": null,
@@ -3058,6 +3183,7 @@
       "distance_km": 64
     },
     {
+      "fr24_id": "409e0e78",
       "reg": "OO-PCA",
       "type": "PC12",
       "operator": "PGC",
@@ -3080,6 +3206,7 @@
       "distance_km": 155
     },
     {
+      "fr24_id": "409e098a",
       "reg": "N960JB",
       "type": "TBM9",
       "operator": null,
@@ -3102,6 +3229,7 @@
       "distance_km": 582
     },
     {
+      "fr24_id": "409e73d4",
       "reg": "N960JB",
       "type": "TBM9",
       "operator": null,
@@ -3124,6 +3252,7 @@
       "distance_km": 582
     },
     {
+      "fr24_id": "40a046a8",
       "reg": "F-HELE",
       "type": "TBM8",
       "operator": null,
@@ -3146,6 +3275,7 @@
       "distance_km": 379
     },
     {
+      "fr24_id": "40a0a0fe",
       "reg": "G-VJTB",
       "type": "C56X",
       "operator": "SXN",
@@ -3168,6 +3298,7 @@
       "distance_km": 568
     },
     {
+      "fr24_id": "40a0f418",
       "reg": "OO-PCC",
       "type": "PC12",
       "operator": "PGC",
@@ -3190,6 +3321,7 @@
       "distance_km": 571
     },
     {
+      "fr24_id": "40a1302e",
       "reg": "G-VJTB",
       "type": "C56X",
       "operator": "SXN",
@@ -3212,6 +3344,7 @@
       "distance_km": 568
     },
     {
+      "fr24_id": "40a18345",
       "reg": "D-ICMD",
       "type": "C25A",
       "operator": null,
@@ -3234,6 +3367,7 @@
       "distance_km": 803
     },
     {
+      "fr24_id": "40a19f6b",
       "reg": "OO-PCC",
       "type": "PC12",
       "operator": "PGC",
@@ -3256,6 +3390,7 @@
       "distance_km": 609
     },
     {
+      "fr24_id": "40a1f201",
       "reg": "F-HRDG",
       "type": "E55P",
       "operator": "BEJ",
@@ -3278,6 +3413,7 @@
       "distance_km": 803
     },
     {
+      "fr24_id": "40a407f0",
       "reg": "D-ICMD",
       "type": "C25A",
       "operator": null,
@@ -3300,6 +3436,7 @@
       "distance_km": 1735
     },
     {
+      "fr24_id": "40a41ca4",
       "reg": "F-HRDG",
       "type": "E55P",
       "operator": "BEJ",
@@ -3322,6 +3459,7 @@
       "distance_km": 580
     },
     {
+      "fr24_id": "40a4b2cf",
       "reg": "OK-VAN",
       "type": "E50P",
       "operator": "AAO",
@@ -3344,6 +3482,7 @@
       "distance_km": 551
     },
     {
+      "fr24_id": "40a52165",
       "reg": "D-AAAY",
       "type": "CL60",
       "operator": "DLY",
@@ -3366,6 +3505,7 @@
       "distance_km": 500
     },
     {
+      "fr24_id": "40a537d4",
       "reg": "OK-VAN",
       "type": "E50P",
       "operator": "AAO",
@@ -3388,6 +3528,7 @@
       "distance_km": 155
     },
     {
+      "fr24_id": "40a5a0f9",
       "reg": "LX-RUM",
       "type": "PC12",
       "operator": "JFA",
@@ -3410,6 +3551,7 @@
       "distance_km": 562
     },
     {
+      "fr24_id": "40a5d722",
       "reg": "D-ICMD",
       "type": "C25A",
       "operator": null,
@@ -3432,6 +3574,7 @@
       "distance_km": 1735
     },
     {
+      "fr24_id": "40a80385",
       "reg": "CS-LUC",
       "type": "C68A",
       "operator": "NJE",
@@ -3454,6 +3597,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "40a82140",
       "reg": null,
       "type": "P180",
       "operator": null,
@@ -3470,6 +3614,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40a8589d",
       "reg": "CS-LUC",
       "type": "C68A",
       "operator": "NJE",
@@ -3492,6 +3637,7 @@
       "distance_km": 345
     },
     {
+      "fr24_id": "40a896ca",
       "reg": null,
       "type": "P180",
       "operator": null,
@@ -3508,6 +3654,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40a8d34c",
       "reg": "D-AAAY",
       "type": "CL60",
       "operator": "DLY",
@@ -3530,6 +3677,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "40a939d0",
       "reg": "LX-RUM",
       "type": "PC12",
       "operator": "JFA",
@@ -3552,6 +3700,7 @@
       "distance_km": 110
     },
     {
+      "fr24_id": "40a9d314",
       "reg": "CS-PHG",
       "type": "E55P",
       "operator": "NJE",
@@ -3574,6 +3723,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "40aa2b6e",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -3596,6 +3746,7 @@
       "distance_km": 199
     },
     {
+      "fr24_id": "40acc661",
       "reg": null,
       "type": "TBM7",
       "operator": null,
@@ -3612,6 +3763,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40acd2a1",
       "reg": "CS-PHG",
       "type": "E55P",
       "operator": "NJE",
@@ -3634,6 +3786,7 @@
       "distance_km": 1101
     },
     {
+      "fr24_id": "40acd8c5",
       "reg": "9H-CEA",
       "type": "CL35",
       "operator": "VJT",
@@ -3656,6 +3809,7 @@
       "distance_km": 672
     },
     {
+      "fr24_id": "40ace418",
       "reg": null,
       "type": "TBM7",
       "operator": null,
@@ -3672,6 +3826,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40ad0b2a",
       "reg": "D-ICMD",
       "type": "C25A",
       "operator": null,
@@ -3694,6 +3849,7 @@
       "distance_km": 303
     },
     {
+      "fr24_id": "40ad7026",
       "reg": "9H-CEA",
       "type": "CL35",
       "operator": "VJT",
@@ -3716,6 +3872,7 @@
       "distance_km": 839
     },
     {
+      "fr24_id": "40af1814",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -3738,6 +3895,7 @@
       "distance_km": 103
     },
     {
+      "fr24_id": "40b17bae",
       "reg": "9H-VFC",
       "type": "CL60",
       "operator": "VJT",
@@ -3760,6 +3918,7 @@
       "distance_km": 697
     },
     {
+      "fr24_id": "40b20d3b",
       "reg": "9H-VFC",
       "type": "CL60",
       "operator": "VJT",
@@ -3782,6 +3941,7 @@
       "distance_km": 301
     },
     {
+      "fr24_id": "40b2597d",
       "reg": "CS-PJA",
       "type": "E55P",
       "operator": "NJE",
@@ -3804,6 +3964,7 @@
       "distance_km": 762
     },
     {
+      "fr24_id": "40b382f1",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -3826,6 +3987,7 @@
       "distance_km": 103
     },
     {
+      "fr24_id": "40b54798",
       "reg": "OE-FWF",
       "type": "C510",
       "operator": "GAC",
@@ -3848,6 +4010,7 @@
       "distance_km": 590
     },
     {
+      "fr24_id": "40b5bf2e",
       "reg": "CS-LTX",
       "type": "C68A",
       "operator": "NJE",
@@ -3870,6 +4033,7 @@
       "distance_km": 562
     },
     {
+      "fr24_id": "40b619a1",
       "reg": "CS-LTX",
       "type": "C68A",
       "operator": "NJE",
@@ -3892,6 +4056,7 @@
       "distance_km": 245
     },
     {
+      "fr24_id": "40b6cf7d",
       "reg": "OE-FWF",
       "type": "C510",
       "operator": "GAC",
@@ -3914,6 +4079,7 @@
       "distance_km": 500
     },
     {
+      "fr24_id": "40b726ef",
       "reg": "OO-PCK",
       "type": "PC12",
       "operator": "PGC",
@@ -3936,6 +4102,7 @@
       "distance_km": 537
     },
     {
+      "fr24_id": "40b7be0d",
       "reg": "OK-PVN",
       "type": "PC12",
       "operator": null,
@@ -3958,6 +4125,7 @@
       "distance_km": 317
     },
     {
+      "fr24_id": "40b7d3e7",
       "reg": "OO-PCK",
       "type": "PC12",
       "operator": "PGC",
@@ -3980,6 +4148,7 @@
       "distance_km": 697
     },
     {
+      "fr24_id": "40b7fb57",
       "reg": "9H-VCU",
       "type": "CL35",
       "operator": "VJT",
@@ -4002,6 +4171,7 @@
       "distance_km": 568
     },
     {
+      "fr24_id": "40b9e15c",
       "reg": "SP-MDD",
       "type": "C25B",
       "operator": "HEY",
@@ -4024,6 +4194,7 @@
       "distance_km": 580
     },
     {
+      "fr24_id": "40b9efca",
       "reg": "OK-PVN",
       "type": "PC12",
       "operator": null,
@@ -4046,6 +4217,7 @@
       "distance_km": 1625
     },
     {
+      "fr24_id": "40ba4af2",
       "reg": "9H-VCU",
       "type": "CL35",
       "operator": "VJT",
@@ -4068,6 +4240,7 @@
       "distance_km": 244
     },
     {
+      "fr24_id": "40ba488e",
       "reg": "SP-MDD",
       "type": "C25B",
       "operator": "HEY",
@@ -4090,6 +4263,7 @@
       "distance_km": 223
     },
     {
+      "fr24_id": "40ba5029",
       "reg": null,
       "type": "PC12",
       "operator": null,
@@ -4106,6 +4280,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40bab95d",
       "reg": "LX-JPA",
       "type": "PC12",
       "operator": "JFA",
@@ -4128,6 +4303,7 @@
       "distance_km": 562
     },
     {
+      "fr24_id": "40baf26c",
       "reg": "D-CDCM",
       "type": "C56X",
       "operator": "VJH",
@@ -4150,6 +4326,7 @@
       "distance_km": 952
     },
     {
+      "fr24_id": "40bb8303",
       "reg": "LX-JPA",
       "type": "PC12",
       "operator": "JFA",
@@ -4172,6 +4349,7 @@
       "distance_km": 677
     },
     {
+      "fr24_id": "40bbd105",
       "reg": "D-CDCM",
       "type": "C56X",
       "operator": "VJH",
@@ -4194,6 +4372,7 @@
       "distance_km": 580
     },
     {
+      "fr24_id": "40bde04d",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -4216,6 +4395,7 @@
       "distance_km": 548
     },
     {
+      "fr24_id": "40be1161",
       "reg": "OE-FIT",
       "type": "C510",
       "operator": "GAC",
@@ -4238,6 +4418,7 @@
       "distance_km": 839
     },
     {
+      "fr24_id": "40be9d76",
       "reg": "OE-FIT",
       "type": "C510",
       "operator": "GAC",
@@ -4260,6 +4441,7 @@
       "distance_km": 697
     },
     {
+      "fr24_id": "40c13291",
       "reg": "CS-PHR",
       "type": "E55P",
       "operator": "NJE",
@@ -4282,6 +4464,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "40c17cd6",
       "reg": "CS-PHR",
       "type": "E55P",
       "operator": "NJE",
@@ -4304,6 +4487,7 @@
       "distance_km": 571
     },
     {
+      "fr24_id": "40c27ae0",
       "reg": "OO-PCA",
       "type": "PC12",
       "operator": "PGC",
@@ -4326,6 +4510,7 @@
       "distance_km": 110
     },
     {
+      "fr24_id": "40c2cd9f",
       "reg": "OO-PCA",
       "type": "PC12",
       "operator": "PGC",
@@ -4348,6 +4533,7 @@
       "distance_km": 691
     },
     {
+      "fr24_id": "40c5967d",
       "reg": "F-HLRK",
       "type": "C25M",
       "operator": "BEJ",
@@ -4370,6 +4556,7 @@
       "distance_km": 60
     },
     {
+      "fr24_id": "40c5af8c",
       "reg": "F-HLRK",
       "type": "C25M",
       "operator": "BEJ",
@@ -4392,6 +4579,7 @@
       "distance_km": 563
     },
     {
+      "fr24_id": "40c6f18e",
       "reg": "F-HYKE",
       "type": "PC12",
       "operator": null,
@@ -4414,6 +4602,7 @@
       "distance_km": 379
     },
     {
+      "fr24_id": "40c73e7a",
       "reg": null,
       "type": "PC12",
       "operator": null,
@@ -4430,6 +4619,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40c74f14",
       "reg": "F-HYKE",
       "type": "PC12",
       "operator": null,
@@ -4452,6 +4642,7 @@
       "distance_km": 596
     },
     {
+      "fr24_id": "40ca464b",
       "reg": "F-HYKE",
       "type": "PC12",
       "operator": null,
@@ -4474,6 +4665,7 @@
       "distance_km": 596
     },
     {
+      "fr24_id": "40ca8b77",
       "reg": "G-HTGL",
       "type": "B350",
       "operator": "LJC",
@@ -4496,6 +4688,7 @@
       "distance_km": 639
     },
     {
+      "fr24_id": "40caa2c0",
       "reg": "F-HYKE",
       "type": "PC12",
       "operator": null,
@@ -4518,6 +4711,7 @@
       "distance_km": 379
     },
     {
+      "fr24_id": "40cb852e",
       "reg": "G-HTGL",
       "type": "B350",
       "operator": "LJC",
@@ -4540,6 +4734,7 @@
       "distance_km": 201
     },
     {
+      "fr24_id": "40cbb9d8",
       "reg": null,
       "type": "C525",
       "operator": null,
@@ -4556,6 +4751,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40cc1886",
       "reg": null,
       "type": "C525",
       "operator": null,
@@ -4572,6 +4768,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40ce60bf",
       "reg": "D-ALIN",
       "type": "FA7X",
       "operator": "LUA",
@@ -4594,6 +4791,7 @@
       "distance_km": 568
     },
     {
+      "fr24_id": "40ce92a1",
       "reg": "CS-PHV",
       "type": "E55P",
       "operator": "NJE",
@@ -4616,6 +4814,7 @@
       "distance_km": 571
     },
     {
+      "fr24_id": "40cec5e0",
       "reg": "D-ALIN",
       "type": "FA7X",
       "operator": "LUA",
@@ -4638,6 +4837,7 @@
       "distance_km": 839
     },
     {
+      "fr24_id": "40cf0451",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -4660,6 +4860,7 @@
       "distance_km": 548
     },
     {
+      "fr24_id": "40cf2aab",
       "reg": "CS-PHV",
       "type": "E55P",
       "operator": "NJE",
@@ -4682,6 +4883,7 @@
       "distance_km": 303
     },
     {
+      "fr24_id": "40cf827a",
       "reg": "LX-FLN",
       "type": "PC12",
       "operator": "JFA",
@@ -4704,6 +4906,7 @@
       "distance_km": 577
     },
     {
+      "fr24_id": "40cfa1dc",
       "reg": null,
       "type": "E550",
       "operator": null,
@@ -4720,6 +4923,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40d27e79",
       "reg": "S5-CSS",
       "type": "C525",
       "operator": null,
@@ -4742,6 +4946,7 @@
       "distance_km": 1203
     },
     {
+      "fr24_id": "40d2e535",
       "reg": "LX-FLN",
       "type": "PC12",
       "operator": "JFA",
@@ -4764,6 +4969,7 @@
       "distance_km": 430
     },
     {
+      "fr24_id": "40d30b62",
       "reg": "CS-LTS",
       "type": "C68A",
       "operator": "NJE",
@@ -4786,6 +4992,7 @@
       "distance_km": 303
     },
     {
+      "fr24_id": "40d3855e",
       "reg": "S5-CSS",
       "type": "C525",
       "operator": null,
@@ -4808,6 +5015,7 @@
       "distance_km": 1357
     },
     {
+      "fr24_id": "40d37396",
       "reg": "CS-LTS",
       "type": "C68A",
       "operator": "NJE",
@@ -4830,6 +5038,7 @@
       "distance_km": 562
     },
     {
+      "fr24_id": "40d3b10f",
       "reg": "OE-EJJ",
       "type": "PC12",
       "operator": "SKV",
@@ -4852,6 +5061,7 @@
       "distance_km": 691
     },
     {
+      "fr24_id": "40d4219b",
       "reg": "F-HLBF",
       "type": "C25M",
       "operator": "BEJ",
@@ -4874,6 +5084,7 @@
       "distance_km": 563
     },
     {
+      "fr24_id": "40d44c12",
       "reg": "OE-EJJ",
       "type": "PC12",
       "operator": "SKV",
@@ -4896,6 +5107,7 @@
       "distance_km": 590
     },
     {
+      "fr24_id": "40d48a2c",
       "reg": "F-HLBF",
       "type": "C25M",
       "operator": "BEJ",
@@ -4918,6 +5130,7 @@
       "distance_km": 60
     },
     {
+      "fr24_id": "40d49387",
       "reg": null,
       "type": "E550",
       "operator": null,
@@ -4934,6 +5147,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40d72dd3",
       "reg": "D-IKBO",
       "type": "C25A",
       "operator": "PAV",
@@ -4956,6 +5170,7 @@
       "distance_km": 671
     },
     {
+      "fr24_id": "40d757dd",
       "reg": "OH-VAD",
       "type": "PC12",
       "operator": "FSF",
@@ -4978,6 +5193,7 @@
       "distance_km": 340
     },
     {
+      "fr24_id": "40d760e7",
       "reg": "OE-FCO",
       "type": "C510",
       "operator": "GAC",
@@ -5000,6 +5216,7 @@
       "distance_km": 1180
     },
     {
+      "fr24_id": "40d7852b",
       "reg": "D-IKBO",
       "type": "C25A",
       "operator": "PAV",
@@ -5022,6 +5239,7 @@
       "distance_km": 755
     },
     {
+      "fr24_id": "40d7a4f3",
       "reg": "OH-VAD",
       "type": "PC12",
       "operator": "FSF",
@@ -5044,6 +5262,7 @@
       "distance_km": 719
     },
     {
+      "fr24_id": "40d80d0b",
       "reg": null,
       "type": "F2TH",
       "operator": null,
@@ -5060,6 +5279,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40d811b5",
       "reg": "OE-FCO",
       "type": "C510",
       "operator": "GAC",
@@ -5082,6 +5302,7 @@
       "distance_km": 1035
     },
     {
+      "fr24_id": "40d83bda",
       "reg": null,
       "type": "C25C",
       "operator": null,
@@ -5098,6 +5319,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40d91f69",
       "reg": null,
       "type": "C25C",
       "operator": null,
@@ -5114,6 +5336,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40db34e1",
       "reg": "9H-CEA",
       "type": "CL35",
       "operator": "VJT",
@@ -5136,6 +5359,7 @@
       "distance_km": 719
     },
     {
+      "fr24_id": "40db728b",
       "reg": null,
       "type": "F2TH",
       "operator": null,
@@ -5152,6 +5376,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40db88d9",
       "reg": "LX-JFE",
       "type": "PC12",
       "operator": "JFA",
@@ -5174,6 +5399,7 @@
       "distance_km": 807
     },
     {
+      "fr24_id": "40db947b",
       "reg": "9H-CEA",
       "type": "CL35",
       "operator": "VJT",
@@ -5196,6 +5422,7 @@
       "distance_km": 674
     },
     {
+      "fr24_id": "40dbef64",
       "reg": "LX-JFZ",
       "type": "PC12",
       "operator": "JFA",
@@ -5218,6 +5445,7 @@
       "distance_km": 719
     },
     {
+      "fr24_id": "40dc0260",
       "reg": "LX-JFE",
       "type": "PC12",
       "operator": "JFA",
@@ -5240,6 +5468,7 @@
       "distance_km": 368
     },
     {
+      "fr24_id": "40dc2231",
       "reg": "OO-PCI",
       "type": "PC12",
       "operator": "PGC",
@@ -5262,6 +5491,7 @@
       "distance_km": 671
     },
     {
+      "fr24_id": "40dd0fca",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -5284,6 +5514,7 @@
       "distance_km": 103
     },
     {
+      "fr24_id": "40df1bd8",
       "reg": "OE-FZD",
       "type": "C510",
       "operator": "GAC",
@@ -5306,6 +5537,7 @@
       "distance_km": 770
     },
     {
+      "fr24_id": "40df3b05",
       "reg": "LX-JFZ",
       "type": "PC12",
       "operator": "JFA",
@@ -5328,6 +5560,7 @@
       "distance_km": 562
     },
     {
+      "fr24_id": "40df8240",
       "reg": "OE-FZD",
       "type": "C510",
       "operator": "GAC",
@@ -5350,6 +5583,7 @@
       "distance_km": 880
     },
     {
+      "fr24_id": "40dfc34f",
       "reg": "OO-PCI",
       "type": "PC12",
       "operator": "PGC",
@@ -5372,6 +5606,7 @@
       "distance_km": 110
     },
     {
+      "fr24_id": "40e13d49",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -5394,6 +5629,7 @@
       "distance_km": 103
     },
     {
+      "fr24_id": "40e30f26",
       "reg": "T7-KIF",
       "type": "TBM9",
       "operator": null,
@@ -5416,6 +5652,7 @@
       "distance_km": 500
     },
     {
+      "fr24_id": "40e33914",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -5438,6 +5675,7 @@
       "distance_km": 514
     },
     {
+      "fr24_id": "40e3b70e",
       "reg": "LX-JFD",
       "type": "PC12",
       "operator": "JFA",
@@ -5460,6 +5698,7 @@
       "distance_km": 691
     },
     {
+      "fr24_id": "40e42680",
       "reg": "F-HTPF",
       "type": "M700",
       "operator": null,
@@ -5482,6 +5721,7 @@
       "distance_km": 514
     },
     {
+      "fr24_id": "40e49610",
       "reg": "T7-KIF",
       "type": "TBM9",
       "operator": null,
@@ -5504,6 +5744,7 @@
       "distance_km": 500
     },
     {
+      "fr24_id": "40e7b3d1",
       "reg": "N502WS",
       "type": "SF50",
       "operator": null,
@@ -5526,6 +5767,7 @@
       "distance_km": 629
     },
     {
+      "fr24_id": "40e802e3",
       "reg": "LX-JFD",
       "type": "PC12",
       "operator": "JFA",
@@ -5548,6 +5790,7 @@
       "distance_km": 590
     },
     {
+      "fr24_id": "40e8d0e9",
       "reg": "N502WS",
       "type": "SF50",
       "operator": null,
@@ -5570,6 +5813,7 @@
       "distance_km": 629
     },
     {
+      "fr24_id": "40ebd8a3",
       "reg": "F-HROG",
       "type": "P180",
       "operator": "OYO",
@@ -5592,6 +5836,7 @@
       "distance_km": 412
     },
     {
+      "fr24_id": "40ebf98c",
       "reg": "OE-FZB",
       "type": "C510",
       "operator": "GAC",
@@ -5614,6 +5859,7 @@
       "distance_km": 580
     },
     {
+      "fr24_id": "40ec46af",
       "reg": "G-OJFB",
       "type": "PC12",
       "operator": "JFU",
@@ -5636,6 +5882,7 @@
       "distance_km": 521
     },
     {
+      "fr24_id": "40ec4de4",
       "reg": "F-HROG",
       "type": "P180",
       "operator": "OYO",
@@ -5658,6 +5905,7 @@
       "distance_km": 582
     },
     {
+      "fr24_id": "40ec5e7f",
       "reg": "OE-FZB",
       "type": "C510",
       "operator": "GAC",
@@ -5680,6 +5928,7 @@
       "distance_km": 770
     },
     {
+      "fr24_id": "40ecb582",
       "reg": "G-OJFB",
       "type": "PC12",
       "operator": "JFU",
@@ -5702,6 +5951,7 @@
       "distance_km": 580
     },
     {
+      "fr24_id": "40ece568",
       "reg": "ZZ507",
       "type": "B350",
       "operator": "RFR",
@@ -5724,6 +5974,7 @@
       "distance_km": 1200
     },
     {
+      "fr24_id": "40ed6532",
       "reg": "OO-PCI",
       "type": "PC12",
       "operator": "PGC",
@@ -5746,6 +5997,7 @@
       "distance_km": 155
     },
     {
+      "fr24_id": "40f06aba",
       "reg": "F-HYKE",
       "type": "PC12",
       "operator": null,
@@ -5768,6 +6020,7 @@
       "distance_km": 199
     },
     {
+      "fr24_id": "40f08739",
       "reg": "LX-PCO",
       "type": "PC24",
       "operator": "JFA",
@@ -5790,6 +6043,7 @@
       "distance_km": 1035
     },
     {
+      "fr24_id": "40f0981d",
       "reg": "F-HYKE",
       "type": "PC12",
       "operator": null,
@@ -5812,6 +6066,7 @@
       "distance_km": 276
     },
     {
+      "fr24_id": "40f0c9ba",
       "reg": "HB-VAD",
       "type": "PC24",
       "operator": null,
@@ -5834,6 +6089,7 @@
       "distance_km": 779
     },
     {
+      "fr24_id": "40f0cf52",
       "reg": "OO-PCI",
       "type": "PC12",
       "operator": "PGC",
@@ -5856,6 +6112,7 @@
       "distance_km": 633
     },
     {
+      "fr24_id": "40f15ca6",
       "reg": "LX-PCO",
       "type": "PC24",
       "operator": "JFA",
@@ -5878,6 +6135,7 @@
       "distance_km": 803
     },
     {
+      "fr24_id": "40f1b43e",
       "reg": "HB-VAD",
       "type": "PC24",
       "operator": null,
@@ -5900,6 +6158,7 @@
       "distance_km": 674
     },
     {
+      "fr24_id": "40f4960b",
       "reg": null,
       "type": "E55P",
       "operator": null,
@@ -5916,6 +6175,7 @@
       "distance_km": null
     },
     {
+      "fr24_id": "40f4c08f",
       "reg": "D-ASAP",
       "type": "E35L",
       "operator": "VJH",

@@ -754,6 +754,9 @@ function render(data) {
       });
     });
   }
+  // Exposée pour permettre le rendu automatisé de la carte (Playwright, voir
+  // render_flight_card.py) sans dépendre du clic sur le bouton "Voir".
+  window.openFlightModal = openFlightModal;
 
   function closeFlightModal() {
     modal.classList.add('hidden');

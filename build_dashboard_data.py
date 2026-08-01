@@ -264,6 +264,7 @@ def main():
 
     out["business_jets"] = [
         {
+            "fr24_id": f.get("fr24_id"),
             "reg": f.get("reg"),
             "type": f.get("type"),
             "operator": f.get("operating_as"),
