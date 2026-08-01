@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-31T19:42:21.419088+00:00",
+  "generated_at": "2026-08-01T08:07:05.695234+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-07-31T19:40:57",
-  "total_movements": 2226,
+  "period_end": "2026-08-01T08:06:46",
+  "total_movements": 2235,
   "categories": {
     "aviation_legere": {
-      "count": 1280,
-      "pct": 57.5,
+      "count": 1282,
+      "pct": 57.4,
       "avg_duration_min": 78
     },
     "helicoptere": {
@@ -15,22 +15,22 @@
       "avg_duration_min": 39
     },
     "commercial": {
-      "count": 463,
-      "pct": 20.8,
+      "count": 467,
+      "pct": 20.9,
       "avg_duration_min": 71
     },
     "autre": {
       "count": 39,
-      "pct": 1.8,
+      "pct": 1.7,
       "avg_duration_min": 62
     },
     "jets_prives": {
-      "count": 258,
+      "count": 260,
       "pct": 11.6,
       "avg_duration_min": 73
     },
     "militaire": {
-      "count": 142,
+      "count": 143,
       "pct": 6.4,
       "avg_duration_min": 57
     }
@@ -374,11 +374,18 @@
     },
     {
       "date": "2026-07-31",
-      "commercial": 10,
+      "commercial": 12,
       "aviation_legere": 31,
       "jets_prives": 7,
       "autre": 1,
       "helicoptere": 1,
+      "militaire": 1
+    },
+    {
+      "date": "2026-08-01",
+      "commercial": 2,
+      "jets_prives": 2,
+      "aviation_legere": 2,
       "militaire": 1
     }
   ],
@@ -387,8 +394,8 @@
     295,
     318,
     292,
-    422,
-    334,
+    424,
+    341,
     244
   ],
   "weekday_distribution_jets_prives": [
@@ -397,7 +404,7 @@
     33,
     45,
     46,
-    40,
+    42,
     24
   ],
   "hourly_distribution": [
@@ -406,9 +413,9 @@
     2,
     3,
     23,
-    75,
-    121,
-    245,
+    76,
+    122,
+    250,
     244,
     204,
     140,
@@ -421,8 +428,8 @@
     82,
     68,
     30,
-    27,
-    17,
+    28,
+    18,
     9,
     5
   ],
@@ -433,8 +440,8 @@
     2,
     2,
     10,
-    17,
-    27,
+    18,
+    28,
     32,
     20,
     26,
@@ -5891,12 +5898,50 @@
       "duration_min": 64,
       "co2_kg": 1482,
       "distance_km": 674
+    },
+    {
+      "reg": null,
+      "type": "E55P",
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-08-01 06:13:03",
+      "landed": "2026-08-01 07:35:55",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
+    },
+    {
+      "reg": "D-ASAP",
+      "type": "E35L",
+      "operator": "VJH",
+      "orig": "LIML",
+      "orig_name": "Milan",
+      "orig_coords": {
+        "lat": 45.445099,
+        "lon": 9.27674
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-08-01 07:31:06",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 815
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      104
+      105
     ],
     [
       "NJE",
@@ -5931,6 +5976,10 @@
       4
     ],
     [
+      "VJH",
+      3
+    ],
+    [
       "VIO",
       2
     ],
@@ -5960,10 +6009,6 @@
     ],
     [
       "HEY",
-      2
-    ],
-    [
-      "VJH",
       2
     ],
     [
@@ -6000,7 +6045,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 217,
+    "n_with_distance": 218,
     "pct_under_500km": 36,
     "n_with_duration": 216,
     "avg_duration_min": 73,
@@ -6082,7 +6127,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 48
+      "count": 50
     },
     {
       "code": "LFLL",
@@ -6117,7 +6162,7 @@
     {
       "code": "EGCC",
       "name": "Manchester",
-      "count": 22
+      "count": 24
     },
     {
       "code": "EGGD",
@@ -6142,11 +6187,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 705,
+      "count": 706,
       "distinct_aircraft": 174
     },
     "tourism": {
-      "count": 575,
+      "count": 576,
       "distinct_aircraft": 274
     },
     "tourism_routes": [
@@ -6266,7 +6311,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 48
+      "count": 50
     },
     {
       "category": "commercial",
@@ -6314,7 +6359,7 @@
       "name": "Manchester",
       "lat": 53.349375,
       "lon": -2.279521,
-      "count": 22
+      "count": 24
     },
     {
       "category": "commercial",
@@ -6410,7 +6455,7 @@
       "name": "Milan",
       "lat": 45.445099,
       "lon": 9.27674,
-      "count": 1
+      "count": 2
     },
     {
       "category": "jets_prives",
@@ -7186,7 +7231,7 @@
       "name": "Valence-Chabeuil Airport",
       "lat": 44.9216,
       "lon": 4.9699,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -8219,14 +8264,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 3766.1,
-    "flights_with_estimate": 1553,
-    "flights_total": 2226,
+    "total_tonnes": 3791.0,
+    "flights_with_estimate": 1557,
+    "flights_total": 2235,
     "flights_with_estimate_jets_prives": 216,
-    "flights_total_jets_prives": 258,
+    "flights_total_jets_prives": 260,
     "by_category_tonnes": {
       "aviation_legere": 86.2,
-      "commercial": 3341.3,
+      "commercial": 3366.2,
       "jets_prives": 317.0,
       "helicoptere": 7.3,
       "militaire": 14.3
