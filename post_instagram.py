@@ -33,7 +33,7 @@ DASHBOARD_PATH = os.path.join(BASE_DIR, "dashboard_data.json")
 POSTS_STATE_PATH = os.path.join(BASE_DIR, "instagram_posts.json")
 POSTS_DIR = os.path.join(BASE_DIR, "posts")
 
-DAILY_CAP = 3
+DAILY_CAP = 1  # TODO: repasser à 3 après le premier test réel en production
 GITHUB_REPO = "Romaindavid/LFBH"
 GITHUB_BRANCH = "main"
 
