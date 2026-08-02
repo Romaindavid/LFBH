@@ -1028,5 +1028,10 @@
     "lat": 45.809898,
     "lon": 21.3379,
     "name": "Timișoara Traian Vuia International Airport"
+  },
+  "LKMH": {
+    "lat": 50.540199,
+    "lon": 15.0066,
+    "name": "Mnichovo Hradiště Airport"
   }
 }
