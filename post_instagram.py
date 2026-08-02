@@ -110,6 +110,35 @@ def _wait_for_public_url(url, attempts=12, delay=5):
     return False
 
 
+def _raise_with_body(resp):
+    try:
+        resp.raise_for_status()
+    except requests.HTTPError as e:
+        try:
+            detail = resp.json()
+        except ValueError:
+            detail = resp.text
+        raise requests.HTTPError(f"{e} — réponse: {detail}", response=resp) from None
+
+
+def _wait_for_container_ready(container_id, access_token, attempts=10, delay=3):
+    for i in range(attempts):
+        r = requests.get(
+            f"{GRAPH_API_ROOT}/{GRAPH_API_VERSION}/{container_id}",
+            params={"fields": "status_code", "access_token": access_token},
+            timeout=15,
+        )
+        _raise_with_body(r)
+        status = r.json().get("status_code")
+        if status == "FINISHED":
+            return
+        if status == "ERROR":
+            raise RuntimeError(f"container {container_id} en erreur: {r.json()}")
+        if i < attempts - 1:
+            time.sleep(delay)
+    raise RuntimeError(f"container {container_id} pas prêt après {attempts * delay}s (status={status})")
+
+
 def _publish_to_instagram(image_url, caption, access_token, ig_user_id):
     media_resp = requests.post(
         f"{GRAPH_API_ROOT}/{GRAPH_API_VERSION}/{ig_user_id}/media",
@@ -120,15 +149,17 @@ def _publish_to_instagram(image_url, caption, access_token, ig_user_id):
         },
         timeout=30,
     )
-    media_resp.raise_for_status()
+    _raise_with_body(media_resp)
     creation_id = media_resp.json()["id"]
+
+    _wait_for_container_ready(creation_id, access_token)
 
     publish_resp = requests.post(
         f"{GRAPH_API_ROOT}/{GRAPH_API_VERSION}/{ig_user_id}/media_publish",
         data={"creation_id": creation_id, "access_token": access_token},
         timeout=30,
     )
-    publish_resp.raise_for_status()
+    _raise_with_body(publish_resp)
     return publish_resp.json()["id"]
 
 
@@ -200,7 +231,7 @@ def run(dry_run: bool = False) -> None:
 
         try:
             media_id = _publish_to_instagram(raw_url, caption, access_token, ig_user_id)
-        except requests.RequestException as e:
+        except (requests.RequestException, RuntimeError) as e:
             print(f"  échec de la publication Instagram: {e}, on passe au vol suivant")
             continue
 
