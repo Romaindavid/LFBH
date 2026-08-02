@@ -1013,5 +1013,20 @@
     "lat": 39.489162,
     "lon": -0.480961,
     "name": "Valencia Airport"
+  },
+  "LFMS": {
+    "lat": 44.069698,
+    "lon": 4.14212,
+    "name": "Aérodrome d'Alès Cévennes"
+  },
+  "LPFR": {
+    "lat": 37.015909,
+    "lon": -7.970939,
+    "name": "Faro - Gago Coutinho International Airport"
+  },
+  "LRTR": {
+    "lat": 45.809898,
+    "lon": 21.3379,
+    "name": "Timișoara Traian Vuia International Airport"
   }
 }

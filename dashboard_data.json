@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-01T19:17:34.722684+00:00",
+  "generated_at": "2026-08-02T08:09:09.907843+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-01T19:16:14",
-  "total_movements": 2283,
+  "period_end": "2026-08-02T08:08:49",
+  "total_movements": 2293,
   "categories": {
     "aviation_legere": {
-      "count": 1311,
-      "pct": 57.4,
+      "count": 1315,
+      "pct": 57.3,
       "avg_duration_min": 78
     },
     "helicoptere": {
@@ -15,8 +15,8 @@
       "avg_duration_min": 39
     },
     "commercial": {
-      "count": 480,
-      "pct": 21.0,
+      "count": 483,
+      "pct": 21.1,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,8 +25,8 @@
       "avg_duration_min": 62
     },
     "jets_prives": {
-      "count": 265,
-      "pct": 11.6,
+      "count": 268,
+      "pct": 11.7,
       "avg_duration_min": 73
     },
     "militaire": {
@@ -383,10 +383,16 @@
     },
     {
       "date": "2026-08-01",
-      "commercial": 15,
+      "commercial": 16,
       "jets_prives": 7,
       "aviation_legere": 31,
       "militaire": 2
+    },
+    {
+      "date": "2026-08-02",
+      "aviation_legere": 4,
+      "jets_prives": 3,
+      "commercial": 2
     }
   ],
   "weekday_distribution": [
@@ -395,8 +401,8 @@
     318,
     292,
     424,
-    389,
-    244
+    390,
+    253
   ],
   "weekday_distribution_jets_prives": [
     33,
@@ -405,7 +411,7 @@
     45,
     46,
     47,
-    24
+    27
   ],
   "hourly_distribution": [
     1,
@@ -413,9 +419,9 @@
     2,
     3,
     23,
-    76,
-    122,
-    251,
+    77,
+    125,
+    256,
     253,
     211,
     144,
@@ -429,7 +435,7 @@
     70,
     31,
     28,
-    18,
+    19,
     9,
     5
   ],
@@ -440,8 +446,8 @@
     2,
     2,
     10,
-    18,
-    28,
+    19,
+    30,
     32,
     22,
     26,
@@ -6305,16 +6311,85 @@
       "duration_min": 21,
       "co2_kg": 229,
       "distance_km": 110
+    },
+    {
+      "fr24_id": "40f873af",
+      "reg": "T7-JOY",
+      "type": "SF50",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LRTR",
+      "dest_name": "Timișoara Traian Vuia International Airport",
+      "dest_coords": {
+        "lat": 45.809898,
+        "lon": 21.3379
+      },
+      "takeoff": "2026-08-02 06:02:09",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 1735
+    },
+    {
+      "fr24_id": "40f89121",
+      "reg": "F-HTPF",
+      "type": "M700",
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFMS",
+      "dest_name": "Aérodrome d'Alès Cévennes",
+      "dest_coords": {
+        "lat": 44.069698,
+        "lon": 4.14212
+      },
+      "takeoff": "2026-08-02 07:02:28",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 480
+    },
+    {
+      "fr24_id": "40f89844",
+      "reg": "CS-GLG",
+      "type": "GLEX",
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LPFR",
+      "dest_name": "Faro - Gago Coutinho International Airport",
+      "dest_coords": {
+        "lat": 37.015909,
+        "lon": -7.970939
+      },
+      "takeoff": "2026-08-02 07:16:00",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 1163
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      107
+      109
     ],
     [
       "NJE",
-      29
+      30
     ],
     [
       "JFA",
@@ -6414,7 +6489,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 222,
+    "n_with_distance": 225,
     "pct_under_500km": 36,
     "n_with_duration": 221,
     "avg_duration_min": 73,
@@ -6481,12 +6556,12 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 84
+      "count": 85
     },
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 64
+      "count": 65
     },
     {
       "code": "EIDW",
@@ -6521,7 +6596,7 @@
     {
       "code": "EICK",
       "name": "Cork",
-      "count": 24
+      "count": 25
     },
     {
       "code": "LPPR",
@@ -6556,11 +6631,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 725,
-      "distinct_aircraft": 180
+      "count": 728,
+      "distinct_aircraft": 181
     },
     "tourism": {
-      "count": 586,
+      "count": 587,
       "distinct_aircraft": 278
     },
     "tourism_routes": [
@@ -6570,13 +6645,13 @@
         "count": 28
       },
       {
-        "code": "LFPN",
-        "name": "Versailles-Saclay",
-        "count": 25
-      },
-      {
         "code": "LFFK",
         "name": "Fontenay-le-Comte",
+        "count": 26
+      },
+      {
+        "code": "LFPN",
+        "name": "Versailles-Saclay",
         "count": 25
       },
       {
@@ -6648,7 +6723,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 64
+      "count": 65
     },
     {
       "category": "commercial",
@@ -6696,7 +6771,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 84
+      "count": 85
     },
     {
       "category": "commercial",
@@ -6712,7 +6787,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 24
+      "count": 25
     },
     {
       "category": "commercial",
@@ -7531,6 +7606,30 @@
       "count": 1
     },
     {
+      "category": "jets_prives",
+      "code": "LRTR",
+      "name": "Timișoara Traian Vuia International Airport",
+      "lat": 45.809898,
+      "lon": 21.3379,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFMS",
+      "name": "Aérodrome d'Alès Cévennes",
+      "lat": 44.069698,
+      "lon": 4.14212,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LPFR",
+      "name": "Faro - Gago Coutinho International Airport",
+      "lat": 37.015909,
+      "lon": -7.970939,
+      "count": 1
+    },
+    {
       "category": "aviation_legere",
       "code": "LFEA",
       "name": "Belle-Île-en-Mer",
@@ -7992,7 +8091,7 @@
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
       "lon": -0.792778,
-      "count": 25
+      "count": 26
     },
     {
       "category": "aviation_legere",
@@ -8657,14 +8756,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 3879.4,
-    "flights_with_estimate": 1587,
-    "flights_total": 2283,
+    "total_tonnes": 3901.0,
+    "flights_with_estimate": 1592,
+    "flights_total": 2293,
     "flights_with_estimate_jets_prives": 218,
-    "flights_total_jets_prives": 265,
+    "flights_total_jets_prives": 268,
     "by_category_tonnes": {
-      "aviation_legere": 87.2,
-      "commercial": 3452.7,
+      "aviation_legere": 87.3,
+      "commercial": 3474.1,
       "jets_prives": 318.0,
       "helicoptere": 7.3,
       "militaire": 14.3
