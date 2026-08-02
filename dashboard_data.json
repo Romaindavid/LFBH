@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-02T15:14:20.188468+00:00",
+  "generated_at": "2026-08-02T15:28:41.548433+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-02T15:13:50",
-  "total_movements": 2314,
+  "period_end": "2026-08-02T15:28:37",
+  "total_movements": 2317,
   "categories": {
     "aviation_legere": {
-      "count": 1327,
-      "pct": 57.3,
+      "count": 1330,
+      "pct": 57.4,
       "avg_duration_min": 78
     },
     "helicoptere": {
@@ -26,7 +26,7 @@
     },
     "jets_prives": {
       "count": 272,
-      "pct": 11.8,
+      "pct": 11.7,
       "avg_duration_min": 73
     },
     "militaire": {
@@ -390,7 +390,7 @@
     },
     {
       "date": "2026-08-02",
-      "aviation_legere": 16,
+      "aviation_legere": 19,
       "jets_prives": 7,
       "commercial": 7
     }
@@ -402,7 +402,7 @@
     292,
     424,
     390,
-    274
+    277
   ],
   "weekday_distribution_jets_prives": [
     33,
@@ -429,7 +429,7 @@
     183,
     194,
     161,
-    170,
+    173,
     137,
     84,
     70,
@@ -6723,8 +6723,8 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 737,
-      "distinct_aircraft": 183
+      "count": 740,
+      "distinct_aircraft": 184
     },
     "tourism": {
       "count": 590,
@@ -8858,7 +8858,7 @@
   "co2_estimate": {
     "total_tonnes": 3942.9,
     "flights_with_estimate": 1609,
-    "flights_total": 2314,
+    "flights_total": 2317,
     "flights_with_estimate_jets_prives": 222,
     "flights_total_jets_prives": 272,
     "by_category_tonnes": {
