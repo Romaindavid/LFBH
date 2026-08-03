@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-02T19:17:40.700147+00:00",
+  "generated_at": "2026-08-03T09:27:59.583710+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-02T19:17:32",
-  "total_movements": 2322,
+  "period_end": "2026-08-03T09:27:34",
+  "total_movements": 2329,
   "categories": {
     "aviation_legere": {
-      "count": 1334,
-      "pct": 57.5,
+      "count": 1337,
+      "pct": 57.4,
       "avg_duration_min": 78
     },
     "helicoptere": {
@@ -15,8 +15,8 @@
       "avg_duration_min": 39
     },
     "commercial": {
-      "count": 489,
-      "pct": 21.1,
+      "count": 493,
+      "pct": 21.2,
       "avg_duration_min": 71
     },
     "autre": {
@@ -393,10 +393,15 @@
       "aviation_legere": 23,
       "jets_prives": 7,
       "commercial": 8
+    },
+    {
+      "date": "2026-08-03",
+      "commercial": 4,
+      "aviation_legere": 3
     }
   ],
   "weekday_distribution": [
-    321,
+    328,
     295,
     318,
     292,
@@ -418,11 +423,11 @@
     1,
     2,
     3,
-    23,
-    77,
-    125,
-    256,
+    24,
+    78,
+    126,
     258,
+    260,
     217,
     147,
     113,
@@ -6658,7 +6663,7 @@
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 52
+      "count": 54
     },
     {
       "code": "LFML",
@@ -6666,14 +6671,14 @@
       "count": 52
     },
     {
-      "code": "EBCI",
-      "name": "Charleroi",
+      "code": "LFLL",
+      "name": "Lyon",
       "count": 40
     },
     {
-      "code": "LFLL",
-      "name": "Lyon",
-      "count": 38
+      "code": "EBCI",
+      "name": "Charleroi",
+      "count": 40
     },
     {
       "code": "LSGG",
@@ -6723,11 +6728,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 743,
+      "count": 745,
       "distinct_aircraft": 185
     },
     "tourism": {
-      "count": 591,
+      "count": 592,
       "distinct_aircraft": 279
     },
     "tourism_routes": [
@@ -6739,7 +6744,7 @@
       {
         "code": "LFFK",
         "name": "Fontenay-le-Comte",
-        "count": 26
+        "count": 27
       },
       {
         "code": "LFPN",
@@ -6823,7 +6828,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 52
+      "count": 54
     },
     {
       "category": "commercial",
@@ -6831,7 +6836,7 @@
       "name": "Lyon",
       "lat": 45.725996,
       "lon": 5.090139,
-      "count": 38
+      "count": 40
     },
     {
       "category": "commercial",
@@ -8183,7 +8188,7 @@
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
       "lon": -0.792778,
-      "count": 26
+      "count": 27
     },
     {
       "category": "aviation_legere",
@@ -8856,14 +8861,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 3952.3,
-    "flights_with_estimate": 1615,
-    "flights_total": 2322,
+    "total_tonnes": 3979.0,
+    "flights_with_estimate": 1621,
+    "flights_total": 2329,
     "flights_with_estimate_jets_prives": 222,
     "flights_total_jets_prives": 272,
     "by_category_tonnes": {
-      "aviation_legere": 88.6,
-      "commercial": 3518.5,
+      "aviation_legere": 88.7,
+      "commercial": 3545.1,
       "jets_prives": 323.6,
       "helicoptere": 7.3,
       "militaire": 14.3
