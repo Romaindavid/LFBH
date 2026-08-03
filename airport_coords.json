@@ -1033,5 +1033,15 @@
     "lat": 50.540199,
     "lon": 15.0066,
     "name": "Mnichovo Hradiště Airport"
+  },
+  "EGSX": {
+    "lat": 51.721699,
+    "lon": 0.154167,
+    "name": "North Weald Airfield"
+  },
+  "LPPT": {
+    "lat": 38.7813,
+    "lon": -9.13592,
+    "name": "Lisbon Humberto Delgado Airport"
   }
 }
