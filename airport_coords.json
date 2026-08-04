@@ -1048,5 +1048,10 @@
     "lat": 47.699402,
     "lon": -2.03667,
     "name": "Redon Bains-sur-Oust Airfield"
+  },
+  "LFCC": {
+    "lat": 44.351398,
+    "lon": 1.47528,
+    "name": "Cahors Lalbenque airport"
   }
 }
