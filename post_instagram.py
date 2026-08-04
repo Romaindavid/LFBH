@@ -69,7 +69,13 @@ def _git_commit_and_push(paths, message):
     return True
 
 
+SHORT_FLIGHT_MAX_MIN = 60
+
+
 def _select_candidates(business_jets, posted_ids, remaining_slots):
+    """Alterne l'angle éditorial : le vol le plus polluant en priorité, puis
+    (si possible) un vol très court (< 1h — abusif même si peu de CO2), puis
+    à nouveau le plus polluant des restants pour les slots suivants."""
     candidates = [
         f
         for f in business_jets
@@ -80,8 +86,32 @@ def _select_candidates(business_jets, posted_ids, remaining_slots):
         and f.get("landed")
         and f.get("co2_kg")
     ]
-    candidates.sort(key=lambda f: f["co2_kg"], reverse=True)
-    return candidates[:remaining_slots]
+    by_co2 = sorted(candidates, key=lambda f: f["co2_kg"], reverse=True)
+
+    selected = []
+    remaining_pool = list(by_co2)
+
+    def _take_most_polluting():
+        if remaining_pool:
+            selected.append(remaining_pool.pop(0))
+
+    def _take_shortest_flight():
+        short_flights = sorted(
+            (f for f in remaining_pool if (f.get("duration_min") or 9999) < SHORT_FLIGHT_MAX_MIN),
+            key=lambda f: f["duration_min"],
+        )
+        if short_flights:
+            chosen = short_flights[0]
+            remaining_pool.remove(chosen)
+            selected.append(chosen)
+        else:
+            _take_most_polluting()
+
+    slot_order = [_take_most_polluting, _take_shortest_flight, _take_most_polluting]
+    for i in range(remaining_slots):
+        slot_order[i % len(slot_order)]()
+
+    return selected
 
 
 def _posts_last_24h(posted_entries):

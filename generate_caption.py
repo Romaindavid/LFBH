@@ -60,22 +60,48 @@ Pouvait il rejoindre Rochefort en train pour éviter ça ?
 
 C'est ok pour vous ? On continue ? #LFBH #larochelle"
 
+Angles disponibles (choisis-en un ou deux max par légende, jamais plus) :
+- Durée du vol (surtout si très courte, moins d'une heure — souligne alors que c'est \
+à peine plus long qu'un trajet en voiture ou en train, et que ce serait facilement \
+évitable).
+- Quantité de CO2 émise, avec éventuellement une comparaison au budget carbone \
+individuel annuel pour rester sous 1,5°C (~2t/an/personne selon les études GIEC/Shift \
+Project — utilise cet ordre de grandeur, mais NE RÉPÈTE JAMAIS la même formulation \
+d'une légende à l'autre. Varie activement la tournure, par exemple parmi :
+  * "soit X fois le budget carbone annuel d'une personne pour rester sous 1,5°"
+  * "l'équivalent de ce qu'une personne devrait émettre en une année pour rester dans \
+un monde à 1,5°"
+  * "presque X années de budget carbone individuel"
+  * "de quoi vider le compteur CO2 annuel d'une personne en un seul vol"
+  * une formulation différente inventée par toi, tant qu'elle reste factuelle et \
+dans le même esprit
+  Ne réutilise pas deux fois de suite la même structure de phrase.)
+- L'opérateur/la compagnie de location de jets.
+- Le nombre de passagers maximum transportable par l'appareil (donnée \
+"Capacité passagers" fournie) — surtout percutant en contraste avec le CO2 émis ou \
+avec un vol commercial équivalent qui transporterait des dizaines/centaines de \
+personnes pour un impact comparable par passager.
+- Une comparaison avec un trajet en train (uniquement si le trajet est plausible en \
+train sur le territoire français/européen — ne l'invente pas si l'origine/destination \
+ne s'y prête pas).
+- L'heure d'arrivée/de départ, avec une touche d'ironie factuelle si pertinent (ex: \
+"ils y seront pour le déj !").
+
 Règles :
 - Commence toujours par l'emoji 🛩️.
-- Choisis UN seul angle par légende parmi : durée du vol, quantité de CO2 (avec \
-éventuellement une comparaison parlante comme le budget carbone annuel individuel \
-pour rester sous 1,5°C), l'opérateur/la compagnie de location, une comparaison avec \
-un trajet en train, le nombre de passagers transportable par l'appareil, l'heure \
-d'arrivée/de départ. Ne mélange pas plus de deux angles dans un même texte.
 - Ton factuel, jamais insultant envers des personnes, les chiffres et les questions \
 rhétoriques suffisent à faire passer le message.
 - Termine TOUJOURS par une phrase interrogative dans l'esprit de "C'est ok pour vous ?" \
 suivie des hashtags #LFBH #larochelle (tu peux varier légèrement la phrase \
 d'interpellation, mais garde les deux hashtags).
 - Reste court : 2 à 4 phrases maximum, pas de pavé.
-- N'invente jamais de chiffre ou de fait non fourni dans les données du vol.
+- N'invente jamais de chiffre ou de fait non fourni dans les données du vol. Si la \
+capacité passagers ou l'opérateur ne sont pas fournis, n'en parle simplement pas.
 - Ne mentionne jamais @volsderiches (c'est le compte qui publie, se taguer soi-même \
 n'a pas de sens).
+- Varie sincèrement d'une légende à l'autre : évite de retomber systématiquement sur \
+le même angle (CO2 + comparaison 1,5°C) si d'autres données intéressantes sont \
+disponibles pour ce vol (opérateur connu, capacité passagers connue, vol très court).
 
 Réponds uniquement avec le texte de la légende, sans guillemets ni commentaire."""
 
@@ -88,9 +114,13 @@ def _fallback_caption(flight: dict) -> str:
     duration = flight.get("duration_min")
     co2_kg = flight.get("co2_kg")
 
+    capacity = flight.get("passenger_capacity")
+
     parts = [f"🛩️ Un {ftype} ({reg}) a rejoint {dest} depuis {orig}."]
     if duration:
         parts.append(f"{duration} min de vol.")
+    if capacity:
+        parts.append(f"Capacité max : {capacity} passagers.")
     if co2_kg:
         co2_str = f"{co2_kg / 1000:.2f}".replace(".", ",")
         parts.append(f"{co2_str} t de CO2 estimées.")
@@ -103,6 +133,7 @@ def _flight_summary(flight: dict) -> str:
         f"Immatriculation: {flight.get('reg') or 'inconnue'}",
         f"Type d'appareil: {flight.get('type') or 'inconnu'}",
         f"Opérateur: {flight.get('operator') or 'inconnu'}",
+        f"Capacité passagers: {flight['passenger_capacity']}" if flight.get("passenger_capacity") else "Capacité passagers: inconnue",
         f"Origine: {flight.get('orig_name') or flight.get('orig') or 'inconnue'}",
         f"Destination: {flight.get('dest_name') or flight.get('dest') or 'inconnue'}",
         f"Décollage: {flight.get('takeoff') or 'inconnu'}",

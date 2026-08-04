@@ -42,6 +42,34 @@ FUEL_BURN_LPH = {
     "EC45": 220, "AS50": 140, "AS65": 240,
     "B350": 320,  # King Air (turboprop bimoteur)
 }
+# Capacité passagers maximale typique, par type ICAO (ordres de grandeur
+# publics constructeurs — configuration cabine VIP réelle souvent inférieure).
+PASSENGER_CAPACITY = {
+    # Commercial
+    "A319": 156, "A320": 180, "A20N": 180, "A21N": 220,
+    "B738": 189, "B38M": 189,
+    # Jets d'affaires
+    "E55P": 6, "E50P": 7, "E545": 13, "E135": 37, "E140": 44,
+    "C510": 4, "C525": 6, "C25A": 8, "C25B": 9, "C25M": 9, "C56X": 12,
+    "C68A": 11, "C550": 7, "C560": 9, "C680": 12, "C700": 12, "C750": 19,
+    "GLF4": 19, "GLF5": 19, "GLF6": 19, "GLEX": 19,
+    "FA7X": 16, "FA8X": 16, "FA6X": 14, "FA50": 9, "F2LX": 10, "F900": 19, "F2TH": 10,
+    "CL30": 10, "CL35": 9, "CL60": 19, "GL5T": 19, "CRJ2": 50,
+    "LJ35": 8, "LJ45": 9, "LJ60": 8, "LJ75": 9, "H25B": 8, "H25C": 8, "PC24": 10,
+    # Turbopropulseurs / avions légers rapides
+    "PC12": 9, "TBM7": 6, "TBM8": 6, "TBM9": 6, "P180": 9, "B350": 11,
+    # Aviation légère
+    "DR40": 4, "C172": 4, "C182": 4, "P28A": 4, "P28R": 4, "P32R": 6,
+    "SR22": 4, "SR20": 4, "S22T": 5, "DA40": 4, "DA42": 4, "DA62": 7,
+    "M20T": 4, "M20P": 4, "M700": 4,
+    "TB20": 4, "C77R": 2, "R300": 2, "GY80": 2, "C303": 6, "PA34": 6,
+    "PA46": 6, "C72R": 4,
+    "PNR3": 2, "WT9": 2, "PIVI": 2, "NG5": 2, "FDCT": 2, "PIAT": 2,
+    "MCR1": 2, "APM3": 2, "EL10": 2,
+    # Hélicoptères
+    "EC45": 8, "AS50": 5, "AS65": 12,
+}
+
 CO2_PER_LITER_KEROSENE = 2.52  # kg CO2 / litre kérosène Jet A-1 (ICAO/DEFRA)
 CO2_PER_LITER_AVGAS = 2.28     # kg CO2 / litre essence aviation (approx, proche essence auto)
 PISTON_TYPES = {
@@ -267,6 +295,7 @@ def main():
             "fr24_id": f.get("fr24_id"),
             "reg": f.get("reg"),
             "type": f.get("type"),
+            "passenger_capacity": PASSENGER_CAPACITY.get(f.get("type")),
             "operator": f.get("operating_as"),
             "orig": f.get("orig_icao"),
             "orig_name": airport_name(f.get("orig_icao")),
