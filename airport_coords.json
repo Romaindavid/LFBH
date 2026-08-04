@@ -1043,5 +1043,10 @@
     "lat": 38.7813,
     "lon": -9.13592,
     "name": "Lisbon Humberto Delgado Airport"
+  },
+  "LFER": {
+    "lat": 47.699402,
+    "lon": -2.03667,
+    "name": "Redon Bains-sur-Oust Airfield"
   }
 }

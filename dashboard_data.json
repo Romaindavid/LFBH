@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-03T19:44:23.665578+00:00",
+  "generated_at": "2026-08-04T08:25:19.616975+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-03T19:43:49",
-  "total_movements": 2363,
+  "period_end": "2026-08-04T08:25:00",
+  "total_movements": 2379,
   "categories": {
     "aviation_legere": {
-      "count": 1358,
+      "count": 1367,
       "pct": 57.5,
       "avg_duration_min": 78
     },
     "helicoptere": {
       "count": 44,
-      "pct": 1.9,
+      "pct": 1.8,
       "avg_duration_min": 39
     },
     "commercial": {
-      "count": 499,
-      "pct": 21.1,
+      "count": 504,
+      "pct": 21.2,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,12 +25,12 @@
       "avg_duration_min": 65
     },
     "jets_prives": {
-      "count": 274,
+      "count": 275,
       "pct": 11.6,
       "avg_duration_min": 73
     },
     "militaire": {
-      "count": 148,
+      "count": 149,
       "pct": 6.3,
       "avg_duration_min": 62
     }
@@ -396,16 +396,23 @@
     },
     {
       "date": "2026-08-03",
-      "commercial": 10,
+      "commercial": 12,
       "aviation_legere": 24,
       "jets_prives": 2,
       "autre": 1,
       "militaire": 4
+    },
+    {
+      "date": "2026-08-04",
+      "commercial": 3,
+      "aviation_legere": 9,
+      "militaire": 1,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
-    362,
-    295,
+    364,
+    309,
     318,
     292,
     424,
@@ -414,7 +421,7 @@
   ],
   "weekday_distribution_jets_prives": [
     35,
-    37,
+    38,
     33,
     45,
     46,
@@ -426,11 +433,11 @@
     1,
     2,
     3,
-    24,
-    78,
-    126,
-    258,
-    260,
+    25,
+    81,
+    130,
+    262,
+    262,
     220,
     150,
     115,
@@ -442,7 +449,7 @@
     85,
     76,
     31,
-    28,
+    30,
     19,
     9,
     5
@@ -454,7 +461,7 @@
     2,
     2,
     10,
-    19,
+    20,
     30,
     32,
     23,
@@ -6526,12 +6533,35 @@
       "duration_min": 94,
       "co2_kg": 1031,
       "distance_km": 562
+    },
+    {
+      "fr24_id": "4100727a",
+      "reg": "M-MCBE",
+      "type": "C25M",
+      "operator": null,
+      "orig": "EGTK",
+      "orig_name": "London Oxford Airport",
+      "orig_coords": {
+        "lat": 51.836899,
+        "lon": -1.32
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-08-04 06:22:11",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 629
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      110
+      111
     ],
     [
       "NJE",
@@ -6635,7 +6665,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 231,
+    "n_with_distance": 232,
     "pct_under_500km": 36,
     "n_with_duration": 228,
     "avg_duration_min": 73,
@@ -6702,7 +6732,7 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 88
+      "count": 89
     },
     {
       "code": "EGSS",
@@ -6717,17 +6747,22 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 53
+      "count": 54
     },
     {
       "code": "EBCI",
       "name": "Charleroi",
-      "count": 41
+      "count": 42
     },
     {
       "code": "LFLL",
       "name": "Lyon",
       "count": 40
+    },
+    {
+      "code": "GMMX",
+      "name": "Marrakech",
+      "count": 27
     },
     {
       "code": "LSGG",
@@ -6743,11 +6778,6 @@
       "code": "LPPR",
       "name": "Porto",
       "count": 26
-    },
-    {
-      "code": "GMMX",
-      "name": "Marrakech",
-      "count": 25
     },
     {
       "code": "EGCC",
@@ -6777,12 +6807,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 759,
-      "distinct_aircraft": 187
+      "count": 761,
+      "distinct_aircraft": 189
     },
     "tourism": {
-      "count": 599,
-      "distinct_aircraft": 283
+      "count": 606,
+      "distinct_aircraft": 285
     },
     "tourism_routes": [
       {
@@ -6801,14 +6831,14 @@
         "count": 25
       },
       {
-        "code": "LFBN",
-        "name": "Niort",
-        "count": 19
-      },
-      {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 19
+        "count": 22
+      },
+      {
+        "code": "LFBN",
+        "name": "Niort",
+        "count": 20
       },
       {
         "code": "LFOU",
@@ -6851,14 +6881,14 @@
         "count": 12
       },
       {
-        "code": "LFMP",
-        "name": "Marseille-Provence",
+        "code": "LFOT",
+        "name": "Tours",
         "count": 11
       },
       {
-        "code": "LFOZ",
-        "name": "Orléans",
-        "count": 10
+        "code": "LFMP",
+        "name": "Marseille-Provence",
+        "count": 11
       }
     ]
   },
@@ -6893,7 +6923,7 @@
       "name": "Charleroi",
       "lat": 50.461963,
       "lon": 4.459562,
-      "count": 41
+      "count": 42
     },
     {
       "category": "commercial",
@@ -6901,7 +6931,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 53
+      "count": 54
     },
     {
       "category": "commercial",
@@ -6917,7 +6947,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 88
+      "count": 89
     },
     {
       "category": "commercial",
@@ -6925,7 +6955,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 25
+      "count": 27
     },
     {
       "category": "commercial",
@@ -7725,7 +7755,7 @@
       "name": "London Oxford Airport",
       "lat": 51.836899,
       "lon": -1.32,
-      "count": 2
+      "count": 3
     },
     {
       "category": "jets_prives",
@@ -8005,7 +8035,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 19
+      "count": 20
     },
     {
       "category": "aviation_legere",
@@ -8029,7 +8059,7 @@
       "name": "Tours",
       "lat": 47.432201,
       "lon": 0.727606,
-      "count": 10
+      "count": 11
     },
     {
       "category": "aviation_legere",
@@ -8133,7 +8163,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 19
+      "count": 22
     },
     {
       "category": "aviation_legere",
@@ -8405,7 +8435,7 @@
       "name": "Aérodrome de Muret - Lherm",
       "lat": 43.448898,
       "lon": 1.26333,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -8918,6 +8948,14 @@
       "lat": 51.721699,
       "lon": 0.154167,
       "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFER",
+      "name": "Redon Bains-sur-Oust Airfield",
+      "lat": 47.699402,
+      "lon": -2.03667,
+      "count": 1
     }
   ],
   "lfbh_coords": {
@@ -8926,14 +8964,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 4016.7,
-    "flights_with_estimate": 1643,
-    "flights_total": 2363,
+    "total_tonnes": 4045.5,
+    "flights_with_estimate": 1652,
+    "flights_total": 2379,
     "flights_with_estimate_jets_prives": 224,
-    "flights_total_jets_prives": 274,
+    "flights_total_jets_prives": 275,
     "by_category_tonnes": {
-      "aviation_legere": 89.5,
-      "commercial": 3579.6,
+      "aviation_legere": 90.0,
+      "commercial": 3607.9,
       "jets_prives": 325.4,
       "helicoptere": 7.3,
       "militaire": 14.9
