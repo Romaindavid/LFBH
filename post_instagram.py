@@ -70,12 +70,27 @@ def _git_commit_and_push(paths, message):
 
 
 SHORT_FLIGHT_MAX_MIN = 60
+FRESHNESS_HOURS = 24
+
+
+def _is_fresh(flight, cutoff):
+    landed = flight.get("landed")
+    if not landed:
+        return False
+    try:
+        landed_at = datetime.fromisoformat(landed).replace(tzinfo=timezone.utc)
+    except ValueError:
+        return False
+    return landed_at >= cutoff
 
 
 def _select_candidates(business_jets, posted_ids, remaining_slots):
     """Alterne l'angle éditorial : le vol le plus polluant en priorité, puis
     (si possible) un vol très court (< 1h — abusif même si peu de CO2), puis
-    à nouveau le plus polluant des restants pour les slots suivants."""
+    à nouveau le plus polluant des restants pour les slots suivants. Ne
+    considère que les vols atterris dans les FRESHNESS_HOURS dernières
+    heures — un vol jamais posté mais ancien ne doit jamais ressurgir."""
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=FRESHNESS_HOURS)
     candidates = [
         f
         for f in business_jets
@@ -83,8 +98,8 @@ def _select_candidates(business_jets, posted_ids, remaining_slots):
         and f["fr24_id"] not in posted_ids
         and f.get("orig_coords")
         and f.get("dest_coords")
-        and f.get("landed")
         and f.get("co2_kg")
+        and _is_fresh(f, cutoff)
     ]
     by_co2 = sorted(candidates, key=lambda f: f["co2_kg"], reverse=True)
 
