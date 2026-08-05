@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-04T19:44:36.426626+00:00",
+  "generated_at": "2026-08-05T08:22:53.542479+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-04T19:43:06",
-  "total_movements": 2430,
+  "period_end": "2026-08-05T08:22:33",
+  "total_movements": 2441,
   "categories": {
     "aviation_legere": {
-      "count": 1399,
+      "count": 1405,
       "pct": 57.6,
       "avg_duration_min": 77
     },
     "helicoptere": {
-      "count": 47,
-      "pct": 1.9,
+      "count": 48,
+      "pct": 2.0,
       "avg_duration_min": 42
     },
     "commercial": {
-      "count": 509,
-      "pct": 20.9,
+      "count": 513,
+      "pct": 21.0,
       "avg_duration_min": 71
     },
     "autre": {
@@ -31,7 +31,7 @@
     },
     "militaire": {
       "count": 155,
-      "pct": 6.4,
+      "pct": 6.3,
       "avg_duration_min": 55
     }
   },
@@ -408,14 +408,19 @@
       "aviation_legere": 41,
       "militaire": 7,
       "jets_prives": 4,
-      "helicoptere": 3,
+      "helicoptere": 4,
       "autre": 2
+    },
+    {
+      "date": "2026-08-05",
+      "commercial": 4,
+      "aviation_legere": 6
     }
   ],
   "weekday_distribution": [
     364,
-    360,
-    318,
+    361,
+    328,
     292,
     424,
     390,
@@ -436,10 +441,10 @@
     2,
     3,
     25,
-    81,
-    130,
-    262,
-    268,
+    82,
+    133,
+    267,
+    269,
     229,
     152,
     119,
@@ -450,7 +455,7 @@
     149,
     88,
     77,
-    31,
+    32,
     30,
     19,
     9,
@@ -7069,7 +7074,7 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 90
+      "count": 91
     },
     {
       "code": "EGSS",
@@ -7102,14 +7107,14 @@
       "count": 28
     },
     {
+      "code": "EICK",
+      "name": "Cork",
+      "count": 28
+    },
+    {
       "code": "GMMX",
       "name": "Marrakech",
       "count": 27
-    },
-    {
-      "code": "EICK",
-      "name": "Cork",
-      "count": 26
     },
     {
       "code": "LPPR",
@@ -7119,7 +7124,7 @@
     {
       "code": "EGCC",
       "name": "Manchester",
-      "count": 24
+      "count": 25
     },
     {
       "code": "EGGD",
@@ -7144,18 +7149,18 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 779,
+      "count": 782,
       "distinct_aircraft": 189
     },
     "tourism": {
-      "count": 620,
-      "distinct_aircraft": 288
+      "count": 623,
+      "distinct_aircraft": 289
     },
     "tourism_routes": [
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 30
+        "count": 31
       },
       {
         "code": "LFFK",
@@ -7175,7 +7180,7 @@
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 22
+        "count": 23
       },
       {
         "code": "LFOU",
@@ -7284,7 +7289,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 90
+      "count": 91
     },
     {
       "category": "commercial",
@@ -7300,7 +7305,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 26
+      "count": 28
     },
     {
       "category": "commercial",
@@ -7316,7 +7321,7 @@
       "name": "Manchester",
       "lat": 53.349375,
       "lon": -2.279521,
-      "count": 24
+      "count": 25
     },
     {
       "category": "commercial",
@@ -8372,7 +8377,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 22
+      "count": 23
     },
     {
       "category": "aviation_legere",
@@ -8628,7 +8633,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 30
+      "count": 31
     },
     {
       "category": "aviation_legere",
@@ -9060,7 +9065,7 @@
       "name": "EuroAirport Basel–Mulhouse–Freiburg",
       "lat": 47.60068,
       "lon": 7.521117,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -9309,16 +9314,16 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 4098.6,
-    "flights_with_estimate": 1685,
-    "flights_total": 2430,
+    "total_tonnes": 4115.0,
+    "flights_with_estimate": 1690,
+    "flights_total": 2441,
     "flights_with_estimate_jets_prives": 225,
     "flights_total_jets_prives": 278,
     "by_category_tonnes": {
       "aviation_legere": 91.6,
-      "commercial": 3657.4,
+      "commercial": 3673.4,
       "jets_prives": 327.0,
-      "helicoptere": 7.3,
+      "helicoptere": 7.6,
       "militaire": 15.4
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 129 748 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
