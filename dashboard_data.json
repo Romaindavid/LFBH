@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-07T00:07:48.929660+00:00",
+  "generated_at": "2026-08-07T07:02:35.808253+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-07T00:06:31",
-  "total_movements": 2554,
+  "period_end": "2026-08-07T07:02:23",
+  "total_movements": 2559,
   "categories": {
     "aviation_legere": {
-      "count": 1483,
+      "count": 1486,
       "pct": 58.1,
       "avg_duration_min": 77
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 42
     },
     "commercial": {
-      "count": 529,
+      "count": 530,
       "pct": 20.7,
       "avg_duration_min": 71
     },
@@ -25,13 +25,13 @@
       "avg_duration_min": 64
     },
     "jets_prives": {
-      "count": 286,
+      "count": 287,
       "pct": 11.2,
       "avg_duration_min": 73
     },
     "militaire": {
       "count": 165,
-      "pct": 6.5,
+      "pct": 6.4,
       "avg_duration_min": 50
     }
   },
@@ -425,6 +425,12 @@
       "jets_prives": 4,
       "militaire": 2,
       "commercial": 4
+    },
+    {
+      "date": "2026-08-07",
+      "commercial": 1,
+      "jets_prives": 1,
+      "aviation_legere": 3
     }
   ],
   "weekday_distribution": [
@@ -432,7 +438,7 @@
     361,
     388,
     345,
-    424,
+    429,
     390,
     282
   ],
@@ -441,7 +447,7 @@
     41,
     37,
     49,
-    46,
+    47,
     47,
     31
   ],
@@ -451,8 +457,8 @@
     2,
     3,
     25,
-    83,
-    134,
+    84,
+    138,
     270,
     283,
     243,
@@ -478,7 +484,7 @@
     2,
     2,
     10,
-    20,
+    21,
     30,
     33,
     24,
@@ -7088,12 +7094,36 @@
       "duration_min": 81,
       "co2_kg": 881,
       "distance_km": 521
+    },
+    {
+      "fr24_id": "410d4a2e",
+      "reg": "F-HTPF",
+      "type": "M700",
+      "passenger_capacity": 4,
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFMS",
+      "dest_name": "Aérodrome d'Alès Cévennes",
+      "dest_coords": {
+        "lat": 44.069698,
+        "lon": 4.14212
+      },
+      "takeoff": "2026-08-07 06:46:54",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 480
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      118
+      119
     ],
     [
       "NJE",
@@ -7201,7 +7231,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 239,
+    "n_with_distance": 240,
     "pct_under_500km": 36,
     "n_with_duration": 235,
     "avg_duration_min": 73,
@@ -7278,7 +7308,7 @@
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 56
+      "count": 57
     },
     {
       "code": "LFML",
@@ -7343,12 +7373,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 835,
+      "count": 837,
       "distinct_aircraft": 196
     },
     "tourism": {
-      "count": 648,
-      "distinct_aircraft": 299
+      "count": 649,
+      "distinct_aircraft": 300
     },
     "tourism_routes": [
       {
@@ -7399,7 +7429,7 @@
       {
         "code": "LFCY",
         "name": "Royan",
-        "count": 14
+        "count": 15
       },
       {
         "code": "LFEA",
@@ -7443,7 +7473,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 56
+      "count": 57
     },
     {
       "category": "commercial",
@@ -8331,7 +8361,7 @@
       "name": "Aérodrome d'Alès Cévennes",
       "lat": 44.069698,
       "lon": 4.14212,
-      "count": 2
+      "count": 3
     },
     {
       "category": "jets_prives",
@@ -8947,7 +8977,7 @@
       "name": "Royan",
       "lat": 45.628101,
       "lon": -0.9725,
-      "count": 14
+      "count": 15
     },
     {
       "category": "aviation_legere",
@@ -9518,9 +9548,9 @@
   "co2_estimate": {
     "total_tonnes": 4244.4,
     "flights_with_estimate": 1766,
-    "flights_total": 2554,
+    "flights_total": 2559,
     "flights_with_estimate_jets_prives": 231,
-    "flights_total_jets_prives": 286,
+    "flights_total_jets_prives": 287,
     "by_category_tonnes": {
       "aviation_legere": 96.0,
       "commercial": 3790.2,
