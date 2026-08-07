@@ -1053,5 +1053,10 @@
     "lat": 44.351398,
     "lon": 1.47528,
     "name": "Cahors Lalbenque airport"
+  },
+  "EDLW": {
+    "lat": 51.518299,
+    "lon": 7.61224,
+    "name": "Dortmund Airport"
   }
 }
