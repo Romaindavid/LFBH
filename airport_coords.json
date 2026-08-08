@@ -1058,5 +1058,10 @@
     "lat": 51.518299,
     "lon": 7.61224,
     "name": "Dortmund Airport"
+  },
+  "EHBK": {
+    "lat": 50.911087,
+    "lon": 5.769401,
+    "name": "Maastricht Aachen Airport"
   }
 }
