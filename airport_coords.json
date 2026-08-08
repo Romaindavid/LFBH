@@ -1063,5 +1063,10 @@
     "lat": 50.911087,
     "lon": 5.769401,
     "name": "Maastricht Aachen Airport"
+  },
+  "KCMH": {
+    "lat": 39.998001,
+    "lon": -82.891899,
+    "name": "John Glenn Columbus International Airport"
   }
 }
