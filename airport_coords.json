@@ -1068,5 +1068,20 @@
     "lat": 39.998001,
     "lon": -82.891899,
     "name": "John Glenn Columbus International Airport"
+  },
+  "EDKA": {
+    "lat": 50.823055,
+    "lon": 6.186389,
+    "name": "Aachen-Merzbrück Airport"
+  },
+  "EGWU": {
+    "lat": 51.553001,
+    "lon": -0.418167,
+    "name": "RAF Northolt"
+  },
+  "KTEB": {
+    "lat": 40.850101,
+    "lon": -74.060799,
+    "name": "Teterboro Airport"
   }
 }

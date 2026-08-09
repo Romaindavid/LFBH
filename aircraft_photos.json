@@ -414,5 +414,21 @@
     "thumbnail_large": "https://t.plnspttrs.net/10882/1852861_e2358ceef9_280.jpg",
     "link": "https://www.planespotters.net/photo/1852861/ha-jev-jetstream-air-cessna-650-citation-iii?utm_source=api",
     "photographer": "Wiktor Kepinski"
+  },
+  "CS-PHL": {
+    "thumbnail_large": "https://t.plnspttrs.net/22896/1957074_19c097e598_280.jpg",
+    "link": "https://www.planespotters.net/photo/1957074/cs-phl-netjets-europe-embraer-phenom-300-emb-505?utm_source=api",
+    "photographer": "Justin Stöckel"
+  },
+  "D-CJFK": {
+    "thumbnail_large": "https://t.plnspttrs.net/48651/1940934_591455dde6_280.jpg",
+    "link": "https://www.planespotters.net/photo/1940934/d-cjfk-luminair-cessna-560xl-citation-xls?utm_source=api",
+    "photographer": "Lyon.Eddl"
+  },
+  "F-HPVC": null,
+  "N673FX": {
+    "thumbnail_large": "https://t.plnspttrs.net/39381/1892647_a5eef51ee7_280.jpg",
+    "link": "https://www.planespotters.net/photo/1892647/n673fx-flexjet-gulfstream-g650-gvi?utm_source=api",
+    "photographer": "Abdeyan"
   }
 }
