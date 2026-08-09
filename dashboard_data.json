@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-08T18:45:31.980614+00:00",
+  "generated_at": "2026-08-09T06:41:21.652317+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-08T18:43:53",
-  "total_movements": 2693,
+  "period_end": "2026-08-09T06:41:01",
+  "total_movements": 2697,
   "categories": {
     "aviation_legere": {
-      "count": 1572,
-      "pct": 58.4,
+      "count": 1573,
+      "pct": 58.3,
       "avg_duration_min": 77
     },
     "helicoptere": {
@@ -15,7 +15,7 @@
       "avg_duration_min": 42
     },
     "commercial": {
-      "count": 554,
+      "count": 556,
       "pct": 20.6,
       "avg_duration_min": 71
     },
@@ -25,7 +25,7 @@
       "avg_duration_min": 64
     },
     "jets_prives": {
-      "count": 296,
+      "count": 297,
       "pct": 11.0,
       "avg_duration_min": 75
     },
@@ -436,12 +436,18 @@
     },
     {
       "date": "2026-08-08",
-      "commercial": 13,
+      "commercial": 14,
       "aviation_legere": 40,
       "jets_prives": 5,
       "autre": 2,
       "militaire": 4,
       "helicoptere": 1
+    },
+    {
+      "date": "2026-08-09",
+      "jets_prives": 1,
+      "aviation_legere": 1,
+      "commercial": 1
     }
   ],
   "weekday_distribution": [
@@ -450,8 +456,8 @@
     388,
     345,
     498,
-    455,
-    282
+    456,
+    285
   ],
   "weekday_distribution_jets_prives": [
     35,
@@ -460,7 +466,7 @@
     49,
     51,
     52,
-    31
+    32
   ],
   "hourly_distribution": [
     1,
@@ -468,8 +474,8 @@
     2,
     3,
     25,
-    86,
-    141,
+    87,
+    143,
     281,
     300,
     255,
@@ -483,7 +489,7 @@
     97,
     86,
     37,
-    34,
+    35,
     20,
     9,
     5
@@ -494,7 +500,7 @@
     0,
     2,
     2,
-    10,
+    11,
     21,
     30,
     36,
@@ -7345,6 +7351,30 @@
       "duration_min": 55,
       "co2_kg": 605,
       "distance_km": 412
+    },
+    {
+      "fr24_id": "4115486c",
+      "reg": "OE-FCO",
+      "type": "C510",
+      "passenger_capacity": 4,
+      "operator": "GAC",
+      "orig": "LFBO",
+      "orig_name": "Toulouse-Blagnac Airport",
+      "orig_coords": {
+        "lat": 43.629101,
+        "lon": 1.36382
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-08-09 05:34:20",
+      "landed": "2026-08-09 06:25:43",
+      "duration_min": 51,
+      "co2_kg": 971,
+      "distance_km": 348
     }
   ],
   "business_jets_operators": [
@@ -7366,7 +7396,7 @@
     ],
     [
       "GAC",
-      16
+      17
     ],
     [
       "BEJ",
@@ -7466,9 +7496,9 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 249,
+    "n_with_distance": 250,
     "pct_under_500km": 37,
-    "n_with_duration": 244,
+    "n_with_duration": 245,
     "avg_duration_min": 75,
     "pct_under_45min": 20,
     "shortest_flights": [
@@ -7538,7 +7568,7 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 74
+      "count": 75
     },
     {
       "code": "EIDW",
@@ -7573,7 +7603,7 @@
     {
       "code": "EICK",
       "name": "Cork",
-      "count": 28
+      "count": 29
     },
     {
       "code": "LPPR",
@@ -7608,7 +7638,7 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 893,
+      "count": 894,
       "distinct_aircraft": 208
     },
     "tourism": {
@@ -7700,7 +7730,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 74
+      "count": 75
     },
     {
       "category": "commercial",
@@ -7764,7 +7794,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 28
+      "count": 29
     },
     {
       "category": "commercial",
@@ -8628,6 +8658,14 @@
       "name": "John Glenn Columbus International Airport",
       "lat": 39.998001,
       "lon": -82.891899,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFBO",
+      "name": "Toulouse-Blagnac Airport",
+      "lat": 43.629101,
+      "lon": 1.36382,
       "count": 1
     },
     {
@@ -9805,19 +9843,19 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 4414.3,
-    "flights_with_estimate": 1853,
-    "flights_total": 2693,
-    "flights_with_estimate_jets_prives": 237,
-    "flights_total_jets_prives": 296,
+    "total_tonnes": 4429.3,
+    "flights_with_estimate": 1856,
+    "flights_total": 2697,
+    "flights_with_estimate_jets_prives": 238,
+    "flights_total_jets_prives": 297,
     "by_category_tonnes": {
       "aviation_legere": 101.1,
-      "commercial": 3945.4,
-      "jets_prives": 341.8,
+      "commercial": 3959.5,
+      "jets_prives": 342.7,
       "helicoptere": 7.9,
       "militaire": 18.1
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 135 626 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 136 011 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM7",
       "lightest_lph": 197,
@@ -9836,10 +9874,10 @@
       },
       {
         "month": "2026-08",
-        "tonnes": 24.8
+        "tonnes": 25.8
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 113.9,
+    "avg_monthly_tonnes_jets_prives": 114.2,
     "rochelais_equivalent_per_month": 149
   }
 }
