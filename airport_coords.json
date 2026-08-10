@@ -1083,5 +1083,30 @@
     "lat": 40.850101,
     "lon": -74.060799,
     "name": "Teterboro Airport"
+  },
+  "EGDR": {
+    "lat": 50.08610153198242,
+    "lon": -5.255710124969482,
+    "name": "RNAS Culdrose"
+  },
+  "LFBF": {
+    "lat": 43.545601,
+    "lon": 1.3675,
+    "name": "Toulouse-Francazal (BA 101) Air Base"
+  },
+  "LFDB": {
+    "lat": 44.0257,
+    "lon": 1.37804,
+    "name": "Aérodrome Morin - Védrines"
+  },
+  "LFKC": {
+    "lat": 42.530422,
+    "lon": 8.792984,
+    "name": "Calvi Sainte Catherine Airport"
+  },
+  "LFLA": {
+    "lat": 47.850201,
+    "lon": 3.49711,
+    "name": "Auxerre Branches airport"
   }
 }
