@@ -1108,5 +1108,15 @@
     "lat": 47.850201,
     "lon": 3.49711,
     "name": "Auxerre Branches airport"
+  },
+  "LFKB": {
+    "lat": 42.5527,
+    "lon": 9.48373,
+    "name": "Bastia-Poretta International airport"
+  },
+  "LOWI": {
+    "lat": 47.260201,
+    "lon": 11.344,
+    "name": "Innsbruck Airport"
   }
 }
