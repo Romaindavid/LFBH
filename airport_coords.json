@@ -1118,5 +1118,20 @@
     "lat": 47.260201,
     "lon": 11.344,
     "name": "Innsbruck Airport"
+  },
+  "LFOE": {
+    "lat": 49.028702,
+    "lon": 1.21986,
+    "name": "Évreux-Fauville (BA 105) Air Base"
+  },
+  "LKKV": {
+    "lat": 50.202999,
+    "lon": 12.915,
+    "name": "Karlovy Vary Airport"
+  },
+  "LSMP": {
+    "lat": 46.8432,
+    "lon": 6.91506,
+    "name": "Payerne Air Base"
   }
 }
