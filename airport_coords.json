@@ -1133,5 +1133,10 @@
     "lat": 46.8432,
     "lon": 6.91506,
     "name": "Payerne Air Base"
+  },
+  "EGNV": {
+    "lat": 54.509201,
+    "lon": -1.42941,
+    "name": "Teesside International Airport"
   }
 }
