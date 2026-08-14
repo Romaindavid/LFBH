@@ -1138,5 +1138,15 @@
     "lat": 54.509201,
     "lon": -1.42941,
     "name": "Teesside International Airport"
+  },
+  "LFOQ": {
+    "lat": 47.678502,
+    "lon": 1.20884,
+    "name": "Blois Le Breuil Airfield"
+  },
+  "LFRT": {
+    "lat": 48.538628,
+    "lon": -2.853518,
+    "name": "Saint-Brieuc-Armor Airport"
   }
 }
