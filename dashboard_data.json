@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14T19:01:31.025724+00:00",
+  "generated_at": "2026-08-15T06:23:48.531434+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-14T19:00:08",
-  "total_movements": 3051,
+  "period_end": "2026-08-15T06:23:27",
+  "total_movements": 3059,
   "categories": {
     "aviation_legere": {
       "count": 1787,
-      "pct": 58.6,
+      "pct": 58.4,
       "avg_duration_min": 77
     },
     "helicoptere": {
@@ -15,7 +15,7 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 613,
+      "count": 616,
       "pct": 20.1,
       "avg_duration_min": 70
     },
@@ -30,9 +30,9 @@
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 219,
-      "pct": 7.2,
-      "avg_duration_min": 38
+      "count": 224,
+      "pct": 7.3,
+      "avg_duration_min": 37
     }
   },
   "daily": [
@@ -484,11 +484,16 @@
     },
     {
       "date": "2026-08-14",
-      "commercial": 10,
+      "commercial": 12,
       "aviation_legere": 39,
       "jets_prives": 7,
-      "militaire": 8,
+      "militaire": 12,
       "helicoptere": 1
+    },
+    {
+      "date": "2026-08-15",
+      "commercial": 1,
+      "militaire": 1
     }
   ],
   "weekday_distribution": [
@@ -496,8 +501,8 @@
     419,
     442,
     398,
-    563,
-    456,
+    569,
+    458,
     340
   ],
   "weekday_distribution_jets_prives": [
@@ -515,7 +520,7 @@
     2,
     5,
     27,
-    96,
+    98,
     166,
     318,
     339,
@@ -529,9 +534,9 @@
     182,
     105,
     102,
-    45,
-    40,
-    22,
+    46,
+    44,
+    23,
     10,
     5
   ],
@@ -8403,7 +8408,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 65
+      "count": 66
     },
     {
       "code": "LFLL",
@@ -8413,7 +8418,7 @@
     {
       "code": "EBCI",
       "name": "Charleroi",
-      "count": 49
+      "count": 50
     },
     {
       "code": "LSGG",
@@ -8438,7 +8443,7 @@
     {
       "code": "EGCC",
       "name": "Manchester",
-      "count": 30
+      "count": 31
     },
     {
       "code": "EGGD",
@@ -8579,7 +8584,7 @@
       "name": "Charleroi",
       "lat": 50.461963,
       "lon": 4.459562,
-      "count": 49
+      "count": 50
     },
     {
       "category": "commercial",
@@ -8587,7 +8592,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 65
+      "count": 66
     },
     {
       "category": "commercial",
@@ -8635,7 +8640,7 @@
       "name": "Manchester",
       "lat": 53.349375,
       "lon": -2.279521,
-      "count": 30
+      "count": 31
     },
     {
       "category": "commercial",
@@ -10796,17 +10801,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 4861.8,
-    "flights_with_estimate": 2088,
-    "flights_total": 3051,
+    "total_tonnes": 4887.0,
+    "flights_with_estimate": 2096,
+    "flights_total": 3059,
     "flights_with_estimate_jets_prives": 259,
     "flights_total_jets_prives": 330,
     "by_category_tonnes": {
       "aviation_legere": 111.5,
-      "commercial": 4343.8,
+      "commercial": 4368.4,
       "jets_prives": 374.6,
       "helicoptere": 8.0,
-      "militaire": 23.9
+      "militaire": 24.5
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 148 668 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
