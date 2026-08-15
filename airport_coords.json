@@ -1148,5 +1148,20 @@
     "lat": 48.538628,
     "lon": -2.853518,
     "name": "Saint-Brieuc-Armor Airport"
+  },
+  "EBAW": {
+    "lat": 51.190667,
+    "lon": 4.463153,
+    "name": "Antwerp International Airport (Deurne)"
+  },
+  "EDLN": {
+    "lat": 51.230278,
+    "lon": 6.504444,
+    "name": "Mönchengladbach Airport"
+  },
+  "LEVT": {
+    "lat": 42.882801,
+    "lon": -2.72447,
+    "name": "Vitoria Airport"
   }
 }
