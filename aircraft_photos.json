@@ -460,5 +460,15 @@
     "thumbnail_large": "https://t.plnspttrs.net/48552/1910215_cac15e5713_280.jpg",
     "link": "https://www.planespotters.net/photo/1910215/ok-phn-atmospherica-aviation-embraer-phenom-300-emb-505?utm_source=api",
     "photographer": "Marco Materlik"
+  },
+  "D-CWAG": {
+    "thumbnail_large": "https://t.plnspttrs.net/26362/1899197_5ed854065c_280.jpg",
+    "link": "https://www.planespotters.net/photo/1899197/d-cwag-silver-cloud-air-cessna-560xl-citation-xls?utm_source=api",
+    "photographer": "Alexander Jeglitsch"
+  },
+  "LX-PCB": {
+    "thumbnail_large": "https://t.plnspttrs.net/10809/1795990_d5a7d41835_280.jpg",
+    "link": "https://www.planespotters.net/photo/1795990/lx-pcb-jetfly-aviation-pilatus-pc-24?utm_source=api",
+    "photographer": "Terry Figg"
   }
 }
