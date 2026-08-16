@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-15T18:36:11.731188+00:00",
+  "generated_at": "2026-08-16T06:25:55.437823+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-15T18:35:43",
-  "total_movements": 3092,
+  "period_end": "2026-08-16T06:25:36",
+  "total_movements": 3094,
   "categories": {
     "aviation_legere": {
       "count": 1802,
-      "pct": 58.3,
+      "pct": 58.2,
       "avg_duration_min": 77
     },
     "helicoptere": {
@@ -15,9 +15,9 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 629,
-      "pct": 20.3,
-      "avg_duration_min": 70
+      "count": 631,
+      "pct": 20.4,
+      "avg_duration_min": 71
     },
     "autre": {
       "count": 45,
@@ -492,7 +492,7 @@
     },
     {
       "date": "2026-08-15",
-      "commercial": 14,
+      "commercial": 16,
       "militaire": 1,
       "aviation_legere": 15,
       "jets_prives": 4,
@@ -505,7 +505,7 @@
     442,
     398,
     569,
-    491,
+    493,
     340
   ],
   "weekday_distribution_jets_prives": [
@@ -537,9 +537,9 @@
     183,
     105,
     103,
-    46,
+    47,
     44,
-    23,
+    24,
     10,
     5
   ],
@@ -8501,7 +8501,7 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 83
+      "count": 85
     },
     {
       "code": "EIDW",
@@ -8663,7 +8663,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 83
+      "count": 85
     },
     {
       "category": "commercial",
@@ -10936,14 +10936,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 4986.0,
-    "flights_with_estimate": 2125,
-    "flights_total": 3092,
+    "total_tonnes": 5016.5,
+    "flights_with_estimate": 2128,
+    "flights_total": 3094,
     "flights_with_estimate_jets_prives": 263,
     "flights_total_jets_prives": 334,
     "by_category_tonnes": {
       "aviation_legere": 112.9,
-      "commercial": 4457.2,
+      "commercial": 4487.7,
       "jets_prives": 382.8,
       "helicoptere": 8.1,
       "militaire": 25.1
