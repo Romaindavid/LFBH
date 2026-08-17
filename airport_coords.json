@@ -1163,5 +1163,10 @@
     "lat": 42.882801,
     "lon": -2.72447,
     "name": "Vitoria Airport"
+  },
+  "LEPP": {
+    "lat": 42.77,
+    "lon": -1.64633,
+    "name": "Pamplona Airport"
   }
 }
