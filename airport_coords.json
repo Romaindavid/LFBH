@@ -1168,5 +1168,10 @@
     "lat": 42.77,
     "lon": -1.64633,
     "name": "Pamplona Airport"
+  },
+  "LIPZ": {
+    "lat": 45.505299,
+    "lon": 12.3519,
+    "name": "Venice Marco Polo Airport"
   }
 }
