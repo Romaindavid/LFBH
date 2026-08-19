@@ -1173,5 +1173,15 @@
     "lat": 45.505299,
     "lon": 12.3519,
     "name": "Venice Marco Polo Airport"
+  },
+  "EKBI": {
+    "lat": 55.740335,
+    "lon": 9.157019,
+    "name": "Billund Airport"
+  },
+  "LEMD": {
+    "lat": 40.493407,
+    "lon": -3.572249,
+    "name": "Adolfo Suárez Madrid–Barajas Airport"
   }
 }
