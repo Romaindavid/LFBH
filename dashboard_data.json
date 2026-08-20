@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-19T18:46:09.794452+00:00",
+  "generated_at": "2026-08-20T06:31:51.647059+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-19T18:45:33",
-  "total_movements": 3283,
+  "period_end": "2026-08-20T06:31:31",
+  "total_movements": 3289,
   "categories": {
     "aviation_legere": {
       "count": 1898,
-      "pct": 57.8,
+      "pct": 57.7,
       "avg_duration_min": 76
     },
     "helicoptere": {
@@ -15,8 +15,8 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 671,
-      "pct": 20.4,
+      "count": 675,
+      "pct": 20.5,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,12 +25,12 @@
       "avg_duration_min": 63
     },
     "jets_prives": {
-      "count": 360,
+      "count": 361,
       "pct": 11.0,
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 246,
+      "count": 247,
       "pct": 7.5,
       "avg_duration_min": 35
     }
@@ -525,17 +525,17 @@
     },
     {
       "date": "2026-08-19",
-      "jets_prives": 8,
-      "commercial": 13,
+      "jets_prives": 9,
+      "commercial": 17,
       "aviation_legere": 18,
       "autre": 1,
-      "militaire": 4
+      "militaire": 5
     }
   ],
   "weekday_distribution": [
     485,
     464,
-    486,
+    492,
     398,
     569,
     493,
@@ -544,7 +544,7 @@
   "weekday_distribution_jets_prives": [
     45,
     46,
-    47,
+    48,
     56,
     58,
     56,
@@ -570,9 +570,9 @@
     188,
     110,
     113,
-    49,
+    53,
     45,
-    24,
+    26,
     11,
     5
   ],
@@ -596,7 +596,7 @@
     17,
     9,
     9,
-    0,
+    1,
     1,
     0,
     0,
@@ -8921,12 +8921,36 @@
       "duration_min": 51,
       "co2_kg": 1614,
       "distance_km": 412
+    },
+    {
+      "fr24_id": "41412382",
+      "reg": "F-HRSC",
+      "type": "C25A",
+      "passenger_capacity": 8,
+      "operator": null,
+      "orig": "LFMD",
+      "orig_name": "Cannes Mandelieu Airport",
+      "orig_coords": {
+        "lat": 43.547998,
+        "lon": 6.955176
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-08-19 19:04:33",
+      "landed": "2026-08-19 20:19:32",
+      "duration_min": 75,
+      "co2_kg": 1575,
+      "distance_km": 705
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      137
+      138
     ],
     [
       "JFA",
@@ -9074,9 +9098,9 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 305,
+    "n_with_distance": 306,
     "pct_under_500km": 36,
-    "n_with_duration": 295,
+    "n_with_duration": 296,
     "avg_duration_min": 76,
     "pct_under_45min": 18,
     "shortest_flights": [
@@ -9156,7 +9180,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 70
+      "count": 72
     },
     {
       "code": "LFLL",
@@ -9179,14 +9203,14 @@
       "count": 36
     },
     {
+      "code": "LPPR",
+      "name": "Porto",
+      "count": 36
+    },
+    {
       "code": "GMMX",
       "name": "Marrakech",
       "count": 35
-    },
-    {
-      "code": "LPPR",
-      "name": "Porto",
-      "count": 34
     },
     {
       "code": "EGCC",
@@ -9340,7 +9364,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 70
+      "count": 72
     },
     {
       "category": "commercial",
@@ -9380,7 +9404,7 @@
       "name": "Porto",
       "lat": 41.2481002808,
       "lon": -8.68138980865,
-      "count": 34
+      "count": 36
     },
     {
       "category": "commercial",
@@ -9500,7 +9524,7 @@
       "name": "Cannes Mandelieu Airport",
       "lat": 43.547998,
       "lon": 6.955176,
-      "count": 2
+      "count": 3
     },
     {
       "category": "jets_prives",
@@ -11645,19 +11669,19 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 5325.7,
-    "flights_with_estimate": 2269,
-    "flights_total": 3283,
-    "flights_with_estimate_jets_prives": 284,
-    "flights_total_jets_prives": 360,
+    "total_tonnes": 5356.8,
+    "flights_with_estimate": 2274,
+    "flights_total": 3289,
+    "flights_with_estimate_jets_prives": 285,
+    "flights_total_jets_prives": 361,
     "by_category_tonnes": {
       "aviation_legere": 118.6,
-      "commercial": 4752.7,
-      "jets_prives": 417.4,
+      "commercial": 4782.2,
+      "jets_prives": 418.9,
       "helicoptere": 8.1,
       "militaire": 29.1
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 165 620 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 166 245 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM7",
       "lightest_lph": 197,
@@ -11676,10 +11700,10 @@
       },
       {
         "month": "2026-08",
-        "tonnes": 100.4
+        "tonnes": 102.0
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 139.1,
-    "rochelais_equivalent_per_month": 181
+    "avg_monthly_tonnes_jets_prives": 139.6,
+    "rochelais_equivalent_per_month": 182
   }
 }
