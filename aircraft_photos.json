@@ -505,5 +505,15 @@
     "thumbnail_large": "https://t.plnspttrs.net/28450/1936671_a9a22787f8_280.jpg",
     "link": "https://www.planespotters.net/photo/1936671/f-hrsc-private-cessna-525a-citationjet-cj2?utm_source=api",
     "photographer": "William Verguet"
+  },
+  "F-HJAH": {
+    "thumbnail_large": "https://t.plnspttrs.net/17423/1951373_a9c878106e_280.jpg",
+    "link": "https://www.planespotters.net/photo/1951373/f-hjah-force-de-laeronautique-navale-french-naval-aviation-pilatus-pc-24?utm_source=api",
+    "photographer": "Rémi Dallot"
+  },
+  "LX-JPB": {
+    "thumbnail_large": "https://t.plnspttrs.net/48179/1952141_2a0dafac04_280.jpg",
+    "link": "https://www.planespotters.net/photo/1952141/lx-jpb-jetfly-aviation-pilatus-pc-12-pro-pc-12-47g?utm_source=api",
+    "photographer": "Z Song"
   }
 }
