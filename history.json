@@ -1,7 +1,7 @@
 {
   "airport": "LFBH",
   "begin": "2026-06-18T12:44:10",
-  "end": "2026-08-20T18:46:35",
+  "end": "2026-08-21T06:31:58",
   "flights": [
     {
       "fr24_id": "403f0d79",
@@ -89723,6 +89723,33 @@
       "first_seen": "2026-08-20T16:32:07Z",
       "last_seen": "2026-08-20T17:03:47Z",
       "flight_ended": true
+    },
+    {
+      "fr24_id": "414721d1",
+      "flight": "FR1992",
+      "callsign": "RYR2HU",
+      "operating_as": "RYR",
+      "painted_as": "RYR",
+      "type": "B38M",
+      "reg": "EI-ILJ",
+      "orig_icao": "EIDW",
+      "orig_iata": "DUB",
+      "datetime_takeoff": "2026-08-21T05:52:13Z",
+      "runway_takeoff": "28L",
+      "dest_icao": "LFBH",
+      "dest_iata": "LRH",
+      "dest_icao_actual": "LFBH",
+      "dest_iata_actual": "LRH",
+      "datetime_landed": null,
+      "runway_landed": null,
+      "flight_time": null,
+      "actual_distance": 500.989,
+      "circle_distance": 475.865,
+      "category": "Passenger",
+      "hex": "4CAFF7",
+      "first_seen": "2026-08-21T05:27:43Z",
+      "last_seen": "2026-08-21T06:31:23Z",
+      "flight_ended": false
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T18:47:03.740746+00:00",
+  "generated_at": "2026-08-21T06:32:17.955938+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-20T18:46:35",
-  "total_movements": 3323,
+  "period_end": "2026-08-21T06:31:58",
+  "total_movements": 3324,
   "categories": {
     "aviation_legere": {
       "count": 1923,
@@ -15,8 +15,8 @@
       "avg_duration_min": 46
     },
     "commercial": {
-      "count": 679,
-      "pct": 20.4,
+      "count": 680,
+      "pct": 20.5,
       "avg_duration_min": 71
     },
     "autre": {
@@ -538,6 +538,10 @@
       "militaire": 1,
       "commercial": 4,
       "helicoptere": 1
+    },
+    {
+      "date": "2026-08-21",
+      "commercial": 1
     }
   ],
   "weekday_distribution": [
@@ -545,7 +549,7 @@
     464,
     492,
     432,
-    569,
+    570,
     493,
     388
   ],
@@ -564,7 +568,7 @@
     2,
     6,
     29,
-    101,
+    102,
     174,
     348,
     360,
@@ -9259,7 +9263,7 @@
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 72
+      "count": 73
     },
     {
       "code": "LFML",
@@ -9424,7 +9428,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 72
+      "count": 73
     },
     {
       "category": "commercial",
@@ -11763,7 +11767,7 @@
   "co2_estimate": {
     "total_tonnes": 5393.9,
     "flights_with_estimate": 2301,
-    "flights_total": 3323,
+    "flights_total": 3324,
     "flights_with_estimate_jets_prives": 288,
     "flights_total_jets_prives": 364,
     "by_category_tonnes": {
