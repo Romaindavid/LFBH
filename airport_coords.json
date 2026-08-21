@@ -1183,5 +1183,10 @@
     "lat": 40.493407,
     "lon": -3.572249,
     "name": "Adolfo Suárez Madrid–Barajas Airport"
+  },
+  "LPBJ": {
+    "lat": 38.078899,
+    "lon": -7.9324,
+    "name": "Beja Airport / Airbase"
   }
 }
