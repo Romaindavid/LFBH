@@ -1188,5 +1188,15 @@
     "lat": 38.078899,
     "lon": -7.9324,
     "name": "Beja Airport / Airbase"
+  },
+  "EDTF": {
+    "lat": 48.022778,
+    "lon": 7.8325,
+    "name": "Freiburg im Breisgau Airfield"
+  },
+  "EGFE": {
+    "lat": 51.833099365234375,
+    "lon": -4.9611101150512695,
+    "name": "Haverfordwest Airport"
   }
 }
