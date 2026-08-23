@@ -1198,5 +1198,10 @@
     "lat": 51.833099365234375,
     "lon": -4.9611101150512695,
     "name": "Haverfordwest Airport"
+  },
+  "UGSB": {
+    "lat": 41.60939,
+    "lon": 41.600315,
+    "name": "Alexander Kartveli Batumi International Airport"
   }
 }
