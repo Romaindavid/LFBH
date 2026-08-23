@@ -1203,5 +1203,15 @@
     "lat": 41.60939,
     "lon": 41.600315,
     "name": "Alexander Kartveli Batumi International Airport"
+  },
+  "EGFF": {
+    "lat": 51.396702,
+    "lon": -3.34333,
+    "name": "Cardiff International Airport"
+  },
+  "LIPX": {
+    "lat": 45.394955,
+    "lon": 10.887303,
+    "name": "Verona Villafranca Valerio Catullo Airport"
   }
 }
