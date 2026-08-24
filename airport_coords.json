@@ -1213,5 +1213,10 @@
     "lat": 45.394955,
     "lon": 10.887303,
     "name": "Verona Villafranca Valerio Catullo Airport"
+  },
+  "EBZW": {
+    "lat": 51.0154,
+    "lon": 5.52647,
+    "name": "Genk Zwartberg Airfield"
   }
 }
