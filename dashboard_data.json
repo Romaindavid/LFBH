@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-24T18:47:58.559610+00:00",
+  "generated_at": "2026-08-25T06:32:29.004972+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-24T18:47:22",
-  "total_movements": 3526,
+  "period_end": "2026-08-25T06:32:08",
+  "total_movements": 3530,
   "categories": {
     "aviation_legere": {
-      "count": 2027,
+      "count": 2028,
       "pct": 57.5,
       "avg_duration_min": 77
     },
@@ -15,8 +15,8 @@
       "avg_duration_min": 50
     },
     "commercial": {
-      "count": 724,
-      "pct": 20.5,
+      "count": 726,
+      "pct": 20.6,
       "avg_duration_min": 71
     },
     "autre": {
@@ -30,9 +30,9 @@
       "avg_duration_min": 76
     },
     "militaire": {
-      "count": 273,
-      "pct": 7.7,
-      "avg_duration_min": 33
+      "count": 274,
+      "pct": 7.8,
+      "avg_duration_min": 32
     }
   },
   "daily": [
@@ -566,16 +566,21 @@
     },
     {
       "date": "2026-08-24",
-      "commercial": 9,
+      "commercial": 10,
       "aviation_legere": 16,
       "helicoptere": 1,
       "jets_prives": 4,
-      "militaire": 5
+      "militaire": 6
+    },
+    {
+      "date": "2026-08-25",
+      "commercial": 1,
+      "aviation_legere": 1
     }
   ],
   "weekday_distribution": [
-    520,
-    464,
+    522,
+    466,
     492,
     432,
     631,
@@ -596,9 +601,9 @@
     1,
     2,
     6,
-    32,
+    33,
     105,
-    175,
+    176,
     364,
     382,
     348,
@@ -611,8 +616,8 @@
     205,
     120,
     120,
-    55,
-    47,
+    56,
+    48,
     28,
     11,
     5
@@ -9786,7 +9791,7 @@
     {
       "code": "EBCI",
       "name": "Charleroi",
-      "count": 59
+      "count": 60
     },
     {
       "code": "LFLL",
@@ -9799,6 +9804,11 @@
       "count": 38
     },
     {
+      "code": "GMMX",
+      "name": "Marrakech",
+      "count": 38
+    },
+    {
       "code": "EICK",
       "name": "Cork",
       "count": 38
@@ -9807,11 +9817,6 @@
       "code": "LPPR",
       "name": "Porto",
       "count": 38
-    },
-    {
-      "code": "GMMX",
-      "name": "Marrakech",
-      "count": 37
     },
     {
       "code": "EGCC",
@@ -9841,7 +9846,7 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1149,
+      "count": 1150,
       "distinct_aircraft": 254
     },
     "tourism": {
@@ -9957,7 +9962,7 @@
       "name": "Charleroi",
       "lat": 50.461963,
       "lon": 4.459562,
-      "count": 59
+      "count": 60
     },
     {
       "category": "commercial",
@@ -9989,7 +9994,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 37
+      "count": 38
     },
     {
       "category": "commercial",
@@ -12374,17 +12379,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 5699.0,
-    "flights_with_estimate": 2431,
-    "flights_total": 3526,
+    "total_tonnes": 5705.4,
+    "flights_with_estimate": 2433,
+    "flights_total": 3530,
     "flights_with_estimate_jets_prives": 303,
     "flights_total_jets_prives": 384,
     "by_category_tonnes": {
       "aviation_legere": 126.5,
-      "commercial": 5092.4,
+      "commercial": 5098.8,
       "jets_prives": 437.0,
       "helicoptere": 9.2,
-      "militaire": 32.8,
+      "militaire": 32.9,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 173 421 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
