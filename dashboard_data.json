@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-25T06:32:29.004972+00:00",
+  "generated_at": "2026-08-25T18:45:31.159979+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-25T06:32:08",
-  "total_movements": 3530,
+  "period_end": "2026-08-25T18:45:03",
+  "total_movements": 3573,
   "categories": {
     "aviation_legere": {
-      "count": 2028,
-      "pct": 57.5,
+      "count": 2051,
+      "pct": 57.4,
       "avg_duration_min": 77
     },
     "helicoptere": {
-      "count": 67,
+      "count": 68,
       "pct": 1.9,
       "avg_duration_min": 50
     },
     "commercial": {
-      "count": 726,
-      "pct": 20.6,
+      "count": 733,
+      "pct": 20.5,
       "avg_duration_min": 71
     },
     "autre": {
-      "count": 51,
-      "pct": 1.4,
+      "count": 52,
+      "pct": 1.5,
       "avg_duration_min": 75
     },
     "jets_prives": {
-      "count": 384,
+      "count": 388,
       "pct": 10.9,
       "avg_duration_min": 76
     },
     "militaire": {
-      "count": 274,
-      "pct": 7.8,
+      "count": 281,
+      "pct": 7.9,
       "avg_duration_min": 32
     }
   },
@@ -574,13 +574,17 @@
     },
     {
       "date": "2026-08-25",
-      "commercial": 1,
-      "aviation_legere": 1
+      "commercial": 8,
+      "aviation_legere": 24,
+      "jets_prives": 4,
+      "helicoptere": 1,
+      "autre": 1,
+      "militaire": 7
     }
   ],
   "weekday_distribution": [
     522,
-    466,
+    509,
     492,
     432,
     631,
@@ -589,7 +593,7 @@
   ],
   "weekday_distribution_jets_prives": [
     49,
-    46,
+    50,
     48,
     59,
     64,
@@ -604,18 +608,18 @@
     33,
     105,
     176,
-    364,
-    382,
-    348,
-    215,
-    185,
-    275,
-    312,
-    270,
-    260,
-    205,
-    120,
-    120,
+    370,
+    387,
+    354,
+    219,
+    189,
+    277,
+    316,
+    274,
+    261,
+    208,
+    122,
+    122,
     56,
     48,
     28,
@@ -630,9 +634,9 @@
     3,
     12,
     24,
-    38,
-    43,
-    33,
+    40,
+    44,
+    34,
     39,
     29,
     35,
@@ -9543,12 +9547,102 @@
       "duration_min": 98,
       "co2_kg": 2271,
       "distance_km": 1048
+    },
+    {
+      "fr24_id": "41573bc3",
+      "reg": "CS-PHE",
+      "type": "E55P",
+      "passenger_capacity": 6,
+      "operator": "NJE",
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "EHAM",
+      "dest_name": "Amsterdam Airport Schiphol",
+      "dest_coords": {
+        "lat": 52.308601,
+        "lon": 4.76389
+      },
+      "takeoff": "2026-08-25 07:04:19",
+      "landed": "2026-08-25 08:18:50",
+      "duration_min": 75,
+      "co2_kg": 1721,
+      "distance_km": 807
+    },
+    {
+      "fr24_id": "41574b96",
+      "reg": null,
+      "type": "TBM7",
+      "passenger_capacity": 6,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-08-25 07:08:35",
+      "landed": "2026-08-25 07:55:34",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
+    },
+    {
+      "fr24_id": "4157779d",
+      "reg": "SX-RJB",
+      "type": "C56X",
+      "passenger_capacity": 12,
+      "operator": "RJB",
+      "orig": "LFPB",
+      "orig_name": "Paris-Le Bourget",
+      "orig_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-08-25 08:09:27",
+      "landed": "2026-08-25 09:11:40",
+      "duration_min": 62,
+      "co2_kg": 1960,
+      "distance_km": 412
+    },
+    {
+      "fr24_id": "4157b43b",
+      "reg": "SX-RJB",
+      "type": "C56X",
+      "passenger_capacity": 12,
+      "operator": "RJB",
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "EGGD",
+      "dest_name": "Bristol",
+      "dest_coords": {
+        "lat": 51.382326,
+        "lon": -2.716453
+      },
+      "takeoff": "2026-08-25 09:44:37",
+      "landed": "2026-08-25 10:44:54",
+      "duration_min": 60,
+      "co2_kg": 1899,
+      "distance_km": 589
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      147
+      148
     ],
     [
       "JFA",
@@ -9556,7 +9650,7 @@
     ],
     [
       "NJE",
-      35
+      36
     ],
     [
       "GAC",
@@ -9604,6 +9698,10 @@
     ],
     [
       "VJH",
+      4
+    ],
+    [
+      "RJB",
       4
     ],
     [
@@ -9683,10 +9781,6 @@
       2
     ],
     [
-      "RJB",
-      2
-    ],
-    [
       "AXY",
       2
     ],
@@ -9704,9 +9798,9 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 329,
+    "n_with_distance": 332,
     "pct_under_500km": 36,
-    "n_with_duration": 315,
+    "n_with_duration": 318,
     "avg_duration_min": 76,
     "pct_under_45min": 18,
     "shortest_flights": [
@@ -9771,7 +9865,7 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 128
+      "count": 130
     },
     {
       "code": "EGSS",
@@ -9781,7 +9875,7 @@
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 78
+      "count": 80
     },
     {
       "code": "LFML",
@@ -9801,12 +9895,12 @@
     {
       "code": "LSGG",
       "name": "Genève",
-      "count": 38
+      "count": 40
     },
     {
       "code": "GMMX",
       "name": "Marrakech",
-      "count": 38
+      "count": 39
     },
     {
       "code": "EICK",
@@ -9846,23 +9940,23 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1150,
-      "distinct_aircraft": 254
+      "count": 1164,
+      "distinct_aircraft": 256
     },
     "tourism": {
-      "count": 878,
-      "distinct_aircraft": 368
+      "count": 887,
+      "distinct_aircraft": 370
     },
     "tourism_routes": [
       {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 53
+        "count": 54
       },
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 51
+        "count": 53
       },
       {
         "code": "LFBN",
@@ -9925,9 +10019,9 @@
         "count": 15
       },
       {
-        "code": "LFCL",
-        "name": "Toulouse-Lasbordes",
-        "count": 13
+        "code": "LFOO",
+        "name": "Les Sables-d'Olonne Talmont Airport",
+        "count": 14
       }
     ]
   },
@@ -9946,7 +10040,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 78
+      "count": 80
     },
     {
       "category": "commercial",
@@ -9978,7 +10072,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 38
+      "count": 40
     },
     {
       "category": "commercial",
@@ -9986,7 +10080,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 128
+      "count": 130
     },
     {
       "category": "commercial",
@@ -9994,7 +10088,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 38
+      "count": 39
     },
     {
       "category": "commercial",
@@ -10114,7 +10208,7 @@
       "name": "Paris-Le Bourget",
       "lat": 48.962276,
       "lon": 2.436539,
-      "count": 21
+      "count": 22
     },
     {
       "category": "jets_prives",
@@ -10234,7 +10328,7 @@
       "name": "Amsterdam Airport Schiphol",
       "lat": 52.308601,
       "lon": 4.76389,
-      "count": 3
+      "count": 4
     },
     {
       "category": "jets_prives",
@@ -11002,7 +11096,7 @@
       "name": "Bristol",
       "lat": 51.382326,
       "lon": -2.716453,
-      "count": 1
+      "count": 2
     },
     {
       "category": "jets_prives",
@@ -11138,7 +11232,7 @@
       "name": "Saint-Nazaire",
       "lat": 47.153198,
       "lon": -1.61073,
-      "count": 8
+      "count": 10
     },
     {
       "category": "aviation_legere",
@@ -11282,7 +11376,7 @@
       "name": "Le Havre",
       "lat": 49.534038,
       "lon": 0.088406,
-      "count": 6
+      "count": 7
     },
     {
       "category": "aviation_legere",
@@ -11442,7 +11536,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 53
+      "count": 54
     },
     {
       "category": "aviation_legere",
@@ -11498,7 +11592,7 @@
       "name": "Les Sables-d'Olonne Talmont Airport",
       "lat": 46.476898,
       "lon": -1.72278,
-      "count": 13
+      "count": 14
     },
     {
       "category": "aviation_legere",
@@ -11570,7 +11664,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 51
+      "count": 53
     },
     {
       "category": "aviation_legere",
@@ -11722,7 +11816,7 @@
       "name": "Angoulême",
       "lat": 45.729198,
       "lon": 0.221456,
-      "count": 9
+      "count": 11
     },
     {
       "category": "aviation_legere",
@@ -12379,20 +12473,20 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 5705.4,
-    "flights_with_estimate": 2433,
-    "flights_total": 3530,
-    "flights_with_estimate_jets_prives": 303,
-    "flights_total_jets_prives": 384,
+    "total_tonnes": 5771.7,
+    "flights_with_estimate": 2465,
+    "flights_total": 3573,
+    "flights_with_estimate_jets_prives": 306,
+    "flights_total_jets_prives": 388,
     "by_category_tonnes": {
-      "aviation_legere": 126.5,
-      "commercial": 5098.8,
-      "jets_prives": 437.0,
+      "aviation_legere": 128.2,
+      "commercial": 5157.0,
+      "jets_prives": 442.6,
       "helicoptere": 9.2,
-      "militaire": 32.9,
+      "militaire": 33.7,
       "autre": 1.0
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 173 421 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 175 635 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM7",
       "lightest_lph": 197,
@@ -12411,10 +12505,10 @@
       },
       {
         "month": "2026-08",
-        "tonnes": 120.0
+        "tonnes": 125.6
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 145.7,
-    "rochelais_equivalent_per_month": 190
+    "avg_monthly_tonnes_jets_prives": 147.5,
+    "rochelais_equivalent_per_month": 192
   }
 }
