@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-25T18:45:31.159979+00:00",
+  "generated_at": "2026-08-26T06:34:42.511091+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-25T18:45:03",
-  "total_movements": 3573,
+  "period_end": "2026-08-26T06:34:22",
+  "total_movements": 3577,
   "categories": {
     "aviation_legere": {
-      "count": 2051,
+      "count": 2052,
       "pct": 57.4,
       "avg_duration_min": 77
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 50
     },
     "commercial": {
-      "count": 733,
+      "count": 734,
       "pct": 20.5,
       "avg_duration_min": 71
     },
@@ -26,11 +26,11 @@
     },
     "jets_prives": {
       "count": 388,
-      "pct": 10.9,
+      "pct": 10.8,
       "avg_duration_min": 76
     },
     "militaire": {
-      "count": 281,
+      "count": 283,
       "pct": 7.9,
       "avg_duration_min": 32
     }
@@ -579,13 +579,18 @@
       "jets_prives": 4,
       "helicoptere": 1,
       "autre": 1,
-      "militaire": 7
+      "militaire": 9
+    },
+    {
+      "date": "2026-08-26",
+      "commercial": 1,
+      "aviation_legere": 1
     }
   ],
   "weekday_distribution": [
     522,
-    509,
-    492,
+    511,
+    494,
     432,
     631,
     553,
@@ -606,8 +611,8 @@
     2,
     6,
     33,
-    105,
-    176,
+    106,
+    177,
     370,
     387,
     354,
@@ -619,8 +624,8 @@
     261,
     208,
     122,
-    122,
-    56,
+    123,
+    57,
     48,
     28,
     11,
@@ -9905,7 +9910,7 @@
     {
       "code": "EICK",
       "name": "Cork",
-      "count": 38
+      "count": 39
     },
     {
       "code": "LPPR",
@@ -9940,7 +9945,7 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1164,
+      "count": 1165,
       "distinct_aircraft": 256
     },
     "tourism": {
@@ -10096,7 +10101,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 38
+      "count": 39
     },
     {
       "category": "commercial",
@@ -12474,8 +12479,8 @@
   },
   "co2_estimate": {
     "total_tonnes": 5771.7,
-    "flights_with_estimate": 2465,
-    "flights_total": 3573,
+    "flights_with_estimate": 2467,
+    "flights_total": 3577,
     "flights_with_estimate_jets_prives": 306,
     "flights_total_jets_prives": 388,
     "by_category_tonnes": {
