@@ -1218,5 +1218,15 @@
     "lat": 51.0154,
     "lon": 5.52647,
     "name": "Genk Zwartberg Airfield"
+  },
+  "EGNX": {
+    "lat": 52.8311,
+    "lon": -1.32806,
+    "name": "East Midlands Airport"
+  },
+  "LFOB": {
+    "lat": 49.454399,
+    "lon": 2.11278,
+    "name": "Beauvais-Tillé airport"
   }
 }
