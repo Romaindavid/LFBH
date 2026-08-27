@@ -1228,5 +1228,15 @@
     "lat": 49.454399,
     "lon": 2.11278,
     "name": "Beauvais-Tillé airport"
+  },
+  "EDLT": {
+    "lat": 51.944745,
+    "lon": 7.773621,
+    "name": "Münster-Telgte Airfield"
+  },
+  "LIPE": {
+    "lat": 44.5354,
+    "lon": 11.2887,
+    "name": "Bologna Guglielmo Marconi Airport"
   }
 }
