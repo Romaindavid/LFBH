@@ -1238,5 +1238,10 @@
     "lat": 44.5354,
     "lon": 11.2887,
     "name": "Bologna Guglielmo Marconi Airport"
+  },
+  "EGGP": {
+    "lat": 53.334863,
+    "lon": -2.849637,
+    "name": "Liverpool John Lennon Airport"
   }
 }
