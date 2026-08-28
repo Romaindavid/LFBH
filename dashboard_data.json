@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-27T17:10:36.968577+00:00",
+  "generated_at": "2026-08-28T02:06:40.910344+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-27T17:10:04",
-  "total_movements": 3644,
+  "period_end": "2026-08-28T02:06:24",
+  "total_movements": 3647,
   "categories": {
     "aviation_legere": {
       "count": 2077,
@@ -25,8 +25,8 @@
       "avg_duration_min": 74
     },
     "jets_prives": {
-      "count": 395,
-      "pct": 10.8,
+      "count": 398,
+      "pct": 10.9,
       "avg_duration_min": 76
     },
     "militaire": {
@@ -591,7 +591,7 @@
     },
     {
       "date": "2026-08-27",
-      "jets_prives": 4,
+      "jets_prives": 7,
       "militaire": 8,
       "aviation_legere": 4,
       "autre": 1,
@@ -602,7 +602,7 @@
     522,
     511,
     540,
-    453,
+    456,
     631,
     553,
     434
@@ -611,7 +611,7 @@
     49,
     50,
     51,
-    63,
+    66,
     64,
     58,
     60
@@ -635,8 +635,8 @@
     264,
     208,
     122,
-    125,
-    57,
+    126,
+    59,
     49,
     28,
     11,
@@ -661,8 +661,8 @@
     20,
     18,
     11,
-    9,
-    1,
+    10,
+    3,
     1,
     0,
     0,
@@ -9821,12 +9821,66 @@
       "duration_min": 78,
       "co2_kg": 847,
       "distance_km": 477
+    },
+    {
+      "fr24_id": "41616867",
+      "reg": null,
+      "type": "B350",
+      "passenger_capacity": 11,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-08-27 18:54:05",
+      "landed": "2026-08-27 19:16:15",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
+    },
+    {
+      "fr24_id": "41625795",
+      "reg": null,
+      "type": "B350",
+      "passenger_capacity": 11,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-08-27 19:19:06",
+      "landed": "2026-08-27 19:25:47",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
+    },
+    {
+      "fr24_id": "41625e8c",
+      "reg": null,
+      "type": "B350",
+      "passenger_capacity": 11,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-08-27 19:27:06",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      150
+      153
     ],
     [
       "JFA",
@@ -12683,9 +12737,9 @@
   "co2_estimate": {
     "total_tonnes": 5888.8,
     "flights_with_estimate": 2507,
-    "flights_total": 3644,
+    "flights_total": 3647,
     "flights_with_estimate_jets_prives": 313,
-    "flights_total_jets_prives": 395,
+    "flights_total_jets_prives": 398,
     "by_category_tonnes": {
       "aviation_legere": 128.6,
       "commercial": 5259.8,
