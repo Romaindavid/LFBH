@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-29T12:02:06.095545+00:00",
+  "generated_at": "2026-08-29T20:43:59.697549+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-29T12:01:41",
-  "total_movements": 3702,
+  "period_end": "2026-08-29T20:43:43",
+  "total_movements": 3713,
   "categories": {
     "aviation_legere": {
       "count": 2098,
-      "pct": 56.7,
+      "pct": 56.5,
       "avg_duration_min": 76
     },
     "helicoptere": {
@@ -15,8 +15,8 @@
       "avg_duration_min": 49
     },
     "commercial": {
-      "count": 769,
-      "pct": 20.8,
+      "count": 778,
+      "pct": 21.0,
       "avg_duration_min": 71
     },
     "autre": {
@@ -26,12 +26,12 @@
     },
     "jets_prives": {
       "count": 402,
-      "pct": 10.9,
+      "pct": 10.8,
       "avg_duration_min": 76
     },
     "militaire": {
-      "count": 309,
-      "pct": 8.3,
+      "count": 311,
+      "pct": 8.4,
       "avg_duration_min": 31
     }
   },
@@ -607,10 +607,10 @@
     },
     {
       "date": "2026-08-29",
-      "commercial": 6,
+      "commercial": 15,
       "aviation_legere": 4,
       "helicoptere": 1,
-      "militaire": 7,
+      "militaire": 9,
       "jets_prives": 1
     }
   ],
@@ -620,7 +620,7 @@
     540,
     456,
     667,
-    572,
+    583,
     434
   ],
   "weekday_distribution_jets_prives": [
@@ -645,13 +645,13 @@
     373,
     228,
     202,
-    288,
-    325,
-    281,
-    266,
-    210,
-    123,
-    127,
+    290,
+    327,
+    282,
+    268,
+    211,
+    125,
+    128,
     61,
     49,
     30,
@@ -10220,12 +10220,12 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 103
+      "count": 104
     },
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 82
+      "count": 84
     },
     {
       "code": "LFML",
@@ -10235,7 +10235,7 @@
     {
       "code": "EBCI",
       "name": "Charleroi",
-      "count": 62
+      "count": 64
     },
     {
       "code": "LFLL",
@@ -10246,6 +10246,11 @@
       "code": "LSGG",
       "name": "Genève",
       "count": 42
+    },
+    {
+      "code": "GMMX",
+      "name": "Marrakech",
+      "count": 41
     },
     {
       "code": "EICK",
@@ -10263,14 +10268,9 @@
       "count": 40
     },
     {
-      "code": "GMMX",
-      "name": "Marrakech",
-      "count": 39
-    },
-    {
       "code": "EGGD",
       "name": "Bristol",
-      "count": 36
+      "count": 38
     },
     {
       "code": "LFOP",
@@ -10382,7 +10382,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 103
+      "count": 104
     },
     {
       "category": "commercial",
@@ -10390,7 +10390,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 82
+      "count": 84
     },
     {
       "category": "commercial",
@@ -10406,7 +10406,7 @@
       "name": "Charleroi",
       "lat": 50.461963,
       "lon": 4.459562,
-      "count": 62
+      "count": 64
     },
     {
       "category": "commercial",
@@ -10438,7 +10438,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 39
+      "count": 41
     },
     {
       "category": "commercial",
@@ -10470,7 +10470,7 @@
       "name": "Bristol",
       "lat": 51.382326,
       "lon": -2.716453,
-      "count": 36
+      "count": 38
     },
     {
       "category": "commercial",
@@ -12863,17 +12863,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 6001.5,
-    "flights_with_estimate": 2546,
-    "flights_total": 3702,
+    "total_tonnes": 6088.6,
+    "flights_with_estimate": 2559,
+    "flights_total": 3713,
     "flights_with_estimate_jets_prives": 316,
     "flights_total_jets_prives": 402,
     "by_category_tonnes": {
-      "aviation_legere": 129.2,
-      "commercial": 5367.9,
+      "aviation_legere": 129.4,
+      "commercial": 5454.7,
       "jets_prives": 457.5,
       "helicoptere": 9.6,
-      "militaire": 36.2,
+      "militaire": 36.3,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 181 540 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
