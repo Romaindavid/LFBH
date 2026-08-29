@@ -1243,5 +1243,10 @@
     "lat": 53.334863,
     "lon": -2.849637,
     "name": "Liverpool John Lennon Airport"
+  },
+  "EDRZ": {
+    "lat": 49.2094,
+    "lon": 7.40056,
+    "name": "Zweibrücken Airport"
   }
 }
