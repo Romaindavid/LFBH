@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-31T12:17:16.597683+00:00",
+  "generated_at": "2026-08-31T22:40:59.610734+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-31T12:16:52",
-  "total_movements": 3770,
+  "period_end": "2026-08-31T22:40:36",
+  "total_movements": 3789,
   "categories": {
     "aviation_legere": {
-      "count": 2120,
+      "count": 2129,
       "pct": 56.2,
       "avg_duration_min": 76
     },
     "helicoptere": {
-      "count": 72,
+      "count": 73,
       "pct": 1.9,
       "avg_duration_min": 49
     },
     "commercial": {
-      "count": 791,
+      "count": 797,
       "pct": 21.0,
       "avg_duration_min": 71
     },
@@ -26,11 +26,11 @@
     },
     "jets_prives": {
       "count": 413,
-      "pct": 11.0,
+      "pct": 10.9,
       "avg_duration_min": 76
     },
     "militaire": {
-      "count": 320,
+      "count": 323,
       "pct": 8.5,
       "avg_duration_min": 31
     }
@@ -624,14 +624,15 @@
     },
     {
       "date": "2026-08-31",
-      "commercial": 4,
-      "aviation_legere": 14,
+      "commercial": 10,
+      "aviation_legere": 23,
       "jets_prives": 4,
-      "militaire": 2
+      "militaire": 5,
+      "helicoptere": 1
     }
   ],
   "weekday_distribution": [
-    546,
+    565,
     511,
     540,
     456,
@@ -661,15 +662,15 @@
     380,
     233,
     210,
-    292,
-    328,
-    284,
-    271,
-    213,
-    126,
+    296,
+    330,
+    288,
+    273,
+    215,
     128,
-    61,
-    51,
+    128,
+    63,
+    52,
     31,
     12,
     5
@@ -10476,7 +10477,7 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 105
+      "count": 107
     },
     {
       "code": "EIDW",
@@ -10486,12 +10487,12 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 81
+      "count": 83
     },
     {
       "code": "EBCI",
       "name": "Charleroi",
-      "count": 64
+      "count": 66
     },
     {
       "code": "LFLL",
@@ -10546,11 +10547,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1214,
+      "count": 1221,
       "distinct_aircraft": 259
     },
     "tourism": {
-      "count": 906,
+      "count": 908,
       "distinct_aircraft": 374
     },
     "tourism_routes": [
@@ -10562,7 +10563,7 @@
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 53
+        "count": 54
       },
       {
         "code": "LFBN",
@@ -10638,7 +10639,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 105
+      "count": 107
     },
     {
       "category": "commercial",
@@ -10662,7 +10663,7 @@
       "name": "Charleroi",
       "lat": 50.461963,
       "lon": 4.459562,
-      "count": 64
+      "count": 66
     },
     {
       "category": "commercial",
@@ -10670,7 +10671,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 81
+      "count": 83
     },
     {
       "category": "commercial",
@@ -12302,7 +12303,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 53
+      "count": 54
     },
     {
       "category": "aviation_legere",
@@ -13135,6 +13136,14 @@
       "lat": 40.370701,
       "lon": -3.78514,
       "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EHTE",
+      "name": "Teuge Airport",
+      "lat": 52.242764,
+      "lon": 6.050004,
+      "count": 1
     }
   ],
   "lfbh_coords": {
@@ -13143,16 +13152,16 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 6190.6,
-    "flights_with_estimate": 2598,
-    "flights_total": 3770,
+    "total_tonnes": 6232.0,
+    "flights_with_estimate": 2612,
+    "flights_total": 3789,
     "flights_with_estimate_jets_prives": 322,
     "flights_total_jets_prives": 413,
     "by_category_tonnes": {
-      "aviation_legere": 130.4,
-      "commercial": 5548.9,
+      "aviation_legere": 130.7,
+      "commercial": 5589.6,
       "jets_prives": 463.3,
-      "helicoptere": 9.7,
+      "helicoptere": 10.0,
       "militaire": 37.3,
       "autre": 1.0
     },
