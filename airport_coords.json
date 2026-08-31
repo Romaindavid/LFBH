@@ -1248,5 +1248,10 @@
     "lat": 49.2094,
     "lon": 7.40056,
     "name": "Zweibrücken Airport"
+  },
+  "LEBA": {
+    "lat": 37.841999,
+    "lon": -4.84888,
+    "name": "Córdoba Airport"
   }
 }
