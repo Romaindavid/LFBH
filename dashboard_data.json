@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-31T22:40:59.610734+00:00",
+  "generated_at": "2026-09-01T10:52:29.573365+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-08-31T22:40:36",
-  "total_movements": 3789,
+  "period_end": "2026-09-01T10:52:09",
+  "total_movements": 3801,
   "categories": {
     "aviation_legere": {
-      "count": 2129,
+      "count": 2138,
       "pct": 56.2,
       "avg_duration_min": 76
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 49
     },
     "commercial": {
-      "count": 797,
+      "count": 799,
       "pct": 21.0,
       "avg_duration_min": 71
     },
@@ -30,7 +30,7 @@
       "avg_duration_min": 76
     },
     "militaire": {
-      "count": 323,
+      "count": 324,
       "pct": 8.5,
       "avg_duration_min": 31
     }
@@ -629,11 +629,17 @@
       "jets_prives": 4,
       "militaire": 5,
       "helicoptere": 1
+    },
+    {
+      "date": "2026-09-01",
+      "commercial": 2,
+      "aviation_legere": 9,
+      "militaire": 1
     }
   ],
   "weekday_distribution": [
     565,
-    511,
+    523,
     540,
     456,
     667,
@@ -655,12 +661,12 @@
     2,
     6,
     35,
-    110,
-    187,
-    390,
-    411,
-    380,
-    233,
+    111,
+    188,
+    394,
+    415,
+    381,
+    234,
     210,
     296,
     330,
@@ -10500,6 +10506,11 @@
       "count": 62
     },
     {
+      "code": "GMMX",
+      "name": "Marrakech",
+      "count": 43
+    },
+    {
       "code": "LSGG",
       "name": "Genève",
       "count": 42
@@ -10513,11 +10524,6 @@
       "code": "LPPR",
       "name": "Porto",
       "count": 42
-    },
-    {
-      "code": "GMMX",
-      "name": "Marrakech",
-      "count": 41
     },
     {
       "code": "EGCC",
@@ -10547,12 +10553,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1221,
+      "count": 1227,
       "distinct_aircraft": 259
     },
     "tourism": {
-      "count": 908,
-      "distinct_aircraft": 374
+      "count": 911,
+      "distinct_aircraft": 376
     },
     "tourism_routes": [
       {
@@ -10628,7 +10634,7 @@
       {
         "code": "LFOO",
         "name": "Les Sables-d'Olonne Talmont Airport",
-        "count": 14
+        "count": 15
       }
     ]
   },
@@ -10695,7 +10701,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 41
+      "count": 43
     },
     {
       "category": "commercial",
@@ -12231,7 +12237,7 @@
       "name": "Les Sables-d'Olonne Talmont Airport",
       "lat": 46.476898,
       "lon": -1.72278,
-      "count": 14
+      "count": 15
     },
     {
       "category": "aviation_legere",
@@ -12351,7 +12357,7 @@
       "name": "Newquay",
       "lat": 50.440601,
       "lon": -4.99541,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -12359,7 +12365,7 @@
       "name": "Lyon-Bron",
       "lat": 45.727947,
       "lon": 4.943991,
-      "count": 5
+      "count": 6
     },
     {
       "category": "aviation_legere",
@@ -13152,14 +13158,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 6232.0,
-    "flights_with_estimate": 2612,
-    "flights_total": 3789,
+    "total_tonnes": 6246.9,
+    "flights_with_estimate": 2617,
+    "flights_total": 3801,
     "flights_with_estimate_jets_prives": 322,
     "flights_total_jets_prives": 413,
     "by_category_tonnes": {
-      "aviation_legere": 130.7,
-      "commercial": 5589.6,
+      "aviation_legere": 131.1,
+      "commercial": 5604.2,
       "jets_prives": 463.3,
       "helicoptere": 10.0,
       "militaire": 37.3,
