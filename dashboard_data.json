@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-01T10:52:29.573365+00:00",
+  "generated_at": "2026-09-01T20:50:41.121810+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-01T10:52:09",
-  "total_movements": 3801,
+  "period_end": "2026-09-01T20:50:02",
+  "total_movements": 3834,
   "categories": {
     "aviation_legere": {
-      "count": 2138,
-      "pct": 56.2,
+      "count": 2160,
+      "pct": 56.3,
       "avg_duration_min": 76
     },
     "helicoptere": {
-      "count": 73,
+      "count": 74,
       "pct": 1.9,
       "avg_duration_min": 49
     },
     "commercial": {
-      "count": 799,
-      "pct": 21.0,
+      "count": 803,
+      "pct": 20.9,
       "avg_duration_min": 71
     },
     "autre": {
@@ -26,12 +26,12 @@
     },
     "jets_prives": {
       "count": 413,
-      "pct": 10.9,
+      "pct": 10.8,
       "avg_duration_min": 76
     },
     "militaire": {
-      "count": 324,
-      "pct": 8.5,
+      "count": 330,
+      "pct": 8.6,
       "avg_duration_min": 31
     }
   },
@@ -632,14 +632,15 @@
     },
     {
       "date": "2026-09-01",
-      "commercial": 2,
-      "aviation_legere": 9,
-      "militaire": 1
+      "commercial": 6,
+      "aviation_legere": 31,
+      "militaire": 7,
+      "helicoptere": 1
     }
   ],
   "weekday_distribution": [
     565,
-    523,
+    556,
     540,
     456,
     667,
@@ -666,16 +667,16 @@
     394,
     415,
     381,
-    234,
-    210,
-    296,
-    330,
-    288,
-    273,
-    215,
-    128,
-    128,
-    63,
+    236,
+    211,
+    304,
+    339,
+    292,
+    275,
+    217,
+    130,
+    130,
+    64,
     52,
     31,
     12,
@@ -10488,7 +10489,7 @@
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 86
+      "count": 88
     },
     {
       "code": "LFML",
@@ -10506,14 +10507,14 @@
       "count": 62
     },
     {
+      "code": "LSGG",
+      "name": "Genève",
+      "count": 44
+    },
+    {
       "code": "GMMX",
       "name": "Marrakech",
       "count": 43
-    },
-    {
-      "code": "LSGG",
-      "name": "Genève",
-      "count": 42
     },
     {
       "code": "EICK",
@@ -10553,18 +10554,18 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1227,
-      "distinct_aircraft": 259
+      "count": 1240,
+      "distinct_aircraft": 262
     },
     "tourism": {
-      "count": 911,
-      "distinct_aircraft": 376
+      "count": 920,
+      "distinct_aircraft": 377
     },
     "tourism_routes": [
       {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 55
+        "count": 56
       },
       {
         "code": "LFDN",
@@ -10574,7 +10575,7 @@
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 40
+        "count": 42
       },
       {
         "code": "LFFK",
@@ -10587,24 +10588,24 @@
         "count": 29
       },
       {
+        "code": "LFEA",
+        "name": "Belle-Île-en-Mer",
+        "count": 25
+      },
+      {
         "code": "LFOU",
         "name": "Cholet",
         "count": 24
       },
       {
-        "code": "LFEA",
-        "name": "Belle-Île-en-Mer",
-        "count": 23
+        "code": "LFRI",
+        "name": "La Roche-sur-Yon",
+        "count": 21
       },
       {
         "code": "LFCY",
         "name": "Royan",
         "count": 21
-      },
-      {
-        "code": "LFRI",
-        "name": "La Roche-sur-Yon",
-        "count": 19
       },
       {
         "code": "LFBI",
@@ -10653,7 +10654,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 86
+      "count": 88
     },
     {
       "category": "commercial",
@@ -10685,7 +10686,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 42
+      "count": 44
     },
     {
       "category": "commercial",
@@ -11829,7 +11830,7 @@
       "name": "Belle-Île-en-Mer",
       "lat": 47.325256,
       "lon": -3.201255,
-      "count": 23
+      "count": 25
     },
     {
       "category": "aviation_legere",
@@ -12053,7 +12054,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 40
+      "count": 42
     },
     {
       "category": "aviation_legere",
@@ -12181,7 +12182,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 55
+      "count": 56
     },
     {
       "category": "aviation_legere",
@@ -12205,7 +12206,7 @@
       "name": "Biscarrosse",
       "lat": 44.3694,
       "lon": -1.13056,
-      "count": 13
+      "count": 14
     },
     {
       "category": "aviation_legere",
@@ -12221,7 +12222,7 @@
       "name": "La Roche-sur-Yon",
       "lat": 46.7019,
       "lon": -1.37863,
-      "count": 19
+      "count": 21
     },
     {
       "category": "aviation_legere",
@@ -12501,7 +12502,7 @@
       "name": "Blackbushe Airport",
       "lat": 51.323898,
       "lon": -0.8475,
-      "count": 2
+      "count": 3
     },
     {
       "category": "aviation_legere",
@@ -13158,17 +13159,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 6246.9,
-    "flights_with_estimate": 2617,
-    "flights_total": 3801,
+    "total_tonnes": 6276.1,
+    "flights_with_estimate": 2633,
+    "flights_total": 3834,
     "flights_with_estimate_jets_prives": 322,
     "flights_total_jets_prives": 413,
     "by_category_tonnes": {
-      "aviation_legere": 131.1,
-      "commercial": 5604.2,
+      "aviation_legere": 131.8,
+      "commercial": 5631.8,
       "jets_prives": 463.3,
       "helicoptere": 10.0,
-      "militaire": 37.3,
+      "militaire": 38.2,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 183 856 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
