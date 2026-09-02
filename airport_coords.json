@@ -1253,5 +1253,15 @@
     "lat": 37.841999,
     "lon": -4.84888,
     "name": "Córdoba Airport"
+  },
+  "LIRN": {
+    "lat": 40.886002,
+    "lon": 14.2908,
+    "name": "Naples International Airport"
+  },
+  "LSZB": {
+    "lat": 46.912736,
+    "lon": 7.498819,
+    "name": "Bern Airport"
   }
 }
