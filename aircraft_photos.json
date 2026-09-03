@@ -555,5 +555,15 @@
     "thumbnail_large": "https://t.plnspttrs.net/32672/1877116_23b047ada1_280.jpg",
     "link": "https://www.planespotters.net/photo/1877116/f-hjph-gie-mustang-cessna-510-citation-mustang?utm_source=api",
     "photographer": "bruno muthelet"
+  },
+  "OE-FHK": {
+    "thumbnail_large": "https://t.plnspttrs.net/32149/1854054_0a509a1df6_280.jpg",
+    "link": "https://www.planespotters.net/photo/1854054/oe-fhk-global-jet-austria-cessna-510-citation-mustang?utm_source=api",
+    "photographer": "Jan Jurecka"
+  },
+  "OH-TUA": {
+    "thumbnail_large": "https://t.plnspttrs.net/29993/1482115_d95f334040_280.jpg",
+    "link": "https://www.planespotters.net/photo/1482115/oh-tua-fly7-finland-pilatus-pc-12-ng-pc-12-47e?utm_source=api",
+    "photographer": "Dranob"
   }
 }
