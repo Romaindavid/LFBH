@@ -1268,5 +1268,10 @@
     "lat": 41.433596,
     "lon": 15.534566,
     "name": "Foggia Gino Lisa Airport"
+  },
+  "LEMG": {
+    "lat": 36.6749,
+    "lon": -4.49911,
+    "name": "Málaga-Costa del Sol Airport"
   }
 }
