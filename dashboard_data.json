@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-05T09:43:59.381684+00:00",
+  "generated_at": "2026-09-05T20:09:26.140451+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-05T09:43:39",
-  "total_movements": 4010,
+  "period_end": "2026-09-05T20:08:54",
+  "total_movements": 4037,
   "categories": {
     "aviation_legere": {
-      "count": 2264,
+      "count": 2281,
       "pct": 56.5,
       "avg_duration_min": 75
     },
     "helicoptere": {
-      "count": 76,
+      "count": 77,
       "pct": 1.9,
-      "avg_duration_min": 49
+      "avg_duration_min": 48
     },
     "commercial": {
-      "count": 823,
-      "pct": 20.5,
+      "count": 830,
+      "pct": 20.6,
       "avg_duration_min": 71
     },
     "autre": {
@@ -30,8 +30,8 @@
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 351,
-      "pct": 8.8,
+      "count": 353,
+      "pct": 8.7,
       "avg_duration_min": 31
     }
   },
@@ -662,9 +662,11 @@
     },
     {
       "date": "2026-09-05",
-      "aviation_legere": 11,
+      "aviation_legere": 28,
       "jets_prives": 1,
-      "militaire": 2
+      "militaire": 4,
+      "commercial": 7,
+      "helicoptere": 1
     }
   ],
   "weekday_distribution": [
@@ -673,7 +675,7 @@
     596,
     498,
     731,
-    598,
+    625,
     466
   ],
   "weekday_distribution_jets_prives": [
@@ -695,17 +697,17 @@
     195,
     406,
     442,
-    405,
-    246,
-    220,
-    320,
-    351,
-    303,
-    288,
-    226,
-    137,
-    134,
-    71,
+    407,
+    247,
+    222,
+    324,
+    358,
+    306,
+    290,
+    227,
+    139,
+    136,
+    72,
     54,
     31,
     12,
@@ -11111,12 +11113,12 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 111
+      "count": 112
     },
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 90
+      "count": 92
     },
     {
       "code": "LFML",
@@ -11136,7 +11138,12 @@
     {
       "code": "LSGG",
       "name": "Genève",
-      "count": 44
+      "count": 46
+    },
+    {
+      "code": "GMMX",
+      "name": "Marrakech",
+      "count": 45
     },
     {
       "code": "EICK",
@@ -11147,11 +11154,6 @@
       "code": "LPPR",
       "name": "Porto",
       "count": 44
-    },
-    {
-      "code": "GMMX",
-      "name": "Marrakech",
-      "count": 43
     },
     {
       "code": "EGCC",
@@ -11181,12 +11183,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1302,
-      "distinct_aircraft": 269
+      "count": 1312,
+      "distinct_aircraft": 268
     },
     "tourism": {
-      "count": 962,
-      "distinct_aircraft": 393
+      "count": 969,
+      "distinct_aircraft": 395
     },
     "tourism_routes": [
       {
@@ -11197,17 +11199,17 @@
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 58
+        "count": 61
       },
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 43
+        "count": 44
       },
       {
         "code": "LFFK",
         "name": "Fontenay-le-Comte",
-        "count": 36
+        "count": 37
       },
       {
         "code": "LFPN",
@@ -11273,7 +11275,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 111
+      "count": 112
     },
     {
       "category": "commercial",
@@ -11281,7 +11283,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 90
+      "count": 92
     },
     {
       "category": "commercial",
@@ -11313,7 +11315,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 44
+      "count": 46
     },
     {
       "category": "commercial",
@@ -11329,7 +11331,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 43
+      "count": 45
     },
     {
       "category": "commercial",
@@ -12721,7 +12723,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 43
+      "count": 44
     },
     {
       "category": "aviation_legere",
@@ -12929,7 +12931,7 @@
       "name": "Le Touquet-Côte d'Opale Airport",
       "lat": 50.518284,
       "lon": 1.621656,
-      "count": 2
+      "count": 3
     },
     {
       "category": "aviation_legere",
@@ -12953,7 +12955,7 @@
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
       "lon": -0.792778,
-      "count": 36
+      "count": 37
     },
     {
       "category": "aviation_legere",
@@ -12977,7 +12979,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 58
+      "count": 61
     },
     {
       "category": "aviation_legere",
@@ -13513,7 +13515,7 @@
       "name": "Troyes-Barberey Airport",
       "lat": 48.322102,
       "lon": 4.0167,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -13850,17 +13852,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 6428.6,
-    "flights_with_estimate": 2726,
-    "flights_total": 4010,
+    "total_tonnes": 6495.8,
+    "flights_with_estimate": 2746,
+    "flights_total": 4037,
     "flights_with_estimate_jets_prives": 339,
     "flights_total_jets_prives": 439,
     "by_category_tonnes": {
-      "aviation_legere": 135.4,
-      "commercial": 5757.2,
+      "aviation_legere": 136.1,
+      "commercial": 5823.2,
       "jets_prives": 484.6,
-      "helicoptere": 10.0,
-      "militaire": 40.2,
+      "helicoptere": 10.3,
+      "militaire": 40.5,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 192 298 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
