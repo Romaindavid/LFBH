@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-05T20:09:26.140451+00:00",
+  "generated_at": "2026-09-06T09:59:44.839858+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-05T20:08:54",
-  "total_movements": 4037,
+  "period_end": "2026-09-06T09:59:17",
+  "total_movements": 4055,
   "categories": {
     "aviation_legere": {
-      "count": 2281,
+      "count": 2291,
       "pct": 56.5,
       "avg_duration_min": 75
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 48
     },
     "commercial": {
-      "count": 830,
+      "count": 835,
       "pct": 20.6,
       "avg_duration_min": 71
     },
@@ -26,12 +26,12 @@
     },
     "jets_prives": {
       "count": 439,
-      "pct": 10.9,
+      "pct": 10.8,
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 353,
-      "pct": 8.7,
+      "count": 356,
+      "pct": 8.8,
       "avg_duration_min": 31
     }
   },
@@ -665,8 +665,14 @@
       "aviation_legere": 28,
       "jets_prives": 1,
       "militaire": 4,
-      "commercial": 7,
+      "commercial": 8,
       "helicoptere": 1
+    },
+    {
+      "date": "2026-09-06",
+      "militaire": 3,
+      "aviation_legere": 10,
+      "commercial": 4
     }
   ],
   "weekday_distribution": [
@@ -675,8 +681,8 @@
     596,
     498,
     731,
-    625,
-    466
+    626,
+    483
   ],
   "weekday_distribution_jets_prives": [
     53,
@@ -693,11 +699,11 @@
     2,
     6,
     35,
-    117,
-    195,
-    406,
-    442,
-    407,
+    118,
+    199,
+    409,
+    449,
+    409,
     247,
     222,
     324,
@@ -708,7 +714,7 @@
     139,
     136,
     72,
-    54,
+    55,
     31,
     12,
     5
@@ -11108,12 +11114,12 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 141
+      "count": 142
     },
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 112
+      "count": 113
     },
     {
       "code": "EIDW",
@@ -11141,14 +11147,14 @@
       "count": 46
     },
     {
+      "code": "EICK",
+      "name": "Cork",
+      "count": 46
+    },
+    {
       "code": "GMMX",
       "name": "Marrakech",
       "count": 45
-    },
-    {
-      "code": "EICK",
-      "name": "Cork",
-      "count": 44
     },
     {
       "code": "LPPR",
@@ -11183,12 +11189,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1312,
-      "distinct_aircraft": 268
+      "count": 1319,
+      "distinct_aircraft": 270
     },
     "tourism": {
-      "count": 969,
-      "distinct_aircraft": 395
+      "count": 972,
+      "distinct_aircraft": 396
     },
     "tourism_routes": [
       {
@@ -11227,13 +11233,13 @@
         "count": 24
       },
       {
-        "code": "LFOT",
-        "name": "Tours",
-        "count": 22
-      },
-      {
         "code": "LFCY",
         "name": "Royan",
+        "count": 23
+      },
+      {
+        "code": "LFOT",
+        "name": "Tours",
         "count": 22
       },
       {
@@ -11275,7 +11281,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 112
+      "count": 113
     },
     {
       "category": "commercial",
@@ -11323,7 +11329,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 141
+      "count": 142
     },
     {
       "category": "commercial",
@@ -11339,7 +11345,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 44
+      "count": 46
     },
     {
       "category": "commercial",
@@ -11419,6 +11425,14 @@
       "name": "Beja Airport / Airbase",
       "lat": 38.078899,
       "lon": -7.9324,
+      "count": 1
+    },
+    {
+      "category": "commercial",
+      "code": "LFBO",
+      "name": "Toulouse-Blagnac Airport",
+      "lat": 43.629101,
+      "lon": 1.36382,
       "count": 1
     },
     {
@@ -12619,7 +12633,7 @@
       "name": "Melun-Villaroche Airfield",
       "lat": 48.604698,
       "lon": 2.67112,
-      "count": 4
+      "count": 5
     },
     {
       "category": "aviation_legere",
@@ -12643,7 +12657,7 @@
       "name": "Ancenis Airfield",
       "lat": 47.4081,
       "lon": -1.1775,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -13091,7 +13105,7 @@
       "name": "Royan",
       "lat": 45.628101,
       "lon": -0.9725,
-      "count": 22
+      "count": 23
     },
     {
       "category": "aviation_legere",
@@ -13852,17 +13866,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 6495.8,
-    "flights_with_estimate": 2746,
-    "flights_total": 4037,
+    "total_tonnes": 6516.8,
+    "flights_with_estimate": 2756,
+    "flights_total": 4055,
     "flights_with_estimate_jets_prives": 339,
     "flights_total_jets_prives": 439,
     "by_category_tonnes": {
-      "aviation_legere": 136.1,
-      "commercial": 5823.2,
+      "aviation_legere": 136.2,
+      "commercial": 5843.4,
       "jets_prives": 484.6,
       "helicoptere": 10.3,
-      "militaire": 40.5,
+      "militaire": 41.2,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 192 298 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
