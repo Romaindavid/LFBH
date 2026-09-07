@@ -1273,5 +1273,10 @@
     "lat": 36.6749,
     "lon": -4.49911,
     "name": "Málaga-Costa del Sol Airport"
+  },
+  "EGKA": {
+    "lat": 50.835602,
+    "lon": -0.297222,
+    "name": "Brighton City Airport"
   }
 }
