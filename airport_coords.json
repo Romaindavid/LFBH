@@ -1278,5 +1278,10 @@
     "lat": 50.835602,
     "lon": -0.297222,
     "name": "Brighton City Airport"
+  },
+  "ETMN": {
+    "lat": 53.767689,
+    "lon": 8.659201,
+    "name": "Sea-Airport Cuxhaven/Nordholz / Nordholz Naval Airbase"
   }
 }

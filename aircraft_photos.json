@@ -576,5 +576,10 @@
     "link": "https://www.planespotters.net/photo/1907376/d-ikmo-exxaero-cessna-525-citationjet?utm_source=api",
     "photographer": "Tomas Scheffer"
   },
-  "N553X": null
+  "N553X": null,
+  "OH-RDS": {
+    "thumbnail_large": "https://t.plnspttrs.net/13970/1525640_e7d2a4d825_280.jpg",
+    "link": "https://www.planespotters.net/photo/1525640/oh-rds-fly7-finland-pilatus-pc-12-ngx-pc-12-47e?utm_source=api",
+    "photographer": "Dranob"
+  }
 }
