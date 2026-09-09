@@ -1283,5 +1283,10 @@
     "lat": 53.767689,
     "lon": 8.659201,
     "name": "Sea-Airport Cuxhaven/Nordholz / Nordholz Naval Airbase"
+  },
+  "LOLS": {
+    "lat": 48.403301,
+    "lon": 13.4483,
+    "name": "Schärding-Suben Airfield"
   }
 }
