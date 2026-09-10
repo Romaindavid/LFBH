@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-09T20:45:41.553179+00:00",
+  "generated_at": "2026-09-10T10:19:55.376331+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-09T20:45:24",
-  "total_movements": 4188,
+  "period_end": "2026-09-10T10:19:34",
+  "total_movements": 4196,
   "categories": {
     "aviation_legere": {
-      "count": 2352,
+      "count": 2357,
       "pct": 56.2,
-      "avg_duration_min": 75
+      "avg_duration_min": 74
     },
     "helicoptere": {
       "count": 80,
@@ -15,7 +15,7 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 863,
+      "count": 865,
       "pct": 20.6,
       "avg_duration_min": 71
     },
@@ -30,7 +30,7 @@
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 374,
+      "count": 375,
       "pct": 8.9,
       "avg_duration_min": 31
     }
@@ -693,18 +693,23 @@
     },
     {
       "date": "2026-09-09",
-      "commercial": 8,
+      "commercial": 10,
       "jets_prives": 6,
       "aviation_legere": 27,
       "autre": 1,
       "militaire": 2
+    },
+    {
+      "date": "2026-09-10",
+      "aviation_legere": 5,
+      "militaire": 1
     }
   ],
   "weekday_distribution": [
     611,
     574,
-    640,
-    498,
+    642,
+    504,
     731,
     626,
     508
@@ -725,10 +730,10 @@
     6,
     38,
     122,
-    206,
-    422,
-    459,
-    422,
+    207,
+    423,
+    460,
+    425,
     257,
     227,
     334,
@@ -739,9 +744,9 @@
     143,
     138,
     79,
-    56,
+    57,
     32,
-    13,
+    14,
     5
   ],
   "hourly_distribution_jets_prives": [
@@ -11650,7 +11655,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 92
+      "count": 93
     },
     {
       "code": "EBCI",
@@ -11673,13 +11678,13 @@
       "count": 48
     },
     {
-      "code": "GMMX",
-      "name": "Marrakech",
-      "count": 47
-    },
-    {
       "code": "LPPR",
       "name": "Porto",
+      "count": 48
+    },
+    {
+      "code": "GMMX",
+      "name": "Marrakech",
       "count": 47
     },
     {
@@ -11710,12 +11715,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1352,
-      "distinct_aircraft": 275
+      "count": 1354,
+      "distinct_aircraft": 276
     },
     "tourism": {
-      "count": 1000,
-      "distinct_aircraft": 402
+      "count": 1003,
+      "distinct_aircraft": 403
     },
     "tourism_routes": [
       {
@@ -11731,7 +11736,7 @@
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 46
+        "count": 47
       },
       {
         "code": "LFFK",
@@ -11771,7 +11776,7 @@
       {
         "code": "LFBI",
         "name": "Poitiers-Biard Airport",
-        "count": 18
+        "count": 19
       },
       {
         "code": "LFBL",
@@ -11834,7 +11839,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 92
+      "count": 93
     },
     {
       "category": "commercial",
@@ -11874,7 +11879,7 @@
       "name": "Porto",
       "lat": 41.2481002808,
       "lon": -8.68138980865,
-      "count": 47
+      "count": 48
     },
     {
       "category": "commercial",
@@ -13290,7 +13295,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 46
+      "count": 47
     },
     {
       "category": "aviation_legere",
@@ -13674,7 +13679,7 @@
       "name": "Poitiers-Biard Airport",
       "lat": 46.5877,
       "lon": 0.306666,
-      "count": 18
+      "count": 19
     },
     {
       "category": "aviation_legere",
@@ -14066,7 +14071,7 @@
       "name": "Laval-Entrammes Airport",
       "lat": 48.032208,
       "lon": -0.743999,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -14427,14 +14432,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 6722.6,
-    "flights_with_estimate": 2846,
-    "flights_total": 4188,
+    "total_tonnes": 6736.4,
+    "flights_with_estimate": 2850,
+    "flights_total": 4196,
     "flights_with_estimate_jets_prives": 356,
     "flights_total_jets_prives": 460,
     "by_category_tonnes": {
-      "aviation_legere": 138.3,
-      "commercial": 6029.9,
+      "aviation_legere": 138.5,
+      "commercial": 6043.4,
       "jets_prives": 499.2,
       "helicoptere": 11.1,
       "militaire": 43.0,
