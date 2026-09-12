@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-11T20:45:39.815275+00:00",
+  "generated_at": "2026-09-12T09:52:18.115434+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-11T20:45:16",
-  "total_movements": 4263,
+  "period_end": "2026-09-12T09:51:49",
+  "total_movements": 4284,
   "categories": {
     "aviation_legere": {
-      "count": 2404,
-      "pct": 56.4,
+      "count": 2421,
+      "pct": 56.5,
       "avg_duration_min": 74
     },
     "helicoptere": {
@@ -15,7 +15,7 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 875,
+      "count": 878,
       "pct": 20.5,
       "avg_duration_min": 71
     },
@@ -25,7 +25,7 @@
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 465,
+      "count": 466,
       "pct": 10.9,
       "avg_duration_min": 75
     },
@@ -711,6 +711,12 @@
       "jets_prives": 2,
       "aviation_legere": 28,
       "militaire": 3
+    },
+    {
+      "date": "2026-09-12",
+      "commercial": 3,
+      "aviation_legere": 17,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
@@ -719,7 +725,7 @@
     642,
     528,
     774,
-    626,
+    647,
     508
   ],
   "weekday_distribution_jets_prives": [
@@ -728,7 +734,7 @@
     64,
     79,
     77,
-    60,
+    61,
     69
   ],
   "hourly_distribution": [
@@ -737,11 +743,11 @@
     2,
     6,
     38,
-    123,
-    208,
-    428,
-    464,
-    428,
+    124,
+    210,
+    435,
+    469,
+    434,
     259,
     233,
     346,
@@ -765,7 +771,7 @@
     4,
     17,
     32,
-    47,
+    48,
     51,
     45,
     44,
@@ -11532,6 +11538,30 @@
       "duration_min": 57,
       "co2_kg": null,
       "distance_km": 568
+    },
+    {
+      "fr24_id": "419fbb3e",
+      "reg": "D-CWAY",
+      "type": "LJ55",
+      "passenger_capacity": null,
+      "operator": "QAJ",
+      "orig": "EDDK",
+      "orig_name": "Cologne Bonn Airport",
+      "orig_coords": {
+        "lat": 50.865898,
+        "lon": 7.14274
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-09-12 07:20:18",
+      "landed": "2026-09-12 08:34:01",
+      "duration_min": 74,
+      "co2_kg": null,
+      "distance_km": 805
     }
   ],
   "business_jets_operators": [
@@ -11698,12 +11728,16 @@
     [
       "FNY",
       1
+    ],
+    [
+      "QAJ",
+      1
     ]
   ],
   "short_flights": {
-    "n_with_distance": 395,
+    "n_with_distance": 396,
     "pct_under_500km": 38,
-    "n_with_duration": 373,
+    "n_with_duration": 374,
     "avg_duration_min": 75,
     "pct_under_45min": 19,
     "shortest_flights": [
@@ -11798,7 +11832,7 @@
     {
       "code": "LSGG",
       "name": "Genève",
-      "count": 48
+      "count": 49
     },
     {
       "code": "EICK",
@@ -11843,18 +11877,18 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1380,
-      "distinct_aircraft": 277
+      "count": 1391,
+      "distinct_aircraft": 279
     },
     "tourism": {
-      "count": 1024,
+      "count": 1030,
       "distinct_aircraft": 408
     },
     "tourism_routes": [
       {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 67
+        "count": 68
       },
       {
         "code": "LFDN",
@@ -11864,7 +11898,7 @@
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 50
+        "count": 51
       },
       {
         "code": "LFFK",
@@ -11879,7 +11913,7 @@
       {
         "code": "LFEA",
         "name": "Belle-Île-en-Mer",
-        "count": 25
+        "count": 26
       },
       {
         "code": "LFCY",
@@ -11887,14 +11921,14 @@
         "count": 25
       },
       {
-        "code": "LFOU",
-        "name": "Cholet",
+        "code": "LFOT",
+        "name": "Tours",
         "count": 24
       },
       {
-        "code": "LFOT",
-        "name": "Tours",
-        "count": 23
+        "code": "LFOU",
+        "name": "Cholet",
+        "count": 24
       },
       {
         "code": "LFRI",
@@ -11975,7 +12009,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 48
+      "count": 49
     },
     {
       "category": "commercial",
@@ -12088,6 +12122,22 @@
       "lat": 43.629101,
       "lon": 1.36382,
       "count": 2
+    },
+    {
+      "category": "commercial",
+      "code": "LFLW",
+      "name": "Aurillac airport",
+      "lat": 44.891399,
+      "lon": 2.42194,
+      "count": 1
+    },
+    {
+      "category": "commercial",
+      "code": "LFTH",
+      "name": "Touraine",
+      "lat": 43.097301,
+      "lon": 6.14603,
+      "count": 1
     },
     {
       "category": "jets_prives",
@@ -13194,12 +13244,20 @@
       "count": 1
     },
     {
+      "category": "jets_prives",
+      "code": "EDDK",
+      "name": "Cologne Bonn Airport",
+      "lat": 50.865898,
+      "lon": 7.14274,
+      "count": 1
+    },
+    {
       "category": "aviation_legere",
       "code": "LFEA",
       "name": "Belle-Île-en-Mer",
       "lat": 47.325256,
       "lon": -3.201255,
-      "count": 25
+      "count": 26
     },
     {
       "category": "aviation_legere",
@@ -13423,7 +13481,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 50
+      "count": 51
     },
     {
       "category": "aviation_legere",
@@ -13447,7 +13505,7 @@
       "name": "Tours",
       "lat": 47.432201,
       "lon": 0.727606,
-      "count": 23
+      "count": 24
     },
     {
       "category": "aviation_legere",
@@ -13551,7 +13609,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 67
+      "count": 68
     },
     {
       "category": "aviation_legere",
@@ -13831,7 +13889,7 @@
       "name": "Angoulême",
       "lat": 45.729198,
       "lon": 0.221456,
-      "count": 13
+      "count": 14
     },
     {
       "category": "aviation_legere",
@@ -14279,7 +14337,7 @@
       "name": "Cannes Mandelieu Airport",
       "lat": 43.547998,
       "lon": 6.955176,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -14560,14 +14618,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 6804.5,
-    "flights_with_estimate": 2891,
-    "flights_total": 4263,
+    "total_tonnes": 6812.7,
+    "flights_with_estimate": 2898,
+    "flights_total": 4284,
     "flights_with_estimate_jets_prives": 360,
-    "flights_total_jets_prives": 465,
+    "flights_total_jets_prives": 466,
     "by_category_tonnes": {
-      "aviation_legere": 140.9,
-      "commercial": 6103.8,
+      "aviation_legere": 141.2,
+      "commercial": 6111.6,
       "jets_prives": 503.0,
       "helicoptere": 11.1,
       "militaire": 44.7,
