@@ -1288,5 +1288,15 @@
     "lat": 48.403301,
     "lon": 13.4483,
     "name": "Schärding-Suben Airfield"
+  },
+  "EDLV": {
+    "lat": 51.601362,
+    "lon": 6.141228,
+    "name": "Weeze (Niederrhein) Airport"
+  },
+  "KBFI": {
+    "lat": 47.527042,
+    "lon": -122.29995,
+    "name": "King County International Airport - Boeing Field"
   }
 }
