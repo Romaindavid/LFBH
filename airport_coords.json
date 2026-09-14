@@ -1298,5 +1298,15 @@
     "lat": 47.527042,
     "lon": -122.29995,
     "name": "King County International Airport - Boeing Field"
+  },
+  "EGDM": {
+    "lat": 51.152199,
+    "lon": -1.74741,
+    "name": "MoD Boscombe Down"
+  },
+  "LATI": {
+    "lat": 41.4147,
+    "lon": 19.7206,
+    "name": "Tirana International Airport Mother Teresa"
   }
 }
