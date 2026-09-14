@@ -1308,5 +1308,10 @@
     "lat": 41.4147,
     "lon": 19.7206,
     "name": "Tirana International Airport Mother Teresa"
+  },
+  "EIKY": {
+    "lat": 52.180901,
+    "lon": -9.52378,
+    "name": "Kerry Airport"
   }
 }
