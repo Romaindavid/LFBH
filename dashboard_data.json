@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-09-15T21:04:00.890740+00:00",
+  "generated_at": "2026-09-16T10:34:10.158675+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-15T21:03:36",
-  "total_movements": 4463,
+  "period_end": "2026-09-16T10:33:41",
+  "total_movements": 4484,
   "categories": {
     "aviation_legere": {
-      "count": 2524,
+      "count": 2536,
       "pct": 56.6,
       "avg_duration_min": 74
     },
     "helicoptere": {
-      "count": 84,
+      "count": 86,
       "pct": 1.9,
-      "avg_duration_min": 47
+      "avg_duration_min": 46
     },
     "commercial": {
-      "count": 913,
+      "count": 918,
       "pct": 20.5,
       "avg_duration_min": 71
     },
     "autre": {
-      "count": 61,
+      "count": 63,
       "pct": 1.4,
       "avg_duration_min": 72
     },
@@ -743,12 +743,19 @@
       "autre": 2,
       "militaire": 2,
       "helicoptere": 1
+    },
+    {
+      "date": "2026-09-16",
+      "commercial": 5,
+      "aviation_legere": 12,
+      "helicoptere": 2,
+      "autre": 2
     }
   ],
   "weekday_distribution": [
     669,
     612,
-    642,
+    663,
     528,
     774,
     681,
@@ -769,12 +776,12 @@
     2,
     6,
     40,
-    130,
-    217,
-    451,
-    485,
-    445,
-    269,
+    131,
+    218,
+    456,
+    490,
+    450,
+    273,
     244,
     366,
     397,
@@ -12102,12 +12109,12 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 147
+      "count": 149
     },
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 123
+      "count": 124
     },
     {
       "code": "EIDW",
@@ -12135,14 +12142,14 @@
       "count": 52
     },
     {
+      "code": "EICK",
+      "name": "Cork",
+      "count": 52
+    },
+    {
       "code": "GMMX",
       "name": "Marrakech",
       "count": 51
-    },
-    {
-      "code": "EICK",
-      "name": "Cork",
-      "count": 50
     },
     {
       "code": "LPPR",
@@ -12177,12 +12184,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1445,
-      "distinct_aircraft": 289
+      "count": 1454,
+      "distinct_aircraft": 290
     },
     "tourism": {
-      "count": 1079,
-      "distinct_aircraft": 421
+      "count": 1082,
+      "distinct_aircraft": 423
     },
     "tourism_routes": [
       {
@@ -12193,12 +12200,12 @@
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 68
+        "count": 69
       },
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 52
+        "count": 53
       },
       {
         "code": "LFFK",
@@ -12238,7 +12245,7 @@
       {
         "code": "LFBI",
         "name": "Poitiers-Biard Airport",
-        "count": 21
+        "count": 22
       },
       {
         "code": "LFOZ",
@@ -12269,7 +12276,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 123
+      "count": 124
     },
     {
       "category": "commercial",
@@ -12317,7 +12324,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 147
+      "count": 149
     },
     {
       "category": "commercial",
@@ -12333,7 +12340,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 50
+      "count": 52
     },
     {
       "category": "commercial",
@@ -13829,7 +13836,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 52
+      "count": 53
     },
     {
       "category": "aviation_legere",
@@ -14085,7 +14092,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 68
+      "count": 69
     },
     {
       "category": "aviation_legere",
@@ -14213,7 +14220,7 @@
       "name": "Poitiers-Biard Airport",
       "lat": 46.5877,
       "lon": 0.306666,
-      "count": 21
+      "count": 22
     },
     {
       "category": "aviation_legere",
@@ -14998,16 +15005,16 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 7106.0,
-    "flights_with_estimate": 3007,
-    "flights_total": 4463,
+    "total_tonnes": 7135.5,
+    "flights_with_estimate": 3017,
+    "flights_total": 4484,
     "flights_with_estimate_jets_prives": 367,
     "flights_total_jets_prives": 478,
     "by_category_tonnes": {
-      "aviation_legere": 146.4,
-      "commercial": 6388.2,
+      "aviation_legere": 146.6,
+      "commercial": 6417.4,
       "jets_prives": 511.2,
-      "helicoptere": 11.4,
+      "helicoptere": 11.5,
       "militaire": 47.8,
       "autre": 1.0
     },
