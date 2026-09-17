@@ -1318,5 +1318,10 @@
     "lat": 49.498699,
     "lon": 11.078056,
     "name": "Nuremberg Airport"
+  },
+  "EDDB": {
+    "lat": 52.361738,
+    "lon": 13.502341,
+    "name": "Berlin Brandenburg Airport"
   }
 }
