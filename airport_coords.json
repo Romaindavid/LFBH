@@ -1313,5 +1313,10 @@
     "lat": 52.180901,
     "lon": -9.52378,
     "name": "Kerry Airport"
+  },
+  "EDDN": {
+    "lat": 49.498699,
+    "lon": 11.078056,
+    "name": "Nuremberg Airport"
   }
 }
