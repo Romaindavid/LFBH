@@ -1328,5 +1328,20 @@
     "lat": 52.6758,
     "lon": 1.28278,
     "name": "Norwich Airport"
+  },
+  "ETSI": {
+    "lat": 48.7156982421875,
+    "lon": 11.534000396728516,
+    "name": "Ingolstadt Manching Airport"
+  },
+  "LFQA": {
+    "lat": 49.208698,
+    "lon": 4.15658,
+    "name": "Reims-Prunay Airfield"
+  },
+  "LSGC": {
+    "lat": 47.083900451699996,
+    "lon": 6.792840003970001,
+    "name": "Les Eplatures Airport"
   }
 }
