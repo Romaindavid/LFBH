@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T21:09:02.528894+00:00",
+  "generated_at": "2026-09-18T10:19:20.900404+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-17T21:08:38",
-  "total_movements": 4547,
+  "period_end": "2026-09-18T10:18:52",
+  "total_movements": 4563,
   "categories": {
     "aviation_legere": {
-      "count": 2571,
-      "pct": 56.5,
+      "count": 2582,
+      "pct": 56.6,
       "avg_duration_min": 74
     },
     "helicoptere": {
@@ -15,7 +15,7 @@
       "avg_duration_min": 48
     },
     "commercial": {
-      "count": 923,
+      "count": 927,
       "pct": 20.3,
       "avg_duration_min": 71
     },
@@ -30,7 +30,7 @@
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 412,
+      "count": 413,
       "pct": 9.1,
       "avg_duration_min": 31
     }
@@ -760,6 +760,12 @@
       "autre": 2,
       "militaire": 4,
       "jets_prives": 3
+    },
+    {
+      "date": "2026-09-18",
+      "commercial": 4,
+      "militaire": 1,
+      "aviation_legere": 11
     }
   ],
   "weekday_distribution": [
@@ -767,7 +773,7 @@
     612,
     694,
     560,
-    774,
+    790,
     681,
     557
   ],
@@ -786,12 +792,12 @@
     2,
     6,
     40,
-    131,
+    132,
     221,
-    459,
-    493,
-    455,
-    278,
+    464,
+    497,
+    460,
+    279,
     249,
     375,
     405,
@@ -12262,12 +12268,12 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 125
+      "count": 127
     },
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 102
+      "count": 104
     },
     {
       "code": "LFML",
@@ -12332,12 +12338,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1477,
-      "distinct_aircraft": 295
+      "count": 1485,
+      "distinct_aircraft": 296
     },
     "tourism": {
-      "count": 1094,
-      "distinct_aircraft": 425
+      "count": 1097,
+      "distinct_aircraft": 426
     },
     "tourism_routes": [
       {
@@ -12366,14 +12372,14 @@
         "count": 30
       },
       {
-        "code": "LFOT",
-        "name": "Tours",
+        "code": "LFEA",
+        "name": "Belle-Île-en-Mer",
         "count": 28
       },
       {
-        "code": "LFEA",
-        "name": "Belle-Île-en-Mer",
-        "count": 27
+        "code": "LFOT",
+        "name": "Tours",
+        "count": 28
       },
       {
         "code": "LFCY",
@@ -12383,7 +12389,7 @@
       {
         "code": "LFRI",
         "name": "La Roche-sur-Yon",
-        "count": 24
+        "count": 25
       },
       {
         "code": "LFOU",
@@ -12424,7 +12430,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 125
+      "count": 127
     },
     {
       "category": "commercial",
@@ -12432,7 +12438,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 102
+      "count": 104
     },
     {
       "category": "commercial",
@@ -13776,7 +13782,7 @@
       "name": "Belle-Île-en-Mer",
       "lat": 47.325256,
       "lon": -3.201255,
-      "count": 27
+      "count": 28
     },
     {
       "category": "aviation_legere",
@@ -14168,7 +14174,7 @@
       "name": "La Roche-sur-Yon",
       "lat": 46.7019,
       "lon": -1.37863,
-      "count": 24
+      "count": 25
     },
     {
       "category": "aviation_legere",
@@ -15161,6 +15167,14 @@
       "lat": 39.489162,
       "lon": -0.480961,
       "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGSH",
+      "name": "Norwich Airport",
+      "lat": 52.6758,
+      "lon": 1.28278,
+      "count": 1
     }
   ],
   "lfbh_coords": {
@@ -15169,14 +15183,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 7189.6,
-    "flights_with_estimate": 3053,
-    "flights_total": 4547,
+    "total_tonnes": 7212.0,
+    "flights_with_estimate": 3060,
+    "flights_total": 4563,
     "flights_with_estimate_jets_prives": 372,
     "flights_total_jets_prives": 484,
     "by_category_tonnes": {
-      "aviation_legere": 147.9,
-      "commercial": 6462.5,
+      "aviation_legere": 148.2,
+      "commercial": 6484.7,
       "jets_prives": 517.1,
       "helicoptere": 11.9,
       "militaire": 49.0,

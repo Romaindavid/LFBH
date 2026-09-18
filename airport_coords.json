@@ -1323,5 +1323,10 @@
     "lat": 52.361738,
     "lon": 13.502341,
     "name": "Berlin Brandenburg Airport"
+  },
+  "EGSH": {
+    "lat": 52.6758,
+    "lon": 1.28278,
+    "name": "Norwich Airport"
   }
 }
