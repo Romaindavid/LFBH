@@ -1343,5 +1343,10 @@
     "lat": 47.083900451699996,
     "lon": 6.792840003970001,
     "name": "Les Eplatures Airport"
+  },
+  "EGBG": {
+    "lat": 52.606574,
+    "lon": -1.030226,
+    "name": "Leicester Airport"
   }
 }

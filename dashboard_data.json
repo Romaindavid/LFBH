@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-20T10:21:58.104345+00:00",
+  "generated_at": "2026-09-20T20:35:05.217186+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-20T10:21:34",
-  "total_movements": 4634,
+  "period_end": "2026-09-20T20:34:31",
+  "total_movements": 4664,
   "categories": {
     "aviation_legere": {
-      "count": 2627,
-      "pct": 56.7,
+      "count": 2647,
+      "pct": 56.8,
       "avg_duration_min": 74
     },
     "helicoptere": {
@@ -15,22 +15,22 @@
       "avg_duration_min": 48
     },
     "commercial": {
-      "count": 943,
+      "count": 947,
       "pct": 20.3,
       "avg_duration_min": 71
     },
     "autre": {
-      "count": 67,
-      "pct": 1.4,
+      "count": 68,
+      "pct": 1.5,
       "avg_duration_min": 69
     },
     "jets_prives": {
       "count": 486,
-      "pct": 10.5,
+      "pct": 10.4,
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 421,
+      "count": 426,
       "pct": 9.1,
       "avg_duration_min": 30
     }
@@ -776,9 +776,10 @@
     },
     {
       "date": "2026-09-20",
-      "commercial": 4,
-      "militaire": 1,
-      "aviation_legere": 4
+      "commercial": 8,
+      "militaire": 6,
+      "aviation_legere": 24,
+      "autre": 1
     }
   ],
   "weekday_distribution": [
@@ -788,7 +789,7 @@
     560,
     809,
     724,
-    566
+    596
   ],
   "weekday_distribution_jets_prives": [
     65,
@@ -810,14 +811,14 @@
     468,
     506,
     467,
-    286,
-    253,
-    379,
-    412,
-    352,
-    337,
-    260,
-    156,
+    288,
+    256,
+    381,
+    417,
+    358,
+    341,
+    266,
+    158,
     144,
     84,
     64,
@@ -12339,7 +12340,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 103
+      "count": 105
     },
     {
       "code": "EBCI",
@@ -12362,14 +12363,14 @@
       "count": 54
     },
     {
+      "code": "LPPR",
+      "name": "Porto",
+      "count": 54
+    },
+    {
       "code": "GMMX",
       "name": "Marrakech",
       "count": 53
-    },
-    {
-      "code": "LPPR",
-      "name": "Porto",
-      "count": 52
     },
     {
       "code": "EGCC",
@@ -12399,12 +12400,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1510,
-      "distinct_aircraft": 307
+      "count": 1524,
+      "distinct_aircraft": 310
     },
     "tourism": {
-      "count": 1117,
-      "distinct_aircraft": 435
+      "count": 1123,
+      "distinct_aircraft": 436
     },
     "tourism_routes": [
       {
@@ -12430,7 +12431,7 @@
       {
         "code": "LFPN",
         "name": "Versailles-Saclay",
-        "count": 32
+        "count": 33
       },
       {
         "code": "LFEA",
@@ -12523,7 +12524,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 103
+      "count": 105
     },
     {
       "category": "commercial",
@@ -12563,7 +12564,7 @@
       "name": "Porto",
       "lat": 41.2481002808,
       "lon": -8.68138980865,
-      "count": 52
+      "count": 54
     },
     {
       "category": "commercial",
@@ -14155,7 +14156,7 @@
       "name": "Versailles-Saclay",
       "lat": 48.7519,
       "lon": 2.10619,
-      "count": 32
+      "count": 33
     },
     {
       "category": "aviation_legere",
@@ -14707,7 +14708,7 @@
       "name": "Carcassonne Salvaza Airport",
       "lat": 43.216,
       "lon": 2.30632,
-      "count": 4
+      "count": 5
     },
     {
       "category": "aviation_legere",
@@ -14739,7 +14740,7 @@
       "name": "Pirineus - la Seu d'Urgel Airport",
       "lat": 42.3386,
       "lon": 1.40917,
-      "count": 4
+      "count": 5
     },
     {
       "category": "aviation_legere",
@@ -15155,7 +15156,7 @@
       "name": "Madrid-Cuatro Vientos Airport",
       "lat": 40.370701,
       "lon": -3.78514,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -15235,7 +15236,7 @@
       "name": "Norwich Airport",
       "lat": 52.6758,
       "lon": 1.28278,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -15260,6 +15261,14 @@
       "lat": 47.083900451699996,
       "lon": 6.792840003970001,
       "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "EGBG",
+      "name": "Leicester Airport",
+      "lat": 52.606574,
+      "lon": -1.030226,
+      "count": 1
     }
   ],
   "lfbh_coords": {
@@ -15268,17 +15277,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 7333.4,
-    "flights_with_estimate": 3111,
-    "flights_total": 4634,
+    "total_tonnes": 7372.0,
+    "flights_with_estimate": 3129,
+    "flights_total": 4664,
     "flights_with_estimate_jets_prives": 374,
     "flights_total_jets_prives": 486,
     "by_category_tonnes": {
-      "aviation_legere": 151.2,
-      "commercial": 6598.6,
+      "aviation_legere": 152.6,
+      "commercial": 6634.8,
       "jets_prives": 520.9,
       "helicoptere": 11.9,
-      "militaire": 49.7,
+      "militaire": 50.6,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 206 706 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
