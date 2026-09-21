@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-20T20:35:05.217186+00:00",
+  "generated_at": "2026-09-21T11:34:46.044026+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-20T20:34:31",
-  "total_movements": 4664,
+  "period_end": "2026-09-21T11:34:13",
+  "total_movements": 4685,
   "categories": {
     "aviation_legere": {
-      "count": 2647,
+      "count": 2660,
       "pct": 56.8,
       "avg_duration_min": 74
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 48
     },
     "commercial": {
-      "count": 947,
+      "count": 952,
       "pct": 20.3,
       "avg_duration_min": 71
     },
@@ -25,12 +25,12 @@
       "avg_duration_min": 69
     },
     "jets_prives": {
-      "count": 486,
+      "count": 487,
       "pct": 10.4,
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 426,
+      "count": 428,
       "pct": 9.1,
       "avg_duration_min": 30
     }
@@ -780,10 +780,17 @@
       "militaire": 6,
       "aviation_legere": 24,
       "autre": 1
+    },
+    {
+      "date": "2026-09-21",
+      "commercial": 5,
+      "aviation_legere": 13,
+      "militaire": 2,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
-    669,
+    690,
     612,
     694,
     560,
@@ -792,7 +799,7 @@
     596
   ],
   "weekday_distribution_jets_prives": [
-    65,
+    66,
     59,
     67,
     82,
@@ -805,14 +812,14 @@
     1,
     2,
     6,
-    40,
+    41,
     133,
-    223,
-    468,
-    506,
-    467,
-    288,
-    256,
+    224,
+    471,
+    511,
+    472,
+    292,
+    258,
     381,
     417,
     358,
@@ -836,7 +843,7 @@
     33,
     49,
     54,
-    46,
+    47,
     45,
     38,
     41,
@@ -12081,6 +12088,30 @@
       "duration_min": 40,
       "co2_kg": 1422,
       "distance_km": 345
+    },
+    {
+      "fr24_id": "41c34e33",
+      "reg": "CS-DXR",
+      "type": "C56X",
+      "passenger_capacity": 12,
+      "operator": "NJE",
+      "orig": "LFMN",
+      "orig_name": "Nice-Côte d'Azur Airport",
+      "orig_coords": {
+        "lat": 43.658401,
+        "lon": 7.21587
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-09-21 09:39:03",
+      "landed": "2026-09-21 10:58:00",
+      "duration_min": 79,
+      "co2_kg": 2487,
+      "distance_km": 719
     }
   ],
   "business_jets_operators": [
@@ -12094,7 +12125,7 @@
     ],
     [
       "NJE",
-      38
+      39
     ],
     [
       "BEJ",
@@ -12258,9 +12289,9 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 412,
-    "pct_under_500km": 39,
-    "n_with_duration": 389,
+    "n_with_distance": 413,
+    "pct_under_500km": 38,
+    "n_with_duration": 390,
     "avg_duration_min": 75,
     "pct_under_45min": 19,
     "shortest_flights": [
@@ -12335,7 +12366,7 @@
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 106
+      "count": 108
     },
     {
       "code": "LFML",
@@ -12343,14 +12374,14 @@
       "count": 105
     },
     {
-      "code": "EBCI",
-      "name": "Charleroi",
+      "code": "LFLL",
+      "name": "Lyon",
       "count": 74
     },
     {
-      "code": "LFLL",
-      "name": "Lyon",
-      "count": 72
+      "code": "EBCI",
+      "name": "Charleroi",
+      "count": 74
     },
     {
       "code": "LSGG",
@@ -12400,12 +12431,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1524,
-      "distinct_aircraft": 310
+      "count": 1532,
+      "distinct_aircraft": 314
     },
     "tourism": {
-      "count": 1123,
-      "distinct_aircraft": 436
+      "count": 1128,
+      "distinct_aircraft": 438
     },
     "tourism_routes": [
       {
@@ -12441,17 +12472,17 @@
       {
         "code": "LFOT",
         "name": "Tours",
-        "count": 28
+        "count": 29
+      },
+      {
+        "code": "LFRI",
+        "name": "La Roche-sur-Yon",
+        "count": 26
       },
       {
         "code": "LFCY",
         "name": "Royan",
         "count": 26
-      },
-      {
-        "code": "LFRI",
-        "name": "La Roche-sur-Yon",
-        "count": 25
       },
       {
         "code": "LFOU",
@@ -12500,7 +12531,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 106
+      "count": 108
     },
     {
       "category": "commercial",
@@ -12508,7 +12539,7 @@
       "name": "Lyon",
       "lat": 45.725996,
       "lon": 5.090139,
-      "count": 72
+      "count": 74
     },
     {
       "category": "commercial",
@@ -12676,7 +12707,7 @@
       "name": "Tirana International Airport Mother Teresa",
       "lat": 41.4147,
       "lon": 19.7206,
-      "count": 1
+      "count": 2
     },
     {
       "category": "jets_prives",
@@ -13380,7 +13411,7 @@
       "name": "Nice-Côte d'Azur Airport",
       "lat": 43.658401,
       "lon": 7.21587,
-      "count": 11
+      "count": 12
     },
     {
       "category": "jets_prives",
@@ -13860,7 +13891,7 @@
       "name": "Bordeaux",
       "lat": 44.82865,
       "lon": -0.715356,
-      "count": 9
+      "count": 10
     },
     {
       "category": "aviation_legere",
@@ -13940,7 +13971,7 @@
       "name": "Aérodrome d'Arcachon-La Teste-de-Buch",
       "lat": 44.596401,
       "lon": -1.11083,
-      "count": 7
+      "count": 8
     },
     {
       "category": "aviation_legere",
@@ -14092,7 +14123,7 @@
       "name": "Tours",
       "lat": 47.432201,
       "lon": 0.727606,
-      "count": 28
+      "count": 29
     },
     {
       "category": "aviation_legere",
@@ -14236,7 +14267,7 @@
       "name": "La Roche-sur-Yon",
       "lat": 46.7019,
       "lon": -1.37863,
-      "count": 25
+      "count": 26
     },
     {
       "category": "aviation_legere",
@@ -14668,7 +14699,7 @@
       "name": "Cuers-Pierrefeu Airfield",
       "lat": 43.247615,
       "lon": 6.126654,
-      "count": 5
+      "count": 6
     },
     {
       "category": "aviation_legere",
@@ -15277,20 +15308,20 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 7372.0,
-    "flights_with_estimate": 3129,
-    "flights_total": 4664,
-    "flights_with_estimate_jets_prives": 374,
-    "flights_total_jets_prives": 486,
+    "total_tonnes": 7401.3,
+    "flights_with_estimate": 3138,
+    "flights_total": 4685,
+    "flights_with_estimate_jets_prives": 375,
+    "flights_total_jets_prives": 487,
     "by_category_tonnes": {
-      "aviation_legere": 152.6,
-      "commercial": 6634.8,
-      "jets_prives": 520.9,
+      "aviation_legere": 153.0,
+      "commercial": 6660.9,
+      "jets_prives": 523.4,
       "helicoptere": 11.9,
-      "militaire": 50.6,
+      "militaire": 51.0,
       "autre": 1.0
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 206 706 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 207 693 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM7",
       "lightest_lph": 197,
@@ -15313,10 +15344,10 @@
       },
       {
         "month": "2026-09",
-        "tonnes": 57.6
+        "tonnes": 60.1
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 130.2,
-    "rochelais_equivalent_per_month": 170
+    "avg_monthly_tonnes_jets_prives": 130.8,
+    "rochelais_equivalent_per_month": 171
   }
 }
