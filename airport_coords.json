@@ -1348,5 +1348,10 @@
     "lat": 52.606574,
     "lon": -1.030226,
     "name": "Leicester Airport"
+  },
+  "LFPG": {
+    "lat": 49.00896,
+    "lon": 2.554117,
+    "name": "Charles de Gaulle International Airport"
   }
 }
