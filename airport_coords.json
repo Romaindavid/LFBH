@@ -1353,5 +1353,10 @@
     "lat": 49.00896,
     "lon": 2.554117,
     "name": "Charles de Gaulle International Airport"
+  },
+  "LFBK": {
+    "lat": 46.222599,
+    "lon": 2.36396,
+    "name": "Montluçon-Guéret Airport"
   }
 }
