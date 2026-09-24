@@ -618,5 +618,10 @@
     "link": "https://www.planespotters.net/photo/1817673/cs-lte-netjets-europe-cessna-680a-citation-latitude?utm_source=api",
     "photographer": "William Verguet"
   },
-  "F-HBTT": null
+  "F-HBTT": null,
+  "OE-FPP": {
+    "thumbnail_large": "https://t.plnspttrs.net/17580/1821897_decb531533_280.jpg",
+    "link": "https://www.planespotters.net/photo/1821897/oe-fpp-globeair-cessna-510-citation-mustang?utm_source=api",
+    "photographer": "Didier Vittoz"
+  }
 }
