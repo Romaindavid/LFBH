@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-25T21:20:29.519802+00:00",
+  "generated_at": "2026-09-26T10:34:37.780201+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-25T21:19:48",
-  "total_movements": 4938,
+  "period_end": "2026-09-26T10:34:11",
+  "total_movements": 4953,
   "categories": {
     "aviation_legere": {
-      "count": 2817,
-      "pct": 57.0,
+      "count": 2829,
+      "pct": 57.1,
       "avg_duration_min": 73
     },
     "helicoptere": {
@@ -15,7 +15,7 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 983,
+      "count": 984,
       "pct": 19.9,
       "avg_duration_min": 71
     },
@@ -30,7 +30,7 @@
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 470,
+      "count": 472,
       "pct": 9.5,
       "avg_duration_min": 31
     }
@@ -818,6 +818,12 @@
       "militaire": 7,
       "jets_prives": 1,
       "autre": 2
+    },
+    {
+      "date": "2026-09-26",
+      "aviation_legere": 12,
+      "militaire": 2,
+      "commercial": 1
     }
   ],
   "weekday_distribution": [
@@ -826,7 +832,7 @@
     762,
     605,
     861,
-    724,
+    739,
     596
   ],
   "weekday_distribution_jets_prives": [
@@ -846,10 +852,10 @@
     42,
     136,
     236,
-    496,
-    531,
-    492,
-    300,
+    497,
+    535,
+    500,
+    302,
     273,
     411,
     445,
@@ -12787,7 +12793,7 @@
     {
       "code": "LSGG",
       "name": "Genève",
-      "count": 56
+      "count": 57
     },
     {
       "code": "EICK",
@@ -12832,12 +12838,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1631,
-      "distinct_aircraft": 330
+      "count": 1640,
+      "distinct_aircraft": 333
     },
     "tourism": {
-      "count": 1186,
-      "distinct_aircraft": 456
+      "count": 1189,
+      "distinct_aircraft": 458
     },
     "tourism_routes": [
       {
@@ -12861,13 +12867,13 @@
         "count": 52
       },
       {
-        "code": "LFOT",
-        "name": "Tours",
-        "count": 33
-      },
-      {
         "code": "LFPN",
         "name": "Versailles-Saclay",
+        "count": 34
+      },
+      {
+        "code": "LFOT",
+        "name": "Tours",
         "count": 33
       },
       {
@@ -12881,13 +12887,13 @@
         "count": 28
       },
       {
-        "code": "LFRI",
-        "name": "La Roche-sur-Yon",
-        "count": 27
-      },
-      {
         "code": "LFCY",
         "name": "Royan",
+        "count": 28
+      },
+      {
+        "code": "LFRI",
+        "name": "La Roche-sur-Yon",
         "count": 27
       },
       {
@@ -12964,7 +12970,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 56
+      "count": 57
     },
     {
       "category": "commercial",
@@ -14628,7 +14634,7 @@
       "name": "Versailles-Saclay",
       "lat": 48.7519,
       "lon": 2.10619,
-      "count": 33
+      "count": 34
     },
     {
       "category": "aviation_legere",
@@ -14908,7 +14914,7 @@
       "name": "Royan",
       "lat": 45.628101,
       "lon": -0.9725,
-      "count": 27
+      "count": 28
     },
     {
       "category": "aviation_legere",
@@ -15012,7 +15018,7 @@
       "name": "Lannion",
       "lat": 48.754398,
       "lon": -3.47166,
-      "count": 6
+      "count": 7
     },
     {
       "category": "aviation_legere",
@@ -15765,13 +15771,13 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 7664.9,
-    "flights_with_estimate": 3267,
-    "flights_total": 4938,
+    "total_tonnes": 7665.1,
+    "flights_with_estimate": 3270,
+    "flights_total": 4953,
     "flights_with_estimate_jets_prives": 388,
     "flights_total_jets_prives": 503,
     "by_category_tonnes": {
-      "aviation_legere": 158.2,
+      "aviation_legere": 158.4,
       "commercial": 6899.0,
       "jets_prives": 539.3,
       "helicoptere": 12.4,
