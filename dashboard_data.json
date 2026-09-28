@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-27T21:09:26.555685+00:00",
+  "generated_at": "2026-09-28T12:29:25.507993+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-27T21:08:54",
-  "total_movements": 5034,
+  "period_end": "2026-09-28T12:29:01",
+  "total_movements": 5044,
   "categories": {
     "aviation_legere": {
-      "count": 2882,
-      "pct": 57.3,
+      "count": 2886,
+      "pct": 57.2,
       "avg_duration_min": 73
     },
     "helicoptere": {
@@ -15,8 +15,8 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 999,
-      "pct": 19.8,
+      "count": 1003,
+      "pct": 19.9,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,12 +25,12 @@
       "avg_duration_min": 71
     },
     "jets_prives": {
-      "count": 507,
+      "count": 508,
       "pct": 10.1,
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 479,
+      "count": 480,
       "pct": 9.5,
       "avg_duration_min": 31
     }
@@ -832,10 +832,17 @@
       "autre": 2,
       "jets_prives": 4,
       "militaire": 4
+    },
+    {
+      "date": "2026-09-28",
+      "commercial": 4,
+      "aviation_legere": 4,
+      "militaire": 1,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
-    724,
+    734,
     666,
     762,
     605,
@@ -844,7 +851,7 @@
     645
   ],
   "weekday_distribution_jets_prives": [
-    69,
+    70,
     63,
     70,
     87,
@@ -857,13 +864,13 @@
     1,
     2,
     6,
-    42,
-    136,
-    237,
-    502,
-    540,
-    508,
-    310,
+    43,
+    137,
+    239,
+    503,
+    541,
+    511,
+    311,
     282,
     417,
     454,
@@ -889,7 +896,7 @@
     50,
     57,
     49,
-    46,
+    47,
     39,
     43,
     45,
@@ -12613,12 +12620,36 @@
       "duration_min": null,
       "co2_kg": null,
       "distance_km": null
+    },
+    {
+      "fr24_id": "41df47c2",
+      "reg": "F-HTPF",
+      "type": "M700",
+      "passenger_capacity": 4,
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFLX",
+      "dest_name": "Châteauroux",
+      "dest_coords": {
+        "lat": 46.860221,
+        "lon": 1.728326
+      },
+      "takeoff": "2026-09-28 10:06:16",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 236
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      202
+      203
     ],
     [
       "JFA",
@@ -12794,7 +12825,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 429,
+    "n_with_distance": 430,
     "pct_under_500km": 39,
     "n_with_duration": 406,
     "avg_duration_min": 75,
@@ -12871,7 +12902,7 @@
     {
       "code": "EIDW",
       "name": "Dublin",
-      "count": 114
+      "count": 116
     },
     {
       "code": "LFML",
@@ -12881,7 +12912,7 @@
     {
       "code": "LFLL",
       "name": "Lyon",
-      "count": 76
+      "count": 78
     },
     {
       "code": "EBCI",
@@ -12936,12 +12967,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1672,
+      "count": 1673,
       "distinct_aircraft": 343
     },
     "tourism": {
-      "count": 1210,
-      "distinct_aircraft": 461
+      "count": 1213,
+      "distinct_aircraft": 463
     },
     "tourism_routes": [
       {
@@ -12980,14 +13011,14 @@
         "count": 30
       },
       {
+        "code": "LFRI",
+        "name": "La Roche-sur-Yon",
+        "count": 30
+      },
+      {
         "code": "LFCY",
         "name": "Royan",
         "count": 29
-      },
-      {
-        "code": "LFRI",
-        "name": "La Roche-sur-Yon",
-        "count": 28
       },
       {
         "code": "LFOU",
@@ -13036,7 +13067,7 @@
       "name": "Dublin",
       "lat": 53.428713,
       "lon": -6.262121,
-      "count": 114
+      "count": 116
     },
     {
       "category": "commercial",
@@ -13044,7 +13075,7 @@
       "name": "Lyon",
       "lat": 45.725996,
       "lon": 5.090139,
-      "count": 76
+      "count": 78
     },
     {
       "category": "commercial",
@@ -14415,6 +14446,14 @@
       "count": 1
     },
     {
+      "category": "jets_prives",
+      "code": "LFLX",
+      "name": "Châteauroux",
+      "lat": 46.860221,
+      "lon": 1.728326,
+      "count": 1
+    },
+    {
       "category": "aviation_legere",
       "code": "LFEA",
       "name": "Belle-Île-en-Mer",
@@ -14812,7 +14851,7 @@
       "name": "La Roche-sur-Yon",
       "lat": 46.7019,
       "lon": -1.37863,
-      "count": 28
+      "count": 30
     },
     {
       "category": "aviation_legere",
@@ -15004,7 +15043,7 @@
       "name": "Marseille-Provence",
       "lat": 42.740398,
       "lon": 2.87067,
-      "count": 15
+      "count": 16
     },
     {
       "category": "aviation_legere",
@@ -15877,14 +15916,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 7805.8,
-    "flights_with_estimate": 3318,
-    "flights_total": 5034,
+    "total_tonnes": 7832.6,
+    "flights_with_estimate": 3325,
+    "flights_total": 5044,
     "flights_with_estimate_jets_prives": 391,
-    "flights_total_jets_prives": 507,
+    "flights_total_jets_prives": 508,
     "by_category_tonnes": {
-      "aviation_legere": 160.1,
-      "commercial": 7033.2,
+      "aviation_legere": 160.5,
+      "commercial": 7059.6,
       "jets_prives": 543.4,
       "helicoptere": 12.4,
       "militaire": 55.8,
