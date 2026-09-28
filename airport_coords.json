@@ -1358,5 +1358,15 @@
     "lat": 46.222599,
     "lon": 2.36396,
     "name": "Montluçon-Guéret Airport"
+  },
+  "LEZL": {
+    "lat": 37.417999,
+    "lon": -5.89311,
+    "name": "Seville Airport"
+  },
+  "LOAV": {
+    "lat": 47.965,
+    "lon": 16.26,
+    "name": "Vöslau-Kottingbrunn Airfield"
   }
 }
