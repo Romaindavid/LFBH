@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-29T22:04:24.778720+00:00",
+  "generated_at": "2026-09-30T11:40:22.135481+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-09-29T22:04:07",
-  "total_movements": 5115,
+  "period_end": "2026-09-30T11:40:02",
+  "total_movements": 5132,
   "categories": {
     "aviation_legere": {
-      "count": 2912,
+      "count": 2921,
       "pct": 56.9,
       "avg_duration_min": 73
     },
@@ -15,8 +15,8 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1015,
-      "pct": 19.8,
+      "count": 1020,
+      "pct": 19.9,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,12 +25,12 @@
       "avg_duration_min": 70
     },
     "jets_prives": {
-      "count": 510,
+      "count": 511,
       "pct": 10.0,
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 509,
+      "count": 511,
       "pct": 10.0,
       "avg_duration_min": 33
     }
@@ -846,12 +846,19 @@
       "militaire": 19,
       "aviation_legere": 14,
       "autre": 2
+    },
+    {
+      "date": "2026-09-30",
+      "commercial": 5,
+      "aviation_legere": 9,
+      "militaire": 2,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
     764,
     707,
-    762,
+    779,
     605,
     861,
     771,
@@ -860,7 +867,7 @@
   "weekday_distribution_jets_prives": [
     72,
     63,
-    70,
+    71,
     87,
     78,
     65,
@@ -872,12 +879,12 @@
     2,
     6,
     43,
-    138,
-    244,
-    506,
-    549,
-    519,
-    313,
+    139,
+    245,
+    510,
+    551,
+    524,
+    317,
     284,
     424,
     464,
@@ -902,7 +909,7 @@
     35,
     50,
     57,
-    49,
+    50,
     47,
     39,
     44,
@@ -12699,12 +12706,36 @@
       "duration_min": 49,
       "co2_kg": 449,
       "distance_km": 236
+    },
+    {
+      "fr24_id": "41e74877",
+      "reg": "OE-ELA",
+      "type": "PC12",
+      "passenger_capacity": 9,
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LOAV",
+      "dest_name": "Vöslau-Kottingbrunn Airfield",
+      "dest_coords": {
+        "lat": 47.965,
+        "lon": 16.26
+      },
+      "takeoff": "2026-09-30 09:41:43",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 1334
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      205
+      206
     ],
     [
       "JFA",
@@ -12880,7 +12911,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 432,
+    "n_with_distance": 433,
     "pct_under_500km": 39,
     "n_with_duration": 408,
     "avg_duration_min": 75,
@@ -12947,12 +12978,12 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 155
+      "count": 157
     },
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 139
+      "count": 140
     },
     {
       "code": "EIDW",
@@ -12980,14 +13011,14 @@
       "count": 60
     },
     {
+      "code": "EICK",
+      "name": "Cork",
+      "count": 60
+    },
+    {
       "code": "GMMX",
       "name": "Marrakech",
       "count": 59
-    },
-    {
-      "code": "EICK",
-      "name": "Cork",
-      "count": 58
     },
     {
       "code": "LPPR",
@@ -13022,12 +13053,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1686,
-      "distinct_aircraft": 345
+      "count": 1691,
+      "distinct_aircraft": 347
     },
     "tourism": {
-      "count": 1226,
-      "distinct_aircraft": 465
+      "count": 1230,
+      "distinct_aircraft": 466
     },
     "tourism_routes": [
       {
@@ -13088,7 +13119,7 @@
       {
         "code": "LFOO",
         "name": "Les Sables-d'Olonne Talmont Airport",
-        "count": 23
+        "count": 25
       },
       {
         "code": "LFRZ",
@@ -13114,7 +13145,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 139
+      "count": 140
     },
     {
       "category": "commercial",
@@ -13162,7 +13193,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 155
+      "count": 157
     },
     {
       "category": "commercial",
@@ -13178,7 +13209,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 58
+      "count": 60
     },
     {
       "category": "commercial",
@@ -14514,7 +14545,7 @@
       "name": "Vöslau-Kottingbrunn Airfield",
       "lat": 47.965,
       "lon": 16.26,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -14898,7 +14929,7 @@
       "name": "Biscarrosse",
       "lat": 44.3694,
       "lon": -1.13056,
-      "count": 15
+      "count": 17
     },
     {
       "category": "aviation_legere",
@@ -14930,7 +14961,7 @@
       "name": "Les Sables-d'Olonne Talmont Airport",
       "lat": 46.476898,
       "lon": -1.72278,
-      "count": 23
+      "count": 25
     },
     {
       "category": "aviation_legere",
@@ -15987,14 +16018,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 7939.7,
-    "flights_with_estimate": 3358,
-    "flights_total": 5115,
+    "total_tonnes": 7968.9,
+    "flights_with_estimate": 3363,
+    "flights_total": 5132,
     "flights_with_estimate_jets_prives": 393,
-    "flights_total_jets_prives": 510,
+    "flights_total_jets_prives": 511,
     "by_category_tonnes": {
       "aviation_legere": 161.8,
-      "commercial": 7162.0,
+      "commercial": 7191.1,
       "jets_prives": 545.8,
       "helicoptere": 12.4,
       "militaire": 56.8,
