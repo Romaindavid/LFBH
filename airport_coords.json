@@ -1368,5 +1368,10 @@
     "lat": 47.965,
     "lon": 16.26,
     "name": "Vöslau-Kottingbrunn Airfield"
+  },
+  "ESSB": {
+    "lat": 59.354401,
+    "lon": 17.9417,
+    "name": "Stockholm-Bromma Airport"
   }
 }

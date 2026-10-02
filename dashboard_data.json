@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-01T22:31:12.689331+00:00",
+  "generated_at": "2026-10-02T11:39:33.721298+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-01T22:30:49",
-  "total_movements": 5183,
+  "period_end": "2026-10-02T11:39:12",
+  "total_movements": 5197,
   "categories": {
     "aviation_legere": {
-      "count": 2953,
+      "count": 2964,
       "pct": 57.0,
       "avg_duration_min": 73
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1023,
+      "count": 1025,
       "pct": 19.7,
       "avg_duration_min": 71
     },
@@ -25,7 +25,7 @@
       "avg_duration_min": 70
     },
     "jets_prives": {
-      "count": 514,
+      "count": 515,
       "pct": 9.9,
       "avg_duration_min": 75
     },
@@ -861,6 +861,12 @@
       "militaire": 4,
       "autre": 3,
       "jets_prives": 3
+    },
+    {
+      "date": "2026-10-02",
+      "commercial": 2,
+      "aviation_legere": 11,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
@@ -868,7 +874,7 @@
     707,
     797,
     638,
-    861,
+    875,
     771,
     645
   ],
@@ -877,7 +883,7 @@
     63,
     71,
     90,
-    78,
+    79,
     65,
     75
   ],
@@ -888,12 +894,12 @@
     6,
     43,
     139,
-    245,
-    513,
-    556,
-    526,
-    317,
-    288,
+    246,
+    514,
+    563,
+    528,
+    319,
+    289,
     431,
     470,
     423,
@@ -916,7 +922,7 @@
     17,
     35,
     50,
-    57,
+    58,
     50,
     47,
     41,
@@ -12810,6 +12816,30 @@
       "duration_min": 63,
       "co2_kg": 610,
       "distance_km": 477
+    },
+    {
+      "fr24_id": "41ef2e20",
+      "reg": "CS-DXR",
+      "type": "C56X",
+      "passenger_capacity": 12,
+      "operator": "NJE",
+      "orig": "ESSB",
+      "orig_name": "Stockholm-Bromma Airport",
+      "orig_coords": {
+        "lat": 59.354401,
+        "lon": 17.9417
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-10-02 08:11:33",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 1936
     }
   ],
   "business_jets_operators": [
@@ -12823,7 +12853,7 @@
     ],
     [
       "NJE",
-      40
+      41
     ],
     [
       "GAC",
@@ -12991,7 +13021,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 436,
+    "n_with_distance": 437,
     "pct_under_500km": 39,
     "n_with_duration": 411,
     "avg_duration_min": 75,
@@ -13063,7 +13093,7 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 141
+      "count": 143
     },
     {
       "code": "EIDW",
@@ -13133,12 +13163,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1710,
+      "count": 1718,
       "distinct_aircraft": 347
     },
     "tourism": {
-      "count": 1243,
-      "distinct_aircraft": 468
+      "count": 1246,
+      "distinct_aircraft": 469
     },
     "tourism_routes": [
       {
@@ -13225,7 +13255,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 141
+      "count": 143
     },
     {
       "category": "commercial",
@@ -14628,6 +14658,14 @@
       "count": 2
     },
     {
+      "category": "jets_prives",
+      "code": "ESSB",
+      "name": "Stockholm-Bromma Airport",
+      "lat": 59.354401,
+      "lon": 17.9417,
+      "count": 1
+    },
+    {
       "category": "aviation_legere",
       "code": "LFEA",
       "name": "Belle-Île-en-Mer",
@@ -14817,7 +14855,7 @@
       "name": "Saint-Brieuc",
       "lat": 48.5877,
       "lon": -2.07996,
-      "count": 13
+      "count": 14
     },
     {
       "category": "aviation_legere",
@@ -15409,7 +15447,7 @@
       "name": "Brest",
       "lat": 48.447899,
       "lon": -4.41854,
-      "count": 8
+      "count": 9
     },
     {
       "category": "aviation_legere",
@@ -15873,7 +15911,7 @@
       "name": "Blois Le Breuil Airfield",
       "lat": 47.678502,
       "lon": 1.20884,
-      "count": 2
+      "count": 3
     },
     {
       "category": "aviation_legere",
@@ -16098,14 +16136,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 7994.4,
-    "flights_with_estimate": 3389,
-    "flights_total": 5183,
+    "total_tonnes": 8009.4,
+    "flights_with_estimate": 3396,
+    "flights_total": 5197,
     "flights_with_estimate_jets_prives": 396,
-    "flights_total_jets_prives": 514,
+    "flights_total_jets_prives": 515,
     "by_category_tonnes": {
-      "aviation_legere": 162.5,
-      "commercial": 7210.8,
+      "aviation_legere": 162.8,
+      "commercial": 7225.5,
       "jets_prives": 549.8,
       "helicoptere": 12.4,
       "militaire": 57.9,
