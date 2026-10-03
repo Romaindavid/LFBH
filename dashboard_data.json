@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T22:01:11.331336+00:00",
+  "generated_at": "2026-10-03T10:53:09.255634+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-02T22:00:33",
-  "total_movements": 5228,
+  "period_end": "2026-10-03T10:52:49",
+  "total_movements": 5239,
   "categories": {
     "aviation_legere": {
-      "count": 2983,
+      "count": 2993,
       "pct": 57.1,
       "avg_duration_min": 73
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1029,
+      "count": 1030,
       "pct": 19.7,
       "avg_duration_min": 71
     },
@@ -868,6 +868,11 @@
       "aviation_legere": 30,
       "jets_prives": 3,
       "militaire": 6
+    },
+    {
+      "date": "2026-10-03",
+      "aviation_legere": 10,
+      "commercial": 1
     }
   ],
   "weekday_distribution": [
@@ -876,7 +881,7 @@
     797,
     638,
     906,
-    771,
+    782,
     645
   ],
   "weekday_distribution_jets_prives": [
@@ -896,10 +901,10 @@
     43,
     139,
     246,
-    514,
-    563,
-    528,
-    319,
+    515,
+    566,
+    532,
+    322,
     293,
     434,
     474,
@@ -13171,7 +13176,7 @@
     {
       "code": "LSGG",
       "name": "Genève",
-      "count": 60
+      "count": 61
     },
     {
       "code": "EICK",
@@ -13216,12 +13221,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1734,
+      "count": 1740,
       "distinct_aircraft": 350
     },
     "tourism": {
-      "count": 1249,
-      "distinct_aircraft": 470
+      "count": 1253,
+      "distinct_aircraft": 471
     },
     "tourism_routes": [
       {
@@ -13232,7 +13237,7 @@
       {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 73
+        "count": 74
       },
       {
         "code": "LFBN",
@@ -13275,14 +13280,14 @@
         "count": 28
       },
       {
+        "code": "LFOO",
+        "name": "Les Sables-d'Olonne Talmont Airport",
+        "count": 27
+      },
+      {
         "code": "LFBI",
         "name": "Poitiers-Biard Airport",
         "count": 26
-      },
-      {
-        "code": "LFOO",
-        "name": "Les Sables-d'Olonne Talmont Airport",
-        "count": 25
       },
       {
         "code": "LFMP",
@@ -13348,7 +13353,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 60
+      "count": 61
     },
     {
       "category": "commercial",
@@ -15076,7 +15081,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 73
+      "count": 74
     },
     {
       "category": "aviation_legere",
@@ -15132,7 +15137,7 @@
       "name": "Les Sables-d'Olonne Talmont Airport",
       "lat": 46.476898,
       "lon": -1.72278,
-      "count": 25
+      "count": 27
     },
     {
       "category": "aviation_legere",
@@ -15340,7 +15345,7 @@
       "name": "Guernesey",
       "lat": 49.435001,
       "lon": -2.60197,
-      "count": 10
+      "count": 11
     },
     {
       "category": "aviation_legere",
@@ -16189,14 +16194,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8037.0,
-    "flights_with_estimate": 3414,
-    "flights_total": 5228,
+    "total_tonnes": 8043.7,
+    "flights_with_estimate": 3422,
+    "flights_total": 5239,
     "flights_with_estimate_jets_prives": 397,
     "flights_total_jets_prives": 517,
     "by_category_tonnes": {
-      "aviation_legere": 163.6,
-      "commercial": 7248.7,
+      "aviation_legere": 164.0,
+      "commercial": 7255.1,
       "jets_prives": 552.4,
       "helicoptere": 12.4,
       "militaire": 58.8,
