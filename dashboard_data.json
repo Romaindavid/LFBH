@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-03T20:50:20.218277+00:00",
+  "generated_at": "2026-10-04T11:35:49.915235+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-03T20:49:55",
-  "total_movements": 5262,
+  "period_end": "2026-10-04T11:35:26",
+  "total_movements": 5275,
   "categories": {
     "aviation_legere": {
-      "count": 3009,
+      "count": 3018,
       "pct": 57.2,
-      "avg_duration_min": 73
+      "avg_duration_min": 72
     },
     "helicoptere": {
       "count": 95,
@@ -15,12 +15,12 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1033,
+      "count": 1035,
       "pct": 19.6,
       "avg_duration_min": 71
     },
     "autre": {
-      "count": 79,
+      "count": 80,
       "pct": 1.5,
       "avg_duration_min": 70
     },
@@ -30,7 +30,7 @@
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 528,
+      "count": 529,
       "pct": 10.0,
       "avg_duration_min": 33
     }
@@ -873,8 +873,14 @@
       "date": "2026-10-03",
       "aviation_legere": 26,
       "commercial": 4,
-      "militaire": 3,
+      "militaire": 4,
       "jets_prives": 1
+    },
+    {
+      "date": "2026-10-04",
+      "aviation_legere": 9,
+      "commercial": 2,
+      "autre": 1
     }
   ],
   "weekday_distribution": [
@@ -883,8 +889,8 @@
     797,
     638,
     906,
-    805,
-    645
+    806,
+    657
   ],
   "weekday_distribution_jets_prives": [
     72,
@@ -903,10 +909,10 @@
     43,
     139,
     246,
-    515,
-    566,
-    532,
-    323,
+    517,
+    571,
+    535,
+    325,
     296,
     437,
     475,
@@ -916,7 +922,7 @@
     173,
     160,
     98,
-    75,
+    76,
     36,
     18,
     6
@@ -13172,7 +13178,7 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 157
+      "count": 159
     },
     {
       "code": "EGSS",
@@ -13247,11 +13253,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1751,
-      "distinct_aircraft": 352
+      "count": 1758,
+      "distinct_aircraft": 354
     },
     "tourism": {
-      "count": 1258,
+      "count": 1260,
       "distinct_aircraft": 472
     },
     "tourism_routes": [
@@ -13273,7 +13279,7 @@
       {
         "code": "LFFK",
         "name": "Fontenay-le-Comte",
-        "count": 55
+        "count": 56
       },
       {
         "code": "LFOT",
@@ -13301,14 +13307,14 @@
         "count": 30
       },
       {
-        "code": "LFOU",
-        "name": "Cholet",
+        "code": "LFOO",
+        "name": "Les Sables-d'Olonne Talmont Airport",
         "count": 28
       },
       {
-        "code": "LFOO",
-        "name": "Les Sables-d'Olonne Talmont Airport",
-        "count": 27
+        "code": "LFOU",
+        "name": "Cholet",
+        "count": 28
       },
       {
         "code": "LFBI",
@@ -13387,7 +13393,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 157
+      "count": 159
     },
     {
       "category": "commercial",
@@ -15163,7 +15169,7 @@
       "name": "Les Sables-d'Olonne Talmont Airport",
       "lat": 46.476898,
       "lon": -1.72278,
-      "count": 27
+      "count": 28
     },
     {
       "category": "aviation_legere",
@@ -15211,7 +15217,7 @@
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
       "lon": -0.792778,
-      "count": 55
+      "count": 56
     },
     {
       "category": "aviation_legere",
@@ -16228,17 +16234,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8081.2,
-    "flights_with_estimate": 3437,
-    "flights_total": 5262,
+    "total_tonnes": 8094.0,
+    "flights_with_estimate": 3443,
+    "flights_total": 5275,
     "flights_with_estimate_jets_prives": 397,
     "flights_total_jets_prives": 518,
     "by_category_tonnes": {
-      "aviation_legere": 164.4,
-      "commercial": 7291.9,
+      "aviation_legere": 164.7,
+      "commercial": 7304.2,
       "jets_prives": 552.4,
       "helicoptere": 12.4,
-      "militaire": 59.1,
+      "militaire": 59.4,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 219 198 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
