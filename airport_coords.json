@@ -1373,5 +1373,10 @@
     "lat": 59.354401,
     "lon": 17.9417,
     "name": "Stockholm-Bromma Airport"
+  },
+  "LFGF": {
+    "lat": 47.006643,
+    "lon": 4.894132,
+    "name": "Beaune-Challanges Airfield"
   }
 }
