@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-07T22:56:05.706091+00:00",
+  "generated_at": "2026-10-08T12:33:03.635228+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-07T22:55:49",
-  "total_movements": 5381,
+  "period_end": "2026-10-08T12:32:43",
+  "total_movements": 5391,
   "categories": {
     "aviation_legere": {
-      "count": 3078,
+      "count": 3083,
       "pct": 57.2,
       "avg_duration_min": 72
     },
@@ -30,8 +30,8 @@
       "avg_duration_min": 75
     },
     "militaire": {
-      "count": 548,
-      "pct": 10.2,
+      "count": 553,
+      "pct": 10.3,
       "avg_duration_min": 33
     }
   },
@@ -903,13 +903,18 @@
       "commercial": 6,
       "militaire": 2,
       "aviation_legere": 3
+    },
+    {
+      "date": "2026-10-08",
+      "militaire": 5,
+      "aviation_legere": 5
     }
   ],
   "weekday_distribution": [
     799,
     747,
     811,
-    638,
+    648,
     906,
     806,
     674
@@ -930,12 +935,12 @@
     6,
     43,
     142,
-    252,
-    526,
-    576,
+    254,
+    528,
+    579,
     551,
-    330,
-    300,
+    332,
+    301,
     446,
     496,
     444,
@@ -13455,12 +13460,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1790,
-      "distinct_aircraft": 358
+      "count": 1792,
+      "distinct_aircraft": 360
     },
     "tourism": {
-      "count": 1288,
-      "distinct_aircraft": 477
+      "count": 1291,
+      "distinct_aircraft": 479
     },
     "tourism_routes": [
       {
@@ -13506,7 +13511,7 @@
       {
         "code": "LFOO",
         "name": "Les Sables-d'Olonne Talmont Airport",
-        "count": 31
+        "count": 32
       },
       {
         "code": "LFCY",
@@ -15331,7 +15336,7 @@
       "name": "La Baule",
       "lat": 47.289398,
       "lon": -2.34639,
-      "count": 14
+      "count": 15
     },
     {
       "category": "aviation_legere",
@@ -15379,7 +15384,7 @@
       "name": "Les Sables-d'Olonne Talmont Airport",
       "lat": 46.476898,
       "lon": -1.72278,
-      "count": 31
+      "count": 32
     },
     {
       "category": "aviation_legere",
@@ -15411,7 +15416,7 @@
       "name": "Londres-Biggin Hill",
       "lat": 51.33079910279999,
       "lon": 0.0324999988079,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -16452,13 +16457,13 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8231.7,
-    "flights_with_estimate": 3508,
-    "flights_total": 5381,
+    "total_tonnes": 8232.2,
+    "flights_with_estimate": 3511,
+    "flights_total": 5391,
     "flights_with_estimate_jets_prives": 403,
     "flights_total_jets_prives": 526,
     "by_category_tonnes": {
-      "aviation_legere": 166.8,
+      "aviation_legere": 167.3,
       "commercial": 7435.5,
       "jets_prives": 554.7,
       "helicoptere": 12.4,

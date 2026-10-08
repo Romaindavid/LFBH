@@ -1378,5 +1378,10 @@
     "lat": 47.006643,
     "lon": 4.894132,
     "name": "Beaune-Challanges Airfield"
+  },
+  "LFTW": {
+    "lat": 43.757401,
+    "lon": 4.41635,
+    "name": "Nîmes-Arles-Camargue Airport"
   }
 }
