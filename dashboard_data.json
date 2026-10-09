@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-09T12:21:31.264087+00:00",
+  "generated_at": "2026-10-09T22:28:24.479501+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-09T12:21:03",
-  "total_movements": 5423,
+  "period_end": "2026-10-09T22:28:08",
+  "total_movements": 5438,
   "categories": {
     "aviation_legere": {
-      "count": 3101,
+      "count": 3109,
       "pct": 57.2,
       "avg_duration_min": 72
     },
     "helicoptere": {
       "count": 95,
-      "pct": 1.8,
+      "pct": 1.7,
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1056,
+      "count": 1060,
       "pct": 19.5,
       "avg_duration_min": 71
     },
@@ -25,14 +25,14 @@
       "avg_duration_min": 70
     },
     "jets_prives": {
-      "count": 530,
+      "count": 531,
       "pct": 9.8,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 561,
-      "pct": 10.3,
-      "avg_duration_min": 33
+      "count": 563,
+      "pct": 10.4,
+      "avg_duration_min": 34
     }
   },
   "daily": [
@@ -912,9 +912,10 @@
     },
     {
       "date": "2026-10-09",
-      "commercial": 2,
-      "aviation_legere": 12,
-      "jets_prives": 2
+      "commercial": 6,
+      "aviation_legere": 20,
+      "jets_prives": 3,
+      "militaire": 2
     }
   ],
   "weekday_distribution": [
@@ -922,7 +923,7 @@
     747,
     811,
     664,
-    922,
+    937,
     806,
     674
   ],
@@ -931,7 +932,7 @@
     64,
     74,
     92,
-    83,
+    84,
     66,
     77
   ],
@@ -948,15 +949,15 @@
     555,
     333,
     301,
-    448,
-    497,
-    449,
-    392,
-    298,
-    177,
-    166,
+    451,
+    501,
+    451,
+    394,
+    299,
+    178,
+    167,
     100,
-    78,
+    79,
     37,
     18,
     6
@@ -978,7 +979,7 @@
     47,
     35,
     25,
-    25,
+    26,
     22,
     13,
     4,
@@ -13236,12 +13237,30 @@
       "duration_min": 59,
       "co2_kg": 1354,
       "distance_km": 477
+    },
+    {
+      "fr24_id": "420c8c9f",
+      "reg": null,
+      "type": "F900",
+      "passenger_capacity": 19,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-10-09 16:01:26",
+      "landed": "2026-10-09 16:58:45",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      218
+      219
     ],
     [
       "JFA",
@@ -13498,7 +13517,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 125
+      "count": 127
     },
     {
       "code": "EIDW",
@@ -13508,7 +13527,7 @@
     {
       "code": "LFLL",
       "name": "Lyon",
-      "count": 82
+      "count": 84
     },
     {
       "code": "EBCI",
@@ -13563,11 +13582,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1800,
-      "distinct_aircraft": 361
+      "count": 1804,
+      "distinct_aircraft": 362
     },
     "tourism": {
-      "count": 1301,
+      "count": 1305,
       "distinct_aircraft": 482
     },
     "tourism_routes": [
@@ -13671,7 +13690,7 @@
       "name": "Lyon",
       "lat": 45.725996,
       "lon": 5.090139,
-      "count": 82
+      "count": 84
     },
     {
       "category": "commercial",
@@ -13687,7 +13706,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 125
+      "count": 127
     },
     {
       "category": "commercial",
@@ -15167,7 +15186,7 @@
       "name": "Cognac-Châteaubernard (BA 709) Air Base",
       "lat": 45.658298,
       "lon": -0.3175,
-      "count": 8
+      "count": 9
     },
     {
       "category": "aviation_legere",
@@ -15247,7 +15266,7 @@
       "name": "Nevers",
       "lat": 47.002913,
       "lon": 3.113114,
-      "count": 5
+      "count": 7
     },
     {
       "category": "aviation_legere",
@@ -16559,7 +16578,7 @@
       "name": "Castres Mazamet Airport",
       "lat": 43.556301,
       "lon": 2.28918,
-      "count": 1
+      "count": 2
     }
   ],
   "lfbh_coords": {
@@ -16568,14 +16587,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8252.2,
-    "flights_with_estimate": 3532,
-    "flights_total": 5423,
+    "total_tonnes": 8276.2,
+    "flights_with_estimate": 3543,
+    "flights_total": 5438,
     "flights_with_estimate_jets_prives": 407,
-    "flights_total_jets_prives": 530,
+    "flights_total_jets_prives": 531,
     "by_category_tonnes": {
-      "aviation_legere": 168.5,
-      "commercial": 7450.4,
+      "aviation_legere": 169.1,
+      "commercial": 7473.7,
       "jets_prives": 557.4,
       "helicoptere": 12.4,
       "militaire": 62.6,
