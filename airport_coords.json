@@ -1383,5 +1383,10 @@
     "lat": 43.757401,
     "lon": 4.41635,
     "name": "Nîmes-Arles-Camargue Airport"
+  },
+  "LFCK": {
+    "lat": 43.556301,
+    "lon": 2.28918,
+    "name": "Castres Mazamet Airport"
   }
 }
