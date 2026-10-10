@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T22:28:24.479501+00:00",
+  "generated_at": "2026-10-10T11:39:42.451352+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-09T22:28:08",
-  "total_movements": 5438,
+  "period_end": "2026-10-10T11:39:22",
+  "total_movements": 5450,
   "categories": {
     "aviation_legere": {
-      "count": 3109,
+      "count": 3120,
       "pct": 57.2,
       "avg_duration_min": 72
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1060,
+      "count": 1061,
       "pct": 19.5,
       "avg_duration_min": 71
     },
@@ -26,12 +26,12 @@
     },
     "jets_prives": {
       "count": 531,
-      "pct": 9.8,
+      "pct": 9.7,
       "avg_duration_min": 74
     },
     "militaire": {
       "count": 563,
-      "pct": 10.4,
+      "pct": 10.3,
       "avg_duration_min": 34
     }
   },
@@ -916,6 +916,11 @@
       "aviation_legere": 20,
       "jets_prives": 3,
       "militaire": 2
+    },
+    {
+      "date": "2026-10-10",
+      "aviation_legere": 11,
+      "commercial": 1
     }
   ],
   "weekday_distribution": [
@@ -924,7 +929,7 @@
     811,
     664,
     937,
-    806,
+    818,
     674
   ],
   "weekday_distribution_jets_prives": [
@@ -942,12 +947,12 @@
     2,
     6,
     43,
-    143,
-    254,
-    533,
+    144,
+    255,
+    535,
     583,
-    555,
-    333,
+    561,
+    335,
     301,
     451,
     501,
@@ -13537,7 +13542,7 @@
     {
       "code": "LSGG",
       "name": "Genève",
-      "count": 64
+      "count": 65
     },
     {
       "code": "GMMX",
@@ -13582,12 +13587,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1804,
-      "distinct_aircraft": 362
+      "count": 1808,
+      "distinct_aircraft": 363
     },
     "tourism": {
-      "count": 1305,
-      "distinct_aircraft": 482
+      "count": 1312,
+      "distinct_aircraft": 484
     },
     "tourism_routes": [
       {
@@ -13621,6 +13626,11 @@
         "count": 36
       },
       {
+        "code": "LFRI",
+        "name": "La Roche-sur-Yon",
+        "count": 33
+      },
+      {
         "code": "LFOO",
         "name": "Les Sables-d'Olonne Talmont Airport",
         "count": 33
@@ -13628,11 +13638,6 @@
       {
         "code": "LFEA",
         "name": "Belle-Île-en-Mer",
-        "count": 32
-      },
-      {
-        "code": "LFRI",
-        "name": "La Roche-sur-Yon",
         "count": 32
       },
       {
@@ -13714,7 +13719,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 64
+      "count": 65
     },
     {
       "category": "commercial",
@@ -15298,7 +15303,7 @@
       "name": "Granville",
       "lat": 48.883099,
       "lon": -1.56417,
-      "count": 8
+      "count": 9
     },
     {
       "category": "aviation_legere",
@@ -15490,7 +15495,7 @@
       "name": "La Roche-sur-Yon",
       "lat": 46.7019,
       "lon": -1.37863,
-      "count": 32
+      "count": 33
     },
     {
       "category": "aviation_legere",
@@ -16146,7 +16151,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -16330,7 +16335,7 @@
       "name": "Saint-Brieuc-Armor Airport",
       "lat": 48.538628,
       "lon": -2.853518,
-      "count": 2
+      "count": 6
     },
     {
       "category": "aviation_legere",
@@ -16587,14 +16592,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8276.2,
-    "flights_with_estimate": 3543,
-    "flights_total": 5438,
+    "total_tonnes": 8283.3,
+    "flights_with_estimate": 3552,
+    "flights_total": 5450,
     "flights_with_estimate_jets_prives": 407,
     "flights_total_jets_prives": 531,
     "by_category_tonnes": {
-      "aviation_legere": 169.1,
-      "commercial": 7473.7,
+      "aviation_legere": 170.0,
+      "commercial": 7479.9,
       "jets_prives": 557.4,
       "helicoptere": 12.4,
       "militaire": 62.6,
