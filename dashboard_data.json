@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-10T11:39:42.451352+00:00",
+  "generated_at": "2026-10-10T21:23:51.968240+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-10T11:39:22",
-  "total_movements": 5450,
+  "period_end": "2026-10-10T21:23:34",
+  "total_movements": 5466,
   "categories": {
     "aviation_legere": {
-      "count": 3120,
-      "pct": 57.2,
+      "count": 3132,
+      "pct": 57.3,
       "avg_duration_min": 72
     },
     "helicoptere": {
-      "count": 95,
-      "pct": 1.7,
+      "count": 96,
+      "pct": 1.8,
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1061,
+      "count": 1064,
       "pct": 19.5,
       "avg_duration_min": 71
     },
@@ -919,8 +919,9 @@
     },
     {
       "date": "2026-10-10",
-      "aviation_legere": 11,
-      "commercial": 1
+      "aviation_legere": 23,
+      "commercial": 4,
+      "helicoptere": 1
     }
   ],
   "weekday_distribution": [
@@ -929,7 +930,7 @@
     811,
     664,
     937,
-    818,
+    834,
     674
   ],
   "weekday_distribution_jets_prives": [
@@ -954,14 +955,14 @@
     561,
     335,
     301,
-    451,
-    501,
-    451,
-    394,
+    454,
+    504,
+    454,
+    399,
     299,
     178,
     167,
-    100,
+    102,
     79,
     37,
     18,
@@ -13542,12 +13543,12 @@
     {
       "code": "LSGG",
       "name": "Genève",
-      "count": 65
+      "count": 66
     },
     {
       "code": "GMMX",
       "name": "Marrakech",
-      "count": 63
+      "count": 65
     },
     {
       "code": "EICK",
@@ -13587,18 +13588,18 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1808,
-      "distinct_aircraft": 363
+      "count": 1818,
+      "distinct_aircraft": 364
     },
     "tourism": {
-      "count": 1312,
-      "distinct_aircraft": 484
+      "count": 1314,
+      "distinct_aircraft": 485
     },
     "tourism_routes": [
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 91
+        "count": 92
       },
       {
         "code": "LFEY",
@@ -13719,7 +13720,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 65
+      "count": 66
     },
     {
       "category": "commercial",
@@ -13735,7 +13736,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 63
+      "count": 65
     },
     {
       "category": "commercial",
@@ -15583,7 +15584,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 91
+      "count": 92
     },
     {
       "category": "aviation_legere",
@@ -16584,6 +16585,14 @@
       "lat": 43.556301,
       "lon": 2.28918,
       "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLL",
+      "name": "Lyon",
+      "lat": 45.725996,
+      "lon": 5.090139,
+      "count": 1
     }
   ],
   "lfbh_coords": {
@@ -16592,14 +16601,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8283.3,
-    "flights_with_estimate": 3552,
-    "flights_total": 5450,
+    "total_tonnes": 8307.8,
+    "flights_with_estimate": 3563,
+    "flights_total": 5466,
     "flights_with_estimate_jets_prives": 407,
     "flights_total_jets_prives": 531,
     "by_category_tonnes": {
-      "aviation_legere": 170.0,
-      "commercial": 7479.9,
+      "aviation_legere": 170.7,
+      "commercial": 7503.7,
       "jets_prives": 557.4,
       "helicoptere": 12.4,
       "militaire": 62.6,
