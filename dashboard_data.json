@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-10T21:23:51.968240+00:00",
+  "generated_at": "2026-10-11T11:53:07.428586+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-10T21:23:34",
-  "total_movements": 5466,
+  "period_end": "2026-10-11T11:52:42",
+  "total_movements": 5476,
   "categories": {
     "aviation_legere": {
-      "count": 3132,
+      "count": 3140,
       "pct": 57.3,
       "avg_duration_min": 72
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1064,
+      "count": 1066,
       "pct": 19.5,
       "avg_duration_min": 71
     },
@@ -922,6 +922,11 @@
       "aviation_legere": 23,
       "commercial": 4,
       "helicoptere": 1
+    },
+    {
+      "date": "2026-10-11",
+      "aviation_legere": 8,
+      "commercial": 2
     }
   ],
   "weekday_distribution": [
@@ -931,7 +936,7 @@
     664,
     937,
     834,
-    674
+    684
   ],
   "weekday_distribution_jets_prives": [
     74,
@@ -950,11 +955,11 @@
     43,
     144,
     255,
-    535,
-    583,
-    561,
-    335,
-    301,
+    538,
+    586,
+    563,
+    336,
+    302,
     454,
     504,
     454,
@@ -13513,7 +13518,7 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 161
+      "count": 163
     },
     {
       "code": "EGSS",
@@ -13588,18 +13593,18 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1818,
+      "count": 1822,
       "distinct_aircraft": 364
     },
     "tourism": {
-      "count": 1314,
-      "distinct_aircraft": 485
+      "count": 1318,
+      "distinct_aircraft": 486
     },
     "tourism_routes": [
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 92
+        "count": 93
       },
       {
         "code": "LFEY",
@@ -13619,7 +13624,7 @@
       {
         "code": "LFOT",
         "name": "Tours",
-        "count": 42
+        "count": 43
       },
       {
         "code": "LFPN",
@@ -13662,13 +13667,13 @@
         "count": 23
       },
       {
-        "code": "LFBL",
-        "name": "Limoges",
-        "count": 19
-      },
-      {
         "code": "LFOZ",
         "name": "Orléans",
+        "count": 20
+      },
+      {
+        "code": "LFBL",
+        "name": "Limoges",
         "count": 19
       }
     ]
@@ -13728,7 +13733,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 161
+      "count": 163
     },
     {
       "category": "commercial",
@@ -15336,7 +15341,7 @@
       "name": "Orléans",
       "lat": 47.897758,
       "lon": 2.164478,
-      "count": 19
+      "count": 20
     },
     {
       "category": "aviation_legere",
@@ -15352,7 +15357,7 @@
       "name": "Tours",
       "lat": 47.432201,
       "lon": 0.727606,
-      "count": 42
+      "count": 43
     },
     {
       "category": "aviation_legere",
@@ -15480,7 +15485,7 @@
       "name": "Biscarrosse",
       "lat": 44.3694,
       "lon": -1.13056,
-      "count": 17
+      "count": 18
     },
     {
       "category": "aviation_legere",
@@ -15584,7 +15589,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 92
+      "count": 93
     },
     {
       "category": "aviation_legere",
@@ -16601,14 +16606,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8307.8,
-    "flights_with_estimate": 3563,
-    "flights_total": 5466,
+    "total_tonnes": 8320.7,
+    "flights_with_estimate": 3570,
+    "flights_total": 5476,
     "flights_with_estimate_jets_prives": 407,
     "flights_total_jets_prives": 531,
     "by_category_tonnes": {
-      "aviation_legere": 170.7,
-      "commercial": 7503.7,
+      "aviation_legere": 170.9,
+      "commercial": 7516.4,
       "jets_prives": 557.4,
       "helicoptere": 12.4,
       "militaire": 62.6,
