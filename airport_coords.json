@@ -1388,5 +1388,10 @@
     "lat": 43.556301,
     "lon": 2.28918,
     "name": "Castres Mazamet Airport"
+  },
+  "LIMA": {
+    "lat": 45.084444,
+    "lon": 7.603056,
+    "name": "Torino-Aeritalia Airport"
   }
 }
