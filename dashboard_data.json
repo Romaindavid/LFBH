@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-13T00:24:12.535263+00:00",
+  "generated_at": "2026-10-13T13:16:05.382164+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-13T00:23:56",
-  "total_movements": 5516,
+  "period_end": "2026-10-13T13:15:44",
+  "total_movements": 5525,
   "categories": {
     "aviation_legere": {
-      "count": 3155,
-      "pct": 57.2,
+      "count": 3156,
+      "pct": 57.1,
       "avg_duration_min": 72
     },
     "helicoptere": {
@@ -15,22 +15,22 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1074,
+      "count": 1076,
       "pct": 19.5,
       "avg_duration_min": 71
     },
     "autre": {
       "count": 80,
-      "pct": 1.5,
+      "pct": 1.4,
       "avg_duration_min": 70
     },
     "jets_prives": {
-      "count": 538,
+      "count": 541,
       "pct": 9.8,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 573,
+      "count": 576,
       "pct": 10.4,
       "avg_duration_min": 33
     }
@@ -936,11 +936,18 @@
       "aviation_legere": 6,
       "militaire": 2,
       "jets_prives": 4
+    },
+    {
+      "date": "2026-10-13",
+      "commercial": 2,
+      "jets_prives": 3,
+      "militaire": 3,
+      "aviation_legere": 1
     }
   ],
   "weekday_distribution": [
     817,
-    747,
+    756,
     811,
     664,
     937,
@@ -949,7 +956,7 @@
   ],
   "weekday_distribution_jets_prives": [
     78,
-    64,
+    67,
     74,
     92,
     84,
@@ -962,15 +969,15 @@
     2,
     6,
     43,
-    145,
+    147,
     256,
-    540,
-    589,
-    564,
-    337,
+    543,
+    590,
+    565,
+    338,
     305,
     459,
-    509,
+    510,
     459,
     406,
     301,
@@ -988,9 +995,9 @@
     0,
     3,
     4,
-    18,
+    19,
     35,
-    52,
+    54,
     60,
     51,
     47,
@@ -13425,12 +13432,84 @@
       "duration_min": null,
       "co2_kg": null,
       "distance_km": null
+    },
+    {
+      "fr24_id": "42192701",
+      "reg": "F-HTPF",
+      "type": "M700",
+      "passenger_capacity": 4,
+      "operator": null,
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LIEO",
+      "dest_name": "Olbia Costa Smeralda Airport",
+      "dest_coords": {
+        "lat": 40.898953,
+        "lon": 9.518457
+      },
+      "takeoff": "2026-10-13 05:34:58",
+      "landed": "2026-10-13 07:47:25",
+      "duration_min": 132,
+      "co2_kg": 1224,
+      "distance_km": 1043
+    },
+    {
+      "fr24_id": "42195f84",
+      "reg": "F-HJAH",
+      "type": "PC24",
+      "passenger_capacity": 10,
+      "operator": "FNY",
+      "orig": "LFRJ",
+      "orig_name": "Landivisiau Air Base",
+      "orig_coords": {
+        "lat": 48.5303,
+        "lon": -4.15164
+      },
+      "dest": "LFRJ",
+      "dest_name": "Landivisiau Air Base",
+      "dest_coords": {
+        "lat": 48.5303,
+        "lon": -4.15164
+      },
+      "takeoff": "2026-10-13 07:25:03",
+      "landed": "2026-10-13 08:56:07",
+      "duration_min": 91,
+      "co2_kg": 2104,
+      "distance_km": 0
+    },
+    {
+      "fr24_id": "42196e19",
+      "reg": "N180FB",
+      "type": "P180",
+      "passenger_capacity": 9,
+      "operator": null,
+      "orig": "LFOZ",
+      "orig_name": "Orléans",
+      "orig_coords": {
+        "lat": 47.897758,
+        "lon": 2.164478
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-10-13 07:49:58",
+      "landed": "2026-10-13 08:37:53",
+      "duration_min": 48,
+      "co2_kg": 704,
+      "distance_km": 318
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      222
+      224
     ],
     [
       "JFA",
@@ -13473,11 +13552,11 @@
       6
     ],
     [
-      "LXJ",
-      5
+      "FNY",
+      6
     ],
     [
-      "FNY",
+      "LXJ",
       5
     ],
     [
@@ -13610,9 +13689,9 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 454,
+    "n_with_distance": 457,
     "pct_under_500km": 41,
-    "n_with_duration": 427,
+    "n_with_duration": 430,
     "avg_duration_min": 74,
     "pct_under_45min": 20,
     "shortest_flights": [
@@ -13705,14 +13784,14 @@
       "count": 78
     },
     {
+      "code": "GMMX",
+      "name": "Marrakech",
+      "count": 67
+    },
+    {
       "code": "LSGG",
       "name": "Genève",
       "count": 66
-    },
-    {
-      "code": "GMMX",
-      "name": "Marrakech",
-      "count": 65
     },
     {
       "code": "EICK",
@@ -13752,7 +13831,7 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1829,
+      "count": 1830,
       "distinct_aircraft": 365
     },
     "tourism": {
@@ -13900,7 +13979,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 65
+      "count": 67
     },
     {
       "category": "commercial",
@@ -14500,7 +14579,7 @@
       "name": "Olbia Costa Smeralda Airport",
       "lat": 40.898953,
       "lon": 9.518457,
-      "count": 2
+      "count": 3
     },
     {
       "category": "jets_prives",
@@ -14980,7 +15059,7 @@
       "name": "Landivisiau Air Base",
       "lat": 48.5303,
       "lon": -4.15164,
-      "count": 5
+      "count": 6
     },
     {
       "category": "jets_prives",
@@ -15260,6 +15339,14 @@
       "name": "Stockholm-Bromma Airport",
       "lat": 59.354401,
       "lon": 17.9417,
+      "count": 1
+    },
+    {
+      "category": "jets_prives",
+      "code": "LFOZ",
+      "name": "Orléans",
+      "lat": 47.897758,
+      "lon": 2.164478,
       "count": 1
     },
     {
@@ -16773,20 +16860,20 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8376.5,
-    "flights_with_estimate": 3598,
-    "flights_total": 5516,
-    "flights_with_estimate_jets_prives": 410,
-    "flights_total_jets_prives": 538,
+    "total_tonnes": 8411.2,
+    "flights_with_estimate": 3603,
+    "flights_total": 5525,
+    "flights_with_estimate_jets_prives": 413,
+    "flights_total_jets_prives": 541,
     "by_category_tonnes": {
       "aviation_legere": 172.0,
-      "commercial": 7566.8,
-      "jets_prives": 560.8,
+      "commercial": 7597.4,
+      "jets_prives": 564.8,
       "helicoptere": 12.4,
       "militaire": 63.6,
       "autre": 1.0
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 222 539 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 224 139 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM7",
       "lightest_lph": 197,
@@ -16813,10 +16900,10 @@
       },
       {
         "month": "2026-10",
-        "tonnes": 15.0
+        "tonnes": 19.0
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 112.2,
-    "rochelais_equivalent_per_month": 146
+    "avg_monthly_tonnes_jets_prives": 113.0,
+    "rochelais_equivalent_per_month": 147
   }
 }
