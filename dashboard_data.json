@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-12T14:00:52.020294+00:00",
+  "generated_at": "2026-10-13T00:24:12.535263+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-12T14:00:28",
-  "total_movements": 5510,
+  "period_end": "2026-10-13T00:23:56",
+  "total_movements": 5516,
   "categories": {
     "aviation_legere": {
-      "count": 3154,
+      "count": 3155,
       "pct": 57.2,
       "avg_duration_min": 72
     },
@@ -15,8 +15,8 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1071,
-      "pct": 19.4,
+      "count": 1074,
+      "pct": 19.5,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,8 +25,8 @@
       "avg_duration_min": 70
     },
     "jets_prives": {
-      "count": 536,
-      "pct": 9.7,
+      "count": 538,
+      "pct": 9.8,
       "avg_duration_min": 74
     },
     "militaire": {
@@ -932,14 +932,14 @@
     },
     {
       "date": "2026-10-12",
-      "commercial": 3,
-      "aviation_legere": 5,
+      "commercial": 6,
+      "aviation_legere": 6,
       "militaire": 2,
-      "jets_prives": 2
+      "jets_prives": 4
     }
   ],
   "weekday_distribution": [
-    811,
+    817,
     747,
     811,
     664,
@@ -948,7 +948,7 @@
     706
   ],
   "weekday_distribution_jets_prives": [
-    76,
+    78,
     64,
     74,
     92,
@@ -970,14 +970,14 @@
     337,
     305,
     459,
-    510,
-    458,
-    404,
-    300,
-    179,
-    167,
+    509,
+    459,
+    406,
+    301,
+    180,
+    168,
     102,
-    79,
+    80,
     37,
     18,
     6
@@ -998,9 +998,9 @@
     48,
     47,
     36,
-    25,
     26,
-    22,
+    26,
+    23,
     13,
     4,
     2,
@@ -13383,12 +13383,54 @@
       "duration_min": null,
       "co2_kg": null,
       "distance_km": null
+    },
+    {
+      "fr24_id": "4216aa63",
+      "reg": "F-HJAI",
+      "type": "PC24",
+      "passenger_capacity": 10,
+      "operator": "FNY",
+      "orig": "LFRJ",
+      "orig_name": "Landivisiau Air Base",
+      "orig_coords": {
+        "lat": 48.5303,
+        "lon": -4.15164
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-10-12 15:11:19",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 343
+    },
+    {
+      "fr24_id": "4217466f",
+      "reg": null,
+      "type": "TBM7",
+      "passenger_capacity": 6,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-10-12 17:02:03",
+      "landed": "2026-10-12 18:17:19",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      221
+      222
     ],
     [
       "JFA",
@@ -13435,6 +13477,10 @@
       5
     ],
     [
+      "FNY",
+      5
+    ],
+    [
       "AAB",
       4
     ],
@@ -13456,10 +13502,6 @@
     ],
     [
       "RJB",
-      4
-    ],
-    [
-      "FNY",
       4
     ],
     [
@@ -13568,7 +13610,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 453,
+    "n_with_distance": 454,
     "pct_under_500km": 41,
     "n_with_duration": 427,
     "avg_duration_min": 74,
@@ -13640,12 +13682,12 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 150
+      "count": 151
     },
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 129
+      "count": 131
     },
     {
       "code": "EIDW",
@@ -13714,7 +13756,7 @@
       "distinct_aircraft": 365
     },
     "tourism": {
-      "count": 1325,
+      "count": 1326,
       "distinct_aircraft": 489
     },
     "tourism_routes": [
@@ -13802,7 +13844,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 150
+      "count": 151
     },
     {
       "category": "commercial",
@@ -13834,7 +13876,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 129
+      "count": 131
     },
     {
       "category": "commercial",
@@ -14938,7 +14980,7 @@
       "name": "Landivisiau Air Base",
       "lat": 48.5303,
       "lon": -4.15164,
-      "count": 4
+      "count": 5
     },
     {
       "category": "jets_prives",
@@ -15322,7 +15364,7 @@
       "name": "Aérodrome d'Arcachon-La Teste-de-Buch",
       "lat": 44.596401,
       "lon": -1.11083,
-      "count": 8
+      "count": 9
     },
     {
       "category": "aviation_legere",
@@ -16731,14 +16773,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8349.0,
-    "flights_with_estimate": 3594,
-    "flights_total": 5510,
+    "total_tonnes": 8376.5,
+    "flights_with_estimate": 3598,
+    "flights_total": 5516,
     "flights_with_estimate_jets_prives": 410,
-    "flights_total_jets_prives": 536,
+    "flights_total_jets_prives": 538,
     "by_category_tonnes": {
       "aviation_legere": 172.0,
-      "commercial": 7539.3,
+      "commercial": 7566.8,
       "jets_prives": 560.8,
       "helicoptere": 12.4,
       "militaire": 63.6,
