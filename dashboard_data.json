@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-13T22:28:22.945080+00:00",
+  "generated_at": "2026-10-14T10:55:50.275093+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-13T22:28:06",
-  "total_movements": 5535,
+  "period_end": "2026-10-14T10:55:30",
+  "total_movements": 5541,
   "categories": {
     "aviation_legere": {
-      "count": 3160,
-      "pct": 57.1,
+      "count": 3161,
+      "pct": 57.0,
       "avg_duration_min": 72
     },
     "helicoptere": {
@@ -15,7 +15,7 @@
       "avg_duration_min": 47
     },
     "commercial": {
-      "count": 1078,
+      "count": 1081,
       "pct": 19.5,
       "avg_duration_min": 71
     },
@@ -25,12 +25,12 @@
       "avg_duration_min": 70
     },
     "jets_prives": {
-      "count": 542,
+      "count": 543,
       "pct": 9.8,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 579,
+      "count": 580,
       "pct": 10.5,
       "avg_duration_min": 33
     }
@@ -943,12 +943,19 @@
       "jets_prives": 4,
       "militaire": 6,
       "aviation_legere": 5
+    },
+    {
+      "date": "2026-10-14",
+      "aviation_legere": 1,
+      "commercial": 3,
+      "militaire": 1,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
     817,
     766,
-    811,
+    817,
     664,
     937,
     834,
@@ -957,7 +964,7 @@
   "weekday_distribution_jets_prives": [
     78,
     68,
-    74,
+    75,
     92,
     84,
     66,
@@ -969,12 +976,12 @@
     2,
     6,
     43,
-    147,
+    148,
     256,
-    543,
-    590,
+    544,
+    592,
     565,
-    338,
+    340,
     305,
     459,
     512,
@@ -998,7 +1005,7 @@
     19,
     35,
     54,
-    60,
+    61,
     51,
     47,
     43,
@@ -13528,6 +13535,30 @@
       "duration_min": 30,
       "co2_kg": 282,
       "distance_km": 137
+    },
+    {
+      "fr24_id": "421d5ed2",
+      "reg": "F-HJAI",
+      "type": "PC24",
+      "passenger_capacity": 10,
+      "operator": "FNY",
+      "orig": "LFRJ",
+      "orig_name": "Landivisiau Air Base",
+      "orig_coords": {
+        "lat": 48.5303,
+        "lon": -4.15164
+      },
+      "dest": "LFTH",
+      "dest_name": "Touraine",
+      "dest_coords": {
+        "lat": 43.097301,
+        "lon": 6.14603
+      },
+      "takeoff": "2026-10-14 08:20:35",
+      "landed": "2026-10-14 10:22:02",
+      "duration_min": 121,
+      "co2_kg": 2805,
+      "distance_km": 1000
     }
   ],
   "business_jets_operators": [
@@ -13572,11 +13603,11 @@
       8
     ],
     [
-      "JFU",
-      6
+      "FNY",
+      7
     ],
     [
-      "FNY",
+      "JFU",
       6
     ],
     [
@@ -13713,9 +13744,9 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 458,
+    "n_with_distance": 459,
     "pct_under_500km": 41,
-    "n_with_duration": 431,
+    "n_with_duration": 432,
     "avg_duration_min": 74,
     "pct_under_45min": 20,
     "shortest_flights": [
@@ -13780,12 +13811,12 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 163
+      "count": 165
     },
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 151
+      "count": 152
     },
     {
       "code": "LFML",
@@ -13859,8 +13890,8 @@
       "distinct_aircraft": 365
     },
     "tourism": {
-      "count": 1327,
-      "distinct_aircraft": 489
+      "count": 1328,
+      "distinct_aircraft": 490
     },
     "tourism_routes": [
       {
@@ -13886,7 +13917,7 @@
       {
         "code": "LFOT",
         "name": "Tours",
-        "count": 44
+        "count": 45
       },
       {
         "code": "LFPN",
@@ -13947,7 +13978,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 151
+      "count": 152
     },
     {
       "category": "commercial",
@@ -13995,7 +14026,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 163
+      "count": 165
     },
     {
       "category": "commercial",
@@ -15083,7 +15114,7 @@
       "name": "Landivisiau Air Base",
       "lat": 48.5303,
       "lon": -4.15164,
-      "count": 6
+      "count": 7
     },
     {
       "category": "jets_prives",
@@ -15627,7 +15658,7 @@
       "name": "Tours",
       "lat": 47.432201,
       "lon": 0.727606,
-      "count": 44
+      "count": 45
     },
     {
       "category": "aviation_legere",
@@ -16884,20 +16915,20 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8425.3,
-    "flights_with_estimate": 3610,
-    "flights_total": 5535,
-    "flights_with_estimate_jets_prives": 414,
-    "flights_total_jets_prives": 542,
+    "total_tonnes": 8443.3,
+    "flights_with_estimate": 3613,
+    "flights_total": 5541,
+    "flights_with_estimate_jets_prives": 415,
+    "flights_total_jets_prives": 543,
     "by_category_tonnes": {
       "aviation_legere": 172.1,
-      "commercial": 7610.7,
-      "jets_prives": 565.1,
+      "commercial": 7625.7,
+      "jets_prives": 567.9,
       "helicoptere": 12.4,
-      "militaire": 64.1,
+      "militaire": 64.2,
       "autre": 1.0
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 224 251 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 225 364 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM7",
       "lightest_lph": 197,
@@ -16924,10 +16955,10 @@
       },
       {
         "month": "2026-10",
-        "tonnes": 19.3
+        "tonnes": 22.1
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 113.0,
-    "rochelais_equivalent_per_month": 147
+    "avg_monthly_tonnes_jets_prives": 113.6,
+    "rochelais_equivalent_per_month": 148
   }
 }
