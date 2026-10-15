@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-14T21:27:33.743811+00:00",
+  "generated_at": "2026-10-15T10:37:36.382840+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-14T21:27:10",
-  "total_movements": 5565,
+  "period_end": "2026-10-15T10:37:09",
+  "total_movements": 5583,
   "categories": {
     "aviation_legere": {
-      "count": 3173,
-      "pct": 57.0,
+      "count": 3186,
+      "pct": 57.1,
       "avg_duration_min": 72
     },
     "helicoptere": {
-      "count": 96,
+      "count": 97,
       "pct": 1.7,
-      "avg_duration_min": 47
+      "avg_duration_min": 46
     },
     "commercial": {
       "count": 1084,
-      "pct": 19.5,
+      "pct": 19.4,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,12 +25,12 @@
       "avg_duration_min": 70
     },
     "jets_prives": {
-      "count": 546,
+      "count": 547,
       "pct": 9.8,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 586,
+      "count": 589,
       "pct": 10.5,
       "avg_duration_min": 33
     }
@@ -950,13 +950,20 @@
       "commercial": 6,
       "militaire": 7,
       "jets_prives": 4
+    },
+    {
+      "date": "2026-10-15",
+      "aviation_legere": 13,
+      "militaire": 3,
+      "helicoptere": 1,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
     817,
     766,
     841,
-    664,
+    682,
     937,
     834,
     706
@@ -965,7 +972,7 @@
     78,
     68,
     78,
-    92,
+    93,
     84,
     66,
     80
@@ -978,10 +985,10 @@
     43,
     148,
     256,
-    544,
-    592,
-    565,
-    341,
+    546,
+    598,
+    571,
+    345,
     306,
     464,
     518,
@@ -1007,7 +1014,7 @@
     54,
     61,
     51,
-    47,
+    48,
     44,
     49,
     47,
@@ -13631,6 +13638,30 @@
       "duration_min": 49,
       "co2_kg": 1128,
       "distance_km": 412
+    },
+    {
+      "fr24_id": "4221b1ef",
+      "reg": "F-HEND",
+      "type": "C510",
+      "passenger_capacity": 4,
+      "operator": "IXR",
+      "orig": "LFPB",
+      "orig_name": "Paris-Le Bourget",
+      "orig_coords": {
+        "lat": 48.962276,
+        "lon": 2.436539
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-10-15 10:16:45",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 412
     }
   ],
   "business_jets_operators": [
@@ -13813,10 +13844,14 @@
     [
       "RFR",
       1
+    ],
+    [
+      "IXR",
+      1
     ]
   ],
   "short_flights": {
-    "n_with_distance": 462,
+    "n_with_distance": 463,
     "pct_under_500km": 42,
     "n_with_duration": 435,
     "avg_duration_min": 74,
@@ -13958,18 +13993,18 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1842,
-      "distinct_aircraft": 365
+      "count": 1849,
+      "distinct_aircraft": 366
     },
     "tourism": {
-      "count": 1331,
-      "distinct_aircraft": 490
+      "count": 1337,
+      "distinct_aircraft": 492
     },
     "tourism_routes": [
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 94
+        "count": 96
       },
       {
         "code": "LFEY",
@@ -13979,12 +14014,12 @@
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 60
+        "count": 61
       },
       {
         "code": "LFFK",
         "name": "Fontenay-le-Comte",
-        "count": 60
+        "count": 61
       },
       {
         "code": "LFOT",
@@ -14039,7 +14074,7 @@
       {
         "code": "LFBL",
         "name": "Limoges",
-        "count": 19
+        "count": 20
       }
     ]
   },
@@ -14282,7 +14317,7 @@
       "name": "Paris-Le Bourget",
       "lat": 48.962276,
       "lon": 2.436539,
-      "count": 32
+      "count": 33
     },
     {
       "category": "jets_prives",
@@ -15490,7 +15525,7 @@
       "name": "Limoges",
       "lat": 45.862801,
       "lon": 1.17944,
-      "count": 19
+      "count": 20
     },
     {
       "category": "aviation_legere",
@@ -15706,7 +15741,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 60
+      "count": 61
     },
     {
       "category": "aviation_legere",
@@ -15938,7 +15973,7 @@
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
       "lon": -0.792778,
-      "count": 60
+      "count": 61
     },
     {
       "category": "aviation_legere",
@@ -15962,7 +15997,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 94
+      "count": 96
     },
     {
       "category": "aviation_legere",
@@ -16474,7 +16509,7 @@
       "name": "Bergerac Dordogne-Périgord airport",
       "lat": 44.825298,
       "lon": 0.518611,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -16987,13 +17022,13 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8482.2,
-    "flights_with_estimate": 3635,
-    "flights_total": 5565,
+    "total_tonnes": 8482.4,
+    "flights_with_estimate": 3639,
+    "flights_total": 5583,
     "flights_with_estimate_jets_prives": 418,
-    "flights_total_jets_prives": 546,
+    "flights_total_jets_prives": 547,
     "by_category_tonnes": {
-      "aviation_legere": 172.5,
+      "aviation_legere": 172.7,
       "commercial": 7659.5,
       "jets_prives": 571.1,
       "helicoptere": 12.4,
