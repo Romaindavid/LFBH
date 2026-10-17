@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-16T20:45:20.459388+00:00",
+  "generated_at": "2026-10-17T09:56:36.586631+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-16T20:45:04",
-  "total_movements": 5634,
+  "period_end": "2026-10-17T09:56:16",
+  "total_movements": 5643,
   "categories": {
     "aviation_legere": {
-      "count": 3210,
+      "count": 3215,
       "pct": 57.0,
       "avg_duration_min": 72
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1089,
+      "count": 1091,
       "pct": 19.3,
       "avg_duration_min": 71
     },
@@ -25,14 +25,14 @@
       "avg_duration_min": 70
     },
     "jets_prives": {
-      "count": 551,
+      "count": 552,
       "pct": 9.8,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 606,
+      "count": 607,
       "pct": 10.8,
-      "avg_duration_min": 33
+      "avg_duration_min": 34
     }
   },
   "daily": [
@@ -963,7 +963,14 @@
       "militaire": 7,
       "jets_prives": 3,
       "aviation_legere": 10,
-      "commercial": 5
+      "commercial": 6
+    },
+    {
+      "date": "2026-10-17",
+      "aviation_legere": 5,
+      "militaire": 1,
+      "jets_prives": 1,
+      "commercial": 1
     }
   ],
   "weekday_distribution": [
@@ -971,8 +978,8 @@
     766,
     841,
     708,
-    962,
-    834,
+    963,
+    842,
     706
   ],
   "weekday_distribution_jets_prives": [
@@ -981,7 +988,7 @@
     78,
     94,
     87,
-    66,
+    67,
     80
   ],
   "hourly_distribution": [
@@ -990,11 +997,11 @@
     3,
     6,
     45,
-    149,
+    150,
     258,
-    548,
-    602,
-    574,
+    549,
+    603,
+    579,
     346,
     309,
     467,
@@ -1005,7 +1012,7 @@
     182,
     174,
     106,
-    80,
+    81,
     37,
     18,
     6
@@ -1020,7 +1027,7 @@
     36,
     54,
     61,
-    51,
+    52,
     48,
     45,
     49,
@@ -13765,6 +13772,30 @@
       "duration_min": 27,
       "co2_kg": 616,
       "distance_km": 214
+    },
+    {
+      "fr24_id": "42295774",
+      "reg": "9H-26EMA",
+      "type": "E55P",
+      "passenger_capacity": 6,
+      "operator": "LWG",
+      "orig": "LHBP",
+      "orig_name": "Budapest Liszt Ferenc International Airport",
+      "orig_coords": {
+        "lat": 47.43018,
+        "lon": 19.262393
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-10-17 09:47:52",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 1559
     }
   ],
   "business_jets_operators": [
@@ -13951,10 +13982,14 @@
     [
       "RFR",
       1
+    ],
+    [
+      "LWG",
+      1
     ]
   ],
   "short_flights": {
-    "n_with_distance": 467,
+    "n_with_distance": 468,
     "pct_under_500km": 42,
     "n_with_duration": 440,
     "avg_duration_min": 74,
@@ -14031,7 +14066,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 134
+      "count": 135
     },
     {
       "code": "EIDW",
@@ -14051,7 +14086,7 @@
     {
       "code": "LSGG",
       "name": "Genève",
-      "count": 68
+      "count": 69
     },
     {
       "code": "GMMX",
@@ -14096,12 +14131,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1862,
-      "distinct_aircraft": 366
+      "count": 1866,
+      "distinct_aircraft": 367
     },
     "tourism": {
-      "count": 1348,
-      "distinct_aircraft": 492
+      "count": 1349,
+      "distinct_aircraft": 493
     },
     "tourism_routes": [
       {
@@ -14220,7 +14255,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 134
+      "count": 135
     },
     {
       "category": "commercial",
@@ -14228,7 +14263,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 68
+      "count": 69
     },
     {
       "category": "commercial",
@@ -15615,6 +15650,14 @@
       "count": 2
     },
     {
+      "category": "jets_prives",
+      "code": "LHBP",
+      "name": "Budapest Liszt Ferenc International Airport",
+      "lat": 47.43018,
+      "lon": 19.262393,
+      "count": 1
+    },
+    {
       "category": "aviation_legere",
       "code": "LFEA",
       "name": "Belle-Île-en-Mer",
@@ -16668,7 +16711,7 @@
       "name": "Cork",
       "lat": 51.841301,
       "lon": -8.49111,
-      "count": 2
+      "count": 3
     },
     {
       "category": "aviation_legere",
@@ -17125,17 +17168,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8523.6,
-    "flights_with_estimate": 3674,
-    "flights_total": 5634,
+    "total_tonnes": 8530.9,
+    "flights_with_estimate": 3678,
+    "flights_total": 5643,
     "flights_with_estimate_jets_prives": 423,
-    "flights_total_jets_prives": 551,
+    "flights_total_jets_prives": 552,
     "by_category_tonnes": {
-      "aviation_legere": 173.9,
-      "commercial": 7691.7,
+      "aviation_legere": 174.2,
+      "commercial": 7698.0,
       "jets_prives": 576.7,
       "helicoptere": 12.4,
-      "militaire": 67.8,
+      "militaire": 68.5,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 228 860 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
