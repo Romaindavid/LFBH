@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-19T11:41:38.821002+00:00",
+  "generated_at": "2026-10-19T22:10:15.544527+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-19T11:41:15",
-  "total_movements": 5696,
+  "period_end": "2026-10-19T22:09:59",
+  "total_movements": 5712,
   "categories": {
     "aviation_legere": {
-      "count": 3242,
+      "count": 3250,
       "pct": 56.9,
       "avg_duration_min": 72
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1100,
+      "count": 1102,
       "pct": 19.3,
       "avg_duration_min": 71
     },
@@ -30,8 +30,8 @@
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 615,
-      "pct": 10.8,
+      "count": 621,
+      "pct": 10.9,
       "avg_duration_min": 33
     }
   },
@@ -983,13 +983,14 @@
     },
     {
       "date": "2026-10-19",
-      "commercial": 2,
+      "commercial": 4,
       "jets_prives": 2,
-      "aviation_legere": 4
+      "aviation_legere": 12,
+      "militaire": 6
     }
   ],
   "weekday_distribution": [
-    825,
+    841,
     766,
     841,
     708,
@@ -1018,17 +1019,17 @@
     609,
     583,
     350,
-    315,
-    471,
-    533,
-    478,
-    425,
+    316,
+    475,
+    536,
+    481,
+    427,
     309,
-    183,
-    174,
+    184,
+    175,
     106,
     81,
-    37,
+    38,
     18,
     6
   ],
@@ -14224,7 +14225,7 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 155
+      "count": 157
     },
     {
       "code": "LFML",
@@ -14294,12 +14295,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1875,
+      "count": 1881,
       "distinct_aircraft": 367
     },
     "tourism": {
-      "count": 1367,
-      "distinct_aircraft": 495
+      "count": 1369,
+      "distinct_aircraft": 496
     },
     "tourism_routes": [
       {
@@ -14310,7 +14311,7 @@
       {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 83
+        "count": 84
       },
       {
         "code": "LFBN",
@@ -14386,7 +14387,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 155
+      "count": 157
     },
     {
       "category": "commercial",
@@ -15882,7 +15883,7 @@
       "name": "Saint-Nazaire",
       "lat": 47.153198,
       "lon": -1.61073,
-      "count": 18
+      "count": 19
     },
     {
       "category": "aviation_legere",
@@ -16186,7 +16187,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 83
+      "count": 84
     },
     {
       "category": "aviation_legere",
@@ -17347,17 +17348,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8624.2,
-    "flights_with_estimate": 3719,
-    "flights_total": 5696,
+    "total_tonnes": 8639.7,
+    "flights_with_estimate": 3732,
+    "flights_total": 5712,
     "flights_with_estimate_jets_prives": 430,
     "flights_total_jets_prives": 558,
     "by_category_tonnes": {
-      "aviation_legere": 176.0,
-      "commercial": 7777.6,
+      "aviation_legere": 176.3,
+      "commercial": 7792.3,
       "jets_prives": 587.7,
       "helicoptere": 12.4,
-      "militaire": 69.4,
+      "militaire": 69.9,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 233 231 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
