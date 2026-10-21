@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-20T21:25:56.210343+00:00",
+  "generated_at": "2026-10-21T10:54:52.488716+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-20T21:25:32",
-  "total_movements": 5746,
+  "period_end": "2026-10-21T10:54:33",
+  "total_movements": 5752,
   "categories": {
     "aviation_legere": {
-      "count": 3265,
+      "count": 3266,
       "pct": 56.8,
       "avg_duration_min": 71
     },
@@ -15,8 +15,8 @@
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1106,
-      "pct": 19.2,
+      "count": 1109,
+      "pct": 19.3,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,8 +25,8 @@
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 560,
-      "pct": 9.7,
+      "count": 562,
+      "pct": 9.8,
       "avg_duration_min": 74
     },
     "militaire": {
@@ -994,12 +994,18 @@
       "jets_prives": 2,
       "aviation_legere": 15,
       "militaire": 11
+    },
+    {
+      "date": "2026-10-21",
+      "commercial": 3,
+      "jets_prives": 2,
+      "aviation_legere": 1
     }
   ],
   "weekday_distribution": [
     843,
     798,
-    841,
+    847,
     708,
     963,
     863,
@@ -1008,7 +1014,7 @@
   "weekday_distribution_jets_prives": [
     80,
     70,
-    78,
+    80,
     94,
     87,
     68,
@@ -1020,12 +1026,12 @@
     3,
     6,
     46,
-    152,
+    153,
     259,
-    551,
-    613,
-    590,
-    350,
+    552,
+    614,
+    592,
+    351,
     316,
     476,
     538,
@@ -1046,10 +1052,10 @@
     0,
     3,
     4,
-    21,
+    22,
     36,
     55,
-    63,
+    64,
     52,
     48,
     46,
@@ -14011,12 +14017,48 @@
       "duration_min": 67,
       "co2_kg": 1538,
       "distance_km": 629
+    },
+    {
+      "fr24_id": "42382a5c",
+      "reg": null,
+      "type": "C25B",
+      "passenger_capacity": 9,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-10-21 05:37:28",
+      "landed": "2026-10-21 06:09:44",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
+    },
+    {
+      "fr24_id": "42387dfc",
+      "reg": null,
+      "type": "P180",
+      "passenger_capacity": 9,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-10-21 08:37:18",
+      "landed": "2026-10-21 10:07:18",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      229
+      231
     ],
     [
       "JFA",
@@ -14275,12 +14317,12 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 167
+      "count": 169
     },
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 157
+      "count": 158
     },
     {
       "code": "LFML",
@@ -14354,7 +14396,7 @@
       "distinct_aircraft": 367
     },
     "tourism": {
-      "count": 1374,
+      "count": 1375,
       "distinct_aircraft": 497
     },
     "tourism_routes": [
@@ -14366,7 +14408,7 @@
       {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 85
+        "count": 86
       },
       {
         "code": "LFBN",
@@ -14442,7 +14484,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 157
+      "count": 158
     },
     {
       "category": "commercial",
@@ -14490,7 +14532,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 167
+      "count": 169
     },
     {
       "category": "commercial",
@@ -16242,7 +16284,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 85
+      "count": 86
     },
     {
       "category": "aviation_legere",
@@ -17403,14 +17445,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8689.0,
-    "flights_with_estimate": 3759,
-    "flights_total": 5746,
+    "total_tonnes": 8702.2,
+    "flights_with_estimate": 3761,
+    "flights_total": 5752,
     "flights_with_estimate_jets_prives": 432,
-    "flights_total_jets_prives": 560,
+    "flights_total_jets_prives": 562,
     "by_category_tonnes": {
       "aviation_legere": 176.9,
-      "commercial": 7836.4,
+      "commercial": 7849.5,
       "jets_prives": 591.2,
       "helicoptere": 12.4,
       "militaire": 71.2,
