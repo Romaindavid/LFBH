@@ -1,7 +1,7 @@
 {
   "airport": "LFBH",
   "begin": "2026-06-18T12:44:10",
-  "end": "2026-10-21T21:26:57",
+  "end": "2026-10-22T10:54:56",
   "flights": [
     {
       "fr24_id": "403f0d79",
@@ -155602,6 +155602,33 @@
       "hex": "4D2272",
       "first_seen": "2026-10-21T20:18:10Z",
       "last_seen": "2026-10-21T21:21:18Z",
+      "flight_ended": false
+    },
+    {
+      "fr24_id": "423cd9c5",
+      "flight": "AAN111",
+      "callsign": "AAN111",
+      "operating_as": "AAN",
+      "painted_as": "AAN",
+      "type": "E55P",
+      "reg": "OK-PHM",
+      "orig_icao": "GMMX",
+      "orig_iata": "RAK",
+      "datetime_takeoff": null,
+      "runway_takeoff": null,
+      "dest_icao": "LFBH",
+      "dest_iata": "LRH",
+      "dest_icao_actual": "LFBH",
+      "dest_iata_actual": "LRH",
+      "datetime_landed": null,
+      "runway_landed": null,
+      "flight_time": null,
+      "actual_distance": 0.0263272,
+      "circle_distance": 0.00126893,
+      "category": "Business_jets",
+      "hex": "49D407",
+      "first_seen": "2026-10-22T10:17:29Z",
+      "last_seen": "2026-10-22T10:38:36Z",
       "flight_ended": false
     }
   ]

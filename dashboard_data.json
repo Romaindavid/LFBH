@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T21:27:12.911432+00:00",
+  "generated_at": "2026-10-22T10:55:16.232868+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-21T21:26:57",
-  "total_movements": 5763,
+  "period_end": "2026-10-22T10:54:56",
+  "total_movements": 5764,
   "categories": {
     "aviation_legere": {
       "count": 3267,
@@ -25,7 +25,7 @@
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 566,
+      "count": 567,
       "pct": 9.8,
       "avg_duration_min": 74
     },
@@ -1001,13 +1001,17 @@
       "jets_prives": 6,
       "aviation_legere": 2,
       "militaire": 1
+    },
+    {
+      "date": "2026-10-22",
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
     843,
     798,
     858,
-    708,
+    709,
     963,
     863,
     730
@@ -1016,7 +1020,7 @@
     80,
     70,
     84,
-    94,
+    95,
     87,
     68,
     83
@@ -1032,7 +1036,7 @@
     552,
     614,
     592,
-    351,
+    352,
     316,
     478,
     538,
@@ -1058,7 +1062,7 @@
     55,
     64,
     52,
-    48,
+    49,
     46,
     49,
     49,
@@ -1121,6 +1125,30 @@
       "duration_min": null,
       "co2_kg": null,
       "distance_km": 815
+    },
+    {
+      "fr24_id": "423cd9c5",
+      "reg": "OK-PHM",
+      "type": "E55P",
+      "passenger_capacity": 6,
+      "operator": "AAN",
+      "orig": "GMMX",
+      "orig_name": "Marrakech",
+      "orig_coords": {
+        "lat": 31.604807,
+        "lon": -8.035788
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": null,
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 1724
     },
     {
       "fr24_id": "404218d5",
@@ -14226,6 +14254,10 @@
       4
     ],
     [
+      "AAN",
+      3
+    ],
+    [
       "VIO",
       2
     ],
@@ -14286,10 +14318,6 @@
       2
     ],
     [
-      "AAN",
-      2
-    ],
-    [
       "SCR",
       2
     ],
@@ -14335,7 +14363,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 478,
+    "n_with_distance": 479,
     "pct_under_500km": 42,
     "n_with_duration": 451,
     "avg_duration_min": 74,
@@ -16009,7 +16037,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -17532,9 +17560,9 @@
   "co2_estimate": {
     "total_tonnes": 8742.5,
     "flights_with_estimate": 3769,
-    "flights_total": 5763,
+    "flights_total": 5764,
     "flights_with_estimate_jets_prives": 434,
-    "flights_total_jets_prives": 566,
+    "flights_total_jets_prives": 567,
     "by_category_tonnes": {
       "aviation_legere": 176.9,
       "commercial": 7887.8,
