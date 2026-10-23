@@ -1403,5 +1403,10 @@
     "lat": 42.076099,
     "lon": -0.316667,
     "name": "Huesca-Pirineos Airport"
+  },
+  "LKPR": {
+    "lat": 50.100874,
+    "lon": 14.259911,
+    "name": "Václav Havel Airport Prague"
   }
 }
