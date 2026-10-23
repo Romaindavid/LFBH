@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-23T10:47:06.020590+00:00",
+  "generated_at": "2026-10-23T21:13:52.075107+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-23T10:46:29",
-  "total_movements": 5773,
+  "period_end": "2026-10-23T21:13:36",
+  "total_movements": 5781,
   "categories": {
     "aviation_legere": {
-      "count": 3267,
-      "pct": 56.6,
+      "count": 3269,
+      "pct": 56.5,
       "avg_duration_min": 71
     },
     "helicoptere": {
@@ -15,8 +15,8 @@
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1116,
-      "pct": 19.3,
+      "count": 1120,
+      "pct": 19.4,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,7 +25,7 @@
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 570,
+      "count": 572,
       "pct": 9.9,
       "avg_duration_min": 74
     },
@@ -1009,9 +1009,10 @@
     },
     {
       "date": "2026-10-23",
-      "commercial": 2,
-      "jets_prives": 1,
-      "militaire": 2
+      "commercial": 6,
+      "jets_prives": 3,
+      "militaire": 2,
+      "aviation_legere": 2
     }
   ],
   "weekday_distribution": [
@@ -1019,7 +1020,7 @@
     798,
     858,
     713,
-    968,
+    976,
     863,
     730
   ],
@@ -1028,7 +1029,7 @@
     70,
     84,
     97,
-    88,
+    90,
     68,
     83
   ],
@@ -1046,14 +1047,14 @@
     352,
     317,
     479,
-    538,
-    491,
-    432,
+    540,
+    493,
+    433,
     315,
-    188,
-    176,
+    189,
+    177,
     106,
-    82,
+    83,
     38,
     20,
     6
@@ -1072,8 +1073,8 @@
     48,
     47,
     50,
-    49,
-    39,
+    50,
+    40,
     30,
     26,
     25,
@@ -14245,6 +14246,54 @@
       "duration_min": 114,
       "co2_kg": 1247,
       "distance_km": 670
+    },
+    {
+      "fr24_id": "4241838d",
+      "reg": "LX-JFE",
+      "type": "PC12",
+      "passenger_capacity": 9,
+      "operator": "JFA",
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LSGG",
+      "dest_name": "Genève",
+      "dest_coords": {
+        "lat": 46.238098,
+        "lon": 6.10895
+      },
+      "takeoff": "2026-10-23 13:24:59",
+      "landed": "2026-10-23 14:48:42",
+      "duration_min": 84,
+      "co2_kg": 914,
+      "distance_km": 562
+    },
+    {
+      "fr24_id": "4241abf0",
+      "reg": "D-FRRR",
+      "type": "PC12",
+      "passenger_capacity": 9,
+      "operator": "PAV",
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LSZH",
+      "dest_name": "Zurich",
+      "dest_coords": {
+        "lat": 47.458056,
+        "lon": 8.548056
+      },
+      "takeoff": "2026-10-23 14:15:27",
+      "landed": "2026-10-23 16:04:40",
+      "duration_min": 109,
+      "co2_kg": 1193,
+      "distance_km": 754
     }
   ],
   "business_jets_operators": [
@@ -14254,7 +14303,7 @@
     ],
     [
       "JFA",
-      59
+      60
     ],
     [
       "NJE",
@@ -14273,16 +14322,16 @@
       18
     ],
     [
+      "PAV",
+      12
+    ],
+    [
       "VJT",
       12
     ],
     [
       "FSF",
       12
-    ],
-    [
-      "PAV",
-      11
     ],
     [
       "LUA",
@@ -14442,9 +14491,9 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 482,
+    "n_with_distance": 484,
     "pct_under_500km": 42,
-    "n_with_duration": 455,
+    "n_with_duration": 457,
     "avg_duration_min": 74,
     "pct_under_45min": 21,
     "shortest_flights": [
@@ -14519,7 +14568,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 139
+      "count": 141
     },
     {
       "code": "EIDW",
@@ -14529,7 +14578,7 @@
     {
       "code": "LFLL",
       "name": "Lyon",
-      "count": 92
+      "count": 94
     },
     {
       "code": "EBCI",
@@ -14588,7 +14637,7 @@
       "distinct_aircraft": 367
     },
     "tourism": {
-      "count": 1376,
+      "count": 1378,
       "distinct_aircraft": 497
     },
     "tourism_routes": [
@@ -14692,7 +14741,7 @@
       "name": "Lyon",
       "lat": 45.725996,
       "lon": 5.090139,
-      "count": 92
+      "count": 94
     },
     {
       "category": "commercial",
@@ -14708,7 +14757,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 139
+      "count": 141
     },
     {
       "category": "commercial",
@@ -15020,7 +15069,7 @@
       "name": "Zurich",
       "lat": 47.458056,
       "lon": 8.548056,
-      "count": 3
+      "count": 4
     },
     {
       "category": "jets_prives",
@@ -15124,7 +15173,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 20
+      "count": 21
     },
     {
       "category": "jets_prives",
@@ -16252,7 +16301,7 @@
       "name": "Angers Marcé airport",
       "lat": 47.560299,
       "lon": -0.312222,
-      "count": 15
+      "count": 16
     },
     {
       "category": "aviation_legere",
@@ -17645,6 +17694,14 @@
       "lat": 42.076099,
       "lon": -0.316667,
       "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFLP",
+      "name": "Annecy Meythet airport",
+      "lat": 45.928947,
+      "lon": 6.0987,
+      "count": 1
     }
   ],
   "lfbh_coords": {
@@ -17653,20 +17710,20 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8759.0,
-    "flights_with_estimate": 3775,
-    "flights_total": 5773,
-    "flights_with_estimate_jets_prives": 438,
-    "flights_total_jets_prives": 570,
+    "total_tonnes": 8786.6,
+    "flights_with_estimate": 3781,
+    "flights_total": 5781,
+    "flights_with_estimate_jets_prives": 440,
+    "flights_total_jets_prives": 572,
     "by_category_tonnes": {
       "aviation_legere": 176.9,
-      "commercial": 7895.9,
-      "jets_prives": 601.6,
+      "commercial": 7921.3,
+      "jets_prives": 603.7,
       "helicoptere": 12.4,
       "militaire": 71.3,
       "autre": 1.0
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 238 734 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 239 570 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM7",
       "lightest_lph": 197,
@@ -17693,10 +17750,10 @@
       },
       {
         "month": "2026-10",
-        "tonnes": 55.8
+        "tonnes": 57.9
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 120.3,
+    "avg_monthly_tonnes_jets_prives": 120.7,
     "rochelais_equivalent_per_month": 157
   }
 }
