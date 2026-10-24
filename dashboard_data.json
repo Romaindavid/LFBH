@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T10:03:24.355874+00:00",
+  "generated_at": "2026-10-24T20:30:03.434564+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-24T10:03:04",
-  "total_movements": 5790,
+  "period_end": "2026-10-24T20:29:47",
+  "total_movements": 5804,
   "categories": {
     "aviation_legere": {
-      "count": 3274,
+      "count": 3278,
       "pct": 56.5,
       "avg_duration_min": 71
     },
@@ -15,8 +15,8 @@
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1120,
-      "pct": 19.3,
+      "count": 1124,
+      "pct": 19.4,
       "avg_duration_min": 71
     },
     "autre": {
@@ -30,7 +30,7 @@
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 641,
+      "count": 647,
       "pct": 11.1,
       "avg_duration_min": 33
     }
@@ -1016,9 +1016,10 @@
     },
     {
       "date": "2026-10-24",
-      "militaire": 1,
+      "militaire": 7,
       "jets_prives": 2,
-      "aviation_legere": 5
+      "aviation_legere": 9,
+      "commercial": 4
     }
   ],
   "weekday_distribution": [
@@ -1027,7 +1028,7 @@
     858,
     713,
     977,
-    871,
+    885,
     730
   ],
   "weekday_distribution_jets_prives": [
@@ -1050,16 +1051,16 @@
     553,
     621,
     593,
-    352,
+    353,
     317,
-    479,
+    483,
     540,
-    493,
-    433,
-    315,
-    189,
-    177,
-    106,
+    497,
+    434,
+    316,
+    190,
+    178,
+    107,
     83,
     39,
     20,
@@ -14642,12 +14643,12 @@
     {
       "code": "LSGG",
       "name": "Genève",
-      "count": 72
+      "count": 74
     },
     {
       "code": "GMMX",
       "name": "Marrakech",
-      "count": 71
+      "count": 73
     },
     {
       "code": "EICK",
@@ -14687,11 +14688,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1892,
+      "count": 1895,
       "distinct_aircraft": 367
     },
     "tourism": {
-      "count": 1382,
+      "count": 1383,
       "distinct_aircraft": 498
     },
     "tourism_routes": [
@@ -14819,7 +14820,7 @@
       "name": "Genève",
       "lat": 46.238098,
       "lon": 6.10895,
-      "count": 72
+      "count": 74
     },
     {
       "category": "commercial",
@@ -14835,7 +14836,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 71
+      "count": 73
     },
     {
       "category": "commercial",
@@ -16843,7 +16844,7 @@
       "name": "Propriano Airport",
       "lat": 41.660599,
       "lon": 8.88975,
-      "count": 2
+      "count": 3
     },
     {
       "category": "aviation_legere",
@@ -17764,17 +17765,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8796.3,
-    "flights_with_estimate": 3789,
-    "flights_total": 5790,
+    "total_tonnes": 8841.8,
+    "flights_with_estimate": 3802,
+    "flights_total": 5804,
     "flights_with_estimate_jets_prives": 442,
     "flights_total_jets_prives": 574,
     "by_category_tonnes": {
-      "aviation_legere": 177.0,
-      "commercial": 7927.7,
+      "aviation_legere": 177.2,
+      "commercial": 7971.9,
       "jets_prives": 606.4,
       "helicoptere": 12.4,
-      "militaire": 71.8,
+      "militaire": 72.8,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 240 642 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
