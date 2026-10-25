@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T20:30:03.434564+00:00",
+  "generated_at": "2026-10-25T10:28:02.994282+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-24T20:29:47",
-  "total_movements": 5804,
+  "period_end": "2026-10-25T10:27:43",
+  "total_movements": 5806,
   "categories": {
     "aviation_legere": {
       "count": 3278,
@@ -15,7 +15,7 @@
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1124,
+      "count": 1126,
       "pct": 19.4,
       "avg_duration_min": 71
     },
@@ -1020,6 +1020,10 @@
       "jets_prives": 2,
       "aviation_legere": 9,
       "commercial": 4
+    },
+    {
+      "date": "2026-10-25",
+      "commercial": 2
     }
   ],
   "weekday_distribution": [
@@ -1029,7 +1033,7 @@
     713,
     977,
     885,
-    730
+    732
   ],
   "weekday_distribution_jets_prives": [
     80,
@@ -1047,10 +1051,10 @@
     6,
     46,
     153,
-    261,
+    262,
     553,
     621,
-    593,
+    594,
     353,
     317,
     483,
@@ -14641,14 +14645,14 @@
       "count": 78
     },
     {
+      "code": "GMMX",
+      "name": "Marrakech",
+      "count": 75
+    },
+    {
       "code": "LSGG",
       "name": "Genève",
       "count": 74
-    },
-    {
-      "code": "GMMX",
-      "name": "Marrakech",
-      "count": 73
     },
     {
       "code": "EICK",
@@ -14836,7 +14840,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 73
+      "count": 75
     },
     {
       "category": "commercial",
@@ -17765,14 +17769,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8841.8,
-    "flights_with_estimate": 3802,
-    "flights_total": 5804,
+    "total_tonnes": 8857.5,
+    "flights_with_estimate": 3803,
+    "flights_total": 5806,
     "flights_with_estimate_jets_prives": 442,
     "flights_total_jets_prives": 574,
     "by_category_tonnes": {
       "aviation_legere": 177.2,
-      "commercial": 7971.9,
+      "commercial": 7987.7,
       "jets_prives": 606.4,
       "helicoptere": 12.4,
       "militaire": 72.8,
