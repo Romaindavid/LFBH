@@ -1408,5 +1408,10 @@
     "lat": 50.100874,
     "lon": 14.259911,
     "name": "Václav Havel Airport Prague"
+  },
+  "EDVY": {
+    "lat": 52.221367,
+    "lon": 8.859765,
+    "name": "Porta Westfalica Airfield"
   }
 }
