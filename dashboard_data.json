@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-27T11:19:59.245309+00:00",
+  "generated_at": "2026-10-27T21:59:27.915295+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-27T11:19:40",
-  "total_movements": 5832,
+  "period_end": "2026-10-27T21:59:11",
+  "total_movements": 5846,
   "categories": {
     "aviation_legere": {
-      "count": 3284,
+      "count": 3293,
       "pct": 56.3,
       "avg_duration_min": 71
     },
@@ -30,9 +30,9 @@
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 656,
-      "pct": 11.2,
-      "avg_duration_min": 33
+      "count": 661,
+      "pct": 11.3,
+      "avg_duration_min": 32
     }
   },
   "daily": [
@@ -1034,11 +1034,16 @@
       "aviation_legere": 4,
       "jets_prives": 2,
       "militaire": 7
+    },
+    {
+      "date": "2026-10-27",
+      "aviation_legere": 9,
+      "militaire": 5
     }
   ],
   "weekday_distribution": [
     858,
-    798,
+    812,
     858,
     713,
     977,
@@ -1066,17 +1071,17 @@
     624,
     597,
     355,
-    318,
-    483,
-    542,
-    500,
-    438,
-    318,
-    192,
+    319,
+    484,
+    544,
+    502,
+    440,
+    319,
+    194,
     179,
-    107,
-    84,
-    39,
+    108,
+    85,
+    40,
     20,
     6
   ],
@@ -14768,12 +14773,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1897,
-      "distinct_aircraft": 367
+      "count": 1902,
+      "distinct_aircraft": 368
     },
     "tourism": {
-      "count": 1387,
-      "distinct_aircraft": 498
+      "count": 1391,
+      "distinct_aircraft": 499
     },
     "tourism_routes": [
       {
@@ -14794,7 +14799,7 @@
       {
         "code": "LFFK",
         "name": "Fontenay-le-Comte",
-        "count": 61
+        "count": 62
       },
       {
         "code": "LFOT",
@@ -14812,13 +14817,13 @@
         "count": 36
       },
       {
-        "code": "LFEA",
-        "name": "Belle-Île-en-Mer",
-        "count": 34
-      },
-      {
         "code": "LFCY",
         "name": "Royan",
+        "count": 35
+      },
+      {
+        "code": "LFEA",
+        "name": "Belle-Île-en-Mer",
         "count": 34
       },
       {
@@ -16348,7 +16353,7 @@
       "name": "Bordeaux",
       "lat": 44.82865,
       "lon": -0.715356,
-      "count": 10
+      "count": 11
     },
     {
       "category": "aviation_legere",
@@ -16708,7 +16713,7 @@
       "name": "Biscarrosse",
       "lat": 44.3694,
       "lon": -1.13056,
-      "count": 21
+      "count": 22
     },
     {
       "category": "aviation_legere",
@@ -16788,7 +16793,7 @@
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
       "lon": -0.792778,
-      "count": 61
+      "count": 62
     },
     {
       "category": "aviation_legere",
@@ -16924,7 +16929,7 @@
       "name": "Royan",
       "lat": 45.628101,
       "lon": -0.9725,
-      "count": 34
+      "count": 35
     },
     {
       "category": "aviation_legere",
@@ -17853,17 +17858,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8927.6,
-    "flights_with_estimate": 3824,
-    "flights_total": 5832,
+    "total_tonnes": 8928.4,
+    "flights_with_estimate": 3834,
+    "flights_total": 5846,
     "flights_with_estimate_jets_prives": 444,
     "flights_total_jets_prives": 577,
     "by_category_tonnes": {
-      "aviation_legere": 177.6,
+      "aviation_legere": 178.1,
       "commercial": 8055.0,
       "jets_prives": 607.8,
       "helicoptere": 12.4,
-      "militaire": 73.7,
+      "militaire": 74.1,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 241 195 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
