@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-27T21:59:27.915295+00:00",
+  "generated_at": "2026-10-28T11:54:46.121129+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-27T21:59:11",
-  "total_movements": 5846,
+  "period_end": "2026-10-28T11:53:31",
+  "total_movements": 5873,
   "categories": {
     "aviation_legere": {
-      "count": 3293,
+      "count": 3309,
       "pct": 56.3,
       "avg_duration_min": 71
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1134,
+      "count": 1142,
       "pct": 19.4,
       "avg_duration_min": 71
     },
@@ -26,11 +26,11 @@
     },
     "jets_prives": {
       "count": 577,
-      "pct": 9.9,
+      "pct": 9.8,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 661,
+      "count": 664,
       "pct": 11.3,
       "avg_duration_min": 32
     }
@@ -1039,12 +1039,18 @@
       "date": "2026-10-27",
       "aviation_legere": 9,
       "militaire": 5
+    },
+    {
+      "date": "2026-10-28",
+      "commercial": 8,
+      "aviation_legere": 16,
+      "militaire": 3
     }
   ],
   "weekday_distribution": [
     858,
     812,
-    858,
+    885,
     713,
     977,
     885,
@@ -1065,13 +1071,13 @@
     3,
     6,
     46,
-    153,
-    263,
-    554,
-    624,
-    597,
-    355,
-    319,
+    155,
+    264,
+    556,
+    631,
+    602,
+    361,
+    323,
     484,
     544,
     502,
@@ -14703,12 +14709,12 @@
     {
       "code": "EGSS",
       "name": "Londres-Stansted",
-      "count": 163
+      "count": 165
     },
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 143
+      "count": 145
     },
     {
       "code": "EIDW",
@@ -14718,7 +14724,7 @@
     {
       "code": "LFLL",
       "name": "Lyon",
-      "count": 96
+      "count": 98
     },
     {
       "code": "EBCI",
@@ -14773,12 +14779,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1902,
-      "distinct_aircraft": 368
+      "count": 1910,
+      "distinct_aircraft": 370
     },
     "tourism": {
-      "count": 1391,
-      "distinct_aircraft": 499
+      "count": 1399,
+      "distinct_aircraft": 500
     },
     "tourism_routes": [
       {
@@ -14794,12 +14800,12 @@
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 64
+        "count": 65
       },
       {
         "code": "LFFK",
         "name": "Fontenay-le-Comte",
-        "count": 62
+        "count": 64
       },
       {
         "code": "LFOT",
@@ -14829,7 +14835,7 @@
       {
         "code": "LFOO",
         "name": "Les Sables-d'Olonne Talmont Airport",
-        "count": 33
+        "count": 34
       },
       {
         "code": "LFOU",
@@ -14842,6 +14848,11 @@
         "count": 27
       },
       {
+        "code": "LFBS",
+        "name": "Biscarrosse",
+        "count": 24
+      },
+      {
         "code": "LFBL",
         "name": "Limoges",
         "count": 23
@@ -14850,11 +14861,6 @@
         "code": "LFMP",
         "name": "Marseille-Provence",
         "count": 23
-      },
-      {
-        "code": "LFOZ",
-        "name": "Orléans",
-        "count": 22
       }
     ]
   },
@@ -14865,7 +14871,7 @@
       "name": "Londres-Stansted",
       "lat": 51.884998,
       "lon": 0.235,
-      "count": 163
+      "count": 165
     },
     {
       "category": "commercial",
@@ -14881,7 +14887,7 @@
       "name": "Lyon",
       "lat": 45.725996,
       "lon": 5.090139,
-      "count": 96
+      "count": 98
     },
     {
       "category": "commercial",
@@ -14897,7 +14903,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 143
+      "count": 145
     },
     {
       "category": "commercial",
@@ -16561,7 +16567,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 64
+      "count": 65
     },
     {
       "category": "aviation_legere",
@@ -16609,7 +16615,7 @@
       "name": "Chartres",
       "lat": 48.457502,
       "lon": 1.519843,
-      "count": 18
+      "count": 19
     },
     {
       "category": "aviation_legere",
@@ -16713,7 +16719,7 @@
       "name": "Biscarrosse",
       "lat": 44.3694,
       "lon": -1.13056,
-      "count": 22
+      "count": 24
     },
     {
       "category": "aviation_legere",
@@ -16745,7 +16751,7 @@
       "name": "Les Sables-d'Olonne Talmont Airport",
       "lat": 46.476898,
       "lon": -1.72278,
-      "count": 33
+      "count": 34
     },
     {
       "category": "aviation_legere",
@@ -16793,7 +16799,7 @@
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
       "lon": -0.792778,
-      "count": 62
+      "count": 64
     },
     {
       "category": "aviation_legere",
@@ -17850,6 +17856,14 @@
       "lat": 45.928947,
       "lon": 6.0987,
       "count": 2
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LERS",
+      "name": "Reus Airport",
+      "lat": 41.147509,
+      "lon": 1.168354,
+      "count": 1
     }
   ],
   "lfbh_coords": {
@@ -17858,17 +17872,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8928.4,
-    "flights_with_estimate": 3834,
-    "flights_total": 5846,
+    "total_tonnes": 8967.8,
+    "flights_with_estimate": 3850,
+    "flights_total": 5873,
     "flights_with_estimate_jets_prives": 444,
     "flights_total_jets_prives": 577,
     "by_category_tonnes": {
-      "aviation_legere": 178.1,
-      "commercial": 8055.0,
+      "aviation_legere": 178.7,
+      "commercial": 8093.6,
       "jets_prives": 607.8,
       "helicoptere": 12.4,
-      "militaire": 74.1,
+      "militaire": 74.3,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 241 195 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",

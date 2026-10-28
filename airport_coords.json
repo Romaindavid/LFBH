@@ -1413,5 +1413,10 @@
     "lat": 52.221367,
     "lon": 8.859765,
     "name": "Porta Westfalica Airfield"
+  },
+  "LERS": {
+    "lat": 41.147509,
+    "lon": 1.168354,
+    "name": "Reus Airport"
   }
 }
