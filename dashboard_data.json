@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-28T22:25:17.698681+00:00",
+  "generated_at": "2026-10-29T12:01:22.949108+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-28T22:23:59",
-  "total_movements": 5908,
+  "period_end": "2026-10-29T12:00:55",
+  "total_movements": 5924,
   "categories": {
     "aviation_legere": {
-      "count": 3334,
-      "pct": 56.4,
+      "count": 3347,
+      "pct": 56.5,
       "avg_duration_min": 71
     },
     "helicoptere": {
@@ -16,7 +16,7 @@
     },
     "commercial": {
       "count": 1144,
-      "pct": 19.4,
+      "pct": 19.3,
       "avg_duration_min": 71
     },
     "autre": {
@@ -26,11 +26,11 @@
     },
     "jets_prives": {
       "count": 577,
-      "pct": 9.8,
+      "pct": 9.7,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 671,
+      "count": 674,
       "pct": 11.4,
       "avg_duration_min": 32
     }
@@ -1046,13 +1046,18 @@
       "aviation_legere": 41,
       "militaire": 10,
       "helicoptere": 1
+    },
+    {
+      "date": "2026-10-29",
+      "aviation_legere": 13,
+      "militaire": 3
     }
   ],
   "weekday_distribution": [
     858,
     812,
     920,
-    713,
+    729,
     977,
     885,
     743
@@ -1073,12 +1078,12 @@
     6,
     46,
     155,
-    264,
-    556,
-    631,
-    602,
+    265,
+    560,
+    635,
+    606,
     361,
-    323,
+    326,
     487,
     549,
     512,
@@ -14780,12 +14785,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1926,
-      "distinct_aircraft": 372
+      "count": 1932,
+      "distinct_aircraft": 374
     },
     "tourism": {
-      "count": 1408,
-      "distinct_aircraft": 502
+      "count": 1415,
+      "distinct_aircraft": 505
     },
     "tourism_routes": [
       {
@@ -14811,7 +14816,7 @@
       {
         "code": "LFOT",
         "name": "Tours",
-        "count": 47
+        "count": 48
       },
       {
         "code": "LFRI",
@@ -14859,8 +14864,8 @@
         "count": 23
       },
       {
-        "code": "LFMP",
-        "name": "Marseille-Provence",
+        "code": "LFOZ",
+        "name": "Orléans",
         "count": 23
       }
     ]
@@ -16528,7 +16533,7 @@
       "name": "Saint-Brieuc",
       "lat": 48.5877,
       "lon": -2.07996,
-      "count": 14
+      "count": 15
     },
     {
       "category": "aviation_legere",
@@ -16576,7 +16581,7 @@
       "name": "Orléans",
       "lat": 47.897758,
       "lon": 2.164478,
-      "count": 22
+      "count": 23
     },
     {
       "category": "aviation_legere",
@@ -16592,7 +16597,7 @@
       "name": "Tours",
       "lat": 47.432201,
       "lon": 0.727606,
-      "count": 47
+      "count": 48
     },
     {
       "category": "aviation_legere",
@@ -16632,7 +16637,7 @@
       "name": "Aix Les Milles airport",
       "lat": 43.506294,
       "lon": 5.366426,
-      "count": 6
+      "count": 7
     },
     {
       "category": "aviation_legere",
@@ -17272,7 +17277,7 @@
       "name": "Valenciennes-Denain Airfield",
       "lat": 50.327823,
       "lon": 3.461061,
-      "count": 4
+      "count": 5
     },
     {
       "category": "aviation_legere",
@@ -17296,7 +17301,7 @@
       "name": "Deauville Normandie airport",
       "lat": 49.365237,
       "lon": 0.154481,
-      "count": 4
+      "count": 5
     },
     {
       "category": "aviation_legere",
@@ -17424,7 +17429,7 @@
       "name": "Cannes Mandelieu Airport",
       "lat": 43.547998,
       "lon": 6.955176,
-      "count": 4
+      "count": 5
     },
     {
       "category": "aviation_legere",
@@ -17873,13 +17878,13 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8982.2,
-    "flights_with_estimate": 3870,
-    "flights_total": 5908,
+    "total_tonnes": 8983.1,
+    "flights_with_estimate": 3878,
+    "flights_total": 5924,
     "flights_with_estimate_jets_prives": 444,
     "flights_total_jets_prives": 577,
     "by_category_tonnes": {
-      "aviation_legere": 179.9,
+      "aviation_legere": 180.8,
       "commercial": 8105.8,
       "jets_prives": 607.8,
       "helicoptere": 12.4,
