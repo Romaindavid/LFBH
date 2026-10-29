@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T12:01:22.949108+00:00",
+  "generated_at": "2026-10-29T22:37:10.883241+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-29T12:00:55",
-  "total_movements": 5924,
+  "period_end": "2026-10-29T22:36:46",
+  "total_movements": 5943,
   "categories": {
     "aviation_legere": {
-      "count": 3347,
+      "count": 3359,
       "pct": 56.5,
       "avg_duration_min": 71
     },
@@ -16,7 +16,7 @@
     },
     "commercial": {
       "count": 1144,
-      "pct": 19.3,
+      "pct": 19.2,
       "avg_duration_min": 71
     },
     "autre": {
@@ -30,8 +30,8 @@
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 674,
-      "pct": 11.4,
+      "count": 681,
+      "pct": 11.5,
       "avg_duration_min": 32
     }
   },
@@ -1049,15 +1049,15 @@
     },
     {
       "date": "2026-10-29",
-      "aviation_legere": 13,
-      "militaire": 3
+      "aviation_legere": 25,
+      "militaire": 10
     }
   ],
   "weekday_distribution": [
     858,
     812,
     920,
-    729,
+    748,
     977,
     885,
     743
@@ -1084,14 +1084,14 @@
     606,
     361,
     326,
-    487,
-    549,
-    512,
-    448,
-    324,
+    489,
+    553,
+    516,
+    453,
+    327,
     195,
     182,
-    108,
+    109,
     85,
     40,
     20,
@@ -14785,11 +14785,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1932,
-      "distinct_aircraft": 374
+      "count": 1939,
+      "distinct_aircraft": 375
     },
     "tourism": {
-      "count": 1415,
+      "count": 1420,
       "distinct_aircraft": 505
     },
     "tourism_routes": [
@@ -14801,7 +14801,7 @@
       {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 86
+        "count": 87
       },
       {
         "code": "LFBN",
@@ -14831,7 +14831,7 @@
       {
         "code": "LFCY",
         "name": "Royan",
-        "count": 35
+        "count": 36
       },
       {
         "code": "LFEA",
@@ -16701,7 +16701,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 86
+      "count": 87
     },
     {
       "category": "aviation_legere",
@@ -16941,7 +16941,7 @@
       "name": "Royan",
       "lat": 45.628101,
       "lon": -0.9725,
-      "count": 35
+      "count": 36
     },
     {
       "category": "aviation_legere",
@@ -16981,7 +16981,7 @@
       "name": "Angoulême",
       "lat": 45.729198,
       "lon": 0.221456,
-      "count": 15
+      "count": 17
     },
     {
       "category": "aviation_legere",
@@ -17781,7 +17781,7 @@
       "name": "Libourne-Artigues-de-Lussac Airfield",
       "lat": 44.98347,
       "lon": -0.138359,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -17878,17 +17878,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8983.1,
-    "flights_with_estimate": 3878,
-    "flights_total": 5924,
+    "total_tonnes": 8984.6,
+    "flights_with_estimate": 3888,
+    "flights_total": 5943,
     "flights_with_estimate_jets_prives": 444,
     "flights_total_jets_prives": 577,
     "by_category_tonnes": {
-      "aviation_legere": 180.8,
+      "aviation_legere": 181.0,
       "commercial": 8105.8,
       "jets_prives": 607.8,
       "helicoptere": 12.4,
-      "militaire": 75.3,
+      "militaire": 76.6,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 241 195 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
