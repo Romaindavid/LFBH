@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-29T22:37:10.883241+00:00",
+  "generated_at": "2026-10-30T11:55:48.875771+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-29T22:36:46",
-  "total_movements": 5943,
+  "period_end": "2026-10-30T11:55:14",
+  "total_movements": 5966,
   "categories": {
     "aviation_legere": {
-      "count": 3359,
-      "pct": 56.5,
+      "count": 3375,
+      "pct": 56.6,
       "avg_duration_min": 71
     },
     "helicoptere": {
-      "count": 100,
+      "count": 101,
       "pct": 1.7,
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1144,
+      "count": 1146,
       "pct": 19.2,
       "avg_duration_min": 71
     },
@@ -30,7 +30,7 @@
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 681,
+      "count": 685,
       "pct": 11.5,
       "avg_duration_min": 32
     }
@@ -1050,15 +1050,22 @@
     {
       "date": "2026-10-29",
       "aviation_legere": 25,
-      "militaire": 10
+      "militaire": 11
+    },
+    {
+      "date": "2026-10-30",
+      "commercial": 2,
+      "aviation_legere": 16,
+      "militaire": 3,
+      "helicoptere": 1
     }
   ],
   "weekday_distribution": [
     858,
     812,
     920,
-    748,
-    977,
+    749,
+    999,
     885,
     743
   ],
@@ -1078,12 +1085,12 @@
     6,
     46,
     155,
-    265,
-    560,
-    635,
-    606,
-    361,
-    326,
+    266,
+    562,
+    639,
+    611,
+    367,
+    330,
     489,
     553,
     516,
@@ -1094,7 +1101,7 @@
     109,
     85,
     40,
-    20,
+    21,
     6
   ],
   "hourly_distribution_jets_prives": [
@@ -14740,7 +14747,7 @@
     {
       "code": "GMMX",
       "name": "Marrakech",
-      "count": 75
+      "count": 77
     },
     {
       "code": "LSGG",
@@ -14785,12 +14792,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1939,
-      "distinct_aircraft": 375
+      "count": 1952,
+      "distinct_aircraft": 378
     },
     "tourism": {
-      "count": 1420,
-      "distinct_aircraft": 505
+      "count": 1423,
+      "distinct_aircraft": 506
     },
     "tourism_routes": [
       {
@@ -14801,7 +14808,7 @@
       {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 87
+        "count": 89
       },
       {
         "code": "LFBN",
@@ -14933,7 +14940,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 75
+      "count": 77
     },
     {
       "category": "commercial",
@@ -16453,7 +16460,7 @@
       "name": "Rochefort (aéroclub)",
       "lat": 47.723301,
       "lon": -2.71856,
-      "count": 18
+      "count": 19
     },
     {
       "category": "aviation_legere",
@@ -16701,7 +16708,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 87
+      "count": 89
     },
     {
       "category": "aviation_legere",
@@ -17878,17 +17885,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 8984.6,
-    "flights_with_estimate": 3888,
-    "flights_total": 5943,
+    "total_tonnes": 9016.7,
+    "flights_with_estimate": 3897,
+    "flights_total": 5966,
     "flights_with_estimate_jets_prives": 444,
     "flights_total_jets_prives": 577,
     "by_category_tonnes": {
-      "aviation_legere": 181.0,
-      "commercial": 8105.8,
+      "aviation_legere": 181.4,
+      "commercial": 8137.1,
       "jets_prives": 607.8,
       "helicoptere": 12.4,
-      "militaire": 76.6,
+      "militaire": 77.1,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 241 195 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
