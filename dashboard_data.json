@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-30T11:55:48.875771+00:00",
+  "generated_at": "2026-10-30T22:06:23.812459+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-30T11:55:14",
-  "total_movements": 5966,
+  "period_end": "2026-10-30T22:05:45",
+  "total_movements": 5991,
   "categories": {
     "aviation_legere": {
-      "count": 3375,
+      "count": 3391,
       "pct": 56.6,
       "avg_duration_min": 71
     },
     "helicoptere": {
-      "count": 101,
+      "count": 102,
       "pct": 1.7,
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1146,
+      "count": 1151,
       "pct": 19.2,
       "avg_duration_min": 71
     },
@@ -25,12 +25,12 @@
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 577,
-      "pct": 9.7,
+      "count": 578,
+      "pct": 9.6,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 685,
+      "count": 687,
       "pct": 11.5,
       "avg_duration_min": 32
     }
@@ -1054,10 +1054,11 @@
     },
     {
       "date": "2026-10-30",
-      "commercial": 2,
-      "aviation_legere": 16,
-      "militaire": 3,
-      "helicoptere": 1
+      "commercial": 7,
+      "aviation_legere": 32,
+      "militaire": 5,
+      "helicoptere": 2,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
@@ -1065,7 +1066,7 @@
     812,
     920,
     749,
-    999,
+    1024,
     885,
     743
   ],
@@ -1074,7 +1075,7 @@
     70,
     84,
     97,
-    90,
+    91,
     70,
     84
   ],
@@ -1090,13 +1091,13 @@
     639,
     611,
     367,
-    330,
-    489,
-    553,
-    516,
-    453,
-    327,
-    195,
+    331,
+    491,
+    558,
+    525,
+    456,
+    331,
+    196,
     182,
     109,
     85,
@@ -1117,7 +1118,7 @@
     52,
     48,
     47,
-    50,
+    51,
     50,
     41,
     30,
@@ -14453,6 +14454,30 @@
       "duration_min": null,
       "co2_kg": null,
       "distance_km": null
+    },
+    {
+      "fr24_id": "425c29bd",
+      "reg": "F-HJAH",
+      "type": "PC24",
+      "passenger_capacity": 10,
+      "operator": "FNY",
+      "orig": "LFBH",
+      "orig_name": "La Rochelle Île de Ré Airport",
+      "orig_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "dest": "LFRJ",
+      "dest_name": "Landivisiau Air Base",
+      "dest_coords": {
+        "lat": 48.5303,
+        "lon": -4.15164
+      },
+      "takeoff": "2026-10-30 12:40:27",
+      "landed": "2026-10-30 14:45:02",
+      "duration_min": 125,
+      "co2_kg": 2878,
+      "distance_km": 343
     }
   ],
   "business_jets_operators": [
@@ -14493,11 +14518,11 @@
       12
     ],
     [
-      "LUA",
-      8
+      "FNY",
+      9
     ],
     [
-      "FNY",
+      "LUA",
       8
     ],
     [
@@ -14650,9 +14675,9 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 488,
+    "n_with_distance": 489,
     "pct_under_500km": 42,
-    "n_with_duration": 461,
+    "n_with_duration": 462,
     "avg_duration_min": 74,
     "pct_under_45min": 21,
     "shortest_flights": [
@@ -14727,7 +14752,7 @@
     {
       "code": "LFML",
       "name": "Marseille",
-      "count": 145
+      "count": 147
     },
     {
       "code": "EIDW",
@@ -14737,7 +14762,7 @@
     {
       "code": "LFLL",
       "name": "Lyon",
-      "count": 98
+      "count": 100
     },
     {
       "code": "EBCI",
@@ -14792,12 +14817,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1952,
-      "distinct_aircraft": 378
+      "count": 1964,
+      "distinct_aircraft": 379
     },
     "tourism": {
-      "count": 1423,
-      "distinct_aircraft": 506
+      "count": 1427,
+      "distinct_aircraft": 507
     },
     "tourism_routes": [
       {
@@ -14853,7 +14878,7 @@
       {
         "code": "LFOU",
         "name": "Cholet",
-        "count": 28
+        "count": 29
       },
       {
         "code": "LFBI",
@@ -14900,7 +14925,7 @@
       "name": "Lyon",
       "lat": 45.725996,
       "lon": 5.090139,
-      "count": 98
+      "count": 100
     },
     {
       "category": "commercial",
@@ -14916,7 +14941,7 @@
       "name": "Marseille",
       "lat": 43.438088,
       "lon": 5.2125,
-      "count": 145
+      "count": 147
     },
     {
       "category": "commercial",
@@ -16020,7 +16045,7 @@
       "name": "Landivisiau Air Base",
       "lat": 48.5303,
       "lon": -4.15164,
-      "count": 8
+      "count": 9
     },
     {
       "category": "jets_prives",
@@ -16460,7 +16485,7 @@
       "name": "Rochefort (aéroclub)",
       "lat": 47.723301,
       "lon": -2.71856,
-      "count": 19
+      "count": 20
     },
     {
       "category": "aviation_legere",
@@ -16932,7 +16957,7 @@
       "name": "Cholet",
       "lat": 47.0821,
       "lon": -0.877064,
-      "count": 28
+      "count": 29
     },
     {
       "category": "aviation_legere",
@@ -17548,7 +17573,7 @@
       "name": "Aérodrome Morin - Védrines",
       "lat": 44.0257,
       "lon": 1.37804,
-      "count": 2
+      "count": 3
     },
     {
       "category": "aviation_legere",
@@ -17877,6 +17902,14 @@
       "lat": 41.147509,
       "lon": 1.168354,
       "count": 1
+    },
+    {
+      "category": "aviation_legere",
+      "code": "LFKJ",
+      "name": "Ajaccio Napoléon Bonaparte airport",
+      "lat": 41.923599,
+      "lon": 8.80292,
+      "count": 1
     }
   ],
   "lfbh_coords": {
@@ -17885,20 +17918,20 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9016.7,
-    "flights_with_estimate": 3897,
-    "flights_total": 5966,
-    "flights_with_estimate_jets_prives": 444,
-    "flights_total_jets_prives": 577,
+    "total_tonnes": 9044.3,
+    "flights_with_estimate": 3910,
+    "flights_total": 5991,
+    "flights_with_estimate_jets_prives": 445,
+    "flights_total_jets_prives": 578,
     "by_category_tonnes": {
-      "aviation_legere": 181.4,
-      "commercial": 8137.1,
-      "jets_prives": 607.8,
+      "aviation_legere": 181.9,
+      "commercial": 8160.9,
+      "jets_prives": 610.7,
       "helicoptere": 12.4,
-      "militaire": 77.1,
+      "militaire": 77.5,
       "autre": 1.0
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 241 195 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 242 337 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM7",
       "lightest_lph": 197,
@@ -17925,10 +17958,10 @@
       },
       {
         "month": "2026-10",
-        "tonnes": 62.0
+        "tonnes": 64.8
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 121.6,
+    "avg_monthly_tonnes_jets_prives": 122.1,
     "rochelais_equivalent_per_month": 159
   }
 }

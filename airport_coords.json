@@ -1418,5 +1418,10 @@
     "lat": 41.147509,
     "lon": 1.168354,
     "name": "Reus Airport"
+  },
+  "LFKJ": {
+    "lat": 41.923599,
+    "lon": 8.80292,
+    "name": "Ajaccio Napoléon Bonaparte airport"
   }
 }
