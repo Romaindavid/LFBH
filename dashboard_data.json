@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T11:28:41.593019+00:00",
+  "generated_at": "2026-10-31T21:14:59.073979+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-31T11:28:22",
-  "total_movements": 5993,
+  "period_end": "2026-10-31T21:14:42",
+  "total_movements": 6008,
   "categories": {
     "aviation_legere": {
-      "count": 3393,
-      "pct": 56.6,
+      "count": 3408,
+      "pct": 56.7,
       "avg_duration_min": 71
     },
     "helicoptere": {
@@ -31,7 +31,7 @@
     },
     "militaire": {
       "count": 687,
-      "pct": 11.5,
+      "pct": 11.4,
       "avg_duration_min": 32
     }
   },
@@ -1062,7 +1062,7 @@
     },
     {
       "date": "2026-10-31",
-      "aviation_legere": 2
+      "aviation_legere": 17
     }
   ],
   "weekday_distribution": [
@@ -1071,7 +1071,7 @@
     920,
     749,
     1024,
-    887,
+    902,
     743
   ],
   "weekday_distribution_jets_prives": [
@@ -1095,12 +1095,12 @@
     639,
     612,
     367,
-    331,
-    491,
-    558,
-    525,
-    456,
-    331,
+    332,
+    493,
+    560,
+    530,
+    458,
+    334,
     196,
     182,
     109,
@@ -14821,12 +14821,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1966,
-      "distinct_aircraft": 380
+      "count": 1976,
+      "distinct_aircraft": 382
     },
     "tourism": {
-      "count": 1427,
-      "distinct_aircraft": 507
+      "count": 1432,
+      "distinct_aircraft": 508
     },
     "tourism_routes": [
       {
@@ -14842,7 +14842,7 @@
       {
         "code": "LFBN",
         "name": "Niort",
-        "count": 65
+        "count": 66
       },
       {
         "code": "LFFK",
@@ -14882,7 +14882,7 @@
       {
         "code": "LFOU",
         "name": "Cholet",
-        "count": 29
+        "count": 30
       },
       {
         "code": "LFBI",
@@ -16609,7 +16609,7 @@
       "name": "Niort",
       "lat": 46.313477,
       "lon": -0.394529,
-      "count": 65
+      "count": 66
     },
     {
       "category": "aviation_legere",
@@ -16729,7 +16729,7 @@
       "name": "Quimper",
       "lat": 47.973031,
       "lon": -4.169655,
-      "count": 12
+      "count": 13
     },
     {
       "category": "aviation_legere",
@@ -16961,7 +16961,7 @@
       "name": "Cholet",
       "lat": 47.0821,
       "lon": -0.877064,
-      "count": 29
+      "count": 30
     },
     {
       "category": "aviation_legere",
@@ -17177,7 +17177,7 @@
       "name": "Agen La Garenne airport",
       "lat": 44.174171,
       "lon": 0.59309,
-      "count": 7
+      "count": 9
     },
     {
       "category": "aviation_legere",
@@ -17922,13 +17922,13 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9044.4,
-    "flights_with_estimate": 3911,
-    "flights_total": 5993,
+    "total_tonnes": 9045.0,
+    "flights_with_estimate": 3920,
+    "flights_total": 6008,
     "flights_with_estimate_jets_prives": 445,
     "flights_total_jets_prives": 578,
     "by_category_tonnes": {
-      "aviation_legere": 181.9,
+      "aviation_legere": 182.5,
       "commercial": 8160.9,
       "jets_prives": 610.7,
       "helicoptere": 12.4,
