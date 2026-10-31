@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T22:06:23.812459+00:00",
+  "generated_at": "2026-10-31T11:28:41.593019+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-30T22:05:45",
-  "total_movements": 5991,
+  "period_end": "2026-10-31T11:28:22",
+  "total_movements": 5993,
   "categories": {
     "aviation_legere": {
-      "count": 3391,
+      "count": 3393,
       "pct": 56.6,
       "avg_duration_min": 71
     },
@@ -1059,6 +1059,10 @@
       "militaire": 5,
       "helicoptere": 2,
       "jets_prives": 1
+    },
+    {
+      "date": "2026-10-31",
+      "aviation_legere": 2
     }
   ],
   "weekday_distribution": [
@@ -1067,7 +1071,7 @@
     920,
     749,
     1024,
-    885,
+    887,
     743
   ],
   "weekday_distribution_jets_prives": [
@@ -1086,10 +1090,10 @@
     6,
     46,
     155,
-    266,
+    267,
     562,
     639,
-    611,
+    612,
     367,
     331,
     491,
@@ -14817,8 +14821,8 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1964,
-      "distinct_aircraft": 379
+      "count": 1966,
+      "distinct_aircraft": 380
     },
     "tourism": {
       "count": 1427,
@@ -17918,9 +17922,9 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9044.3,
-    "flights_with_estimate": 3910,
-    "flights_total": 5991,
+    "total_tonnes": 9044.4,
+    "flights_with_estimate": 3911,
+    "flights_total": 5993,
     "flights_with_estimate_jets_prives": 445,
     "flights_total_jets_prives": 578,
     "by_category_tonnes": {
