@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T21:14:59.073979+00:00",
+  "generated_at": "2026-11-01T12:25:05.535112+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-10-31T21:14:42",
-  "total_movements": 6008,
+  "period_end": "2026-11-01T12:24:34",
+  "total_movements": 6022,
   "categories": {
     "aviation_legere": {
-      "count": 3408,
-      "pct": 56.7,
+      "count": 3418,
+      "pct": 56.8,
       "avg_duration_min": 71
     },
     "helicoptere": {
@@ -15,7 +15,7 @@
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1151,
+      "count": 1155,
       "pct": 19.2,
       "avg_duration_min": 71
     },
@@ -1063,6 +1063,11 @@
     {
       "date": "2026-10-31",
       "aviation_legere": 17
+    },
+    {
+      "date": "2026-11-01",
+      "commercial": 4,
+      "aviation_legere": 10
     }
   ],
   "weekday_distribution": [
@@ -1072,7 +1077,7 @@
     749,
     1024,
     902,
-    743
+    757
   ],
   "weekday_distribution_jets_prives": [
     82,
@@ -1090,13 +1095,13 @@
     6,
     46,
     155,
-    267,
+    268,
     562,
-    639,
-    612,
-    367,
-    332,
-    493,
+    642,
+    614,
+    373,
+    333,
+    494,
     560,
     530,
     458,
@@ -14746,7 +14751,7 @@
     {
       "code": "EGKK",
       "name": "Londres-Gatwick",
-      "count": 173
+      "count": 175
     },
     {
       "code": "EGSS",
@@ -14769,14 +14774,14 @@
       "count": 100
     },
     {
+      "code": "GMMX",
+      "name": "Marrakech",
+      "count": 79
+    },
+    {
       "code": "EBCI",
       "name": "Charleroi",
       "count": 78
-    },
-    {
-      "code": "GMMX",
-      "name": "Marrakech",
-      "count": 77
     },
     {
       "code": "LSGG",
@@ -14821,12 +14826,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1976,
+      "count": 1983,
       "distinct_aircraft": 382
     },
     "tourism": {
-      "count": 1432,
-      "distinct_aircraft": 508
+      "count": 1435,
+      "distinct_aircraft": 509
     },
     "tourism_routes": [
       {
@@ -14837,7 +14842,7 @@
       {
         "code": "LFEY",
         "name": "Île d'Yeu",
-        "count": 89
+        "count": 90
       },
       {
         "code": "LFBN",
@@ -14857,7 +14862,7 @@
       {
         "code": "LFRI",
         "name": "La Roche-sur-Yon",
-        "count": 37
+        "count": 38
       },
       {
         "code": "LFPN",
@@ -14961,7 +14966,7 @@
       "name": "Londres-Gatwick",
       "lat": 51.148744,
       "lon": -0.185739,
-      "count": 173
+      "count": 175
     },
     {
       "category": "commercial",
@@ -14969,7 +14974,7 @@
       "name": "Marrakech",
       "lat": 31.604807,
       "lon": -8.035788,
-      "count": 77
+      "count": 79
     },
     {
       "category": "commercial",
@@ -16737,7 +16742,7 @@
       "name": "Île d'Yeu",
       "lat": 46.717641,
       "lon": -2.392544,
-      "count": 89
+      "count": 90
     },
     {
       "category": "aviation_legere",
@@ -16777,7 +16782,7 @@
       "name": "La Roche-sur-Yon",
       "lat": 46.7019,
       "lon": -1.37863,
-      "count": 37
+      "count": 38
     },
     {
       "category": "aviation_legere",
@@ -17905,7 +17910,7 @@
       "name": "Reus Airport",
       "lat": 41.147509,
       "lon": 1.168354,
-      "count": 1
+      "count": 2
     },
     {
       "category": "aviation_legere",
@@ -17922,14 +17927,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9045.0,
-    "flights_with_estimate": 3920,
-    "flights_total": 6008,
+    "total_tonnes": 9087.9,
+    "flights_with_estimate": 3931,
+    "flights_total": 6022,
     "flights_with_estimate_jets_prives": 445,
     "flights_total_jets_prives": 578,
     "by_category_tonnes": {
-      "aviation_legere": 182.5,
-      "commercial": 8160.9,
+      "aviation_legere": 182.8,
+      "commercial": 8203.5,
       "jets_prives": 610.7,
       "helicoptere": 12.4,
       "militaire": 77.5,
