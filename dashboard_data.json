@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-01T21:52:47.172261+00:00",
+  "generated_at": "2026-11-02T14:20:59.722691+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-01T21:52:30",
-  "total_movements": 6040,
+  "period_end": "2026-11-02T14:20:36",
+  "total_movements": 6054,
   "categories": {
     "aviation_legere": {
-      "count": 3430,
+      "count": 3439,
       "pct": 56.8,
       "avg_duration_min": 71
     },
@@ -15,7 +15,7 @@
       "avg_duration_min": 52
     },
     "commercial": {
-      "count": 1159,
+      "count": 1161,
       "pct": 19.2,
       "avg_duration_min": 71
     },
@@ -26,11 +26,11 @@
     },
     "jets_prives": {
       "count": 578,
-      "pct": 9.6,
+      "pct": 9.5,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 689,
+      "count": 692,
       "pct": 11.4,
       "avg_duration_min": 32
     }
@@ -1069,10 +1069,16 @@
       "commercial": 8,
       "aviation_legere": 22,
       "militaire": 2
+    },
+    {
+      "date": "2026-11-02",
+      "commercial": 2,
+      "militaire": 3,
+      "aviation_legere": 9
     }
   ],
   "weekday_distribution": [
-    858,
+    872,
     812,
     920,
     749,
@@ -1096,15 +1102,15 @@
     6,
     46,
     155,
-    268,
-    562,
-    642,
-    614,
-    373,
-    333,
-    495,
+    269,
     563,
-    534,
+    644,
+    617,
+    373,
+    335,
+    495,
+    567,
+    535,
     463,
     336,
     197,
@@ -14772,7 +14778,7 @@
     {
       "code": "LFLL",
       "name": "Lyon",
-      "count": 100
+      "count": 102
     },
     {
       "code": "GMMX",
@@ -14827,11 +14833,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1989,
-      "distinct_aircraft": 382
+      "count": 1995,
+      "distinct_aircraft": 383
     },
     "tourism": {
-      "count": 1441,
+      "count": 1444,
       "distinct_aircraft": 509
     },
     "tourism_routes": [
@@ -14901,14 +14907,14 @@
         "count": 26
       },
       {
+        "code": "LFBL",
+        "name": "Limoges",
+        "count": 25
+      },
+      {
         "code": "LFOZ",
         "name": "Orléans",
         "count": 24
-      },
-      {
-        "code": "LFBL",
-        "name": "Limoges",
-        "count": 23
       }
     ]
   },
@@ -14935,7 +14941,7 @@
       "name": "Lyon",
       "lat": 45.725996,
       "lon": 5.090139,
-      "count": 100
+      "count": 102
     },
     {
       "category": "commercial",
@@ -16399,7 +16405,7 @@
       "name": "Limoges",
       "lat": 45.862801,
       "lon": 1.17944,
-      "count": 23
+      "count": 25
     },
     {
       "category": "aviation_legere",
@@ -16495,7 +16501,7 @@
       "name": "Rochefort (aéroclub)",
       "lat": 47.723301,
       "lon": -2.71856,
-      "count": 20
+      "count": 21
     },
     {
       "category": "aviation_legere",
@@ -17928,14 +17934,14 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9117.7,
-    "flights_with_estimate": 3946,
-    "flights_total": 6040,
+    "total_tonnes": 9128.5,
+    "flights_with_estimate": 3951,
+    "flights_total": 6054,
     "flights_with_estimate_jets_prives": 445,
     "flights_total_jets_prives": 578,
     "by_category_tonnes": {
-      "aviation_legere": 183.5,
-      "commercial": 8231.5,
+      "aviation_legere": 183.7,
+      "commercial": 8242.0,
       "jets_prives": 610.7,
       "helicoptere": 12.4,
       "militaire": 78.6,
