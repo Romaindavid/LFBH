@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-03T13:21:04.657900+00:00",
+  "generated_at": "2026-11-03T23:03:30.546431+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-03T13:20:44",
-  "total_movements": 6078,
+  "period_end": "2026-11-03T23:03:07",
+  "total_movements": 6093,
   "categories": {
     "aviation_legere": {
-      "count": 3453,
+      "count": 3458,
       "pct": 56.8,
       "avg_duration_min": 71
     },
     "helicoptere": {
-      "count": 103,
+      "count": 104,
       "pct": 1.7,
       "avg_duration_min": 52
     },
@@ -25,13 +25,13 @@
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 578,
+      "count": 579,
       "pct": 9.5,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 701,
-      "pct": 11.5,
+      "count": 709,
+      "pct": 11.6,
       "avg_duration_min": 32
     }
   },
@@ -1079,13 +1079,15 @@
     },
     {
       "date": "2026-11-03",
-      "militaire": 3,
-      "aviation_legere": 2
+      "militaire": 11,
+      "aviation_legere": 7,
+      "helicoptere": 1,
+      "jets_prives": 1
     }
   ],
   "weekday_distribution": [
     891,
-    817,
+    832,
     920,
     749,
     1024,
@@ -1094,7 +1096,7 @@
   ],
   "weekday_distribution_jets_prives": [
     82,
-    70,
+    71,
     84,
     97,
     91,
@@ -1114,15 +1116,15 @@
     618,
     374,
     336,
-    495,
-    568,
-    539,
-    468,
+    496,
+    574,
+    541,
+    469,
     337,
-    200,
-    185,
-    111,
-    87,
+    201,
+    186,
+    112,
+    89,
     40,
     21,
     6
@@ -1142,7 +1144,7 @@
     47,
     51,
     50,
-    41,
+    42,
     30,
     26,
     25,
@@ -14500,12 +14502,30 @@
       "duration_min": 125,
       "co2_kg": 2878,
       "distance_km": 343
+    },
+    {
+      "fr24_id": "426a39c7",
+      "reg": null,
+      "type": "CL60",
+      "passenger_capacity": 19,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-11-03 14:55:56",
+      "landed": "2026-11-03 16:48:11",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      236
+      237
     ],
     [
       "JFA",
@@ -14839,12 +14859,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 2007,
-      "distinct_aircraft": 385
+      "count": 2011,
+      "distinct_aircraft": 386
     },
     "tourism": {
-      "count": 1446,
-      "distinct_aircraft": 510
+      "count": 1447,
+      "distinct_aircraft": 511
     },
     "tourism_routes": [
       {
@@ -14870,7 +14890,7 @@
       {
         "code": "LFOT",
         "name": "Tours",
-        "count": 48
+        "count": 49
       },
       {
         "code": "LFRI",
@@ -16651,7 +16671,7 @@
       "name": "Tours",
       "lat": 47.432201,
       "lon": 0.727606,
-      "count": 48
+      "count": 49
     },
     {
       "category": "aviation_legere",
@@ -17940,17 +17960,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9130.8,
-    "flights_with_estimate": 3968,
-    "flights_total": 6078,
+    "total_tonnes": 9131.9,
+    "flights_with_estimate": 3975,
+    "flights_total": 6093,
     "flights_with_estimate_jets_prives": 445,
-    "flights_total_jets_prives": 578,
+    "flights_total_jets_prives": 579,
     "by_category_tonnes": {
-      "aviation_legere": 184.1,
+      "aviation_legere": 184.3,
       "commercial": 8242.0,
       "jets_prives": 610.7,
       "helicoptere": 12.4,
-      "militaire": 80.6,
+      "militaire": 81.5,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 242 337 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
