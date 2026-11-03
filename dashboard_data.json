@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-02T14:20:59.722691+00:00",
+  "generated_at": "2026-11-03T00:47:41.844955+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-02T14:20:36",
-  "total_movements": 6054,
+  "period_end": "2026-11-03T00:47:18",
+  "total_movements": 6073,
   "categories": {
     "aviation_legere": {
-      "count": 3439,
+      "count": 3451,
       "pct": 56.8,
       "avg_duration_min": 71
     },
     "helicoptere": {
-      "count": 102,
+      "count": 103,
       "pct": 1.7,
       "avg_duration_min": 52
     },
     "commercial": {
       "count": 1161,
-      "pct": 19.2,
+      "pct": 19.1,
       "avg_duration_min": 71
     },
     "autre": {
@@ -30,8 +30,8 @@
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 692,
-      "pct": 11.4,
+      "count": 698,
+      "pct": 11.5,
       "avg_duration_min": 32
     }
   },
@@ -1073,12 +1073,13 @@
     {
       "date": "2026-11-02",
       "commercial": 2,
-      "militaire": 3,
-      "aviation_legere": 9
+      "militaire": 9,
+      "aviation_legere": 21,
+      "helicoptere": 1
     }
   ],
   "weekday_distribution": [
-    872,
+    891,
     812,
     920,
     749,
@@ -1109,14 +1110,14 @@
     373,
     335,
     495,
-    567,
-    535,
-    463,
-    336,
-    197,
-    183,
-    109,
-    86,
+    568,
+    539,
+    468,
+    337,
+    200,
+    185,
+    111,
+    87,
     40,
     21,
     6
@@ -14833,12 +14834,12 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 1995,
-      "distinct_aircraft": 383
+      "count": 2005,
+      "distinct_aircraft": 385
     },
     "tourism": {
-      "count": 1444,
-      "distinct_aircraft": 509
+      "count": 1446,
+      "distinct_aircraft": 510
     },
     "tourism_routes": [
       {
@@ -14859,7 +14860,7 @@
       {
         "code": "LFFK",
         "name": "Fontenay-le-Comte",
-        "count": 65
+        "count": 66
       },
       {
         "code": "LFOT",
@@ -16757,7 +16758,7 @@
       "name": "La Baule",
       "lat": 47.289398,
       "lon": -2.34639,
-      "count": 19
+      "count": 20
     },
     {
       "category": "aviation_legere",
@@ -16853,7 +16854,7 @@
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
       "lon": -0.792778,
-      "count": 65
+      "count": 66
     },
     {
       "category": "aviation_legere",
@@ -17934,17 +17935,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9128.5,
-    "flights_with_estimate": 3951,
-    "flights_total": 6054,
+    "total_tonnes": 9130.0,
+    "flights_with_estimate": 3964,
+    "flights_total": 6073,
     "flights_with_estimate_jets_prives": 445,
     "flights_total_jets_prives": 578,
     "by_category_tonnes": {
-      "aviation_legere": 183.7,
+      "aviation_legere": 184.0,
       "commercial": 8242.0,
       "jets_prives": 610.7,
       "helicoptere": 12.4,
-      "militaire": 78.6,
+      "militaire": 79.9,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 242 337 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
