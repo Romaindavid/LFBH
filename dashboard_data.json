@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-03T23:03:30.546431+00:00",
+  "generated_at": "2026-11-04T13:32:39.484828+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-03T23:03:07",
-  "total_movements": 6093,
+  "period_end": "2026-11-04T13:32:08",
+  "total_movements": 6117,
   "categories": {
     "aviation_legere": {
-      "count": 3458,
-      "pct": 56.8,
+      "count": 3471,
+      "pct": 56.7,
       "avg_duration_min": 71
     },
     "helicoptere": {
@@ -16,22 +16,22 @@
     },
     "commercial": {
       "count": 1161,
-      "pct": 19.1,
+      "pct": 19.0,
       "avg_duration_min": 71
     },
     "autre": {
-      "count": 82,
-      "pct": 1.3,
+      "count": 83,
+      "pct": 1.4,
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 579,
+      "count": 581,
       "pct": 9.5,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 709,
-      "pct": 11.6,
+      "count": 717,
+      "pct": 11.7,
       "avg_duration_min": 32
     }
   },
@@ -1083,12 +1083,19 @@
       "aviation_legere": 7,
       "helicoptere": 1,
       "jets_prives": 1
+    },
+    {
+      "date": "2026-11-04",
+      "aviation_legere": 13,
+      "militaire": 8,
+      "autre": 1,
+      "jets_prives": 2
     }
   ],
   "weekday_distribution": [
     891,
     832,
-    920,
+    944,
     749,
     1024,
     902,
@@ -1097,7 +1104,7 @@
   "weekday_distribution_jets_prives": [
     82,
     71,
-    84,
+    86,
     97,
     91,
     70,
@@ -1111,13 +1118,13 @@
     46,
     155,
     269,
-    563,
-    646,
-    618,
-    374,
-    336,
-    496,
-    574,
+    565,
+    652,
+    621,
+    378,
+    338,
+    498,
+    579,
     541,
     469,
     337,
@@ -1142,8 +1149,8 @@
     52,
     48,
     47,
+    52,
     51,
-    50,
     42,
     30,
     26,
@@ -14520,12 +14527,54 @@
       "duration_min": null,
       "co2_kg": null,
       "distance_km": null
+    },
+    {
+      "fr24_id": "426d662f",
+      "reg": "F-HJAI",
+      "type": "PC24",
+      "passenger_capacity": 10,
+      "operator": "FNY",
+      "orig": "LFRJ",
+      "orig_name": "Landivisiau Air Base",
+      "orig_coords": {
+        "lat": 48.5303,
+        "lon": -4.15164
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-11-04 12:23:51",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": 343
+    },
+    {
+      "fr24_id": "426d98cc",
+      "reg": null,
+      "type": "CL60",
+      "passenger_capacity": 19,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-11-04 13:31:31",
+      "landed": null,
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      237
+      238
     ],
     [
       "JFA",
@@ -14561,7 +14610,7 @@
     ],
     [
       "FNY",
-      9
+      10
     ],
     [
       "LUA",
@@ -14717,7 +14766,7 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 489,
+    "n_with_distance": 490,
     "pct_under_500km": 42,
     "n_with_duration": 462,
     "avg_duration_min": 74,
@@ -14859,11 +14908,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 2011,
-      "distinct_aircraft": 386
+      "count": 2020,
+      "distinct_aircraft": 388
     },
     "tourism": {
-      "count": 1447,
+      "count": 1451,
       "distinct_aircraft": 511
     },
     "tourism_routes": [
@@ -14890,7 +14939,7 @@
       {
         "code": "LFOT",
         "name": "Tours",
-        "count": 49
+        "count": 52
       },
       {
         "code": "LFRI",
@@ -16087,7 +16136,7 @@
       "name": "Landivisiau Air Base",
       "lat": 48.5303,
       "lon": -4.15164,
-      "count": 9
+      "count": 10
     },
     {
       "category": "jets_prives",
@@ -16671,7 +16720,7 @@
       "name": "Tours",
       "lat": 47.432201,
       "lon": 0.727606,
-      "count": 49
+      "count": 52
     },
     {
       "category": "aviation_legere",
@@ -17007,7 +17056,7 @@
       "name": "Marseille-Provence",
       "lat": 42.740398,
       "lon": 2.87067,
-      "count": 23
+      "count": 24
     },
     {
       "category": "aviation_legere",
@@ -17960,17 +18009,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9131.9,
-    "flights_with_estimate": 3975,
-    "flights_total": 6093,
+    "total_tonnes": 9133.2,
+    "flights_with_estimate": 3984,
+    "flights_total": 6117,
     "flights_with_estimate_jets_prives": 445,
-    "flights_total_jets_prives": 579,
+    "flights_total_jets_prives": 581,
     "by_category_tonnes": {
-      "aviation_legere": 184.3,
+      "aviation_legere": 184.6,
       "commercial": 8242.0,
       "jets_prives": 610.7,
       "helicoptere": 12.4,
-      "militaire": 81.5,
+      "militaire": 82.5,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 242 337 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
