@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T13:46:40.058566+00:00",
+  "generated_at": "2026-11-05T23:28:48.281417+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-05T13:46:14",
-  "total_movements": 6150,
+  "period_end": "2026-11-05T23:28:31",
+  "total_movements": 6165,
   "categories": {
     "aviation_legere": {
-      "count": 3483,
+      "count": 3488,
       "pct": 56.6,
       "avg_duration_min": 71
     },
@@ -16,7 +16,7 @@
     },
     "commercial": {
       "count": 1161,
-      "pct": 18.9,
+      "pct": 18.8,
       "avg_duration_min": 71
     },
     "autre": {
@@ -25,13 +25,13 @@
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 582,
+      "count": 583,
       "pct": 9.5,
-      "avg_duration_min": 74
+      "avg_duration_min": 75
     },
     "militaire": {
-      "count": 736,
-      "pct": 12.0,
+      "count": 745,
+      "pct": 12.1,
       "avg_duration_min": 32
     }
   },
@@ -1093,16 +1093,16 @@
     },
     {
       "date": "2026-11-05",
-      "militaire": 11,
-      "aviation_legere": 4,
-      "jets_prives": 1
+      "militaire": 20,
+      "aviation_legere": 9,
+      "jets_prives": 2
     }
   ],
   "weekday_distribution": [
     891,
     832,
     961,
-    765,
+    780,
     1024,
     902,
     775
@@ -1111,7 +1111,7 @@
     82,
     71,
     86,
-    98,
+    99,
     91,
     70,
     84
@@ -1131,13 +1131,13 @@
     341,
     500,
     583,
-    545,
-    472,
-    339,
-    202,
+    549,
+    475,
+    340,
+    205,
     188,
-    113,
-    90,
+    116,
+    91,
     40,
     21,
     6
@@ -1157,7 +1157,7 @@
     47,
     53,
     51,
-    42,
+    43,
     30,
     26,
     25,
@@ -14599,12 +14599,36 @@
       "duration_min": null,
       "co2_kg": null,
       "distance_km": 924
+    },
+    {
+      "fr24_id": "4271850e",
+      "reg": "F-HTPF",
+      "type": "M700",
+      "passenger_capacity": 4,
+      "operator": null,
+      "orig": "EDVY",
+      "orig_name": "Porta Westfalica Airfield",
+      "orig_coords": {
+        "lat": 52.221367,
+        "lon": 8.859765
+      },
+      "dest": "LFBH",
+      "dest_name": "La Rochelle Île de Ré Airport",
+      "dest_coords": {
+        "lat": 46.179199,
+        "lon": -1.19528
+      },
+      "takeoff": "2026-11-05 14:10:38",
+      "landed": "2026-11-05 16:21:04",
+      "duration_min": 130,
+      "co2_kg": 1205,
+      "distance_km": 991
     }
   ],
   "business_jets_operators": [
     [
       "Inconnu",
-      239
+      240
     ],
     [
       "JFA",
@@ -14796,10 +14820,10 @@
     ]
   ],
   "short_flights": {
-    "n_with_distance": 491,
+    "n_with_distance": 492,
     "pct_under_500km": 42,
-    "n_with_duration": 462,
-    "avg_duration_min": 74,
+    "n_with_duration": 463,
+    "avg_duration_min": 75,
     "pct_under_45min": 21,
     "shortest_flights": [
       {
@@ -14938,11 +14962,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 2031,
+      "count": 2034,
       "distinct_aircraft": 390
     },
     "tourism": {
-      "count": 1452,
+      "count": 1454,
       "distinct_aircraft": 512
     },
     "tourism_routes": [
@@ -15002,14 +15026,14 @@
         "count": 30
       },
       {
-        "code": "LFBI",
-        "name": "Poitiers-Biard Airport",
+        "code": "LFBS",
+        "name": "Biscarrosse",
         "count": 28
       },
       {
-        "code": "LFBS",
-        "name": "Biscarrosse",
-        "count": 27
+        "code": "LFBI",
+        "name": "Poitiers-Biard Airport",
+        "count": 28
       },
       {
         "code": "LFBL",
@@ -15017,9 +15041,9 @@
         "count": 25
       },
       {
-        "code": "LFOZ",
-        "name": "Orléans",
-        "count": 24
+        "code": "LFMP",
+        "name": "Marseille-Provence",
+        "count": 25
       }
     ]
   },
@@ -16494,7 +16518,7 @@
       "name": "Porta Westfalica Airfield",
       "lat": 52.221367,
       "lon": 8.859765,
-      "count": 1
+      "count": 2
     },
     {
       "category": "jets_prives",
@@ -16886,7 +16910,7 @@
       "name": "Biscarrosse",
       "lat": 44.3694,
       "lon": -1.13056,
-      "count": 27
+      "count": 28
     },
     {
       "category": "aviation_legere",
@@ -17094,7 +17118,7 @@
       "name": "Marseille-Provence",
       "lat": 42.740398,
       "lon": 2.87067,
-      "count": 24
+      "count": 25
     },
     {
       "category": "aviation_legere",
@@ -18047,20 +18071,20 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9137.6,
-    "flights_with_estimate": 4007,
-    "flights_total": 6150,
-    "flights_with_estimate_jets_prives": 445,
-    "flights_total_jets_prives": 582,
+    "total_tonnes": 9141.5,
+    "flights_with_estimate": 4019,
+    "flights_total": 6165,
+    "flights_with_estimate_jets_prives": 446,
+    "flights_total_jets_prives": 583,
     "by_category_tonnes": {
-      "aviation_legere": 184.9,
+      "aviation_legere": 185.2,
       "commercial": 8242.0,
-      "jets_prives": 610.7,
+      "jets_prives": 611.9,
       "helicoptere": 12.4,
-      "militaire": 86.5,
+      "militaire": 88.9,
       "autre": 1.0
     },
-    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 242 337 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
+    "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 242 815 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
     "fuel_comparison": {
       "lightest_type": "TBM7",
       "lightest_lph": 197,
@@ -18088,9 +18112,13 @@
       {
         "month": "2026-10",
         "tonnes": 64.8
+      },
+      {
+        "month": "2026-11",
+        "tonnes": 1.2
       }
     ],
-    "avg_monthly_tonnes_jets_prives": 122.1,
-    "rochelais_equivalent_per_month": 159
+    "avg_monthly_tonnes_jets_prives": 102.0,
+    "rochelais_equivalent_per_month": 133
   }
 }
