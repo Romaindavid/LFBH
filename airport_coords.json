@@ -1423,5 +1423,10 @@
     "lat": 41.923599,
     "lon": 8.80292,
     "name": "Ajaccio Napoléon Bonaparte airport"
+  },
+  "EDDG": {
+    "lat": 52.133816,
+    "lon": 7.688482,
+    "name": "Münster Osnabrück Airport"
   }
 }
