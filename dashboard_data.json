@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-06T22:54:32.123758+00:00",
+  "generated_at": "2026-11-07T12:11:24.162360+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-06T22:54:09",
-  "total_movements": 6199,
+  "period_end": "2026-11-07T12:10:56",
+  "total_movements": 6217,
   "categories": {
     "aviation_legere": {
-      "count": 3510,
-      "pct": 56.6,
+      "count": 3528,
+      "pct": 56.7,
       "avg_duration_min": 70
     },
     "helicoptere": {
@@ -26,12 +26,12 @@
     },
     "jets_prives": {
       "count": 586,
-      "pct": 9.5,
+      "pct": 9.4,
       "avg_duration_min": 74
     },
     "militaire": {
       "count": 748,
-      "pct": 12.1,
+      "pct": 12.0,
       "avg_duration_min": 32
     }
   },
@@ -1103,6 +1103,10 @@
       "commercial": 6,
       "jets_prives": 3,
       "militaire": 3
+    },
+    {
+      "date": "2026-11-07",
+      "aviation_legere": 18
     }
   ],
   "weekday_distribution": [
@@ -1111,7 +1115,7 @@
     961,
     780,
     1058,
-    902,
+    920,
     775
   ],
   "weekday_distribution_jets_prives": [
@@ -1132,11 +1136,11 @@
     156,
     270,
     565,
-    655,
-    629,
-    386,
-    344,
-    503,
+    658,
+    634,
+    392,
+    346,
+    505,
     585,
     554,
     480,
@@ -15041,18 +15045,18 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 2048,
-      "distinct_aircraft": 392
+      "count": 2054,
+      "distinct_aircraft": 393
     },
     "tourism": {
-      "count": 1462,
-      "distinct_aircraft": 515
+      "count": 1474,
+      "distinct_aircraft": 518
     },
     "tourism_routes": [
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 102
+        "count": 105
       },
       {
         "code": "LFEY",
@@ -15062,7 +15066,7 @@
       {
         "code": "LFFK",
         "name": "Fontenay-le-Comte",
-        "count": 68
+        "count": 70
       },
       {
         "code": "LFBN",
@@ -15075,6 +15079,11 @@
         "count": 52
       },
       {
+        "code": "LFPN",
+        "name": "Versailles-Saclay",
+        "count": 38
+      },
+      {
         "code": "LFRI",
         "name": "La Roche-sur-Yon",
         "count": 38
@@ -15083,11 +15092,6 @@
         "code": "LFCY",
         "name": "Royan",
         "count": 37
-      },
-      {
-        "code": "LFPN",
-        "name": "Versailles-Saclay",
-        "count": 36
       },
       {
         "code": "LFEA",
@@ -16677,7 +16681,7 @@
       "name": "Montpellier-Méditerranée Airport",
       "lat": 43.576199,
       "lon": 3.96301,
-      "count": 4
+      "count": 5
     },
     {
       "category": "aviation_legere",
@@ -16925,7 +16929,7 @@
       "name": "Versailles-Saclay",
       "lat": 48.7519,
       "lon": 2.10619,
-      "count": 36
+      "count": 38
     },
     {
       "category": "aviation_legere",
@@ -16973,7 +16977,7 @@
       "name": "La Baule",
       "lat": 47.289398,
       "lon": -2.34639,
-      "count": 20
+      "count": 22
     },
     {
       "category": "aviation_legere",
@@ -17069,7 +17073,7 @@
       "name": "Fontenay-le-Comte",
       "lat": 46.441399,
       "lon": -0.792778,
-      "count": 68
+      "count": 70
     },
     {
       "category": "aviation_legere",
@@ -17093,7 +17097,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 102
+      "count": 105
     },
     {
       "category": "aviation_legere",
@@ -17565,7 +17569,7 @@
       "name": "Deauville Normandie airport",
       "lat": 49.365237,
       "lon": 0.154481,
-      "count": 5
+      "count": 6
     },
     {
       "category": "aviation_legere",
@@ -17925,7 +17929,7 @@
       "name": "Madrid-Cuatro Vientos Airport",
       "lat": 40.370701,
       "lon": -3.78514,
-      "count": 4
+      "count": 5
     },
     {
       "category": "aviation_legere",
@@ -18150,13 +18154,13 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9199.1,
-    "flights_with_estimate": 4044,
-    "flights_total": 6199,
+    "total_tonnes": 9199.9,
+    "flights_with_estimate": 4054,
+    "flights_total": 6217,
     "flights_with_estimate_jets_prives": 449,
     "flights_total_jets_prives": 586,
     "by_category_tonnes": {
-      "aviation_legere": 186.3,
+      "aviation_legere": 187.1,
       "commercial": 8296.2,
       "jets_prives": 613.5,
       "helicoptere": 12.4,
