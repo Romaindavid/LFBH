@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-09T14:47:59.321544+00:00",
+  "generated_at": "2026-11-10T01:21:41.841364+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-09T14:47:28",
-  "total_movements": 6292,
+  "period_end": "2026-11-10T01:21:18",
+  "total_movements": 6297,
   "categories": {
     "aviation_legere": {
-      "count": 3582,
+      "count": 3585,
       "pct": 56.9,
       "avg_duration_min": 70
     },
@@ -25,12 +25,12 @@
       "avg_duration_min": 73
     },
     "jets_prives": {
-      "count": 591,
+      "count": 592,
       "pct": 9.4,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 757,
+      "count": 758,
       "pct": 12.0,
       "avg_duration_min": 32
     }
@@ -1119,14 +1119,14 @@
     {
       "date": "2026-11-09",
       "commercial": 2,
-      "aviation_legere": 10,
-      "militaire": 3,
+      "aviation_legere": 13,
+      "militaire": 4,
       "helicoptere": 1,
-      "jets_prives": 3
+      "jets_prives": 4
     }
   ],
   "weekday_distribution": [
-    910,
+    915,
     832,
     961,
     780,
@@ -1135,7 +1135,7 @@
     811
   ],
   "weekday_distribution_jets_prives": [
-    85,
+    86,
     71,
     86,
     99,
@@ -1159,11 +1159,11 @@
     508,
     601,
     564,
-    492,
-    348,
+    495,
+    349,
     209,
     189,
-    116,
+    117,
     91,
     40,
     21,
@@ -1185,7 +1185,7 @@
     53,
     53,
     45,
-    30,
+    31,
     26,
     26,
     13,
@@ -14820,7 +14820,25 @@
       "dest_name": null,
       "dest_coords": null,
       "takeoff": "2026-11-09 14:37:52",
-      "landed": null,
+      "landed": "2026-11-09 15:02:59",
+      "duration_min": null,
+      "co2_kg": null,
+      "distance_km": null
+    },
+    {
+      "fr24_id": "42800dc1",
+      "reg": null,
+      "type": "B350",
+      "passenger_capacity": 11,
+      "operator": null,
+      "orig": null,
+      "orig_name": null,
+      "orig_coords": null,
+      "dest": null,
+      "dest_name": null,
+      "dest_coords": null,
+      "takeoff": "2026-11-09 15:05:12",
+      "landed": "2026-11-09 15:33:06",
       "duration_min": null,
       "co2_kg": null,
       "distance_km": null
@@ -14829,7 +14847,7 @@
   "business_jets_operators": [
     [
       "Inconnu",
-      248
+      249
     ],
     [
       "JFA",
@@ -15163,7 +15181,7 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 2086,
+      "count": 2089,
       "distinct_aircraft": 393
     },
     "tourism": {
@@ -18272,13 +18290,13 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9257.5,
-    "flights_with_estimate": 4099,
-    "flights_total": 6292,
+    "total_tonnes": 9257.7,
+    "flights_with_estimate": 4103,
+    "flights_total": 6297,
     "flights_with_estimate_jets_prives": 451,
-    "flights_total_jets_prives": 591,
+    "flights_total_jets_prives": 592,
     "by_category_tonnes": {
-      "aviation_legere": 188.8,
+      "aviation_legere": 189.0,
       "commercial": 8350.8,
       "jets_prives": 614.1,
       "helicoptere": 12.4,
