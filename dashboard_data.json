@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T23:02:11.844921+00:00",
+  "generated_at": "2026-11-11T13:18:13.245886+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-10T23:01:49",
-  "total_movements": 6320,
+  "period_end": "2026-11-11T13:17:49",
+  "total_movements": 6336,
   "categories": {
     "aviation_legere": {
-      "count": 3595,
+      "count": 3607,
       "pct": 56.9,
       "avg_duration_min": 70
     },
@@ -16,7 +16,7 @@
     },
     "commercial": {
       "count": 1173,
-      "pct": 18.6,
+      "pct": 18.5,
       "avg_duration_min": 72
     },
     "autre": {
@@ -26,11 +26,11 @@
     },
     "jets_prives": {
       "count": 592,
-      "pct": 9.4,
+      "pct": 9.3,
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 765,
+      "count": 769,
       "pct": 12.1,
       "avg_duration_min": 32
     }
@@ -1129,12 +1129,17 @@
       "helicoptere": 6,
       "militaire": 7,
       "aviation_legere": 10
+    },
+    {
+      "date": "2026-11-11",
+      "aviation_legere": 12,
+      "militaire": 4
     }
   ],
   "weekday_distribution": [
     915,
     855,
-    961,
+    977,
     780,
     1058,
     940,
@@ -1158,12 +1163,12 @@
     156,
     272,
     566,
-    668,
-    645,
-    399,
-    350,
-    509,
-    606,
+    672,
+    648,
+    404,
+    352,
+    510,
+    607,
     566,
     499,
     351,
@@ -15187,18 +15192,18 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 2097,
+      "count": 2106,
       "distinct_aircraft": 393
     },
     "tourism": {
-      "count": 1498,
+      "count": 1501,
       "distinct_aircraft": 518
     },
     "tourism_routes": [
       {
         "code": "LFDN",
         "name": "Rochefort",
-        "count": 107
+        "count": 108
       },
       {
         "code": "LFEY",
@@ -15231,13 +15236,13 @@
         "count": 39
       },
       {
-        "code": "LFOO",
-        "name": "Les Sables-d'Olonne Talmont Airport",
-        "count": 38
-      },
-      {
         "code": "LFCY",
         "name": "Royan",
+        "count": 39
+      },
+      {
+        "code": "LFOO",
+        "name": "Les Sables-d'Olonne Talmont Airport",
         "count": 38
       },
       {
@@ -17087,7 +17092,7 @@
       "name": "Sabadell Airfield",
       "lat": 41.520901,
       "lon": 2.10508,
-      "count": 3
+      "count": 4
     },
     {
       "category": "aviation_legere",
@@ -17239,7 +17244,7 @@
       "name": "Rochefort",
       "lat": 45.887798,
       "lon": -0.983056,
-      "count": 107
+      "count": 108
     },
     {
       "category": "aviation_legere",
@@ -17351,7 +17356,7 @@
       "name": "Royan",
       "lat": 45.628101,
       "lon": -0.9725,
-      "count": 38
+      "count": 39
     },
     {
       "category": "aviation_legere",
@@ -18296,17 +18301,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9260.7,
-    "flights_with_estimate": 4115,
-    "flights_total": 6320,
+    "total_tonnes": 9262.2,
+    "flights_with_estimate": 4124,
+    "flights_total": 6336,
     "flights_with_estimate_jets_prives": 451,
     "flights_total_jets_prives": 592,
     "by_category_tonnes": {
-      "aviation_legere": 189.3,
+      "aviation_legere": 189.7,
       "commercial": 8350.8,
       "jets_prives": 614.1,
       "helicoptere": 12.4,
-      "militaire": 93.0,
+      "militaire": 94.1,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 243 710 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
