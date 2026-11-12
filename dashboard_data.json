@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-11T13:18:13.245886+00:00",
+  "generated_at": "2026-11-12T00:19:04.154592+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-11T13:17:49",
-  "total_movements": 6336,
+  "period_end": "2026-11-12T00:18:28",
+  "total_movements": 6350,
   "categories": {
     "aviation_legere": {
-      "count": 3607,
-      "pct": 56.9,
+      "count": 3619,
+      "pct": 57.0,
       "avg_duration_min": 70
     },
     "helicoptere": {
       "count": 111,
-      "pct": 1.8,
+      "pct": 1.7,
       "avg_duration_min": 59
     },
     "commercial": {
@@ -30,9 +30,9 @@
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 769,
+      "count": 771,
       "pct": 12.1,
-      "avg_duration_min": 32
+      "avg_duration_min": 33
     }
   },
   "daily": [
@@ -1132,14 +1132,14 @@
     },
     {
       "date": "2026-11-11",
-      "aviation_legere": 12,
-      "militaire": 4
+      "aviation_legere": 24,
+      "militaire": 6
     }
   ],
   "weekday_distribution": [
     915,
     855,
-    977,
+    991,
     780,
     1058,
     940,
@@ -1168,9 +1168,9 @@
     404,
     352,
     510,
-    607,
-    566,
-    499,
+    608,
+    574,
+    504,
     351,
     209,
     189,
@@ -15192,11 +15192,11 @@
   ],
   "general_aviation": {
     "local": {
-      "count": 2106,
-      "distinct_aircraft": 393
+      "count": 2114,
+      "distinct_aircraft": 394
     },
     "tourism": {
-      "count": 1501,
+      "count": 1505,
       "distinct_aircraft": 518
     },
     "tourism_routes": [
@@ -15226,6 +15226,11 @@
         "count": 52
       },
       {
+        "code": "LFCY",
+        "name": "Royan",
+        "count": 40
+      },
+      {
         "code": "LFPN",
         "name": "Versailles-Saclay",
         "count": 39
@@ -15233,11 +15238,6 @@
       {
         "code": "LFRI",
         "name": "La Roche-sur-Yon",
-        "count": 39
-      },
-      {
-        "code": "LFCY",
-        "name": "Royan",
         "count": 39
       },
       {
@@ -15256,6 +15256,11 @@
         "count": 30
       },
       {
+        "code": "LFBL",
+        "name": "Limoges",
+        "count": 29
+      },
+      {
         "code": "LFBS",
         "name": "Biscarrosse",
         "count": 28
@@ -15264,11 +15269,6 @@
         "code": "LFBI",
         "name": "Poitiers-Biard Airport",
         "count": 28
-      },
-      {
-        "code": "LFBL",
-        "name": "Limoges",
-        "count": 26
       },
       {
         "code": "LFMP",
@@ -16772,7 +16772,7 @@
       "name": "Limoges",
       "lat": 45.862801,
       "lon": 1.17944,
-      "count": 26
+      "count": 29
     },
     {
       "category": "aviation_legere",
@@ -17356,7 +17356,7 @@
       "name": "Royan",
       "lat": 45.628101,
       "lon": -0.9725,
-      "count": 39
+      "count": 40
     },
     {
       "category": "aviation_legere",
@@ -18301,17 +18301,17 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9262.2,
-    "flights_with_estimate": 4124,
-    "flights_total": 6336,
+    "total_tonnes": 9263.7,
+    "flights_with_estimate": 4134,
+    "flights_total": 6350,
     "flights_with_estimate_jets_prives": 451,
     "flights_total_jets_prives": 592,
     "by_category_tonnes": {
-      "aviation_legere": 189.7,
+      "aviation_legere": 190.2,
       "commercial": 8350.8,
       "jets_prives": 614.1,
       "helicoptere": 12.4,
-      "militaire": 94.1,
+      "militaire": 95.2,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 243 710 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
