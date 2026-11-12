@@ -1,7 +1,7 @@
 {
   "airport": "LFBH",
   "begin": "2026-06-18T12:44:10",
-  "end": "2026-11-12T14:21:34",
+  "end": "2026-11-12T23:23:09",
   "flights": [
     {
       "fr24_id": "403f0d79",
@@ -171658,16 +171658,43 @@
       "dest_iata": "PUF",
       "dest_icao_actual": "LFBP",
       "dest_iata_actual": "PUF",
-      "datetime_landed": null,
-      "runway_landed": null,
-      "flight_time": null,
-      "actual_distance": 289.73,
-      "circle_distance": 276.957,
+      "datetime_landed": "2026-11-12T14:56:03Z",
+      "runway_landed": "31",
+      "flight_time": 4545,
+      "actual_distance": 460.807,
+      "circle_distance": 316.642,
       "category": "General_aviation",
       "hex": "39B40A",
       "first_seen": "2026-11-12T13:33:29Z",
-      "last_seen": "2026-11-12T14:21:21Z",
-      "flight_ended": false
+      "last_seen": "2026-11-12T15:08:04Z",
+      "flight_ended": true
+    },
+    {
+      "fr24_id": "428b0e6d",
+      "flight": null,
+      "callsign": "DRAGONV",
+      "operating_as": "FRU",
+      "painted_as": "FRU",
+      "type": "EC45",
+      "reg": "F-ZBQV",
+      "orig_icao": "LFCY",
+      "orig_iata": "RYN",
+      "datetime_takeoff": "2026-11-12T14:08:02Z",
+      "runway_takeoff": null,
+      "dest_icao": "LFBH",
+      "dest_iata": "LRH",
+      "dest_icao_actual": "LFBH",
+      "dest_iata_actual": "LRH",
+      "datetime_landed": "2026-11-12T14:40:42Z",
+      "runway_landed": null,
+      "flight_time": 1960,
+      "actual_distance": 85.5994,
+      "circle_distance": 55.8929,
+      "category": "Military_and_government",
+      "hex": "3B7B88",
+      "first_seen": "2026-11-12T14:08:43Z",
+      "last_seen": "2026-11-12T14:49:34Z",
+      "flight_ended": true
     }
   ]
 }

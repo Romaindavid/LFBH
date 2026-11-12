@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T14:21:59.342097+00:00",
+  "generated_at": "2026-11-12T23:23:25.936514+00:00",
   "period_start": "2026-06-18T12:44:10",
-  "period_end": "2026-11-12T14:21:34",
-  "total_movements": 6358,
+  "period_end": "2026-11-12T23:23:09",
+  "total_movements": 6359,
   "categories": {
     "aviation_legere": {
       "count": 3620,
@@ -30,7 +30,7 @@
       "avg_duration_min": 74
     },
     "militaire": {
-      "count": 776,
+      "count": 777,
       "pct": 12.2,
       "avg_duration_min": 33
     }
@@ -1138,7 +1138,7 @@
     {
       "date": "2026-11-12",
       "jets_prives": 2,
-      "militaire": 5,
+      "militaire": 6,
       "aviation_legere": 1
     }
   ],
@@ -1146,7 +1146,7 @@
     915,
     855,
     991,
-    788,
+    789,
     1058,
     940,
     811
@@ -1175,7 +1175,7 @@
     352,
     511,
     610,
-    574,
+    575,
     504,
     351,
     209,
@@ -18355,9 +18355,9 @@
     "name": "La Rochelle Île de Ré Airport"
   },
   "co2_estimate": {
-    "total_tonnes": 9266.2,
-    "flights_with_estimate": 4138,
-    "flights_total": 6358,
+    "total_tonnes": 9266.5,
+    "flights_with_estimate": 4139,
+    "flights_total": 6359,
     "flights_with_estimate_jets_prives": 453,
     "flights_total_jets_prives": 594,
     "by_category_tonnes": {
@@ -18365,7 +18365,7 @@
       "commercial": 8350.8,
       "jets_prives": 615.7,
       "helicoptere": 12.4,
-      "militaire": 96.1,
+      "militaire": 96.4,
       "autre": 1.0
     },
     "methodology": "Chaque vol est estimé à partir de la consommation moyenne de carburant du type d'appareil exact (base ICAO/constructeurs) multipliée par la durée réelle du vol observée sur Flightradar24 — ce n'est pas une moyenne générique : la météo ou un détour, qui allongent le vol, allongent aussi la durée mesurée, et donc l'estimation avec. Sur la période, cela représente environ 244 335 litres de kérosène brûlés par des jets privés à La Rochelle, répartis sur 26 types d'appareils différents identifiés. Le nombre de passagers à bord n'est pas connu (un jet privé vole en moyenne avec 2 à 4 personnes, contre 150+ pour un vol commercial sur un trajet comparable) et n'entre pas dans le calcul — l'empreinte par passager est donc, en réalité, encore plus disproportionnée que ce chiffre global ne le montre.",
