@@ -1,5 +1,11 @@
 # LFBH — Observatoire du trafic aérien
 
+> **Projet archivé (13 novembre 2026).** L'abonnement à l'API Flightradar24 a été arrêté : la collecte automatique et la publication Instagram sont désactivées (workflow GitHub Actions désactivé, déclencheurs cron supprimés). Le site reste en ligne sur https://volsderiches.fr tel quel, figé sur les données collectées, jusqu'à l'expiration du nom de domaine.
+>
+> **Données conservées** : 6 359 vols à LFBH du 18 juin au 12 novembre 2026, dans `history.json` (brut, tel que renvoyé par l'API) et `archive/vols_LFBH.csv` (même contenu, format tableur). Les agrégats (`dashboard_data.json`), caches (`airport_coords.json`, `aircraft_photos.json`), l'historique Instagram (`instagram_posts.json`) et les cartes publiées (`posts/`) sont aussi conservés dans le repo. Une copie zip locale de l'ensemble existe hors git (`archive/LFBH-donnees-2026-11-13.zip`).
+>
+> Pour relancer un jour : réabonner l'API, remettre le token dans le secret `FR24_API_TOKEN`, réactiver le workflow et rétablir les `schedule` dans `.github/workflows/update.yml`. Attention, le plan ne permet de remonter que 29 jours : le trou depuis le 12/11/2026 ne sera pas récupérable.
+
 Dashboard public du trafic aérien à l'aéroport de La Rochelle – Île de Ré (LFBH), basé sur les données de l'API officielle [Flightradar24](https://fr24api.flightradar24.com).
 
 **Site en ligne :** https://romaindavid.github.io/LFBH/

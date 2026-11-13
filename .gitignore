@@ -6,3 +6,4 @@ collect.log
 .claude/
 .airports_ourairports.csv
 .DS_Store
+archive/*.zip

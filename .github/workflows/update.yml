@@ -1,13 +1,8 @@
 name: Mise à jour des données LFBH
 
+# Projet archivé le 2026-11-13 : abonnement API Flightradar24 arrêté,
+# collecte automatique désactivée. Lancement manuel seulement.
 on:
-  schedule:
-    # 06:00 et 18:00 UTC (~08:00 et 20:00 heure d'été française).
-    # Le cron GitHub n'est pas garanti à la minute près, surtout aux heures
-    # de forte charge (proche de l'heure pile) — décalage possible de
-    # quelques minutes à un quart d'heure.
-    - cron: '0 6 * * *'
-    - cron: '0 18 * * *'
   workflow_dispatch: {}  # permet aussi un lancement manuel depuis l'onglet Actions
 
 permissions:
